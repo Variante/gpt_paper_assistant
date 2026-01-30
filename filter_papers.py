@@ -52,14 +52,7 @@ def filter_papers_by_hindex(all_authors, papers, config):
 
 
 def calc_price(model, usage):
-    if model == 'gpt-4o':
-        return (5 * usage.prompt_tokens + 15 * usage.completion_tokens) / 1e6
-    if model in ["gpt-4-1106-preview", "gpt-4-0125-preview", "gpt-4-turbo-preview"]:
-        return (10 * usage.prompt_tokens + 30 * usage.completion_tokens) / 1e6
-    if model == "gpt-4":
-        return (30 * usage.prompt_tokens + 60 * usage.completion_tokens) / 1e6
-    if model.startswith("gpt-3.5"):
-        return (0.5 * usage.prompt_tokens + 1.5 * usage.completion_tokens) / 1e6
+    return (0.25 * usage.prompt_tokens + 2 * usage.completion_tokens) / 1e6
 
 
 @retry.retry(tries=3, delay=2)
