@@ -60,8 +60,6 @@ def call_chatgpt(full_prompt, openai_client, model):
     return openai_client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": full_prompt}],
-        temperature=0.0,
-        seed=0,
     )
 
 
