@@ -10,22 +10,18 @@ import json
 from datetime import datetime
 from parse_json_to_md import extract_criterion_from_paper
 
-# You need to pass WEBHOOK_URL as an environment variable.
-# You can generate a webhok URL in the "Apps & integrations" page of a chat space.
-WEBHOOK_URL = os.environ["WEBHOOK_URL"]
 
-
-def send_text_card(title: str, paragraphs: list[str]) -> Response:
+def send_text_card(title: str, paragraphs: list[str], webhook_url: str) -> Response:
     header = {"title": title}
     widget = [{"widgets": [{"textParagraph": {"text": p}}]} for p in paragraphs]
-    
+
     cards = [
         {
             "header": header,
             "sections": widget,
         },
     ]
-    return requests.post(WEBHOOK_URL, json={"cards": cards})
+    return requests.post(webhook_url, json={"cards": cards})
 
 
 def render_paper(paper_entry: dict) -> str:
@@ -71,21 +67,23 @@ def push_to_google_chat(papers_dict):
     # render each paper
     if len(papers_dict) == 0:
         return
-    
+
+    webhook_url = os.environ["WEBHOOK_URL"]
+
     topic_ids = [
         extract_criterion_from_paper(paper) for paper in papers_dict.values()
     ]
-    
+
     paper_strings = [
         render_paper(paper) for _, paper in enumerate(papers_dict.values())
     ]
-    
+
     paragraphs = group_by_topics(topic_ids, paper_strings)
-    
+
     title = "Arxiv update on " + datetime.today().strftime("%m/%d/%Y")
     paragraphs.append("Check <a href='https://variante.github.io/gpt_paper_assistant/'>the web version</a>.")
-    
-    send_text_card(title, paragraphs)
+
+    send_text_card(title, paragraphs, webhook_url)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,0 @@
-# Some robotics people.
-Peter R. Florence, 47686265
-Andy Zeng, 38591293
-Shuran Song, 3340170
-Weidi Xie, 10096695

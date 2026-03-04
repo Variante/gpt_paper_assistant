@@ -91,16 +91,10 @@ def render_paper(paper_entry: Paper, counter: int) -> str:
     )
     paper_string += f'*Authors*: {", ".join(authors)}\n\n'
     paper_string += f"*Abstract*: {abstract}\n\n"
-    if "RELEVANCE" in paper_entry and "NOVELTY" in paper_entry:
-        # get the relevance and novelty scores
-        relevance = paper_entry["RELEVANCE"]
-        novelty = paper_entry["NOVELTY"]
-        paper_string += f"*Relevance*: {relevance}\t"
-        paper_string += f"*Novelty*: {novelty}\t"
+    if "RELEVANCE" in paper_entry:
+        paper_string += f"*Relevance*: {paper_entry['RELEVANCE']}\t"
     if "COMMENT" in paper_entry:
-        # get the comment
-        comment = paper_entry["COMMENT"]
-        paper_string += f"*Comment*: {comment}\n"
+        paper_string += f"*Comment*: {paper_entry['COMMENT']}\n"
     return paper_string
 
 

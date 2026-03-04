@@ -1,4 +1,5 @@
 import json
+import random
 from datetime import datetime
 import re
 
@@ -29,12 +30,8 @@ def render_paper(paper_entry: dict, idx: int) -> str:
     if "COMMENT" in paper_entry:
         comment = paper_entry["COMMENT"]
         paper_string += f"**Comment:** {comment}\n\n"
-    if "RELEVANCE" in paper_entry and "NOVELTY" in paper_entry:
-        # get the relevance and novelty scores
-        relevance = paper_entry["RELEVANCE"]
-        novelty = paper_entry["NOVELTY"]
-        paper_string += f"**Relevance:** {relevance}\n"
-        paper_string += f"**Novelty:** {novelty}\n"
+    if "RELEVANCE" in paper_entry:
+        paper_string += f"**Relevance:** {paper_entry['RELEVANCE']}\n"
     topic_id = idx // topic_shift 
     topic_str = f'topic-{topic_id}' if topic_id else 'go-beyond'
     paper_string += f"Back to [[topic](#{link_prefix}{topic_str})] [[top](#{link_prefix}topics)]\n"
@@ -96,7 +93,6 @@ def render_md_string(papers_dict):
     
     criteria_string = render_criteria(filtered_criteria)
         
-    import random
     def generate_background_for_white_foreground(threshold:int=150):
         # Ensure that the color is dark enough for white text to be readable
         # by keeping the RGB values below a certain threshold (e.g., 200)

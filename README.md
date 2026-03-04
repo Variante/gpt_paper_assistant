@@ -1,142 +1,195 @@
-# GPT4 paper assistant: A daily ArXiv scanner
+# GPT Paper Assistant: A Daily ArXiv Scanner
 
-This repo implements a very simple daily scanner for Arxiv that uses GPT4 and author matches to find papers you might find interesting. 
-It will run daily via github actions and can post this information to slack via a bot or just render it in a static github-pages website.
+A daily ArXiv scanner that uses an LLM to find papers matching your research interests. Runs via GitHub Actions and can post results to Slack, Google Chat, or a static GitHub Pages website. Supports both OpenAI models and self-hosted local models via [vLLM](https://github.com/vllm-project/vllm).
 
-A simple demo of the daily papers can be seen [here](https://tatsu-lab.github.io/gpt_paper_assistant/) running on `cs.CL`
+A live demo running on `cs.CL` is available [here](https://variante.github.io/gpt_paper_assistant/).
 
-As a cost estimate, running this on all of `cs.CL` cost $0.07 on 2/7/2024
+---
 
-## Changelog
-- **2/7/2024**: fixed a critical issue from ArXiv changing their RSS format. Added and enabled a title filtering to reduce costs.
+## How It Works
 
+1. **Scrape** — fetch new papers from ArXiv RSS feeds for the configured categories (e.g. `cs.CV,cs.LG,cs.RO`). Only new submissions are announced; updated papers are skipped.
+2. **Pre-filter** — a fast LLM call with just titles removes obviously irrelevant papers to reduce cost.
+3. **Score** — remaining papers are batched and sent to the LLM with your topic criteria. The model returns a relevance score (1–10) and a comment for each matching paper. Output is enforced as a JSON object via `response_format={"type": "json_object"}`.
+4. **Select** — papers with relevance ≥ `relevance_cutoff` are kept and sorted by score.
+5. **Output** — results are written to JSON/Markdown and optionally pushed to Slack or Google Chat.
+
+---
 
 ## Quickstart
-This is the minimal necessary steps to get the scanner to run. It is highly recommended to read the whole thing to decide what you want to run.
 
-### Running on github actions
+### Running on GitHub Actions
 
-1. Copy/fork this repo to a new github repo and [enable scheduled workflows](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow) if you fork it.
-2. Copy `config/paper_topics.template.txt` to `config/paper_topics.txt` and fill it out with the types of papers you want to follow
-3. Copy `config/authors.template.txt` to `config/authors.txt` and list the authors you actually want to follow. The numbers behind the author are important. They are semantic scholar author IDs which you can find by looking up the authors on semantic scholar and taking the numbers at the end of the URL.
-4. Set your desired ArXiv categories in `config/config.ini`.
-5. Set your openai key (`OAI_KEY`) as ``a [github secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository)
-6. In your repo settings, set github page build sources to be [github actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)
+1. Fork this repo and [enable scheduled workflows](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow).
+2. Copy `configs/paper_topics.template.txt` → `configs/paper_topics.txt` and describe the topics you want to follow (see [Writing paper_topics.txt](#writing-paper_topicstxt)).
+3. Set your ArXiv categories in `configs/config.ini` under `arxiv_category`.
+4. Set `OAI_KEY` as a [GitHub secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions).
+5. In repo Settings → Pages, set the build source to [GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 
-At this point your bot should run daily and publish a static website. You can test this by running the github action workflow manually.
+The bot runs daily at 1 pm UTC and publishes a static website. Trigger it manually via the Actions tab to test.
 
-**Optional but highly recommended**: 
+**Optional — Slack:**
+- [Set up a Slack bot](https://api.slack.com/start/quickstart) and set `SLACK_KEY` and `SLACK_CHANNEL_ID` as GitHub secrets.
+- Set `push_to_slack = true` in `configs/config.ini`.
 
-6. [Set up a slack bot](https://api.slack.com/start/quickstart), get the OAuth key, set it to `SLACK_KEY` as a github secret
-7. Make a channel for the bot (and invite it to the channel), get its [Slack channel id](https://stackoverflow.com/questions/40940327/what-is-the-simplest-way-to-find-a-slack-team-id-and-a-channel-id), set it as `SLACK_CHANNEL_ID` in a github secret.
-8. Take a look at `configs/config.ini` to tweak how things are filtered.
-9. Set the github repo private to avoid github actions being [set to inactive after 60 days](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow)
+**Optional — Google Chat:**
+- Create a Chat space and get the webhook URL from *Space settings → Apps & integrations → Webhooks*.
+- Set `WEBHOOK_URL` as a GitHub secret and `push_to_google = true` in `configs/config.ini`.
 
-10. **Set up a google chat bot** create a chat space and get the `WEBHOOK_URL` from `Space setting -> App & integrations -> Webhooks`, set it to `WEBHOOK_URL` as a github secret
-11. Take a look at `configs/config.ini` to enable `push_to_google`.
+**Optional — keep alive:**
+Set the repo to private to prevent GitHub from [disabling scheduled workflows after 60 days of inactivity](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow).
 
-Each day at 1pm UTC, the bot will run and post to slack and publish a github pages website (see the publish_md and cron_runs actions for details).
+### Running Locally
 
-### Running locally
+```bash
+pip install -r requirements.txt
 
-The steps are generally the same as above, but you have to set up the environment via `requirements.txt`
+# OpenAI mode
+export OAI_KEY=<your-openai-key>
+python main.py
 
-Instead of passing credentials via github secrets, you have to set environment variables `OAI_KEY`, `SLACK_KEY`, `SLACK_CHANNEL_ID`.
-
-To run everything, just call `main.py`
-
-**Other notes:**
-You may also want to not push to slack, in which case set your desired output endpoint (json, markdown, slack) in the `dump_json`, `dump_md`, and `push_to_slack` fields of `config/config.ini`.
-
-If the semantic scholar API times out or is slow, you should get a [S2 api key](https://www.semanticscholar.org/product/api#api-key-form) and set it as `S2_KEY` in your environment variables.
-(due to the limitations of github actions, this will only help if the code is run locally)
-
-**Making it run on its own:**
-This whole thing takes almost no compute, so you can rent the cheapest VM from AWS, put this repo in it, install the `requirements.txt`
-appropriately set up the environment variables and add the following crontab
+# Local LLM mode (set use_local_llm = true in configs/config.ini)
+python main.py
 ```
-0 13 * * * python ~/arxiv_scanner/main.py
-```
-This crontab will run the script every 1pm UTC, 6pm pacific. 
 
-## Making the `paper_topics.txt` prompt
-The `paper_topics.txt` file is used to generate the prompt for GPT. It is a list of topics that you want to follow.
-One set of examples might be something like 
+**Self-hosted cron:**
+```
+0 13 * * * cd ~/gpt_paper_assistant && python main.py
+```
+
+---
+
+## Configuration (`configs/config.ini`)
+
+```ini
+[SELECTION]
+run_llm = true                  # set to false to skip LLM calls entirely (debug/dry-run)
+use_local_llm = false           # set to true to use a local vLLM server instead of OpenAI
+local_llm_url = http://192.168.191.34:8000/v1
+local_llm_model = Qwen/Qwen3.5-9B   # model name reported by GET /v1/models
+model = gpt-5-mini              # OpenAI model (used when use_local_llm = false)
+batch_size = 5                  # papers per LLM batch (larger = cheaper, less accurate)
+
+[FILTERING]
+arxiv_category = cs.CV,cs.LG,cs.RO  # comma-separated ArXiv categories
+force_primary = true            # ignore papers only cross-listed into these categories
+relevance_cutoff = 5            # minimum relevance score (1–10) to include a paper
+
+[OUTPUT]
+debug_messages = true
+dump_debug_file = true          # writes papers.debug.json and gpt_paper_batches.debug.json
+output_path = out/
+dump_json = true                # writes output.json (or output_local.json in local mode)
+dump_md = true                  # writes output.md (or output_local.md in local mode)
+push_to_slack = false
+push_to_google = false
+```
+
+### Output file naming
+
+| Mode | JSON | Markdown |
+|------|------|----------|
+| OpenAI (`use_local_llm = false`) | `out/output.json` | `out/output.md` |
+| Local LLM (`use_local_llm = true`) | `out/output_local.json` | `out/output_local.md` |
+
+---
+
+## Local LLM Mode (vLLM)
+
+Set `use_local_llm = true` and point `local_llm_url` at your vLLM server. No `OAI_KEY` is needed.
+
+The local LLM call uses these sampling parameters:
+
+| Parameter | Value |
+|-----------|-------|
+| temperature | 1.0 |
+| top_p | 0.95 |
+| top_k | 20 |
+| min_p | 0.0 |
+| presence_penalty | 1.5 |
+| repetition_penalty | 1.0 |
+
+`<think>...</think>` blocks (produced by reasoning models like Qwen3) are automatically stripped before JSON parsing.
+
+---
+
+## Comparing OpenAI vs Local LLM
+
+Run both modes to produce their respective output files, then diff them with no API calls:
+
+```bash
+# 1. Run with OpenAI  →  out/output.json
+use_local_llm = false   # in config.ini
+OAI_KEY=<key> python main.py
+
+# 2. Run with local LLM  →  out/output_local.json
+use_local_llm = true    # in config.ini
+python main.py
+
+# 3. Compare (no API calls)
+python compare_llms.py
+
+# Custom paths
+python compare_llms.py --openai out/output.json --local out/output_local.json --save out/comparison.json
+```
+
+The comparison prints a summary (counts, overlap) and a per-paper breakdown with each model's relevance score and comment, and saves a structured `out/comparison.json`.
+
+---
+
+## Writing `paper_topics.txt`
+
+Number each criterion and include explicit relevant/not-relevant examples — specificity reduces false positives.
+
 ```text
- 1. New methodological improvements to RLHF or instruction-following which are specific fine-tuning steps that are taken to make language models better at following user instructions across a range of tasks.
-    - Relevant: papers that discuss specific methods like RLHF, or instruction-tuning datasets, improving these methods, or analyzing them.
-    - Not relevant: papers about adaptation to some task. Simply following instructions or inputs are not sufficient.
- 2. Shows new powerful test set contamination or membership inference methods for language models. Test set contamination is the phenomenon where a language model observes a benchmark dataset during pretraining.
-    - Relevant: test statistics that can detect contamination of benchmarks in language models. statistics that can provide guarantees are more interesting. membership inference methods that are general enough to apply to language models are also relevant.
-    - Not relevant: any papers that do not consider language models, or that do not consider test set contamination.
- 3. Shows a significant advance in the performance of diffusion language models.
-    - Relevant: papers that study language models that are also diffusion models. Continuous diffusions are even more relevant, while discrete diffusions are less so.
-    - Not relevant: papers about image diffusions like DALL-E or Stable Diffusion, or papers that do not explicitly mention language models or applications to text.
-```
-This is just a standard prompt, but being very specific can help, especially for things like 'diffusion language models' or 'instruction-following', where the LM can get confused about whether image diffusions are relevant, or if doing some task better is sufficient to improve instruction following.
+1. New methodological improvements to self-supervised learning (SSL) for image or video representation.
+   - Relevant: papers proposing or rigorously analyzing specific SSL methods such as
+     contrastive learning or masked autoencoders, with a clear focus on representation quality.
+   - Not relevant: papers that merely apply a pretrained SSL backbone to a downstream task
+     without modifying the SSL method itself.
+2. Significant advances in text-to-image or text-to-video diffusion models.
+   - Relevant: papers improving generation quality, reducing inference cost, or analyzing
+     output fidelity of diffusion models.
+   - Not relevant: discrete/language diffusion models or 3D generation work.
 
-You may also want to follow this with some general interest areas like
-```text
-In suggesting papers to your friend, remember that he enjoys papers on statistical machine learning, and generative modeling in natural language processing.
- Your friend also likes learning about surprising empirical results in language models, as well as clever statistical tricks.
- He does not want to read papers that are about primarily applications of methods to specific domains.
+In suggesting papers, remember that your friend is primarily interested in self-supervised
+learning, computer vision, and robotics. He values methodological novelty over applications.
 ```
 
-## Details of how it works
+The summary line at the end helps the LLM prioritise when a paper only loosely matches.
 
-The script grabs a candidate set of ArXiv papers for a specific day, via the RSS feeds. To avoid double-announcing papers, it will only grab an RSS feed within the last day. To avoid missing papers, you'd want to run this every day. 
-It filters out any `UPDATED` papers and announces only new ones.
+---
 
-The filtering logic is pretty simple. We first check for author match.
-1. Do a lookup of the authors on semantic scholar, getting a list of candidate matches.
-2. Check the authors of the paper. If the author semantic scholar id matches someone in `authors.txt` it goes in the candidate set with a default score of `author_match_score`.
+## LLM Prompt Structure
 
-We then check for GPT-evaluated relevance. We do this in two steps.
-1. Filter out any papers that have no authors with h-index above `hcutoff` in `config.ini`. This is to reduce costs.
-2. All remaining examples get batched, and are evaluated by a GPT model specified by `model` in `config.ini`. **You should only use GPT3.5 for debugging. It does not work well for this purpose!**
-This step uses the following prompt setup defined in `configs/`
+Three files in `configs/` compose the full prompt:
 
->You are a helpful paper reading assistant whose job is to read daily posts from ArXiv and identify a few papers that might be relevant for your friend. There will be up to 5 papers below. Your job is to find papers that:
-> 1. Criterion 1
-> 2. Criterion 2
-> 
-> [PAPERS]
-> 
-> Write the response in JSONL format with {ARXIVID, COMMENT, RELEVANCE, NOVELTY} on each line, one for each paper.
-The ARXIVID should be the ArXiv ID.
-The COMMENT should identify whether there is a criteria that match the paper very closely. If so, it should mention it by number (no need to mention the non-matching criteria).
-These matches should not be based on general terms like "language modeling" or "advancements" and should specifically refer to a criterion.
-The RELEVANCE should be a relevance score from 1-10 where 10 must be directly related to the exact, specific criterion with near-synonym keyword matches and authors who are known for working on the topic, 1 is irrelevant to any criterion, and unrelated to your friend's general interest area, 2-3 is papers that are relevant to the general interest area, but not specific criteria, and 5 is a direct match to a specific criterion.
-The NOVELTY should be a score from 1 to 10, where 10 is a groundbreaking, general-purpose discovery that would transform the entire field and 1 is work that improves one aspect of a problem or is an application to a very specific field. Read the abstract carefully to determine this and assume that authors cannot be trusted in their claims of novelty.
+| File | Role |
+|------|------|
+| `base_prompt.txt` | Sets the assistant persona: selective, conservative, clear matches only |
+| `paper_topics.txt` | Numbered criteria with relevant/not-relevant examples |
+| `postfix_prompt.txt` | Enforces output format: `{"papers": [{"ARXIVID", "COMMENT", "RELEVANCE"}]}` |
 
-3. GPT scores the papers for relevance (to the topics in `config/papers_topics.txt`) and novelty (scale 1-10)
-4. Papers are filtered if they have scores below either the relevance and novelty cutoffs in `config.ini`
-5. Papers are given an overall score based on equal weight to relevance and novelty
+`response_format={"type": "json_object"}` is passed to the API to hard-enforce valid JSON.
 
-Finally, all papers are sorted by the max of their `author_match_score` and the sum of the GPT-rated relevance and novelty scores (the relevance and novelty scores will only show up in the final output if they are above the cutoff thresholds you set in the config file). Then the papers are rendered and pushed into their endpoints (text files or Slack).
+---
 
-## Contributing 
-This repo uses ruff - `ruff check .` and `ruff format .` 
-Please install the pre-commit hook by running `pre-commit install`
+## Debugging and Testing
 
-### Testing and improving the GPT filter
-The `filter_papers.py` code can also be run as a standalone script.
-This will take a batch of papers in `in/debug_papers.json`, run whatever config and prompts you have
-and return an output to `out/filter_paper_test.debug.json`. If you find the bot makes mistakes, you can find the associated batch in `out/gpt_paper_batches.debug.json` and copy that into the relevant `debug_papers` file.
+**Test the LLM filter in isolation:**
+```bash
+# reads in/debug_papers.json → writes out/filter_paper_test.debug.json
+python filter_papers.py
+```
 
-This lets you build a benchmark for the filter and to see what comes out on the other side.
+If the filter makes mistakes, find the relevant batch in `out/gpt_paper_batches.debug.json`, copy it into `in/debug_papers.json`, adjust the prompts, and re-run.
 
-## Other stuff
-This repo and code was originally built by Tatsunori Hashimoto is licensed under the Apache 2.0 license.
-Thanks to Chenglei Si for testing and benchmarking the GPT filter.
-Wed Jun 4 04:41:30 AM EDT 2025
-Wed Jun 4 04:48:25 AM EDT 2025
-Wed Jun 4 04:51:38 AM EDT 2025
-Thu Jun 5 04:11:01 AM EDT 2025
-Sat Jul 5 04:11:01 AM EDT 2025
-Fri Sep 5 04:11:01 AM EDT 2025
-Sun Oct 5 04:11:01 AM EDT 2025
-Wed Nov 5 04:11:01 AM EST 2025
-Fri Dec 5 04:11:01 AM EST 2025
-Mon Jan 5 04:11:01 AM EST 2026
-Thu Feb 5 04:11:01 AM EST 2026
+**Debug files written when `dump_debug_file = true`:**
+- `out/papers.debug.json` — all scraped papers before filtering
+- `out/gpt_paper_batches.debug.json` — LLM-scored batches
+
+---
+
+*Originally built by [Tatsunori Hashimoto](https://github.com/tatsu-lab), licensed under Apache 2.0.*
+*Extended with local LLM support, structured JSON output, and comparison tooling.*
+
