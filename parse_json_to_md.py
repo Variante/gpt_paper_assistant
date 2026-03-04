@@ -112,7 +112,7 @@ def render_md_string(papers_dict):
         + datetime.today().strftime("%m/%d/%Y")
         + "\n\nThis project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)\n\n"
         + "About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:\n\n"
-        + f"""<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT-4 cost&emoji={random_emoji}&slug=Variante&button_colour={generate_background_for_white_foreground()}&font_colour=ffffff&font_family={random_font}&outline_colour=000000&coffee_colour=FFDD00" /></a>\n"""
+        + f"""<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji={random_emoji}&slug=Variante&button_colour={generate_background_for_white_foreground()}&font_colour=ffffff&font_family={random_font}&outline_colour=000000&coffee_colour=FFDD00" /></a>\n"""
         + "\n\n## Topics\n\nPaper selection prompt and criteria (jump to the section by clicking the link):\n\n"
         + criteria_string
         + "\n---\n"

@@ -2,7 +2,7 @@
 
 A daily ArXiv scanner that uses an LLM to find papers matching your research interests. Runs via GitHub Actions and can post results to Slack, Google Chat, or a static GitHub Pages website. Supports both OpenAI models and self-hosted local models via [vLLM](https://github.com/vllm-project/vllm).
 
-A live demo running on `cs.CL` is available [here](https://variante.github.io/gpt_paper_assistant/).
+A live demo running on `cs.CV,cs.LG,cs.RO` is available [here](https://variante.github.io/gpt_paper_assistant/).
 
 ---
 

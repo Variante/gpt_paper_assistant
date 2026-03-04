@@ -18,13 +18,15 @@ def calc_price(model, usage):
 
 
 @retry.retry(tries=3, delay=2)
-def call_chatgpt(full_prompt, openai_client, model, **kwargs):
-    return openai_client.chat.completions.create(
+def call_chatgpt(full_prompt, openai_client, model, json_mode=True, **kwargs):
+    create_kwargs = dict(
         model=model,
         messages=[{"role": "user", "content": full_prompt}],
-        response_format={"type": "json_object"},
         **kwargs,
     )
+    if json_mode:
+        create_kwargs["response_format"] = {"type": "json_object"}
+    return openai_client.chat.completions.create(**create_kwargs)
 
 
 def _local_llm_kwargs() -> dict:
@@ -88,7 +90,7 @@ def filter_papers_by_title(
             base_prompt + "\n " + criterion + "\n" + papers_string + filter_postfix
         )
         model = config["SELECTION"]["model"]
-        completion = call_chatgpt(full_prompt, openai_client, model)
+        completion = call_chatgpt(full_prompt, openai_client, model, json_mode=False)
         cost += calc_price(model, completion.usage)
         out_text = completion.choices[0].message.content
         try:
