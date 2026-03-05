@@ -1,11 +1,13 @@
+import dataclasses
 import json
 import configparser
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from openai import OpenAI
 from tqdm import tqdm
 
-from arxiv_scraper import get_papers_from_arxiv_rss_api, EnhancedJSONEncoder
+from arxiv_scraper import get_papers_from_arxiv_rss_api, EnhancedJSONEncoder, Paper
 from filter_papers import filter_by_gpt
 from parse_json_to_md import render_md_string
 from push_to_slack import push_to_slack
@@ -18,11 +20,18 @@ def argsort(seq):
 
 
 def get_papers_from_arxiv(config):
-    area_list = config["FILTERING"]["arxiv_category"].split(",")
+    area_list = [a.strip() for a in config["FILTERING"]["arxiv_category"].split(",")]
     paper_set = set()
-    for area in tqdm(area_list, desc="Scraping arxiv categories"):
-        papers = get_papers_from_arxiv_rss_api(area.strip(), config)
-        paper_set.update(set(papers))
+    max_workers = min(len(area_list), 8)
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(get_papers_from_arxiv_rss_api, area, config): area for area in area_list}
+        for future in tqdm(as_completed(futures), total=len(futures), desc="Scraping arxiv categories"):
+            area = futures[future]
+            try:
+                papers = future.result()
+                paper_set.update(set(papers))
+            except Exception as e:
+                tqdm.write(f"Error scraping {area}: {e}")
     tqdm.write(f"Total papers scraped: {len(paper_set)}")
     return paper_set
 
@@ -50,13 +59,24 @@ if __name__ == "__main__":
 
     steps = ["scrape", "filter", "output"]
     with tqdm(total=len(steps), desc="Pipeline", unit="step") as pbar:
-        pbar.set_postfix(step="scraping arxiv")
-        papers = list(get_papers_from_arxiv(config))
-        if config["OUTPUT"].getboolean("dump_debug_file"):
-            with open(
-                config["OUTPUT"]["output_path"] + "papers.debug.json", "w"
-            ) as outfile:
-                json.dump(papers, outfile, cls=EnhancedJSONEncoder, indent=4)
+        debug_input = config["OUTPUT"].get("debug_input_file", "").strip()
+        if debug_input:
+            tqdm.write(f"Loading papers from {debug_input}")
+            with open(debug_input, "r") as f:
+                raw = json.load(f)
+            # handle both flat list and list-of-lists (legacy format)
+            if raw and isinstance(raw[0], list):
+                raw = [item for sublist in raw for item in sublist]
+            paper_fields = {f.name for f in dataclasses.fields(Paper)}
+            papers = [Paper(**{k: v for k, v in d.items() if k in paper_fields}) for d in raw]
+        else:
+            pbar.set_postfix(step="scraping arxiv")
+            papers = list(get_papers_from_arxiv(config))
+            if config["OUTPUT"].getboolean("dump_debug_file"):
+                with open(
+                    config["OUTPUT"]["output_path"] + "papers.debug.json", "w"
+                ) as outfile:
+                    json.dump(papers, outfile, cls=EnhancedJSONEncoder, indent=4)
         pbar.update(1)
 
         pbar.set_postfix(step="LLM filtering")
