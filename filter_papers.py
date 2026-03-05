@@ -1,4 +1,5 @@
 import configparser
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import dataclasses
 import json
 import os
@@ -60,6 +61,14 @@ def _strip_thinking(text: str) -> str:
     return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
 
 
+def _request_workers(config: configparser.ConfigParser) -> int:
+    try:
+        workers = int(config["SELECTION"].get("openai_workers", "1"))
+    except (TypeError, ValueError):
+        workers = 1
+    return max(1, workers)
+
+
 def _batched(items: list[Paper], batch_size: int):
     for i in range(0, len(items), batch_size):
         yield items[i : i + batch_size]
@@ -111,32 +120,57 @@ def filter_papers_by_title(
     base_prompt: str,
     criterion: str,
 ) -> tuple[list[Paper], float]:
-    final_list: list[Paper] = []
+    batches = list(_batched(papers, 20))
+    if not batches:
+        return [], 0.0
+
     total_cost = 0.0
     model = config["SELECTION"]["model"]
+    debug_messages = config["OUTPUT"].getboolean("debug_messages")
     use_local = config["SELECTION"].getboolean("use_local_llm")
     kwargs = _local_llm_kwargs() if use_local else {}
+    workers = min(_request_workers(config), len(batches))
+    if debug_messages:
+        print(f"Title filtering workers: {workers}")
 
-    for batch in _batched(papers, 20):
+    def run_title_batch(batch: list[Paper]) -> tuple[list[Paper], float]:
         papers_string = "".join(_paper_to_title(paper) for paper in batch)
         full_prompt = f"{base_prompt}\n{criterion}\n{papers_string}{TITLE_FILTER_POSTFIX}"
         completion = call_chatgpt(full_prompt, openai_client, model, json_mode=False, **kwargs)
-        total_cost += calc_price(completion.usage)
-
+        cost = calc_price(completion.usage)
         out_text = completion.choices[0].message.content or "[]"
+        if use_local:
+            out_text = _strip_thinking(out_text)
         try:
             filtered_ids = set(json.loads(out_text))
+            kept: list[Paper] = []
             for paper in batch:
                 if paper.arxiv_id in filtered_ids:
-                    if config["OUTPUT"].getboolean("debug_messages"):
+                    if debug_messages:
                         print(f"Filtered out paper {paper.arxiv_id}")
                     continue
-                final_list.append(paper)
+                kept.append(paper)
+            return kept, cost
         except Exception as exc:
-            if config["OUTPUT"].getboolean("debug_messages"):
+            if debug_messages:
                 print(f"Failed to parse title-filter output: {exc}")
                 print(out_text)
+            return [], cost
 
+    kept_by_idx: dict[int, list[Paper]] = {}
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_map = {
+            executor.submit(run_title_batch, batch): idx for idx, batch in enumerate(batches)
+        }
+        for future in as_completed(future_map):
+            idx = future_map[future]
+            kept, cost = future.result()
+            kept_by_idx[idx] = kept
+            total_cost += cost
+
+    final_list: list[Paper] = []
+    for idx in range(len(batches)):
+        final_list.extend(kept_by_idx.get(idx, []))
     return final_list, total_cost
 
 
@@ -221,30 +255,40 @@ def filter_by_gpt(
 
     selected_papers: dict[str, dict] = {}
     sort_dict: dict[str, int] = {}
-    scored_batches: list[list[dict]] = []
-    total_cost = title_filter_cost
     batch_size = max(1, int(config["SELECTION"]["batch_size"]))
+    batches = list(_batched(paper_list, batch_size))
+    total_batches = len(batches)
+    workers = min(_request_workers(config), max(1, total_batches))
+    if config["OUTPUT"].getboolean("debug_messages"):
+        print(f"Scoring workers: {workers}")
+    scored_batches: list[list[dict]] = [[] for _ in range(total_batches)]
+    total_cost = title_filter_cost
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_map = {
+            executor.submit(
+                run_on_batch,
+                batch,
+                base_prompt,
+                criterion,
+                postfix_prompt,
+                openai_client,
+                config,
+            ): idx
+            for idx, batch in enumerate(batches)
+        }
+        for future in tqdm(as_completed(future_map), total=total_batches):
+            idx = future_map[future]
+            json_dicts, cost = future.result()
+            total_cost += cost
 
-    total_batches = (len(paper_list) + batch_size - 1) // batch_size
-    for batch in tqdm(_batched(paper_list, batch_size), total=total_batches):
-        json_dicts, cost = run_on_batch(
-            batch,
-            base_prompt,
-            criterion,
-            postfix_prompt,
-            openai_client,
-            config,
-        )
-        total_cost += cost
-
-        selected_in_batch, sort_in_batch, scored_in_batch = _pick_selected_papers(
-            json_dicts,
-            all_papers,
-            relevance_cutoff,
-        )
-        selected_papers.update(selected_in_batch)
-        sort_dict.update(sort_in_batch)
-        scored_batches.append(scored_in_batch)
+            selected_in_batch, sort_in_batch, scored_in_batch = _pick_selected_papers(
+                json_dicts,
+                all_papers,
+                relevance_cutoff,
+            )
+            selected_papers.update(selected_in_batch)
+            sort_dict.update(sort_in_batch)
+            scored_batches[idx] = scored_in_batch
 
     if config["OUTPUT"].getboolean("dump_debug_file"):
         output_dir = Path(config["OUTPUT"]["output_path"])

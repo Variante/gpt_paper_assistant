@@ -69,6 +69,7 @@ local_llm_url = http://192.168.191.34:8000/v1
 local_llm_model = Qwen/Qwen3.5-9B   # model name reported by GET /v1/models
 model = gpt-5-mini              # OpenAI model (used when use_local_llm = false)
 batch_size = 5                  # papers per LLM batch (larger = cheaper, less accurate)
+openai_workers = 4              # parallel LLM requests for title-filter + scoring stages
 
 [FILTERING]
 arxiv_category = cs.CV,cs.LG,cs.RO  # comma-separated ArXiv categories
@@ -194,4 +195,3 @@ If the filter makes mistakes, find the relevant batch in `out/gpt_paper_batches.
 *Extended with local LLM support, structured JSON output, and comparison tooling.*
 
 Thu Mar  5 04:11:01 AM EST 2026
-
