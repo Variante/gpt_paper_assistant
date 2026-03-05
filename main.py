@@ -2,7 +2,6 @@ import dataclasses
 import json
 import configparser
 import os
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from openai import OpenAI
 from tqdm import tqdm
@@ -22,16 +21,12 @@ def argsort(seq):
 def get_papers_from_arxiv(config):
     area_list = [a.strip() for a in config["FILTERING"]["arxiv_category"].split(",")]
     paper_set = set()
-    max_workers = min(len(area_list), 8)
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(get_papers_from_arxiv_rss_api, area, config): area for area in area_list}
-        for future in tqdm(as_completed(futures), total=len(futures), desc="Scraping arxiv categories"):
-            area = futures[future]
-            try:
-                papers = future.result()
-                paper_set.update(set(papers))
-            except Exception as e:
-                tqdm.write(f"Error scraping {area}: {e}")
+    for area in tqdm(area_list, desc="Scraping arxiv categories"):
+        try:
+            papers = get_papers_from_arxiv_rss_api(area, config)
+            paper_set.update(set(papers))
+        except Exception as e:
+            tqdm.write(f"Error scraping {area}: {e}")
     tqdm.write(f"Total papers scraped: {len(paper_set)}")
     return paper_set
 
