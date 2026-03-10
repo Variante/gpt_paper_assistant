@@ -1,6 +1,6 @@
-1. Application of diffusion models and vision-language models (VLMs) to robotics.
+1. Application of diffusion models and vision-language models (VLMs) to robot manipulation.
    - Relevant: papers using video diffusion models, learned world models, or VLMs to enable robotic policy learning, task planning, open-vocabulary manipulation, or instruction-following; papers that leverage VLMs for task grounding in robotic control loops; papers applying generative models as robot world models or for data augmentation in robot learning.
-   - Not relevant: papers whose primary contribution is improving diffusion model architecture, generation quality, or inference speed without a robotics application; papers that use VLMs for pure perception, image captioning, or QA without any robotic control loop; papers on 3D or video generation as an end in itself.
+   - Not relevant: papers mainly focus on robot navigation. papers whose primary contribution is improving diffusion model architecture, generation quality, or inference speed without a robotics application; papers that use VLMs for pure perception, image captioning, or QA without any robotic control loop; papers on 3D or video generation as an end in itself.
 2. New methodological improvements to self-supervised learning (SSL) for image or video representation.
    - Relevant: papers proposing or rigorously analyzing specific SSL methods such as contrastive learning or masked autoencoders, with a clear focus on representation quality.
    - Not relevant: papers that merely apply a pretrained SSL backbone to a downstream task without modifying the SSL method itself.
