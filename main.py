@@ -131,6 +131,8 @@ def main() -> None:
         if papers:
             write_outputs(sorted_papers, config, output_stem)
         progress.update(1)
+    print(sort_dict)
+    print(sorted_papers)
 
 
 if __name__ == "__main__":
