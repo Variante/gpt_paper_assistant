@@ -6,6 +6,12 @@ import re
 link_prefix = 'user-content-'
 topic_shift = 1000
 
+
+def format_authors(authors: list) -> str:
+    if len(authors) > 8:
+        authors = authors[:4] + ["..."] + authors[-4:]
+    return ", ".join(authors)
+
 def render_paper(paper_entry: dict, idx: int) -> str:
     """
     :param paper_entry: is a dict from a json. an example is
@@ -25,7 +31,7 @@ def render_paper(paper_entry: dict, idx: int) -> str:
     authors = paper_entry["authors"]
     paper_string = f'### {idx}\. [{title}]({arxiv_url})\n'
     paper_string += f"**ArXiv:** {arxiv_id} [[page]({arxiv_url})] [[pdf]({arxiv_pdf_url})]\n\n"
-    paper_string += f'**Authors:** {", ".join(authors)}\n\n'
+    paper_string += f'**Authors:** {format_authors(authors)}\n\n'
     paper_string += f"**Abstract:** {abstract}\n\n"
     if "COMMENT" in paper_entry:
         comment = paper_entry["COMMENT"]
@@ -54,7 +60,7 @@ def render_title_and_author(paper_entry: dict, idx: int) -> str:
     # Replace spaces with dashes
     cleaned = cleaned.replace(' ', '-').lower()
     paper_string = f'{idx}\. [{title}]({arxiv_url}) [[more](#{link_prefix}{cleaned})] \\\n'
-    paper_string += f'**Authors:** {", ".join(authors)}\n'
+    paper_string += f'**Authors:** {format_authors(authors)}\n'
     return paper_string
 
 
