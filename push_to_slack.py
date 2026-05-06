@@ -7,7 +7,7 @@ from datetime import datetime
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-from parse_json_to_md import extract_criterion_from_paper, topic_shift
+from parse_json_to_md import extract_criterion_from_paper, format_authors, topic_shift
 
 
 def batched(items: list, batch_size: int) -> list[list]:
@@ -48,7 +48,7 @@ def send_thread(batches: list[list], channel_id: str, thread_id: str, client: We
 def render_paper(paper_entry: dict, counter: int) -> str:
     arxiv_id = paper_entry["arxiv_id"]
     title = paper_entry["title"].replace("&", "&amp;")
-    authors = ", ".join(paper_entry["authors"])
+    authors = format_authors(paper_entry["authors"])
     abstract = paper_entry["abstract"]
     arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
 
@@ -71,7 +71,7 @@ def render_paper(paper_entry: dict, counter: int) -> str:
 def render_title(paper_entry: dict, counter: int) -> str:
     arxiv_id = paper_entry["arxiv_id"]
     title = paper_entry["title"].replace("&", "&amp;")
-    authors = ", ".join(paper_entry["authors"])
+    authors = format_authors(paper_entry["authors"])
     arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
     return f"<{arxiv_url}|*{counter}. {title}*>\n*Authors*: {authors}\n"
 

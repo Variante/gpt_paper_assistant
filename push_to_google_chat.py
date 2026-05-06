@@ -7,7 +7,7 @@ from datetime import datetime
 import requests
 from requests import Response
 
-from parse_json_to_md import extract_criterion_from_paper
+from parse_json_to_md import extract_criterion_from_paper, format_authors
 
 
 def send_text_card(title: str, paragraphs: list[str], webhook_url: str) -> Response:
@@ -26,7 +26,7 @@ def render_paper(paper_entry: dict) -> str:
     arxiv_id = paper_entry["arxiv_id"]
     title = paper_entry["title"].replace("&", "&amp;")
     arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
-    authors = ", ".join(paper_entry["authors"])
+    authors = format_authors(paper_entry["authors"])
     return f"<a href='{arxiv_url}'>{title}</a>\n{authors}"
 
 

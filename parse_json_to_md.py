@@ -8,9 +8,10 @@ topic_shift = 1000
 
 
 def format_authors(authors: list) -> str:
-    if len(authors) > 8:
-        authors = authors[:4] + ["..."] + authors[-4:]
+    if len(authors) > 5:
+        authors = authors[:3] + ["..."] + authors[-2:]
     return ", ".join(authors)
+
 
 def render_paper(paper_entry: dict, idx: int) -> str:
     """

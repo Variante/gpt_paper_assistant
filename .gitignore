@@ -8,3 +8,5 @@ venv
 *.sh
 .vscode/
 __pycache__/
+CLAUDE.md
+AGENTS.md

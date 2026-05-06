@@ -193,9 +193,3 @@ If the filter makes mistakes, find the relevant batch in `out/gpt_paper_batches.
 
 *Originally built by [Tatsunori Hashimoto](https://github.com/tatsu-lab), licensed under Apache 2.0.*
 *Extended with local LLM support, structured JSON output, and comparison tooling.*
-
-Thu Mar  5 04:11:01 AM EST 2026
-Sun Apr  5 04:11:01 AM EDT 2026
-
-Tue May  5 04:11:01 AM EDT 2026
-
