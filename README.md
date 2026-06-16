@@ -1,6 +1,6 @@
 # GPT Paper Assistant: A Daily ArXiv Scanner
 
-A daily ArXiv scanner that uses an LLM to find papers matching your research interests. Runs via GitHub Actions and can post results to Slack, Google Chat, or a static GitHub Pages website. Supports both OpenAI models and self-hosted local models via [vLLM](https://github.com/vllm-project/vllm).
+A daily ArXiv scanner that uses an LLM to find papers matching your research interests. It can run in GitHub Actions or fully locally, then publish results to Slack, Google Chat, or a static GitHub Pages website. Supports OpenAI models, GPT-style local OpenAI-compatible endpoints, and self-hosted models via [vLLM](https://github.com/vllm-project/vllm).
 
 A live demo running on `cs.CV,cs.LG,cs.RO` is available [here](https://variante.github.io/gpt_paper_assistant/).
 
@@ -18,43 +18,152 @@ A live demo running on `cs.CV,cs.LG,cs.RO` is available [here](https://variante.
 
 ## Quickstart
 
-### Running on GitHub Actions
+### 1. Configure Paper Selection
 
-1. Fork this repo and [enable scheduled workflows](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow).
-2. Copy `configs/paper_topics.template.txt` → `configs/paper_topics.txt` and describe the topics you want to follow (see [Writing paper_topics.txt](#writing-paper_topicstxt)).
-3. Set your ArXiv categories in `configs/config.ini` under `arxiv_category`.
-4. Set `OAI_KEY` as a [GitHub secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions).
-5. In repo Settings → Pages, set the build source to [GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
+1. Copy `configs/paper_topics.template.txt` to `configs/paper_topics.txt` and describe the topics you want to follow (see [Writing paper_topics.txt](#writing-paper_topicstxt)).
+2. Set your ArXiv categories in `configs/config.ini` under `arxiv_category`.
+3. Install dependencies:
 
-The bot runs daily at 1 pm UTC and publishes a static website. Trigger it manually via the Actions tab to test.
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Choose A Deployment Mode
+
+This project supports two publishing paths:
+
+| Mode | Where the LLM runs | How the website is published | Best for |
+|------|--------------------|------------------------------|----------|
+| GitHub Actions deploy | GitHub-hosted runner | GitHub Actions Pages deploy | OpenAI API or cloud-accessible LLMs |
+| Local deploy | Your machine | Push generated site to `gh-pages` | Local-only LLMs on `127.0.0.1` or a private LAN |
+
+Use only one mode for scheduled production runs. If local deploy is active, the Actions deploy workflows can stay disabled.
+
+---
+
+## Deployment: GitHub Actions
+
+The original cloud deployment runs the scanner in GitHub Actions and deploys Pages from an uploaded artifact.
+
+1. Fork this repo and enable scheduled workflows.
+2. Put the workflow files under `.github/workflows/`. This repo keeps the old workflows under `.github/disabled-workflows/`; move them back if you want the Actions pipeline:
+
+```bash
+mkdir -p .github/workflows
+mv .github/disabled-workflows/cron_runs.yaml .github/workflows/
+mv .github/disabled-workflows/publish_md_test.yml .github/workflows/
+# optional keep-alive workflow
+mv .github/disabled-workflows/keep_alive.yml .github/workflows/
+```
+
+3. Set `OAI_KEY` as a GitHub secret. If Slack or Google Chat is enabled, also set `SLACK_KEY`, `SLACK_CHANNEL_ID`, or `WEBHOOK_URL` as needed.
+4. In GitHub repo settings, set Pages to:
+
+```text
+Settings -> Pages -> Build and deployment
+Source: GitHub Actions
+```
+
+5. Trigger `Run daily arxiv` manually from the Actions tab to test.
+
+Pipeline:
+
+```text
+cron_runs.yaml
+  -> installs dependencies
+  -> runs python main.py
+  -> uploads out/ as arxiv-scanner-outputs
+
+publish_md_test.yml
+  -> downloads arxiv-scanner-outputs
+  -> converts output.md to a Pages artifact
+  -> deploys with actions/deploy-pages
+```
 
 **Optional — Slack:**
 - [Set up a Slack bot](https://api.slack.com/start/quickstart) and set `SLACK_KEY` and `SLACK_CHANNEL_ID` as GitHub secrets.
 - Set `push_to_slack = true` in `configs/config.ini`.
 
 **Optional — Google Chat:**
-- Create a Chat space and get the webhook URL from *Space settings → Apps & integrations → Webhooks*.
+- Create a Chat space and get the webhook URL from *Space settings -> Apps & integrations -> Webhooks*.
 - Set `WEBHOOK_URL` as a GitHub secret and `push_to_google = true` in `configs/config.ini`.
 
-**Optional — keep alive:**
-Set the repo to private to prevent GitHub from [disabling scheduled workflows after 60 days of inactivity](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow).
+---
 
-### Running Locally
+## Deployment: Local LLM To GitHub Pages
+
+Use this mode when the LLM endpoint is only available from your machine, for example `http://127.0.0.1:10531/v1`.
+
+1. Configure GitHub Pages to deploy from the generated branch:
+
+```text
+Settings -> Pages -> Build and deployment
+Source: Deploy from a branch
+Branch: gh-pages
+Folder: / (root)
+```
+
+2. Keep the old Actions workflows disabled by leaving them outside `.github/workflows/`.
+
+3. Put local secrets in an untracked file such as `var.sh`:
 
 ```bash
-pip install -r requirements.txt
-
-# OpenAI mode
-export OAI_KEY=<your-openai-key>
-python main.py
-
-# Local LLM mode (set use_local_llm = true in configs/config.ini)
-python main.py
+export GPTPA_LOCAL_LLM_URL="http://127.0.0.1:10531/v1"
+export GPTPA_LOCAL_LLM_API_KEY="your-local-api-key"
 ```
 
-**Self-hosted cron:**
+`var.sh` is ignored by git because `*.sh` is ignored except for `scripts/*.sh`.
+
+4. Test without publishing:
+
+```bash
+set -a && source var.sh && set +a
+PYTHON=/home/xiangli/miniconda3/envs/paper/bin/python scripts/local_publish.sh --dry-run
 ```
-0 13 * * * cd ~/gpt_paper_assistant && python main.py
+
+The dry run scrapes ArXiv, calls the local LLM, writes `out/output_local.md`, and stages `.local_site/index.md`. It does not commit or push.
+
+5. Publish the generated website:
+
+```bash
+set -a && source var.sh && set +a
+PYTHON=/home/xiangli/miniconda3/envs/paper/bin/python scripts/local_publish.sh --push
+```
+
+Pipeline:
+
+```text
+local cron or shell
+  -> source var.sh
+  -> scripts/local_publish.sh --push
+  -> main.py scrapes ArXiv
+  -> local LLM filters and scores papers
+  -> writes out/output_local.md and out/output_local.json
+  -> stages .local_site/index.md
+  -> commits and pushes gh-pages
+  -> GitHub Pages serves gh-pages
+```
+
+Useful overrides:
+
+```bash
+# Concurrent LLM requests. Default for local_publish.sh is 4.
+GPTPA_OPENAI_WORKERS=4 scripts/local_publish.sh --dry-run
+
+# Use a specific model instead of auto-detecting from /v1/models.
+GPTPA_LOCAL_LLM_MODEL=gpt-5.5 scripts/local_publish.sh --dry-run
+
+# Use xhigh reasoning for full abstract scoring; title filtering stays fast by default.
+GPTPA_LOCAL_LLM_REASONING_EFFORT=xhigh scripts/local_publish.sh --dry-run
+
+# Optional: add reasoning effort to title filtering too, usually slower.
+GPTPA_TITLE_FILTER_REASONING_EFFORT=medium scripts/local_publish.sh --dry-run
+```
+
+For a scheduled local run, add a cron entry on the machine that can reach the local LLM:
+
+```cron
+0 10 * * * cd /path/to/gpt_paper_assistant && set -a && . ./var.sh && set +a && PYTHON=/home/xiangli/miniconda3/envs/paper/bin/python scripts/local_publish.sh --push >> local_publish.log 2>&1
 ```
 
 ---
@@ -63,25 +172,29 @@ python main.py
 
 ```ini
 [SELECTION]
-run_llm = true                  # set to false to skip LLM calls entirely (debug/dry-run)
-use_local_llm = false           # set to true to use a local vLLM server instead of OpenAI
-local_llm_url = http://192.168.191.34:8000/v1
-local_llm_model = Qwen/Qwen3.5-9B   # model name reported by GET /v1/models
-model = gpt-5-mini              # OpenAI model (used when use_local_llm = false)
-batch_size = 5                  # papers per LLM batch (larger = cheaper, less accurate)
-openai_workers = 4              # parallel LLM requests for title-filter + scoring stages
+run_llm = true                     # set to false to skip LLM calls entirely (debug/dry-run)
+use_local_llm = false              # set to true for a local OpenAI-compatible endpoint
+local_llm_url = http://127.0.0.1:10531/v1
+local_llm_model = gpt-5.5          # model name reported by GET /v1/models
+local_llm_request_style = openai   # openai/gpt/codex for GPT-style proxies; vllm for vLLM sampling params
+local_llm_reasoning_effort = xhigh # optional; used for full abstract scoring in GPT-style local mode
+title_filter_reasoning_effort =    # optional; leave empty for faster title-only filtering
+model = gpt-5-mini                 # OpenAI model used when use_local_llm = false
+batch_size = 5                     # papers per full-scoring LLM batch
+title_filter_batch_size = 20       # titles per title-filter request
+openai_workers = 4                 # parallel LLM requests for title-filter + scoring stages
 
 [FILTERING]
-arxiv_category = cs.CV,cs.LG,cs.RO  # comma-separated ArXiv categories
-force_primary = true            # ignore papers only cross-listed into these categories
-relevance_cutoff = 5            # minimum relevance score (1–10) to include a paper
+arxiv_category = cs.CV,cs.LG,cs.RO # comma-separated ArXiv categories
+force_primary = true               # ignore papers only cross-listed into these categories
+relevance_cutoff = 5               # minimum relevance score (1-10) to include a paper
 
 [OUTPUT]
 debug_messages = true
-dump_debug_file = true          # writes papers.debug.json and gpt_paper_batches.debug.json
+dump_debug_file = true             # writes papers.debug.json and gpt_paper_batches.debug.json
 output_path = out/
-dump_json = true                # writes output.json (or output_local.json in local mode)
-dump_md = true                  # writes output.md (or output_local.md in local mode)
+dump_json = true                   # writes output.json or output_local.json
+dump_md = true                     # writes output.md or output_local.md
 push_to_slack = false
 push_to_google = false
 ```
@@ -95,11 +208,41 @@ push_to_google = false
 
 ---
 
-## Local LLM Mode (vLLM)
+## Local LLM Modes
 
-Set `use_local_llm = true` and point `local_llm_url` at your vLLM server. No `OAI_KEY` is needed.
+Set `use_local_llm = true` to use an OpenAI-compatible local endpoint. `main.py` writes local-mode results to `out/output_local.json` and `out/output_local.md`.
 
-The local LLM call uses these sampling parameters:
+### GPT-Style Local Proxy
+
+Use this for endpoints that behave like OpenAI chat completions, including local proxy servers exposing models such as `gpt-5.5`:
+
+```ini
+use_local_llm = true
+local_llm_url = http://127.0.0.1:10531/v1
+local_llm_model = gpt-5.5
+local_llm_request_style = openai
+local_llm_reasoning_effort = xhigh
+title_filter_reasoning_effort =
+```
+
+Set the API key through the environment, not in `configs/config.ini`:
+
+```bash
+export GPTPA_LOCAL_LLM_API_KEY="your-local-api-key"
+```
+
+### vLLM
+
+Use this for vLLM servers that accept vLLM-specific sampling parameters:
+
+```ini
+use_local_llm = true
+local_llm_url = http://192.168.191.34:8000/v1
+local_llm_model = Qwen/Qwen3.5-9B
+local_llm_request_style = vllm
+```
+
+The vLLM path sends these sampling parameters:
 
 | Parameter | Value |
 |-----------|-------|
@@ -110,7 +253,7 @@ The local LLM call uses these sampling parameters:
 | presence_penalty | 1.5 |
 | repetition_penalty | 1.0 |
 
-`<think>...</think>` blocks (produced by reasoning models like Qwen3) are automatically stripped before JSON parsing.
+`<think>...</think>` blocks produced by reasoning models are stripped before JSON parsing.
 
 ---
 
@@ -193,5 +336,4 @@ If the filter makes mistakes, find the relevant batch in `out/gpt_paper_batches.
 
 *Originally built by [Tatsunori Hashimoto](https://github.com/tatsu-lab), licensed under Apache 2.0.*
 *Extended with local LLM support, structured JSON output, and comparison tooling.*
-Fri Jun  5 04:11:01 AM EDT 2026
 
