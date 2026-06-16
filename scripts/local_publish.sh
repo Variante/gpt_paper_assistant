@@ -122,19 +122,15 @@ if [ "$publish" -eq 0 ]; then
   exit 0
 fi
 
-if git ls-remote --exit-code --heads "$remote" "$pages_branch" >/dev/null 2>&1; then
+if [ -e "$worktree_dir/.git" ]; then
+  git -C "$worktree_dir" pull --ff-only "$remote" "$pages_branch"
+elif git ls-remote --exit-code --heads "$remote" "$pages_branch" >/dev/null 2>&1; then
   git fetch "$remote" "$pages_branch:$pages_branch"
-  if [ ! -e "$worktree_dir/.git" ]; then
-    git worktree add "$worktree_dir" "$pages_branch"
-  fi
+  git worktree add "$worktree_dir" "$pages_branch"
+elif git show-ref --verify --quiet "refs/heads/$pages_branch"; then
+  git worktree add "$worktree_dir" "$pages_branch"
 else
-  if git show-ref --verify --quiet "refs/heads/$pages_branch"; then
-    if [ ! -e "$worktree_dir/.git" ]; then
-      git worktree add "$worktree_dir" "$pages_branch"
-    fi
-  else
-    git worktree add --orphan -b "$pages_branch" "$worktree_dir"
-  fi
+  git worktree add --orphan -b "$pages_branch" "$worktree_dir"
 fi
 
 find "$worktree_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
