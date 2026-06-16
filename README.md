@@ -94,6 +94,8 @@ publish_md_test.yml
 
 Use this mode when the LLM endpoint is only available from your machine, for example `http://127.0.0.1:10531/v1`.
 
+You can use any OpenAI-compatible local server. For example, [`Variante/codex-api`](https://github.com/Variante/codex-api) exposes a local OpenAI-compatible API backed by a Codex / ChatGPT subscription. It is unofficial and not affiliated with OpenAI; keep this kind of proxy on loopback or protect it with an API key and network allowlist.
+
 1. Configure GitHub Pages to deploy from the generated branch:
 
 ```text
@@ -214,7 +216,7 @@ Set `use_local_llm = true` to use an OpenAI-compatible local endpoint. `main.py`
 
 ### GPT-Style Local Proxy
 
-Use this for endpoints that behave like OpenAI chat completions, including local proxy servers exposing models such as `gpt-5.5`:
+Use this for endpoints that behave like OpenAI chat completions, including local proxy servers exposing models such as `gpt-5.5`. Packages like [`codex-api`](https://github.com/Variante/codex-api) can provide this interface from a Codex / ChatGPT subscription:
 
 ```ini
 use_local_llm = true
