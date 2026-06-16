@@ -22,6 +22,7 @@ Environment:
   GPTPA_SITE_DIR            Staging directory. Default: .local_site
   GPTPA_PAGES_BRANCH        Publish branch. Default: gh-pages
   GPTPA_PAGES_REMOTE        Git remote. Default: origin
+  GPTPA_PUSH_TO_GOOGLE      Push selected papers to Google Chat. Default: true
   PYTHON                    Python executable. Default: python3
 
 Examples:
@@ -68,7 +69,7 @@ worktree_dir="${GPTPA_PAGES_WORKTREE:-$repo_root/.local_pages_worktree}"
 
 export GPTPA_USE_LOCAL_LLM="${GPTPA_USE_LOCAL_LLM:-true}"
 export GPTPA_LOCAL_LLM_URL="${GPTPA_LOCAL_LLM_URL:-http://127.0.0.1:10531/v1}"
-export GPTPA_PUSH_TO_GOOGLE="${GPTPA_PUSH_TO_GOOGLE:-false}"
+export GPTPA_PUSH_TO_GOOGLE="${GPTPA_PUSH_TO_GOOGLE:-true}"
 export GPTPA_PUSH_TO_SLACK="${GPTPA_PUSH_TO_SLACK:-false}"
 export GPTPA_DUMP_DEBUG_FILE="${GPTPA_DUMP_DEBUG_FILE:-false}"
 export GPTPA_OPENAI_WORKERS="${GPTPA_OPENAI_WORKERS:-4}"

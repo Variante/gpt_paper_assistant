@@ -112,9 +112,12 @@ Folder: / (root)
 ```bash
 export GPTPA_LOCAL_LLM_URL="http://127.0.0.1:10531/v1"
 export GPTPA_LOCAL_LLM_API_KEY="your-local-api-key"
+export WEBHOOK_URL="your-google-chat-webhook-url"
 ```
 
 `var.sh` is ignored by git because `*.sh` is ignored except for `scripts/*.sh`.
+
+Google Chat posting is enabled by default for `scripts/local_publish.sh` when `WEBHOOK_URL` is set. Set `GPTPA_PUSH_TO_GOOGLE=false` to opt out.
 
 4. Test without publishing:
 
@@ -123,7 +126,7 @@ set -a && source var.sh && set +a
 PYTHON=/home/xiangli/miniconda3/envs/paper/bin/python scripts/local_publish.sh --dry-run
 ```
 
-The dry run scrapes ArXiv, calls the local LLM, writes `out/output_local.md`, and stages `.local_site/index.md`. It does not commit or push.
+The dry run scrapes ArXiv, calls the local LLM, writes `out/output_local.md`, stages `.local_site/index.md`, and posts to Google Chat when `WEBHOOK_URL` is set. It does not commit or push the website.
 
 5. Publish the generated website:
 
@@ -141,6 +144,7 @@ local cron or shell
   -> main.py scrapes ArXiv
   -> local LLM filters and scores papers
   -> writes out/output_local.md and out/output_local.json
+  -> posts to Google Chat when WEBHOOK_URL is set
   -> stages .local_site/index.md
   -> commits and pushes gh-pages
   -> GitHub Pages serves gh-pages
@@ -198,7 +202,7 @@ output_path = out/
 dump_json = true                   # writes output.json or output_local.json
 dump_md = true                     # writes output.md or output_local.md
 push_to_slack = false
-push_to_google = false
+push_to_google = true
 ```
 
 ### Output file naming
