@@ -12,9 +12,43 @@ from filter_papers import filter_by_gpt
 from parse_json_to_md import render_md_string
 
 
-def load_config(path: str = "configs/config.ini") -> configparser.ConfigParser:
+ENV_CONFIG_OVERRIDES = {
+    ("SELECTION", "run_llm"): "GPTPA_RUN_LLM",
+    ("SELECTION", "use_local_llm"): "GPTPA_USE_LOCAL_LLM",
+    ("SELECTION", "local_llm_url"): "GPTPA_LOCAL_LLM_URL",
+    ("SELECTION", "local_llm_model"): "GPTPA_LOCAL_LLM_MODEL",
+    ("SELECTION", "local_llm_request_style"): "GPTPA_LOCAL_LLM_REQUEST_STYLE",
+    ("SELECTION", "local_llm_reasoning_effort"): "GPTPA_LOCAL_LLM_REASONING_EFFORT",
+    ("SELECTION", "title_filter_reasoning_effort"): "GPTPA_TITLE_FILTER_REASONING_EFFORT",
+    ("SELECTION", "batch_size"): "GPTPA_BATCH_SIZE",
+    ("SELECTION", "title_filter_batch_size"): "GPTPA_TITLE_FILTER_BATCH_SIZE",
+    ("SELECTION", "openai_workers"): "GPTPA_OPENAI_WORKERS",
+    ("FILTERING", "arxiv_category"): "GPTPA_ARXIV_CATEGORY",
+    ("FILTERING", "force_primary"): "GPTPA_FORCE_PRIMARY",
+    ("FILTERING", "relevance_cutoff"): "GPTPA_RELEVANCE_CUTOFF",
+    ("OUTPUT", "debug_messages"): "GPTPA_DEBUG_MESSAGES",
+    ("OUTPUT", "dump_debug_file"): "GPTPA_DUMP_DEBUG_FILE",
+    ("OUTPUT", "debug_input_file"): "GPTPA_DEBUG_INPUT_FILE",
+    ("OUTPUT", "output_path"): "GPTPA_OUTPUT_PATH",
+    ("OUTPUT", "dump_json"): "GPTPA_DUMP_JSON",
+    ("OUTPUT", "dump_md"): "GPTPA_DUMP_MD",
+    ("OUTPUT", "push_to_slack"): "GPTPA_PUSH_TO_SLACK",
+    ("OUTPUT", "push_to_google"): "GPTPA_PUSH_TO_GOOGLE",
+}
+
+
+def apply_env_overrides(config: configparser.ConfigParser) -> None:
+    for (section, option), env_name in ENV_CONFIG_OVERRIDES.items():
+        value = os.environ.get(env_name)
+        if value is not None:
+            config[section][option] = value
+
+
+def load_config(path: str | None = None) -> configparser.ConfigParser:
+    path = path or os.environ.get("GPTPA_CONFIG", "configs/config.ini")
     config = configparser.ConfigParser()
     config.read(path)
+    apply_env_overrides(config)
     return config
 
 
@@ -22,8 +56,15 @@ def build_openai_client(config: configparser.ConfigParser) -> tuple[OpenAI, str]
     if config["SELECTION"].getboolean("use_local_llm"):
         print(f"Using local LLM at {config['SELECTION']['local_llm_url']}")
         config["SELECTION"]["model"] = config["SELECTION"]["local_llm_model"]
+        api_key = (
+            os.environ.get("GPTPA_LOCAL_LLM_API_KEY")
+            or os.environ.get("LOCAL_LLM_API_KEY")
+            or os.environ.get("OPENAI_API_KEY")
+            or os.environ.get("OAI_KEY")
+            or "EMPTY"
+        )
         return (
-            OpenAI(base_url=config["SELECTION"]["local_llm_url"], api_key="EMPTY"),
+            OpenAI(base_url=config["SELECTION"]["local_llm_url"], api_key=api_key),
             "output_local",
         )
 

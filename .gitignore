@@ -6,7 +6,11 @@ configs/keys.ini
 venv
 .idea
 *.sh
+!scripts/
+!scripts/*.sh
 .vscode/
 __pycache__/
 CLAUDE.md
 AGENTS.md
+.local_site/
+.local_pages_worktree/

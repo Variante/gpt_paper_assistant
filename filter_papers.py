@@ -48,7 +48,15 @@ def call_chatgpt(
     return openai_client.chat.completions.create(**create_kwargs)
 
 
-def _local_llm_kwargs() -> dict:
+def _local_llm_kwargs(config: configparser.ConfigParser, *, title_filter: bool = False) -> dict:
+    request_style = config["SELECTION"].get("local_llm_request_style", "vllm").strip().lower()
+    if request_style in {"openai", "gpt", "codex"}:
+        option = "title_filter_reasoning_effort" if title_filter else "local_llm_reasoning_effort"
+        effort = config["SELECTION"].get(option, "").strip()
+        if effort:
+            return {"extra_body": {"reasoning_effort": effort}}
+        return {}
+
     return {
         "temperature": 1.0,
         "top_p": 0.95,
@@ -67,6 +75,14 @@ def _request_workers(config: configparser.ConfigParser) -> int:
     except (TypeError, ValueError):
         workers = 1
     return max(1, workers)
+
+
+def _title_filter_batch_size(config: configparser.ConfigParser) -> int:
+    try:
+        batch_size = int(config["SELECTION"].get("title_filter_batch_size", "20"))
+    except (TypeError, ValueError):
+        batch_size = 20
+    return max(1, batch_size)
 
 
 def _batched(items: list[Paper], batch_size: int):
@@ -93,7 +109,7 @@ def run_and_parse_chatgpt(
     config: configparser.ConfigParser,
 ) -> tuple[list[dict], float]:
     use_local = config["SELECTION"].getboolean("use_local_llm")
-    kwargs = _local_llm_kwargs() if use_local else {}
+    kwargs = _local_llm_kwargs(config) if use_local else {}
     completion = call_chatgpt(full_prompt, openai_client, config["SELECTION"]["model"], **kwargs)
 
     out_text = completion.choices[0].message.content or ""
@@ -120,7 +136,8 @@ def filter_papers_by_title(
     base_prompt: str,
     criterion: str,
 ) -> tuple[list[Paper], float]:
-    batches = list(_batched(papers, 20))
+    title_batch_size = _title_filter_batch_size(config)
+    batches = list(_batched(papers, title_batch_size))
     if not batches:
         return [], 0.0
 
@@ -128,10 +145,10 @@ def filter_papers_by_title(
     model = config["SELECTION"]["model"]
     debug_messages = config["OUTPUT"].getboolean("debug_messages")
     use_local = config["SELECTION"].getboolean("use_local_llm")
-    kwargs = _local_llm_kwargs() if use_local else {}
+    kwargs = _local_llm_kwargs(config, title_filter=True) if use_local else {}
     workers = min(_request_workers(config), len(batches))
     if debug_messages:
-        print(f"Title filtering workers: {workers}")
+        print(f"Title filtering workers: {workers}; batch size: {title_batch_size}")
 
     def run_title_batch(batch: list[Paper]) -> tuple[list[Paper], float]:
         papers_string = "".join(_paper_to_title(paper) for paper in batch)
