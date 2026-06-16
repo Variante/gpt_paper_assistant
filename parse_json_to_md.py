@@ -3,8 +3,27 @@ import random
 from datetime import datetime
 import re
 
-link_prefix = 'user-content-'
+link_prefix = ''
 topic_shift = 1000
+_ABSTRACT_PREFIX_RE = re.compile(r"^arXiv:[^ ]+\s+Announce Type:\s+[^ ]+\s+Abstract:\s*", re.IGNORECASE)
+
+
+def clean_abstract(abstract: str) -> str:
+    return _ABSTRACT_PREFIX_RE.sub("", abstract or "").strip()
+
+
+def slugify(value: str) -> str:
+    cleaned = re.sub(r"[^a-zA-Z0-9 -]", "", value)
+    cleaned = re.sub(r"\s+", "-", cleaned.strip()).lower()
+    return re.sub(r"-+", "-", cleaned).strip("-")
+
+
+def paper_anchor(title: str, idx: int) -> str:
+    return slugify(f"{idx} {title}")
+
+
+def topic_anchor(topic: str) -> str:
+    return slugify(topic)
 
 
 def format_authors(authors: list) -> str:
@@ -27,10 +46,11 @@ def render_paper(paper_entry: dict, idx: int) -> str:
     arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
     arxiv_pdf_url = f"https://arxiv.org/pdf/{arxiv_id}.pdf"
     # get the abstract
-    abstract = paper_entry["abstract"]
+    abstract = clean_abstract(paper_entry["abstract"])
     # get the authors
     authors = paper_entry["authors"]
-    paper_string = f'### {idx}\. [{title}]({arxiv_url})\n'
+    anchor = paper_anchor(title, idx)
+    paper_string = f'<a id="{anchor}"></a>\n\n### {idx}\\. [{title}]({arxiv_url})\n'
     paper_string += f"**ArXiv:** {arxiv_id} [[page]({arxiv_url})] [[pdf]({arxiv_pdf_url})]\n\n"
     paper_string += f'**Authors:** {format_authors(authors)}\n\n'
     paper_string += f"**Abstract:** {abstract}\n\n"
@@ -54,13 +74,8 @@ def render_title_and_author(paper_entry: dict, idx: int) -> str:
     arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
     authors = paper_entry["authors"]
     
-    raw_title_url = f'{idx} {title}'
-    # Keep only English letters, numbers, and spaces
-    cleaned = re.sub(r'[^a-zA-Z0-9 -]', '', raw_title_url)
-    
-    # Replace spaces with dashes
-    cleaned = cleaned.replace(' ', '-').lower()
-    paper_string = f'{idx}\. [{title}]({arxiv_url}) [[more](#{link_prefix}{cleaned})] \\\n'
+    anchor = paper_anchor(title, idx)
+    paper_string = f'{idx}\\. [{title}]({arxiv_url}) [[more](#{link_prefix}{anchor})]  \n'
     paper_string += f'**Authors:** {format_authors(authors)}\n'
     return paper_string
 
@@ -87,8 +102,9 @@ def extract_criterion_from_paper(paper_entry: dict) -> int:
     else:
         return 0 # not sure
 
-def render_md_paper_title_by_topic(topic, paper_in_topic: list[str]) -> str: 
-    return f"### {topic}\n" +  "\n".join(paper_in_topic) + f"\n\nBack to [[top](#{link_prefix}topics)]\n\n---\n"
+def render_md_paper_title_by_topic(topic, paper_in_topic: list[str]) -> str:
+    anchor = topic_anchor(topic)
+    return f'<a id="{anchor}"></a>\n\n### {topic}\n' + "\n".join(paper_in_topic) + f"\n\nBack to [[top](#{link_prefix}topics)]\n\n---\n"
         
 
 def render_md_string(papers_dict):
@@ -120,7 +136,7 @@ def render_md_string(papers_dict):
         + "\n\nThis project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)\n\n"
         + "About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:\n\n"
         + f"""<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji={random_emoji}&slug=Variante&button_colour={generate_background_for_white_foreground()}&font_colour=ffffff&font_family={random_font}&outline_colour=000000&coffee_colour=FFDD00" /></a>\n"""
-        + "\n\n## Topics\n\nPaper selection prompt and criteria (jump to the section by clicking the link):\n\n"
+        + "\n\n<a id=\"topics\"></a>\n\n## Topics\n\nPaper selection prompt and criteria (jump to the section by clicking the link):\n\n"
         + criteria_string
         + "\n---\n"
         # + "## All\n Total relevant papers: "

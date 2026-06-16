@@ -11,6 +11,7 @@ import feedparser
 
 _HTML_TAG_RE = re.compile(r"<[^<]+?>")
 _TITLE_SUFFIX_RE = re.compile(r"\(arXiv:[0-9]+\.[0-9]+v[0-9]+ \[.*\]\)$")
+_SUMMARY_PREFIX_RE = re.compile(r"^arXiv:[^ ]+\s+Announce Type:\s+[^ ]+\s+Abstract:\s*", re.IGNORECASE)
 
 
 class EnhancedJSONEncoder(json.JSONEncoder):
@@ -34,6 +35,10 @@ class Paper:
 def _clean_text(value: str) -> str:
     no_html = _HTML_TAG_RE.sub("", value or "")
     return unescape(no_html.replace("\n", " ")).strip()
+
+
+def _clean_abstract(value: str) -> str:
+    return _SUMMARY_PREFIX_RE.sub("", _clean_text(value)).strip()
 
 
 def _debug_enabled(config: Optional[dict[str, dict[str, str]]]) -> bool:
@@ -83,7 +88,7 @@ def get_papers_from_arxiv_rss(area: str, config: Optional[dict[str, dict[str, st
         paper = Paper(
             authors=authors,
             title=title,
-            abstract=_clean_text(entry.get("summary", "")),
+            abstract=_clean_abstract(entry.get("summary", "")),
             arxiv_id=entry.get("link", "").split("/")[-1],
         )
         papers.append(paper)
