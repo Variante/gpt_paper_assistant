@@ -2,13 +2,13 @@
 title: Arxiv Daily
 ---
 
-# Personalized Daily Arxiv Papers 06/16/2026
+# Personalized Daily Arxiv Papers 06/17/2026
 
 This project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)
 
 About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:
 
-<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=🥡&slug=Variante&button_colour=4a3f55&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=💘&slug=Variante&button_colour=7c2f76&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 <a id="topics"></a>
@@ -42,68 +42,47 @@ Paper selection prompt and criteria (jump to the section by clicking the link):
 <a id="topic-1"></a>
 
 ### Topic 1
-1000\. [X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining](https://arxiv.org/abs/2606.14752) [[more](#1000-x-tokenizer-a-multimodal-action-tokenizer-for-vision-language-action-pretraining)]  
-**Authors:** Xirui Kang, Yanpei Shi, Lucy Liang, Roy Gan, Dongxiu Liu, Pushi Zhang, Danpeng Chen, Xiaoyi Qin, Yinan Zheng, Jinliang Zheng, Hao Wang, Xianyuan Zhan, Hang Su
+1000\. [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598) [[more](#1000-musevla-an-adaptive-multimodal-sensing-vision-language-action-model-for-robotic-manipulation)]  
+**Authors:** Xingyuming Liu, Ruichun Ma, Heyu Guo, Qixiu Li, Qingwen Yang, Lin Luo, Shiqi Jiang, Chenren Xu, Jiaolong Yang, Baining Guo
 
-1003\. [Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation](https://arxiv.org/abs/2606.17030) [[more](#1003-qwen-robotworld-technical-report-unifying-embodied-world-modeling-through-language-conditioned-video-generation)]  
-**Authors:** Jie Zhang, Xiaoyue Chen, Anzhe Chen, Chenxu Lv, Deqing Li, Gengze Zhou, Hang Yin, Haoqi Yuan, Haoyang Li, Jiahao Li, Jiazhao Zhang, Jingren Zhou, Kaiyuan Gao, Kun Yan, Lihan Jiang, Ningyuan Tang, Pei Lin, Qihang Peng, Shengming Yin, Tianhe Wu, Tianyi Yan, Xiao Xu, Yan Shu, Yanran Zhang, Ye Wang, Yi Wang, Yilei Chen, Yixian Xu, Yiyang Huang, Yuxiang Chen, Zekai Zhang, Zhendong Wang, Zhixing Lei, Zhixuan Liang, Zihao Liu, Zikai Zhou, Xiong-Hui Chen, Chenfei Wu
+1001\. [Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models](https://arxiv.org/abs/2606.17846) [[more](#1001-qwen-robotmanip-technical-report-alignment-unlocks-scale-for-robotic-manipulation-foundation-models)]  
+**Authors:** Haoqi Yuan, Zhixuan Liang, Anzhe Chen, Ye Wang, Haoyang Li, Pei Lin, Yiyang Huang, Zixing Lei, Tong Zhang, Jiazhao Zhang, Jie Zhang, Jingyang Fan, Gengze Zhou, Qihang Peng, Chenxu Lv, Xiaoyue Chen, An Yang, Fei Huang, Junyang Lin, Dayiheng Liu, Jingren Zhou, Chenfei Wu, Xiong-Hui Chen
 
-1004\. [$\mu_0$: A Scalable 3D Interaction-Trace World Model](https://arxiv.org/abs/2606.13769) [[more](#1004-mu0-a-scalable-3d-interaction-trace-world-model)]  
-**Authors:** Seungjae Lee, Yoonkyo Jung, Jusuk Lee, Jonghun Shin, Amir Hossein Shahidzadeh, Yao-Chih Lee, H. Jin Kim, Jia-Bin Huang, Furong Huang
+1002\. [ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation](https://arxiv.org/abs/2606.17937) [[more](#1002-thinkingvla-interleaved-vision-and-language-reasoning-for-robotic-manipulation)]  
+**Authors:** Tianyi Lu, Hui Zhang, Zijie Diao, Junke Wang, Shengqi Xu, Xingyao Lin, Guojin Zhong, Ziyi Ye, Peng Wang, Zuxuan Wu, Yu-Gang Jiang
 
-1005\. [PhysVLA: Towards Physically-Grounded VLA for Embodied Robotic Manipulation](https://arxiv.org/abs/2606.13886) [[more](#1005-physvla-towards-physically-grounded-vla-for-embodied-robotic-manipulation)]  
-**Authors:** Namai Chandra, Shriram Damodaran, Lin Wang
+1003\. [LAGO Policy: Latency-Aware Asynchronous Diffusion Policies with Goal-Directed Collision-Free Planning for Smooth Manipulation](https://arxiv.org/abs/2606.17982) [[more](#1003-lago-policy-latency-aware-asynchronous-diffusion-policies-with-goal-directed-collision-free-planning-for-smooth-manipulation)]  
+**Authors:** Guowei Shi, Xupeng Xie, Yiming Luo, Jian Guo, Jun Ma, Boyu Zhou
 
-1006\. [Self-Improving VLA Policies: Selected Diffusion Noise for Spurious-Robust Action Smoothing](https://arxiv.org/abs/2606.14084) [[more](#1006-self-improving-vla-policies-selected-diffusion-noise-for-spurious-robust-action-smoothing)]  
-**Authors:** Duc Minh Nguyen, Bao-Ngoc Dao, Tung M. Luu, Binh Gia Nguyen, Vinh Tong, Anji Liu, Vu N. Duong, Dung D. Le, Daniel Sonntag, Trung Le, Ngan Le, Jan Peter, An Thai Le, Minh Nhat Vu, Mathias Niepert, Khoa D. Doan, Duy M. H. Nguyen, Vien Anh Ngo
+1004\. [ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining](https://arxiv.org/abs/2606.17200) [[more](#1004-ace-ego-0-unifying-egocentric-human-and-robotic-data-for-vla-pretraining)]  
+**Authors:** Hao Li, Ganlong Zhao, Yufei Liu, Haotian Hou, Guoquan Ye, Tongyan Fang, Chunxiao Liu, Siyuan Huang, Jianbo Liu, Xiaogang Wang, Hongsheng Li
 
-1007\. [ReactVLA: Fast and Lightweight Reactive Robot Manipulation via Improved Mean Flow Action Generation](https://arxiv.org/abs/2606.14255) [[more](#1007-reactvla-fast-and-lightweight-reactive-robot-manipulation-via-improved-mean-flow-action-generation)]  
-**Authors:** Yanzhao Guo, Wenkai Chen, Jianwei Zhang
+1006\. [WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation](https://arxiv.org/abs/2606.17463) [[more](#1006-weavela-event-driven-cross-subtask-latent-memory-weaving-for-repetitive-robot-manipulation)]  
+**Authors:** Shoujing Zhu, Zhenyang Liu, Fungmiu Wang, Jiafeng Wang, Bo Yue, Guiliang Liu, Simo Wu, Xiangyang Xue, Taiping Zeng
 
-1008\. [Spatially Conditioned Diffusion Policy: Learning Precise and Robust Manipulation with a Single RGB Camera](https://arxiv.org/abs/2606.14535) [[more](#1008-spatially-conditioned-diffusion-policy-learning-precise-and-robust-manipulation-with-a-single-rgb-camera)]  
-**Authors:** Seoyoon Kim, Kanghyun Kim, Dongwoo Ko, Yeong Jin Heo, Min Jun Kim
+1008\. [WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT](https://arxiv.org/abs/2606.17906) [[more](#1008-wam-rl-world-action-model-reinforcement-learning-with-reconstruction-rewards-and-online-video-sft)]  
+**Authors:** Zezhong Qian, Xiaowei Chi, Yu Qi, Haozhan Li, Zhi Yang Chen, Shanghang Zhang
 
-1009\. [Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models](https://arxiv.org/abs/2606.15099) [[more](#1009-think-less-act-early-reinforced-latent-reasoning-with-early-exit-in-vision-language-action-models)]  
-**Authors:** Dianqiao Lei, Lianlei Shan
+1009\. [PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space](https://arxiv.org/abs/2606.17924) [[more](#1009-pearlvla-progressive-embodied-action-plan-refinement-in-latent-space)]  
+**Authors:** Bochen Yang, Lianlei Shan
 
-1012\. [QPILOTS: Efficient Test-Time Q-Steering for Flow Policies](https://arxiv.org/abs/2606.14801) [[more](#1012-qpilots-efficient-test-time-q-steering-for-flow-policies)]  
-**Authors:** Yifan Ruan, Chenyang Cao, Andreas Burger, Ali Pesaranghader, Kaveh Kamali, Jaehong Kim, Nandita Vijaykumar, Alan Aspuru-Guzik, Igor Gilitschenski, Nicholas Rhinehart
+1010\. [Kolmogorov Regression for Robust Diffusion Policies](https://arxiv.org/abs/2606.18186) [[more](#1010-kolmogorov-regression-for-robust-diffusion-policies)]  
+**Authors:** Lekan Molu
 
-1013\. [FlowMPC: Improving Flow Matching policies with World Models](https://arxiv.org/abs/2606.16286) [[more](#1013-flowmpc-improving-flow-matching-policies-with-world-models)]  
-**Authors:** Chandon Hamel
+1011\. [Where Should Action Generation Begin? A Learnable Source Prior for Generative Robot Policies](https://arxiv.org/abs/2606.17408) [[more](#1011-where-should-action-generation-begin-a-learnable-source-prior-for-generative-robot-policies)]  
+**Authors:** Meipo Dai, Qiyuan Zhuang, He-Yang Xu, Ying-Jie Shuai, Yijun Wang, Qi Dou, Xiu-Shen Wei
 
-1014\. [Elastic Queries Reinforcement Learning: Self-Aware Policy Execution for VLA Models](https://arxiv.org/abs/2606.14375) [[more](#1014-elastic-queries-reinforcement-learning-self-aware-policy-execution-for-vla-models)]  
-**Authors:** Ge Wang, Xinyu Tan, Xiang Li, Man Luo, Chengsi Yao, Shenhao Yan, Jiahao Yang, Fan Feng, Honghao Cai, Xiangyuan Wang, Zhixin Mai, Yiming Zhao, Yatong Han, Zhen Li
+1014\. [Uncertainty Quantification for Flow-Based Vision-Language-Action Models](https://arxiv.org/abs/2606.18043) [[more](#1014-uncertainty-quantification-for-flow-based-vision-language-action-models)]  
+**Authors:** Ralf R\"omer, Maximilian Seeliger, Saida Liu, Ben Sturgis, Marco Bagatella, Daniel Marta, Andreas Krause, Angela P. Schoellig
 
-1017\. [EgoPhys: Learning Generalizable Physics Models of Deformable Objects from Egocentric Video](https://arxiv.org/abs/2606.16202) [[more](#1017-egophys-learning-generalizable-physics-models-of-deformable-objects-from-egocentric-video)]  
-**Authors:** Hyunjin Kim, Ri-Zhao Qiu, Guangqi Jiang, Xiaolong Wang
+1016\. [AnnotateAnything: Automatic Annotation of 3D Assets for Robot Manipulation](https://arxiv.org/abs/2606.17446) [[more](#1016-annotateanything-automatic-annotation-of-3d-assets-for-robot-manipulation)]  
+**Authors:** Haoran Lu, Mutian Shen, Shuyang Yu, Yu Xiao, Songling Liu, Jianshu Zhang, Shang Wu, Yue Chen, Guo Ye, Jiayi Wang, Zhaoran Wang, Han Liu
 
-1018\. [Decoupled Object-Centric Video Understanding for Generating Robotic Manipulation Commands](https://arxiv.org/abs/2606.16470) [[more](#1018-decoupled-object-centric-video-understanding-for-generating-robotic-manipulation-commands)]  
-**Authors:** Thanh Nguyen Canh, Thanh-Tuan Tran, Haolan Zhang, Ziyan Gao, Xiem HoangVan, Nak Young Chong
+1018\. [GeneralVLA-2: Geometry-Aware Reconstruction and Governed Memory for Robot Planning](https://arxiv.org/abs/2606.17480) [[more](#1018-generalvla-2-geometry-aware-reconstruction-and-governed-memory-for-robot-planning)]  
+**Authors:** Haoyu Wang, Guoqing Ma, Zeyu Zhang, Yandong Guo, Boxin Shi, Hao Tang
 
-1019\. [Output-Level Regularization Eliminates the Seed Lottery in Single-GPU VLA Fine-Tuning](https://arxiv.org/abs/2606.13856) [[more](#1019-output-level-regularization-eliminates-the-seed-lottery-in-single-gpu-vla-fine-tuning)]  
-**Authors:** Jeffrin Sam, Dzmitry Tsetserukou
-
-1020\. [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409) [[more](#1020-hy-embodied-05-vla-from-vision-language-action-models-to-a-real-world-robot-learning-stack)]  
-**Authors:** He Zhang, Lingzhu Xiang, Haitao Lin, Zeyu Huang, Minghui Wang, Dingyan Zhong, Yubo Dong, Yihao Wu, Yongming Rao, Dongsheng Zhang, Wanjia He, Ling Chen, Kai Huang, Jiahao Chen, Sichang Su, Xumin Yu, Ziyi Wang, Chengwei Zhu, Xiao Teng, Yuchun Guo, Yufeng Zhang, Yuandong Liu, Rui Wang, Zisheng Lu, Han Hu, Zhengyou Zhang
-
-1021\. [AERMANI-PLACE: Language Guided Object Placement with Aerial Manipulators](https://arxiv.org/abs/2606.14531) [[more](#1021-aermani-place-language-guided-object-placement-with-aerial-manipulators)]  
-**Authors:** Sarthak Mishra, Ritama Sanyal, Rishabh Dev Yadav, Wei Pan, Spandan Roy
-
-1026\. [Learned Image Compression for Vision-Language-Action Models](https://arxiv.org/abs/2606.16253) [[more](#1026-learned-image-compression-for-vision-language-action-models)]  
-**Authors:** Hyeonjun Kim, Jegwang Ryu, Sangbeom Ha, Junhyeok Lee, Jun-Hyuk Kim, Hyemin Ahn, Jaeho Lee
-
-1028\. [ContactWorld: What Matters in Vision-Tactile World Models for Contact-Rich Manipulation](https://arxiv.org/abs/2606.13877) [[more](#1028-contactworld-what-matters-in-vision-tactile-world-models-for-contact-rich-manipulation)]  
-**Authors:** Zhiyuan Zhang, Pokuang Zhou, Kaidi Zhang, Adeesh Desai, Temitope Amosa, Davood Soleymanzadeh, Jiuzhou Lei, Minghui Zheng, Yu She
-
-1029\. [Trust-Region Diffusion Policies for Massively Parallel On-Policy RL](https://arxiv.org/abs/2606.15260) [[more](#1029-trust-region-diffusion-policies-for-massively-parallel-on-policy-rl)]  
-**Authors:** Huy Le, Onur Celik, Denis Blessing, Tai Hoang, Claas A Voelcker, Axel Brunnbauer, Felix Richter, Michael Volpp, Gerhard Neumann
-
-1033\. [DiRecT: Safe Diffusion-Based Planning via Receding-Horizon Denoising](https://arxiv.org/abs/2606.15359) [[more](#1033-direct-safe-diffusion-based-planning-via-receding-horizon-denoising)]  
-**Authors:** Paolo Giaretta, Zeyang Li, Navid Azizan
-
-1035\. [Sensitivity Shaping for Latent Modeling](https://arxiv.org/abs/2606.14585) [[more](#1035-sensitivity-shaping-for-latent-modeling)]  
-**Authors:** Hongzhan Yu, Chenghao Li, Ruipeng Zhang, Henrik Christensen, Sicun Gao
+1019\. [Reversal Q-Learning](https://arxiv.org/abs/2606.17551) [[more](#1019-reversal-q-learning)]  
+**Authors:** Aditya Oberai, Seohong Park, Sergey Levine
 
 
 Back to [[top](#topics)]
@@ -112,20 +91,11 @@ Back to [[top](#topics)]
 <a id="topic-2"></a>
 
 ### Topic 2
-2002\. [You Don't Need Strong Assumptions: Visual Representation Learning via Temporal Differences](https://arxiv.org/abs/2606.15956) [[more](#2002-you-dont-need-strong-assumptions-visual-representation-learning-via-temporal-differences)]  
-**Authors:** Ninad Daithankar, Alexi Gladstone, Yann LeCun, Heng Ji
+2007\. [Expanding SPHERE-JEPA: A Family of Statistical Regularizers for the Hypersphere](https://arxiv.org/abs/2606.17603) [[more](#2007-expanding-sphere-jepa-a-family-of-statistical-regularizers-for-the-hypersphere)]  
+**Authors:** L\'eo Nicollier (CB, ATT), Enric Meinhardt-Llopis (CB), Max Dunitz (ATT), Marc Pic (ATT), Pablo Mus\'e (CB, IFUMI), Gabriele Facciolo (CB)
 
-2015\. [Momentum-Guided Semantic Forecasting (MoFore) for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2606.14765) [[more](#2015-momentum-guided-semantic-forecasting-mofore-for-self-supervised-video-representation-learning)]  
-**Authors:** Qinwu Xu
-
-2016\. [Selective Synergistic Learning for Video Object-Centric Learning](https://arxiv.org/abs/2606.15527) [[more](#2016-selective-synergistic-learning-for-video-object-centric-learning)]  
-**Authors:** WonJun Moon, Jae-Pil Heo
-
-2022\. [Learning Sparse Latent Predictive Foundation Model for Multimodal Neuroimaging](https://arxiv.org/abs/2606.14957) [[more](#2022-learning-sparse-latent-predictive-foundation-model-for-multimodal-neuroimaging)]  
-**Authors:** Haoxu Huang, Long Chen, Jingyun Chen, Jinu Hyun, James Ryan Loftus, Kara Melmed, Daniel Orringer, Jennifer Frontera, Seena Dehkharghani, Arjun Masurkar, Narges Razavian
-
-2030\. [EyeMVP: OCT-Informed Fundus Representation Learning via Paired CFP--OCT Pretraining](https://arxiv.org/abs/2606.15129) [[more](#2030-eyemvp-oct-informed-fundus-representation-learning-via-paired-cfp-oct-pretraining)]  
-**Authors:** Zhuo Deng, Ruiheng Zhang, Ziheng Zhang, Weihao Gao, Yitong Li, Qian Wang, Lei Shao, Jiaoyue Dong, Zhixi Zeng, Lijian Fang, Haibo Wang, Xiaobin Lin, Tao Liu, Zhicheng Du, Zhengwei Zhang, Lin Yang, Zheng Gong, Xinyu Zhao, Zhenquan Wu, Fang Li, Zhiguang Zhou, Guoming Zhang, Sun Jing, Han Lv, Wenbin We, Lan Ma
+2015\. [Contrastive Action-Image Pre-training for Visuomotor Control](https://arxiv.org/abs/2606.17256) [[more](#2015-contrastive-action-image-pre-training-for-visuomotor-control)]  
+**Authors:** Yuvan Sharma, Dantong Niu, Anirudh Pai, Zekai Wang, Zhuoyang Liu, Baifeng Shi, Stefano Saravalle, Boning Shao, Ruijie Zheng, Jing Wang, Konstantinos Kallidromitis, Yusuke Kato, Fabio Galasso, Yuke Zhu, Danfei Xu, Linxi "Jim" Fan, Jitendra Malik, Trevor Darrell, Roei Herzig
 
 
 Back to [[top](#topics)]
@@ -134,8 +104,6 @@ Back to [[top](#topics)]
 <a id="topic-3"></a>
 
 ### Topic 3
-3010\. [Open-World Video Segmentation](https://arxiv.org/abs/2606.15632) [[more](#3010-open-world-video-segmentation)]  
-**Authors:** Qing Su, Kaiyang Li, Yuan Zhuang, Fei Miao, Shihao Ji
 
 
 Back to [[top](#topics)]
@@ -144,11 +112,8 @@ Back to [[top](#topics)]
 <a id="topic-4"></a>
 
 ### Topic 4
-4023\. [From Frames to Temporal Graphs: In-Context Egocentric Action Recognition with Vision-Language Models](https://arxiv.org/abs/2606.15417) [[more](#4023-from-frames-to-temporal-graphs-in-context-egocentric-action-recognition-with-vision-language-models)]  
-**Authors:** Bessie Dominguez-Dager, Francisco Gomez-Donoso, Miguel Cazorla, Marc Pollefeys, Daniel Barath, Zuria Bauer
-
-4031\. [Decoupled Motion Representation Learning for Moving Infrared Small Target Detection](https://arxiv.org/abs/2606.15286) [[more](#4031-decoupled-motion-representation-learning-for-moving-infrared-small-target-detection)]  
-**Authors:** Guoyi Zhang, Peiwen Wu, Han Wang, Xiangpeng Xu, Xiaohu Zhang
+4020\. [Reasoning Text-to-Video Retrieval for Operating Room Clips via Action-Driven Digital Twins](https://arxiv.org/abs/2606.17298) [[more](#4020-reasoning-text-to-video-retrieval-for-operating-room-clips-via-action-driven-digital-twins)]  
+**Authors:** Yiqing Shen, Hao Ding, Mathias Unberath
 
 
 Back to [[top](#topics)]
@@ -157,6 +122,8 @@ Back to [[top](#topics)]
 <a id="topic-5"></a>
 
 ### Topic 5
+5012\. [ReAge3D: Re-Aging 3D Faces with View Consistency](https://arxiv.org/abs/2606.18156) [[more](#5012-reage3d-re-aging-3d-faces-with-view-consistency)]  
+**Authors:** Libing Zeng, Li Ma, Mingming He, Ning Yu, Paul Debevec, Nima Khademi Kalantari
 
 
 Back to [[top](#topics)]
@@ -165,26 +132,14 @@ Back to [[top](#topics)]
 <a id="topic-6"></a>
 
 ### Topic 6
-6001\. [High-Fidelity 4D Hand-Object Capture via Multi-View Spatiotemporal Tracking and Physics-Aware Gaussians](https://arxiv.org/abs/2606.15908) [[more](#6001-high-fidelity-4d-hand-object-capture-via-multi-view-spatiotemporal-tracking-and-physics-aware-gaussians)]  
-**Authors:** Bo Peng, Xu Chen, Yi Gu, Hidenobu Matsuki, Mingsong Dou, Jingjing Shen, Deying Kong, Juyong Zhang, Zhengyang Shen
+6005\. [MoonSplat: Monocular Online Gaussian Splatting with Sim(3) Global Optimization](https://arxiv.org/abs/2606.17935) [[more](#6005-moonsplat-monocular-online-gaussian-splatting-with-sim3-global-optimization)]  
+**Authors:** Guo Pu, Yixuan Han, Haofeng Li, Yao Zhang, Hui Zhou, Zhouhui Lian
 
-6011\. [TurboGS: Accelerating 3D Gaussian Splatting via Error-Guided Sparse Pixel Sampling and Optimization](https://arxiv.org/abs/2606.15924) [[more](#6011-turbogs-accelerating-3d-gaussian-splatting-via-error-guided-sparse-pixel-sampling-and-optimization)]  
-**Authors:** Zheng Dong, Daifei Qiu, Pinxuan Dai, Ke Xu, Jiamin Xu, Lili He, Rynson W. H. Lau, Weiwei Xu
+6013\. [Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion](https://arxiv.org/abs/2606.18250) [[more](#6013-future-dynamic-3d-reconstruction-a-3d-world-model-with-disentangled-ego-motion)]  
+**Authors:** Nils Morbitzer, Jonathan Evers, Artem Savkin, Thomas Stauner, Nassir Navab, Federico Tombari, Stefano Gasperini
 
-6024\. [SpatialAvatar-0: High-Quality 4D Head Avatar with Multi-Stage Reconstruction](https://arxiv.org/abs/2606.15659) [[more](#6024-spatialavatar-0-high-quality-4d-head-avatar-with-multi-stage-reconstruction)]  
-**Authors:** Yiran Wang, Zeyu Zhang, Yuanming Li, Ziming Wang, Yang Zhao
-
-6025\. [EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units](https://arxiv.org/abs/2606.15848) [[more](#6025-emozone-talker-regional-semantic-control-of-audio-driven-3dgs-talking-heads-via-facial-action-units)]  
-**Authors:** Tingting Chen, Shaojun Wang, Huaye Zhang, Diqiong Jiang, Chenglizhao Chen
-
-6027\. [VEPHand: View-Efficient Photometric Hand Performance Capture at Scale](https://arxiv.org/abs/2606.15966) [[more](#6027-vephand-view-efficient-photometric-hand-performance-capture-at-scale)]  
-**Authors:** Zhengyang Shen, Kai-Hung Chang, Erroll Wood, Deying Kong, Bo Peng, Timo Bolkart, Jinlong Yang, Bowen Zhao, Danhang Tang, Sasa Petrovic, Emre Aksan, J\'er\'emy Riviere, Vassilis Choutas, Delio Vicini, Jay Busch, Shichen Liu, Zhe Cao, Hugh Liu, JingJing Shen, Jonathan Taylor, Mingsong Dou
-
-6032\. [Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset](https://arxiv.org/abs/2606.16479) [[more](#6032-uncertainty-quality-of-vggt-an-analysis-on-the-dtu-benchmark-dataset)]  
-**Authors:** Markus Hillemann, Robert Langend\"orfer, Steven Landgraf, Markus Ulrich
-
-6034\. [SplatlessDF: Continuous Distance Field Mapping with Non-Splatting Gaussians](https://arxiv.org/abs/2606.13990) [[more](#6034-splatlessdf-continuous-distance-field-mapping-with-non-splatting-gaussians)]  
-**Authors:** Monisha Mushtary Uttsha, Lan Wu, Teresa Vidal-Calleja
+6017\. [GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments](https://arxiv.org/abs/2606.17520) [[more](#6017-gase-gaussian-splatting-based-automated-system-for-reconstructing-embodied-simulation-environments)]  
+**Authors:** Jiawei Zhang, Yiming Yan, Chao Liang, Nuo Xu, Seson Sun, Qichen Zhang, Yuhao Xu, Yantai Yang, Yingqiao Wang, Qin Jin, Zhipeng Zhang
 
 
 Back to [[top](#topics)]
@@ -199,510 +154,300 @@ Back to [[top](#topics)]
 
 ---
 ## Full paper list
- <a id="1000-x-tokenizer-a-multimodal-action-tokenizer-for-vision-language-action-pretraining"></a>
+ <a id="1000-musevla-an-adaptive-multimodal-sensing-vision-language-action-model-for-robotic-manipulation"></a>
 
-### 1000\. [X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining](https://arxiv.org/abs/2606.14752)
-**ArXiv:** 2606.14752 [[page](https://arxiv.org/abs/2606.14752)] [[pdf](https://arxiv.org/pdf/2606.14752.pdf)]
+### 1000\. [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598)
+**ArXiv:** 2606.17598 [[page](https://arxiv.org/abs/2606.17598)] [[pdf](https://arxiv.org/pdf/2606.17598.pdf)]
 
-**Authors:** Xirui Kang, Yanpei Shi, Lucy Liang, Roy Gan, Dongxiu Liu, Pushi Zhang, Danpeng Chen, Xiaoyi Qin, Yinan Zheng, Jinliang Zheng, Hao Wang, Xianyuan Zhan, Hang Su
+**Authors:** Xingyuming Liu, Ruichun Ma, Heyu Guo, Qixiu Li, Qingwen Yang, Lin Luo, Shiqi Jiang, Chenren Xu, Jiaolong Yang, Baining Guo
 
-**Abstract:** Modern Vision-Language-Action (VLA) models must bridge pretrained vision-language reasoning and precise continuous robot control. Existing action tokenizers discretize actions primarily for reconstruction, producing codes that preserve motion geometry but provide only weak semantic supervision to the backbone. We therefore formulate action tokenization not as mere compression, but as semantic interface learning between multimodal reasoning and executable control. To this end, we introduce X-Tokenizer, a lightweight encoder-Semantic Residual Quantization (SRQ)-decoder architecture that provides a shared action interface across diverse robotic arm embodiments. Its key component, SRQ, imposes an asymmetric structure on residual vector quantization: the first level is trained with Masked Action Modeling (MAM) to form a discrete action language that captures coarse motion intent, while deeper levels remain reconstruction-oriented residuals that preserve fine-grained details. To further align action tokens with multimodal semantics, X-Tokenizer is pretrained with contrastive alignment to the representation space of a pretrained foundation model and with next-frame vision-language feature prediction. Pretrained on 2.4M trajectories (2.0B action frames), a single frozen X-Tokenizer plugs into a mixed discrete-continuous VLA as a representation-shaping supervision signal. X-Tokenizer achieves top real-world aggregate and strong RoboTwin 2.0 simulation results. Outperforming FAST in multimodal grounding (+13.5%) and long-horizon tasks (+8.25), it shows that action tokenizers serve as semantic interfaces for VLA pretraining beyond mere action compression.
+**Abstract:** Humans naturally leverage diverse sensing modalities to interact with the physical world, while most Vision-Language-Action (VLA) models for robotics rely solely on RGB observations. This limits their ability to perceive physical properties that are difficult or impossible to infer from RGB cameras, such as temperature, sound, or radar response. We present MuseVLA, an adaptive multimodal sensing VLA model that integrates novel sensors as on-demand tools for robotic manipulation. Given a task instruction and visual context, MuseVLA first generates a sensor token and target description that select the sensing modality to invoke and what to attend to, analogous to a tool call with arguments. It then converts the selected sensor measurement into a grounded sensor image, a unified intermediate representation that encodes heterogeneous readings for multimodal fusion and action generation. This design decouples sensor-specific processing from the VLA backbone, enabling efficient integration of diverse modalities. To reduce the need for expensive multisensory robot datasets, we further introduce a data synthesis pipeline that augments existing RGB video datasets with grounded sensor images, enabling generalization to unseen sensor-guided tasks. We evaluate MuseVLA on a real-world robot across challenging dexterous hand manipulation tasks that require multimodal sensing inputs, including temperature-guided pick-and-place, audio-driven object search, and radar-assisted hidden object retrieval. MuseVLA achieves 80.6% success rate on average, outperforming RGB-only and multisensory VLA baselines significantly, and exhibits strong zero-shot capabilities on unseen tasks.
 
-**Comment:** Matches criterion 1: X-Tokenizer introduces Semantic Residual Quantization with Masked Action Modeling for VLA pretraining on 2.4M robot trajectories and reports strong real-world and RoboTwin 2.0 manipulation results.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1003-qwen-robotworld-technical-report-unifying-embodied-world-modeling-through-language-conditioned-video-generation"></a>
-
-### 1003\. [Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation](https://arxiv.org/abs/2606.17030)
-**ArXiv:** 2606.17030 [[page](https://arxiv.org/abs/2606.17030)] [[pdf](https://arxiv.org/pdf/2606.17030.pdf)]
-
-**Authors:** Jie Zhang, Xiaoyue Chen, Anzhe Chen, Chenxu Lv, Deqing Li, Gengze Zhou, Hang Yin, Haoqi Yuan, Haoyang Li, Jiahao Li, Jiazhao Zhang, Jingren Zhou, Kaiyuan Gao, Kun Yan, Lihan Jiang, Ningyuan Tang, Pei Lin, Qihang Peng, Shengming Yin, Tianhe Wu, Tianyi Yan, Xiao Xu, Yan Shu, Yanran Zhang, Ye Wang, Yi Wang, Yilei Chen, Yixian Xu, Yiyang Huang, Yuxiang Chen, Zekai Zhang, Zhendong Wang, Zhixing Lei, Zhixuan Liang, Zihao Liu, Zikai Zhou, Xiong-Hui Chen, Chenfei Wu
-
-**Abstract:** We introduce Qwen-RobotWorld, a language-conditioned video world model for embodied intelligence. With natural language as a unified action interface, it predicts physically grounded future visual trajectories from current observations across robotic manipulation, autonomous driving, indoor navigation, and human-to-robot transfer. This unified formulation provides three promising application directions: synthetic data generation for policy training augmentation, scalable virtual environments for policy evaluation, and language-guided planning signals for downstream robot control. This is achieved through a three-part design: a) Double-Stream MMDiT with MLLM Action Encoding, where a 60-layer double-stream diffusion transformer couples frozen Qwen2.5-VL semantics with video-VAE latents through layer-wise joint attention; b) Embodied World Knowledge (EWK), an 8.6M video-text corpus (200M+ frames) with action-language mapping over 20+ embodiments and 500+ action categories; and c) General+Expert Progressive Curriculum, a two-stage training strategy that first learns general visual priors and then injects embodied specialization under a shared language interface. Extensive results show strong competitiveness: ranks 1st overall on EWMBench and DreamGen Bench, outperforms all open-source models on WorldModelBench and PBench. Additional zero-shot analyses on RoboTwin-IF benchmark further support robust generalization and multi-view consistency.
-
-**Comment:** Criterion 1: Qwen-RobotWorld is a language-conditioned diffusion video world model for embodied intelligence that couples Qwen2.5-VL semantics with video-VAE latents and reports top results on EWMBench, DreamGen Bench, WorldModelBench, and zero-shot RoboTwin-IF.
+**Comment:** Criterion 1: MuseVLA is a Vision-Language-Action model for robotic manipulation that invokes multimodal sensors via sensor tokens and achieves an 80.6% real-robot success rate on temperature-guided pick-and-place, audio-driven search, and radar-assisted retrieval.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1004-mu0-a-scalable-3d-interaction-trace-world-model"></a>
+<a id="1001-qwen-robotmanip-technical-report-alignment-unlocks-scale-for-robotic-manipulation-foundation-models"></a>
 
-### 1004\. [$\mu_0$: A Scalable 3D Interaction-Trace World Model](https://arxiv.org/abs/2606.13769)
-**ArXiv:** 2606.13769 [[page](https://arxiv.org/abs/2606.13769)] [[pdf](https://arxiv.org/pdf/2606.13769.pdf)]
+### 1001\. [Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models](https://arxiv.org/abs/2606.17846)
+**ArXiv:** 2606.17846 [[page](https://arxiv.org/abs/2606.17846)] [[pdf](https://arxiv.org/pdf/2606.17846.pdf)]
 
-**Authors:** Seungjae Lee, Yoonkyo Jung, Jusuk Lee, Jonghun Shin, Amir Hossein Shahidzadeh, Yao-Chih Lee, H. Jin Kim, Jia-Bin Huang, Furong Huang
+**Authors:** Haoqi Yuan, Zhixuan Liang, Anzhe Chen, Ye Wang, Haoyang Li, Pei Lin, Yiyang Huang, Zixing Lei, Tong Zhang, Jiazhao Zhang, Jie Zhang, Jingyang Fan, Gengze Zhou, Qihang Peng, Chenxu Lv, Xiaoyue Chen, An Yang, Fei Huang, Junyang Lin, Dayiheng Liu, Jingren Zhou, Chenfei Wu, Xiong-Hui Chen
 
-**Abstract:** World models that capture how actions induce physical change enable scalable robot learning without reliance on embodiment-specific action labels. Pixel-space video models provide broad visual priors but expend model capacity on dense appearance reconstruction, while direct action models require embodiment-specific labels that hinder scalability. We present $\mu_0$, a scalable world model based on 3D traces. Rather than predicting dense pixels or directly modeling actions, $\mu_0$ forecasts smooth 3D trajectories for salient interaction points such as objects, tools, hands, and contact regions, yielding a compact, embodiment-agnostic motion interface. To enable training from diverse video sources, our TraceExtract system automatically extracts 3D supervision by selecting keypoints, constructing globally aligned traces, and associating motion segments with hierarchical language captions. This TraceExtract supervision pretrains $\mu_0$ by combining a pretrained vision-language backbone with a modular trace expert, which represents each query via B-spline control points and predicts future traces. Experiments show that $\mu_0$ outperforms baselines in both 2D and 3D trace prediction, including trace prediction models and tokenized VLM methods. Because $\mu_0$ is frozen and reusable, it can be paired with action experts for downstream robot embodiments. Despite action-free pretraining, the resulting trace-conditioned policies achieve performance competitive with VLA models pretrained with action supervision, such as $\pi_0$. These results establish 3D traces as a scalable and transferable representation for cross-embodiment manipulation.
+**Abstract:** Foundation models in language and multimodality achieve strong generalization by aligning heterogeneous data under a unified formulation and training at scale. In this report, we investigate whether this scaling recipe can be applied to robotic manipulation to achieve genuine generalization. This is challenging because, unlike text, manipulation data is heterogeneous by nature, expensive to collect, and narrow in diversity, making alignment and scale simultaneously difficult. We present Qwen-RobotManip, a generalizable Vision-Language-Action foundation model built on Qwen-VL. Qwen-RobotManip introduces a unified alignment framework across the representation, motion, and behavioral dimensions of manipulation, making large-scale multi-source training coherent rather than conflicting. This alignment capability in turn enables Qwen-RobotManip to absorb manipulation data at a scale that prior training regimes could not sustain. A human-to-robot synthesis pipeline converts egocentric hand demonstrations into robot trajectories across 15 platforms, and a rigorous curation pipeline harmonizes heterogeneous datasets. Using only open-source datasets and human videos without proprietary data collection, Qwen-RobotManip constructs a ~38,100-hour pretraining corpus and exhibits emergent generalization capabilities, including zero-shot instruction following, robustness to perturbations, reactive error recovery, and cross-embodiment transfer. We find that standard benchmarks fail to capture pretraining quality and instead adopt OOD settings including RoboCasa365, LIBERO-Plus, EBench, RoboTwin-Clean2Rand, RoboTwin-IF, and RoboTwin-XE. Qwen-RobotManip substantially outperforms prior state-of-the-art models, including $\pi$0.5, across all OOD settings, ranks 1st in RoboChallenge with a 20% relative improvement, and is validated on real-robot platforms including AgileX ALOHA, Franka, UR, and ARX.
 
-**Comment:** Matches criterion 1: μ0 uses a pretrained vision-language backbone with a B-spline 3D trace expert as an action-free robot world model, producing trace-conditioned manipulation policies competitive with π0.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1005-physvla-towards-physically-grounded-vla-for-embodied-robotic-manipulation"></a>
-
-### 1005\. [PhysVLA: Towards Physically-Grounded VLA for Embodied Robotic Manipulation](https://arxiv.org/abs/2606.13886)
-**ArXiv:** 2606.13886 [[page](https://arxiv.org/abs/2606.13886)] [[pdf](https://arxiv.org/pdf/2606.13886.pdf)]
-
-**Authors:** Namai Chandra, Shriram Damodaran, Lin Wang
-
-**Abstract:** Vision-Language-Action (VLA) models excel at mapping visual inputs and natural language instructions directly to robotic control policies. However, because they are trained primarily to fit behavioural demonstration data, they do not explicitly enforce fundamental physical principles such as rigid-body dynamics or contact constraints. This exposes a critical physics gap: standard temporal smoothing applied on top of single-step or chunked VLAs trades trajectory quality for added failures that short-term memory cannot resolve. To bridge this gap, we introduce PhysVLA (Physics-VLA), a plug-and-play, inference-time framework designed to wrap any frozen VLA backbone without retraining, fine-tuning, or weight access, with less than 1 ms of overhead per control step. PhysVLA intercepts the predicted control action, captures only the simulator or system state, and applies a dual-layered correction: (i) a phase-aware finite-state machine that structures discrete task segments (approach, grasp, transport, and place), and (ii) a selective Euler-Lagrange gate that activates only when a dynamics oracle detects kinodynamic inconsistency. Evaluated across OpenVLA, OpenVLA-OFT, Force-VLA, and Generalist-VLA on LIBERO-Spatial with a 7-DoF Franka Panda, the framework delivers absolute success rate increases of up to 17% and stability increases of up to 19% with no per-task regressions, improves trajectory efficiency by up to 15% across all four backbones, and shows up to a 10x improvement in trajectory jerk robustness on a Robosuite Lift cross-simulator sweep. We further validate the framework on a real Agilex Piper arm with a pick-and-place task, confirming that PhysVLA transfers to physical hardware without retraining, with success-rate improvements of up to 50%, establishing physical awareness as a composable, backbone-agnostic runtime module.
-
-**Comment:** Matches criterion 1: PhysVLA is a plug-and-play physics-grounding wrapper for frozen VLA manipulation policies, improving LIBERO-Spatial success by up to 17% and real Agilex pick-and-place success by up to 50%.
+**Comment:** Criterion 1: Qwen-RobotManip is a Qwen-VL-based Vision-Language-Action foundation model for robotic manipulation, trained on a 38,100-hour corpus and evaluated on OOD manipulation benchmarks including RoboCasa365, LIBERO-Plus, EBench, and RoboTwin variants.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1006-self-improving-vla-policies-selected-diffusion-noise-for-spurious-robust-action-smoothing"></a>
+<a id="1002-thinkingvla-interleaved-vision-and-language-reasoning-for-robotic-manipulation"></a>
 
-### 1006\. [Self-Improving VLA Policies: Selected Diffusion Noise for Spurious-Robust Action Smoothing](https://arxiv.org/abs/2606.14084)
-**ArXiv:** 2606.14084 [[page](https://arxiv.org/abs/2606.14084)] [[pdf](https://arxiv.org/pdf/2606.14084.pdf)]
+### 1002\. [ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation](https://arxiv.org/abs/2606.17937)
+**ArXiv:** 2606.17937 [[page](https://arxiv.org/abs/2606.17937)] [[pdf](https://arxiv.org/pdf/2606.17937.pdf)]
 
-**Authors:** Duc Minh Nguyen, Bao-Ngoc Dao, Tung M. Luu, Binh Gia Nguyen, Vinh Tong, Anji Liu, Vu N. Duong, Dung D. Le, Daniel Sonntag, Trung Le, Ngan Le, Jan Peter, An Thai Le, Minh Nhat Vu, Mathias Niepert, Khoa D. Doan, Duy M. H. Nguyen, Vien Anh Ngo
+**Authors:** Tianyi Lu, Hui Zhang, Zijie Diao, Junke Wang, Shengqi Xu, Xingyao Lin, Guojin Zhong, Ziyi Ye, Peng Wang, Zuxuan Wu, Yu-Gang Jiang
 
-**Abstract:** Diffusion-based Vision-Language-Action (VLA) policies enable strong generalization in robotic manipulation, but remain sensitive to spurious visual correlations and noisy action generation, leading to brittle behavior under perturbations. We introduce Selected Diffusion Noise (SDN), a simple, training-free test-time method that improves both robustness and success rate by leveraging the diffusion noise space as a controllable degree of freedom. SDN dynamically samples noise vectors that are maximally separated from a reference set to mitigate reliance on spurious cues, while selecting candidates that yield more coherent action trajectories. This dual objective encourages stable behavior even under object-masked observations and reduces action jitter without modifying model parameters. We evaluate SDN on two simulation benchmarks (Google Robot, Widow-X) and two real-world robotic datasets across multiple VLA policies, including pi_0, Groot-N1.5, and Groot-N1.6. SDN consistently improves success rates by +8% in simulation and +10% in real-world settings, while producing smoother and more stable actions. Our results highlight that diffusion noise selection can serve as an effective and general mechanism for enhancing VLA policies at test time.
+**Abstract:** Most Vision-Language-Action (VLA) models map observations directly to actions without explicit reasoning, limiting their capacity for reasoning-intensive long-horizon tasks. To address this, existing approaches adopt Chain-of-Thought (CoT) reasoning to enable subgoal decomposition and spatial anticipation. However, those methods lack a unified architecture for effective cross-modal reasoning and fail to explicitly include inverse reasoning ability based on the target state. We argue that manipulation planning naturally decomposes into prediction, anticipating the next visual state, and inverse dynamics, inferring the actions to reach it. Bridging both requires a unified autoregressive architecture that interleaves textual and visual reasoning in a single generation process. We propose \textbf{ThinkingVLA}, a generative model that realizes this decomposition within a unified Mixture-of-Transformers architecture. ThinkingVLA consists of a forward CoT that identifies the immediate subgoal and guides the visual forecasting; the predicted image then serves as the target state, grounding an inverse CoT that reasons about spatial relationships and action intent based on the predicted image; and the final action is generated conditioned on this full reasoning context. Extensive experiments on simulation and real-world benchmarks demonstrate that ThinkingVLA consistently outperforms state-of-the-art baselines, with particularly large gains on long-horizon manipulation tasks.
 
-**Comment:** Matches criterion 1 by improving diffusion-based Vision-Language-Action robot manipulation policies with Selected Diffusion Noise, reporting +8% simulation and +10% real-world success gains on Google Robot, Widow-X, pi_0, and Groot policies.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1007-reactvla-fast-and-lightweight-reactive-robot-manipulation-via-improved-mean-flow-action-generation"></a>
-
-### 1007\. [ReactVLA: Fast and Lightweight Reactive Robot Manipulation via Improved Mean Flow Action Generation](https://arxiv.org/abs/2606.14255)
-**ArXiv:** 2606.14255 [[page](https://arxiv.org/abs/2606.14255)] [[pdf](https://arxiv.org/pdf/2606.14255.pdf)]
-
-**Authors:** Yanzhao Guo, Wenkai Chen, Jianwei Zhang
-
-**Abstract:** Diffusion-based Vision-Language-Action (VLA) policies have demonstrated strong capability in modeling expressive and multimodal action distributions. However, their reliance on iterative sampling introduces substantial inference latency, which limits their applicability to reactive closed-loop robot manipulation. To address this limitation, we propose \texttt{ReactVLA}, a lightweight and low-latency VLA framework for real-time robotic manipulation. \texttt{ReactVLA} combines two complementary designs: (1) an improved Mean Flow (iMF) action generator that reduces expensive multi-step diffusion sampling to one-to-few-step action generation, and (2) Attention Residuals (AttnRes), a dynamic depth-wise feature routing mechanism that replaces uniform residual accumulation to better preserve task-relevant multimodal representations. We evaluate \texttt{ReactVLA} on large-scale simulation benchmarks, including LIBERO and RoboIMI, as well as real-world robotic manipulation tasks. Experimental results show that \texttt{ReactVLA} consistently outperforms similarly sized VLA baselines, including SmolVLA and $\pi_0$. On challenging precision manipulation tasks, \texttt{ReactVLA} achieves up to a 1.65$\times$ improvement in task performance while providing more than a 4$\times$ increase in inference speed compared with leading VLA models. Finally, it reduces real-world policy latency to below 38.6 ms, enabling fast reactive control on physical robot platforms. Please check out our project website at: https://game-loader.github.io/ReactVLA/.
-
-**Comment:** Matches criterion 1 by introducing ReactVLA, a diffusion/VLA-style robot manipulation policy with improved Mean Flow action generation evaluated on LIBERO, RoboIMI, and real-world tasks with over 4x faster inference.
+**Comment:** Criterion 1: ThinkingVLA is a vision-language-action model for robotic manipulation that interleaves forward CoT visual forecasting and inverse CoT action reasoning, with gains on simulation and real-world long-horizon manipulation benchmarks.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1008-spatially-conditioned-diffusion-policy-learning-precise-and-robust-manipulation-with-a-single-rgb-camera"></a>
+<a id="1003-lago-policy-latency-aware-asynchronous-diffusion-policies-with-goal-directed-collision-free-planning-for-smooth-manipulation"></a>
 
-### 1008\. [Spatially Conditioned Diffusion Policy: Learning Precise and Robust Manipulation with a Single RGB Camera](https://arxiv.org/abs/2606.14535)
-**ArXiv:** 2606.14535 [[page](https://arxiv.org/abs/2606.14535)] [[pdf](https://arxiv.org/pdf/2606.14535.pdf)]
+### 1003\. [LAGO Policy: Latency-Aware Asynchronous Diffusion Policies with Goal-Directed Collision-Free Planning for Smooth Manipulation](https://arxiv.org/abs/2606.17982)
+**ArXiv:** 2606.17982 [[page](https://arxiv.org/abs/2606.17982)] [[pdf](https://arxiv.org/pdf/2606.17982.pdf)]
 
-**Authors:** Seoyoon Kim, Kanghyun Kim, Dongwoo Ko, Yeong Jin Heo, Min Jun Kim
+**Authors:** Guowei Shi, Xupeng Xie, Yiming Luo, Jian Guo, Jun Ma, Boyu Zhou
 
-**Abstract:** Recent visual imitation learning systems have widely adopted multi-camera setups with wrist-mounted cameras as the de facto standard. However, manipulation from a single global view remains challenging, as the policy should capture fine-grained interaction details and identify task-relevant regions without local wrist views. To address this challenge, we present Spatially Conditioned Diffusion Policy (SCDP), a diffusion-based visuomotor policy that achieves precise and robust manipulation in a single-camera setting. Our key idea is that end-effector trajectories can serve as visual attention anchors that reflect task-relevant regions. Building on this idea, SCDP consists of two key components: (i) a visual encoder that produces multi-scale feature maps to capture both broader context and fine-grained visual features, and (ii) a spatial conditioning module that samples point-wise features along intermediate end-effector trajectories in the diffusion loop. Extensive simulation experiments show that SCDP consistently outperforms strong single-view baselines and achieves performance comparable to multi-camera baselines. Real-world experiments further demonstrate precise manipulation and robustness to visual distractors, highlighting the potential of single-camera imitation learning.
+**Abstract:** Diffusion-based visuomotor policies deployed with asynchronous inference often exhibit inter-chunk discontinuities and lack explicit mechanisms for obstacle-aware execution, leading to jerky motions and collisions that hinder reliable manipulation in real-world scenes. To address these issues, we propose LAGO Policy, a unified asynchronous action-generation framework that integrates trajectory optimization with diffusion policy for smooth and safe execution. LAGO Policy improves inter-chunk consistency via latency-aware classifier-free guidance conditioning on future actions. It further enables goal-directed collision-free trajectory planning by predicting a task-relevant interaction goal from demonstrations. Finally, spatial-temporal trajectory optimization refines the actions to be executed for low-jerk and feasible motion. Extensive real-world experiments demonstrate that LAGO Policy achieves smooth collision-free execution with high task success across challenging manipulation tasks. Project Website: https://lago-policy.github.io/
 
-**Comment:** Criterion 1: Spatially Conditioned Diffusion Policy is a diffusion-based visuomotor manipulation policy that samples point-wise features along intermediate end-effector trajectories and achieves single-camera performance comparable to multi-camera baselines.
+**Comment:** Criterion 1: LAGO Policy directly advances diffusion-based visuomotor manipulation by adding latency-aware classifier-free guidance, goal-directed collision-free planning, and spatial-temporal trajectory optimization for smooth real-world execution.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1009-think-less-act-early-reinforced-latent-reasoning-with-early-exit-in-vision-language-action-models"></a>
+<a id="1004-ace-ego-0-unifying-egocentric-human-and-robotic-data-for-vla-pretraining"></a>
 
-### 1009\. [Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models](https://arxiv.org/abs/2606.15099)
-**ArXiv:** 2606.15099 [[page](https://arxiv.org/abs/2606.15099)] [[pdf](https://arxiv.org/pdf/2606.15099.pdf)]
+### 1004\. [ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining](https://arxiv.org/abs/2606.17200)
+**ArXiv:** 2606.17200 [[page](https://arxiv.org/abs/2606.17200)] [[pdf](https://arxiv.org/pdf/2606.17200.pdf)]
 
-**Authors:** Dianqiao Lei, Lianlei Shan
+**Authors:** Hao Li, Ganlong Zhao, Yufei Liu, Haotian Hou, Guoquan Ye, Tongyan Fang, Chunxiao Liu, Siyuan Huang, Jianbo Liu, Xiaogang Wang, Hongsheng Li
 
-**Abstract:** Existing Vision-Language-Action (VLA) models predominantly rely on explicit Chain-of-Thought (CoT) reasoning to bridge perception and action. While effective, this paradigm suffers from high computational costs and error propagation in multi-step tasks. In this paper, we propose Adaptive Variable Alignment VLA (AVA-VLA), a novel Latent Reasoning VLA framework that models reasoning as a sequence of unobservable latent variables, bypassing the need for explicit text generation. However, latent trajectories are inherently susceptible to noise interference and misalignment with downstream objectives. To address this, we introduce a Reinforcement Learning-based Denoising mechanism that treats latent state generation as a sequential decision process, optimizing reasoning trajectories via task-level rewards. Furthermore, we incorporate an Early-Exit Strategy that adaptively terminates reasoning based on state confidence, enabling a dynamic trade-off between depth and efficiency. Extensive experiments on embodied decision benchmarks demonstrate that AVA-VLA achieves a 6x inference speedup over explicit CoT methods while attaining a 98.3% average success rate on LIBERO, improving both efficiency and long-horizon stability over full-reasoning baselines.
+**Abstract:** Vision-Language-Action (VLA) models benefit from large-scale and diverse embodied data, yet scaling robot trajectory collection is costly and labor-intensive. Recent advances show that large-scale egocentric human videos provide complementary real-world supervision in pretraining. However, joint training on human and robot data remains challenging due to divergences in action spaces, embodiment structures, temporal dynamics, and supervision quality. We introduce ACE-EGO-0, a unified VLA pretraining framework jointly leveraging heterogeneous data sources. To extract large-scale pretraining supervision from egocentric human videos, we build a scalable egocentric video-to-action pipeline that converts raw human videos into robot-format pseudo-action trajectories. To make these labels comparable with robot demonstrations, ACE-EGO-0 uses a unified action representation based on camera-space actions, morphology conditioning, and time-aligned action chunking. To robustly leverage noisy pseudo-action supervision from egocentric human videos, we formulate a reliability-aware training objective with a human auxiliary loss that concentrates supervision on reliable signals. We instantiate ACE-EGO-0 on 4.53K hours of robot and simulation data, together with 1.48K hours of pseudo-action-labeled egocentric human data. Experiments show that incorporating large-scale human supervision under reliability-aware weighting consistently improves both unified joint pretraining and supervised fine-tuning. ACE-EGO-0 achieves state-of-the-art performance on RoboCasa GR1 TableTop and RoboTwin 2.0, while demonstrating strong transfer to real-world bimanual manipulation.
 
-**Comment:** Matches criterion 1: AVA-VLA is a Vision-Language-Action method for embodied robotic decision-making that uses RL-denoised latent reasoning with early exit, reporting a 6x inference speedup and 98.3% average success on LIBERO.
+**Comment:** Criterion 1: introduces ACE-EGO-0, a VLA pretraining framework using egocentric human videos converted into robot-format pseudo-action trajectories, achieving state-of-the-art results on RoboCasa GR1 TableTop and RoboTwin 2.0 plus real-world bimanual manipulation transfer.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1006-weavela-event-driven-cross-subtask-latent-memory-weaving-for-repetitive-robot-manipulation"></a>
+
+### 1006\. [WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation](https://arxiv.org/abs/2606.17463)
+**ArXiv:** 2606.17463 [[page](https://arxiv.org/abs/2606.17463)] [[pdf](https://arxiv.org/pdf/2606.17463.pdf)]
+
+**Authors:** Shoujing Zhu, Zhenyang Liu, Fungmiu Wang, Jiafeng Wang, Bo Yue, Guiliang Liu, Simo Wu, Xiangyang Xue, Taiping Zeng
+
+**Abstract:** Vision-Language-Action (VLA) policies have achieved remarkable single-step manipulation, yet they remain brittle precisely where each stage depends on what was just completed. The core issue is structural: short-window VLAs lack an explicit channel for rouxting information across sub-task boundaries, and existing memory-augmented variants either write at every frame, retrieve from demonstration-time stages, or fire at sub-goal events without performing an explicit sub-task-to-sub-task hand-off into the action expert. We identify the sub-goal completion event as the natural temporal unit for cross-subtask memory hand-off, and present WeaveLA (Weave Latent memory for Vision-Language-Action policies), a cross-subtask memory interface that, on top of a frozen VLA backbone, compresses each completed segment into latent tokens via query-driven attention pooling and routes them directly into the action-generation path of the next sub-task. This event-triggered, action-side design preserves the base policy's short-window interface while adding a lightweight cross-subtask channel. Through stratified evaluation on RoboMME with a $\pi_{0.5}$ backbone, WeaveLA's gains land exactly where the channel is needed: on the hardest repetition slice (SwingXtimes, $N{=}3$), success rises from $0\%$ to $47.8\%$, while single-execution episodes remain unchanged. Per-episode paired analysis confirms the gains are confined to tasks whose causal structure requires cross-subtask information.
+
+**Comment:** Criterion 1: proposes WeaveLA, an event-triggered latent memory interface for a frozen VLA robot manipulation policy, raising RoboMME SwingXtimes N=3 success from 0% to 47.8%.
 
 **Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1012-qpilots-efficient-test-time-q-steering-for-flow-policies"></a>
+<a id="1008-wam-rl-world-action-model-reinforcement-learning-with-reconstruction-rewards-and-online-video-sft"></a>
 
-### 1012\. [QPILOTS: Efficient Test-Time Q-Steering for Flow Policies](https://arxiv.org/abs/2606.14801)
-**ArXiv:** 2606.14801 [[page](https://arxiv.org/abs/2606.14801)] [[pdf](https://arxiv.org/pdf/2606.14801.pdf)]
+### 1008\. [WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT](https://arxiv.org/abs/2606.17906)
+**ArXiv:** 2606.17906 [[page](https://arxiv.org/abs/2606.17906)] [[pdf](https://arxiv.org/pdf/2606.17906.pdf)]
 
-**Authors:** Yifan Ruan, Chenyang Cao, Andreas Burger, Ali Pesaranghader, Kaveh Kamali, Jaehong Kim, Nandita Vijaykumar, Alan Aspuru-Guzik, Igor Gilitschenski, Nicholas Rhinehart
+**Authors:** Zezhong Qian, Xiaowei Chi, Yu Qi, Haozhan Li, Zhi Yang Chen, Shanghang Zhang
 
-**Abstract:** Flow-matching and diffusion policies are expressive action generators, but optimizing them with temporal-difference reinforcement learning (RL) remains difficult. Effective policy extraction requires exploiting the critic's action gradient, yet directly backpropagating this signal through a multi-step denoising process can be numerically unstable. Existing methods work around this either by discarding gradient information, distilling the policy into a simpler one-step actor, or repeatedly fine-tuning the denoising policy as the critic improves. We propose QPILOTS, a method that leaves the original policy unmodified and steers the denoising process at inference time. At each denoising step, instead of evaluating the critic on the noisy intermediate action where critic predictions are unreliable, we first project that intermediate state to an estimate of the final clean action and compute the critic gradient there. We introduce two variants: QPILOTS-U uses a fast single-point approximation, while QPILOTS-M draws differentiable posterior samples via a learned auxiliary network. On a standard offline-to-online RL benchmark, QPILOTS achieves the best aggregate performance, reaching an average success rate of 90% across 50 tasks. We also apply QPILOTS to steer a large, frozen, pretrained Vision-Language Action (VLA) foundation model, outperforming or matching prior inference-time approaches across six manipulation tasks in simulation.
+**Abstract:** Recent World-Action (WA) models demonstrate strong generalization ability and data efficiency, but they typically rely on expert trajectories for training. This reliance limits their ability to acquire fine-grained manipulation skills beyond the demonstration distribution and prevents them from continuously improving through real-world interaction. To address these limitations, we propose WAM-RL, a reinforcement learning framework that enables joint optimization of the world model and the action model through online interaction with the environment. By allowing the two components to co-evolve, our approach enhances fine-grained control and adaptability. Specifically, a WA model consists of a world model and an actor. We design a tailored reinforcement learning method with hierarchical optimization to coordinate their improvement. On the methodological side, we systematically investigate the effects of applying reinforcement learning to the action model, as well as online training of the world model within an RL setting. Our experiments reveal a key insight: optimizing only the actor yields improvements on short-horizon tasks, but fails to provide significant gains on long-horizon tasks. In contrast, jointly optimizing both the world model and the actor is critical for achieving strong performance in long-horizon settings. Our work is the first to introduce reinforcement learning into the World-Action paradigm, and provides insights into how online optimization of both the action head and the world model impacts overall performance.
 
-**Comment:** Criterion 1: QPILOTS improves flow-matching/diffusion robot policies via test-time critic-gradient Q-steering and applies it to a frozen Vision-Language Action foundation model, outperforming or matching prior inference-time methods on six manipulation tasks.
-
-**Relevance:** 9
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1013-flowmpc-improving-flow-matching-policies-with-world-models"></a>
-
-### 1013\. [FlowMPC: Improving Flow Matching policies with World Models](https://arxiv.org/abs/2606.16286)
-**ArXiv:** 2606.16286 [[page](https://arxiv.org/abs/2606.16286)] [[pdf](https://arxiv.org/pdf/2606.16286.pdf)]
-
-**Authors:** Chandon Hamel
-
-**Abstract:** Flow Matching (FM) is a powerful approach for behavior cloning in multimodal action spaces [Jiang et al., 2025], but because it is not trained to directly maximize expected return, there is still room to improve how FM policies act at test time. This work investigates whether a learned world model can improve FM policies by enabling Model Predictive Path Integral (MPPI) planning over candidate action sequences proposed by the policy. Building on TD-MPC2 [Hansen et al., 2024], I introduce FlowMPC, a framework that combines an imitation-learned FM policy with a learned world model for test-time planning in ManiSkill manipulation tasks [Tao et al., 2025]. Across PickCube and PickSingleYCB, adding the world model improved performance over the FM policy alone, with especially clear gains in end-of-episode success. These results suggest that world-model-based planning can effectively complement flow-based imitation policies without modifying the FM training objective.
-
-**Comment:** Matches criterion 1: FlowMPC combines an imitation-learned Flow Matching policy with a TD-MPC2-style learned world model and MPPI test-time planning for ManiSkill manipulation tasks PickCube and PickSingleYCB, improving success over the FM policy alone.
+**Comment:** Criterion 1: WAM-RL applies World-Action models to robot manipulation by jointly optimizing a world model and action model with reinforcement learning, showing gains especially on long-horizon tasks.
 
 **Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1014-elastic-queries-reinforcement-learning-self-aware-policy-execution-for-vla-models"></a>
+<a id="1009-pearlvla-progressive-embodied-action-plan-refinement-in-latent-space"></a>
 
-### 1014\. [Elastic Queries Reinforcement Learning: Self-Aware Policy Execution for VLA Models](https://arxiv.org/abs/2606.14375)
-**ArXiv:** 2606.14375 [[page](https://arxiv.org/abs/2606.14375)] [[pdf](https://arxiv.org/pdf/2606.14375.pdf)]
+### 1009\. [PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space](https://arxiv.org/abs/2606.17924)
+**ArXiv:** 2606.17924 [[page](https://arxiv.org/abs/2606.17924)] [[pdf](https://arxiv.org/pdf/2606.17924.pdf)]
 
-**Authors:** Ge Wang, Xinyu Tan, Xiang Li, Man Luo, Chengsi Yao, Shenhao Yan, Jiahao Yang, Fan Feng, Honghao Cai, Xiangyuan Wang, Zhixin Mai, Yiming Zhao, Yatong Han, Zhen Li
+**Authors:** Bochen Yang, Lianlei Shan
 
-**Abstract:** Vision-language-action (VLA) models are powerful action generators for robot manipulation, but they are typically executed with fixed inference and replanning schedules. This rigidity ignores the uneven difficulty of robot control: contact-rich or uncertain states may need more computation and fresher feedback, while easier states can often be handled with fewer inference steps and longer open-loop execution. We propose Elastic Queries Reinforcement Learning (EQRL), a framework that makes each VLA policy query elastic. A lightweight latent-schedule adaptor jointly selects the latent input, denoising budget, and action chunk length, without fine-tuning the underlying VLA model. To make scheduling difficulty-aware, EQRL trains a critic over the joint latent-schedule action and derives a state difficulty signal from critic ensemble disagreement. This signal guides compute toward difficult states, while a learned residual allows task-driven correction. We formulate variable chunk execution as query-level macro-action RL with chunk-dependent discounting and an amortized number-of-function-evaluations (NFE) budget. Across simulation and real-robot manipulation, EQRL reduces amortized inference cost while preserving or improving task success.
+**Abstract:** Current Vision-Language-Action (VLA) models face a trade-off between efficient action generation and explicit deliberation. Directly decoding actions from vision-language backbone representations enables low-latency control, whereas explicit reasoning through textual chains, pixel-level subgoals, or action search can improve planning but incurs substantial latency and computational cost. We propose PearlVLA, a VLA framework that moves deliberation into the latent space of a vision-language model (VLM). PearlVLA separates VLM meta-query representations into a fixed visual grounding branch and an iterative latent plan branch. At each refinement round, a plan-conditioned world query probes a lightweight frozen latent world model for an action-free future observation latent, which is fed back to guide plan refinement. A future-guided RefineNet then applies scheduled residual updates to progressively refine a coarse semantic draft into a fine-grained latent action plan. The refined plan after K rounds is then decoded in parallel into an action chunk for low-latency execution. We further introduce Causal Refinement-Grouped Process-Reward RL to optimize the latent refinement process with rewards from longer-horizon imagined futures induced by latent plan edits. Empirical evaluations on the LIBERO benchmark demonstrate that PearlVLA achieves state-of-the-art performance among existing methods.
 
-**Comment:** Matches criterion 1 by proposing EQRL for VLA robot manipulation policies, using reinforcement learning to adapt denoising budget, latent input, and action chunk length across simulation and real-robot manipulation.
+**Comment:** Criterion 1: PearlVLA is a VLA manipulation framework that performs latent action-plan refinement using a frozen latent world model and reports state-of-the-art performance on the LIBERO benchmark.
 
 **Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1017-egophys-learning-generalizable-physics-models-of-deformable-objects-from-egocentric-video"></a>
+<a id="1010-kolmogorov-regression-for-robust-diffusion-policies"></a>
 
-### 1017\. [EgoPhys: Learning Generalizable Physics Models of Deformable Objects from Egocentric Video](https://arxiv.org/abs/2606.16202)
-**ArXiv:** 2606.16202 [[page](https://arxiv.org/abs/2606.16202)] [[pdf](https://arxiv.org/pdf/2606.16202.pdf)]
+### 1010\. [Kolmogorov Regression for Robust Diffusion Policies](https://arxiv.org/abs/2606.18186)
+**ArXiv:** 2606.18186 [[page](https://arxiv.org/abs/2606.18186)] [[pdf](https://arxiv.org/pdf/2606.18186.pdf)]
 
-**Authors:** Hyunjin Kim, Ri-Zhao Qiu, Guangqi Jiang, Xiaolong Wang
+**Authors:** Lekan Molu
 
-**Abstract:** Humans naturally understand object physics through everyday interactions, but faithfully predicting complex deformable dynamics, such as elastic materials and fabrics, remains a major challenge for computer vision and robotics. We present EgoPhys, a framework that constructs deformable physical digital twins from egocentric RGB-only video using generalizable priors. EgoPhys overcomes the limitations of existing methods to enable controllable deformable digital twin generation from egocentric videos by distilling per-object inverse-physics solutions into a compact codebook, enabling prediction of dense spring stiffness fields for unseen objects without per-spring test-time optimization. Trained with generalizable priors from diverse egocentric interactions, EgoPhys outperforms baselines in reconstruction, future prediction, and zero-shot generalization. To support training and evaluation, we curate an egocentric interaction dataset covering diverse deformable objects, scenes, and manipulation styles. We deploy EgoPhys on a real xArm6 robot, demonstrating that a digital twin initialized from a single egocentric human play video can serve as an internal world representation to aid in deformable-object planning, highlighting egocentric RGB observations as a scalable path toward real-to-sim pipelines.
+**Abstract:** Finite-dimensional (FD) diffusion policies exhibit temporal drift owing to discretization artifacts that degrade long-horizon performance (when deployed on physical systems). We introduce a backward Kolmogorov equation that lifts diffusion policies to a Cameron-Martin space -- a subset of the Hilbert space. Essentially, replacing stochastic score matching with a deterministic boundary-value PDE problem. Our core innovation thrives on Gaussian measure theory whereupon the diffusion noise covariance operator is realized from a colored noise distribution which prescribes a notion of regularity on samples from the model at inference time. We train the diffusion model with a derived precision-weighted Cameron- Martin loss and a Kolmogorov residual is introduced as a PDE diagnostic during inference. These substitutions yield (i) convergence guarantees where the bound's constants depend on the effective rank of the kernel rather than action dimension, (ii) improved trajectory regularity via spectral weighting, and (iii) a deterministic failure detector without reward signals. Validation across two application domains demonstrates substantial improvements: on the PushT manipulation benchmark, the Cameron-Martin loss achieves a 17% improvement in maximum episode reward (0.95 vs. 0.78 for MSE) and 67.6% reduction in inter-step drifts during inference via the introduced residual magnitude. Similarly, on a 6-station manufacturing line with constant work-in-process (CONWIP) flow control, we achieve 28.4% lower RMSE than classical LSTM baselines; a high starvation-event recall (1.0 in test cycles), and effective bottleneck identification (Precision@1 = 1.0 in test set, 13x signal-to-noise ratio). We then certify the dispatch policies with Hamilton-Jacobi reachability theory which reduces deadlock events by 96% compared to uncontrolled dispatch over 100 simulated runs (351 events prevented).
 
-**Comment:** Matches criterion 1 as a robot world-model paper: EgoPhys builds deformable physical digital twins from egocentric RGB video and demonstrates an xArm6 robot using a single human-play video as an internal representation for deformable-object planning.
+**Comment:** Criterion 1: proposes a Kolmogorov/PDE-based improvement to diffusion policies and reports a 17% maximum reward gain on the PushT manipulation benchmark with reduced inter-step drift.
+
+**Relevance:** 9
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1011-where-should-action-generation-begin-a-learnable-source-prior-for-generative-robot-policies"></a>
+
+### 1011\. [Where Should Action Generation Begin? A Learnable Source Prior for Generative Robot Policies](https://arxiv.org/abs/2606.17408)
+**ArXiv:** 2606.17408 [[page](https://arxiv.org/abs/2606.17408)] [[pdf](https://arxiv.org/pdf/2606.17408.pdf)]
+
+**Authors:** Meipo Dai, Qiyuan Zhuang, He-Yang Xu, Ying-Jie Shuai, Yijun Wang, Qi Dou, Xiu-Shen Wei
+
+**Abstract:** Generative robot policies typically begin action generation from an observation-independent standard Gaussian distribution, leaving the choice of source distribution underexplored. This work asks a simple question: where should action generation begin? We propose LeaP, a Learnable source Prior that replaces the standard Gaussian with a proprioception-conditioned diagonal Gaussian over action chunks. Parameterized by a lightweight MLP, LeaP jointly predicts the mean and state-adaptive variance of the source distribution, while keeping the downstream generator architecture and inference solver unchanged. This design provides an observation-informed yet stochastic initialization, allowing the generator to focus on precise action refinement rather than transporting samples from an uninformed noise source. On 15 RoboTwin manipulation tasks, LeaP achieves an average success rate of 81.6%, outperforming four representative baselines -- including deterministic-source methods, a no-prior counterpart, and a diffusion-bridge policy -- by 6.5 to 25.5 percentage points. The same prior consistently improves both flow-matching and diffusion-bridge generators, while using fewer parameters and converging faster. The advantage carries over to real-world deployment, where LeaP attains the best performance. These results suggest that the source distribution is an independent and reusable design axis for generative robot policies, complementary to the choice of generative dynamics.
+
+**Comment:** Criterion 1: proposes LeaP, a proprioception-conditioned learnable source prior for flow-matching and diffusion-bridge robot policies, achieving 81.6% average success on 15 RoboTwin manipulation tasks and improving real-world deployment.
+
+**Relevance:** 9
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1014-uncertainty-quantification-for-flow-based-vision-language-action-models"></a>
+
+### 1014\. [Uncertainty Quantification for Flow-Based Vision-Language-Action Models](https://arxiv.org/abs/2606.18043)
+**ArXiv:** 2606.18043 [[page](https://arxiv.org/abs/2606.18043)] [[pdf](https://arxiv.org/pdf/2606.18043.pdf)]
+
+**Authors:** Ralf R\"omer, Maximilian Seeliger, Saida Liu, Ben Sturgis, Marco Bagatella, Daniel Marta, Andreas Krause, Angela P. Schoellig
+
+**Abstract:** Vision-language-action models (VLAs) combine vision-language backbones with expressive generative action heads trained via flow matching on large-scale robotic datasets. Despite their strong empirical performance in robotic manipulation, VLAs lack mechanisms to quantify confidence in their predictions and to detect when their actions may be unreliable. This presents a critical limitation for real-world deployment in non-stationary environments, where models inevitably encounter scenarios outside their pretraining distribution and may fail without warning. To address this, we derive an efficient method for quantifying epistemic uncertainty in flow-matching models by leveraging velocity-field disagreement (VFD) across a small ensemble. We successfully use this uncertainty estimate for failure detection during deployment and active fine-tuning of flow-based VLAs. To this end, we propose SAVE, a framework for uncertainty-guided active multitask fine-tuning that reduces the number of costly expert demonstrations required to adapt VLAs to new tasks. Through extensive experiments on the LIBERO benchmark, we demonstrate that VFD yields better-calibrated uncertainty estimates predictive of downstream performance, that VFD achieves strong performance in detecting failures, and that uncertainty-guided data acquisition with SAVE requires at least 22% fewer samples than baselines. In summary, our work shows that quantifying epistemic uncertainty in flow-based VLAs improves both failure awareness and adaptation. Project website: tum-lsy.github.io/uq_vla/.
+
+**Comment:** Criterion 1: This paper improves flow-based vision-language-action models for robotic manipulation using velocity-field-disagreement uncertainty, showing better failure detection and at least 22% fewer samples for active fine-tuning on LIBERO.
 
 **Relevance:** 8
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1018-decoupled-object-centric-video-understanding-for-generating-robotic-manipulation-commands"></a>
+<a id="1016-annotateanything-automatic-annotation-of-3d-assets-for-robot-manipulation"></a>
 
-### 1018\. [Decoupled Object-Centric Video Understanding for Generating Robotic Manipulation Commands](https://arxiv.org/abs/2606.16470)
-**ArXiv:** 2606.16470 [[page](https://arxiv.org/abs/2606.16470)] [[pdf](https://arxiv.org/pdf/2606.16470.pdf)]
+### 1016\. [AnnotateAnything: Automatic Annotation of 3D Assets for Robot Manipulation](https://arxiv.org/abs/2606.17446)
+**ArXiv:** 2606.17446 [[page](https://arxiv.org/abs/2606.17446)] [[pdf](https://arxiv.org/pdf/2606.17446.pdf)]
 
-**Authors:** Thanh Nguyen Canh, Thanh-Tuan Tran, Haolan Zhang, Ziyan Gao, Xiem HoangVan, Nak Young Chong
+**Authors:** Haoran Lu, Mutian Shen, Shuyang Yu, Yu Xiao, Songling Liu, Jianshu Zhang, Shang Wu, Yue Chen, Guo Ye, Jiayi Wang, Zhaoran Wang, Han Liu
 
-**Abstract:** Translating video demonstrations into executable robot commands remains challenging because existing methods often fail to identify which objects are functionally involved in the demonstrated action. As a result, they may generate commands that are linguistically plausible but operationally ambiguous. We propose an object-centric video understanding framework that decouples action recognition from object identification to generate precise, grammar-free manipulation commands. Our approach integrates Temporal Shift Modules (TSM) for efficient spatio-temporal action classification with a novel \textbf{Object Selection} algorithm that identifies task-relevant objects through trajectory-based role classification, blur detection, and overlap minimization. The selected objects are then processed by Vision-Language Models (VLMs) for robust category recognition and zero-shot generalization. Evaluated on a modified Something-Something V2 dataset, our method achieves 86.79\% action classification accuracy and BLEU-4 scores of 0.337 on standard objects and 0.261 on novel objects. These results improve over the strongest task-specific baseline by 80.2\% and 143.9\%, respectively. Larger gains are observed in METEOR and CIDEr, reaching 157.9\% and 171.7\% on novel objects. Across all semantic metrics, our approach consistently outperforms task-specific methods and remains competitive with, or surpasses, large general-purpose VLMs while retaining a modular, object-centric design.
+**Abstract:** Simulation enables scalable robot data collection, but raw 3D assets provide only geometry, lacking the semantic, interactive, and physical knowledge needed to specify where and how robots should act. In this work, we present AnnotateAnything, a general automatic annotation framework that converts passive 3D assets into manipulation-ready assets with structured, diverse, and executable manipulation labels. AnnotateAnything is built around two complementary pipelines. First, a unified visual-language annotation pipeline using vision-language reasoning to infer object semantics, interaction constraints, and 3D-grounded cues, providing human-prior guidance for identifying meaningful interaction regions. Second, a fully automatic and massively parallel physics annotation pipeline grounds these priors in each asset's geometry and physical constraints through candidate generation, geometry optimization and trajectory generation. This pipeline produces diverse and executable action annotations, including grasp poses, dexterous contacts, articulation waypoints, insertion directions, hanging affordances, and navigation targets. Using the generated annotations, we further build an asynchronous parallel simulation data-collection system across diverse objects, tasks, and robot embodiments. Experiments demonstrate that AnnotateAnything achieves superior annotation efficiency, data-collection efficiency, and task success rates over existing annotation and data-generation pipelines, while also supporting downstream tasks such as affordance detection, robotic VQA, and visual instruction finetuning. We provide project materials on the project page and plan to release the full code, annotations, and benchmark to facilitate future research. Videos, code, demo assets, and annotations are provided in supplementary materials Project page: https://tourmaline-caramel-169490.netlify.app.
 
-**Comment:** Criterion 1: uses a VLM-based object-centric framework with TSM action classification and trajectory-based Object Selection to turn video demonstrations into robotic manipulation commands, reporting 86.79% action accuracy on a modified Something-Something V2 dataset.
-
-**Relevance:** 8
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1019-output-level-regularization-eliminates-the-seed-lottery-in-single-gpu-vla-fine-tuning"></a>
-
-### 1019\. [Output-Level Regularization Eliminates the Seed Lottery in Single-GPU VLA Fine-Tuning](https://arxiv.org/abs/2606.13856)
-**ArXiv:** 2606.13856 [[page](https://arxiv.org/abs/2606.13856)] [[pdf](https://arxiv.org/pdf/2606.13856.pdf)]
-
-**Authors:** Jeffrin Sam, Dzmitry Tsetserukou
-
-**Abstract:** Fine-tuning a vision-language-action model (VLA-JEPA) on a single GPU should be simple: load a pretrained checkpoint, run training, deploy. There is a hidden danger. Run the same fine-tuning code thirteen times -- same data, same architecture, different random seed -- and twelve runs produce a robot succeeding 91--94% of the time, while one run silently degrades to 65.2%: a 29 pp gap with no error message, no warning, and no way to predict which seed will fail. We call this the seed lottery. We trace the cause to output collapse: the action predictor quietly learns to produce nearly identical outputs regardless of what the robot sees. Existing weight-level methods (L2, EWC) are structurally blind to this collapse -- they penalize weight changes, but collapse occurs in directions weights can move freely without affecting outputs, a gap we formalize via the Jacobian null-space. Across 7 methods x up to 13 seeds x 3 LIBERO benchmarks, three output-level regularizers -- VICReg (n=12 seeds), Dropout (n=4), and a halved learning rate (n=5) -- each eliminate every catastrophic seed (0/21 combined collapses vs. 1/13 Baseline; F(12,11)=28.7, p<0.001), while weight-level methods (L2, EWC) preserve the lottery. The simplest fix is changing one number in your optimizer config.
-
-**Comment:** Matches criterion 1: the paper studies VLA-JEPA fine-tuning for robot manipulation on LIBERO and shows output-level regularizers such as VICReg eliminate catastrophic seed-collapse failures.
+**Comment:** Criterion 1: uses a visual-language annotation pipeline to infer object semantics, interaction constraints, and 3D-grounded cues for manipulation-ready 3D assets with executable labels such as grasp poses, dexterous contacts, and articulation waypoints.
 
 **Relevance:** 8
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1020-hy-embodied-05-vla-from-vision-language-action-models-to-a-real-world-robot-learning-stack"></a>
+<a id="1018-generalvla-2-geometry-aware-reconstruction-and-governed-memory-for-robot-planning"></a>
 
-### 1020\. [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409)
-**ArXiv:** 2606.14409 [[page](https://arxiv.org/abs/2606.14409)] [[pdf](https://arxiv.org/pdf/2606.14409.pdf)]
+### 1018\. [GeneralVLA-2: Geometry-Aware Reconstruction and Governed Memory for Robot Planning](https://arxiv.org/abs/2606.17480)
+**ArXiv:** 2606.17480 [[page](https://arxiv.org/abs/2606.17480)] [[pdf](https://arxiv.org/pdf/2606.17480.pdf)]
 
-**Authors:** He Zhang, Lingzhu Xiang, Haitao Lin, Zeyu Huang, Minghui Wang, Dingyan Zhong, Yubo Dong, Yihao Wu, Yongming Rao, Dongsheng Zhang, Wanjia He, Ling Chen, Kai Huang, Jiahao Chen, Sichang Su, Xumin Yu, Ziyi Wang, Chengwei Zhu, Xiao Teng, Yuchun Guo, Yufeng Zhang, Yuandong Liu, Rui Wang, Zisheng Lu, Han Hu, Zhengyou Zhang
+**Authors:** Haoyu Wang, Guoqing Ma, Zeyu Zhang, Yandong Guo, Boxin Shi, Hao Tang
 
-**Abstract:** In this report, we present Hy-Embodied-0.5-VLA, abbreviated as HyVLA-0.5, an end-to-end system that spans the full robot learning stack: data collection, model design, continued pre-training and supervised fine-tuning, RL post-training, and real-world deployment. Each component serves a distinct role in this stack.
+**Abstract:** Generalist vision-language-action systems need object-centric 3D evidence and reusable manipulation experience to plan reliable robot trajectories. GeneralVLA provides a hierarchical interface for converting language and RGB-D observations into 3D end-effector paths, but two bottlenecks remain. First, monocular SAM3D-style object reconstruction can hallucinate pose and unseen geometry, while manipulation benefits from stable object shape when calibrated multi-view observations are available. Second, the original KnowledgeBank mainly retrieves semantically similar snippets and appends new knowledge, which makes it difficult to control memory quality, conflicts, confidence, and geometric relevance. To address the first challenge, we introduce GeoFuse-MV3D, a geometry-prior-guided MV-SAM3D reconstruction branch that verifies external geometry cues with input-view masks, applies soft visual-hull support, performs axis-wise refinement, and fuses only geometry while preserving appearance. To address the second challenge, we upgrade KnowledgeBank into a governed long-term memory system with explicit quality, confidence, lifecycle, verifier, and conflict metadata, together with precision-oriented retrieval. Finally, we evaluate the reconstruction branch on GSO-30 and the memory module on Terminal-Bench 2.0 and SWE-Bench Verified; GeoFuse-MV3D improves over the MV-SAM3D baseline by reducing CD and LPIPS by 2.20% and 2.02% while increasing PSNR and SSIM by 2.36% and 1.03%, and KnowledgeBank improves over ReasoningBank by 4.53% on Terminal-Bench SR and 3.73% on SWE-Bench resolve rate, while reducing AS by 4.95% and 5.65%, respectively. Code: https://github.com/AIGeeksGroup/GeneralVLA-2. Website: https://aigeeksgroup.github.io/GeneralVLA-2.
 
-**Comment:** Criterion 1: HyVLA-0.5 is a Vision-Language-Action robot learning stack spanning continued pre-training, supervised fine-tuning, RL post-training, and real-world deployment.
-
-**Relevance:** 8
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1021-aermani-place-language-guided-object-placement-with-aerial-manipulators"></a>
-
-### 1021\. [AERMANI-PLACE: Language Guided Object Placement with Aerial Manipulators](https://arxiv.org/abs/2606.14531)
-**ArXiv:** 2606.14531 [[page](https://arxiv.org/abs/2606.14531)] [[pdf](https://arxiv.org/pdf/2606.14531.pdf)]
-
-**Authors:** Sarthak Mishra, Ritama Sanyal, Rishabh Dev Yadav, Wei Pan, Spandan Roy
-
-**Abstract:** Object placement is a fundamental component of aerial manipulation tasks, yet existing systems typically require the desired placement position to be specified explicitly in metric coordinates. Such interfaces are not intuitive and require users to reason about coordinate frames and scene geometry, making them difficult to use in practical deployments. In contrast, humans often communicate spatial goals through a combination of language and pointing gestures. Inspired by this observation, we present AERMANI-PLACE, a framework for language-guided object placement with aerial manipulators. Given a scene image and a natural language instruction, an image editing model generates a modified version of the scene containing a visual marker that indicates where the object should be placed. This marker is then grounded into the physical environment using depth observations to recover a metric place point, after which a placement trajectory is generated and executed by the aerial manipulator. We evaluate the proposed approach on a test set of 100 language-guided placement tasks and demonstrate successful execution on a real aerial manipulation platform. Experimental results show that the proposed method reliably infers placement locations from language instructions with an average success rate of 87\% on the test-set and transfers effectively to real-world aerial manipulation with an average success rate of 72\%.   Video: https://youtu.be/SgwwgLBsv0g
-
-**Comment:** Criterion 1: AERMANI-PLACE uses a language-conditioned image-editing model to mark object placement targets, grounds them with depth, and executes them on a real aerial manipulator with 87% test-set and 72% real-world success.
-
-**Relevance:** 8
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1026-learned-image-compression-for-vision-language-action-models"></a>
-
-### 1026\. [Learned Image Compression for Vision-Language-Action Models](https://arxiv.org/abs/2606.16253)
-**ArXiv:** 2606.16253 [[page](https://arxiv.org/abs/2606.16253)] [[pdf](https://arxiv.org/pdf/2606.16253.pdf)]
-
-**Authors:** Hyeonjun Kim, Jegwang Ryu, Sangbeom Ha, Junhyeok Lee, Jun-Hyuk Kim, Hyemin Ahn, Jaeho Lee
-
-**Abstract:** Vision-language-action (VLA) models increasingly rely on high-frequency multi-camera observations, making visual communication a major bottleneck for real-time robotic control in bandwidth-constrained or distributed deployment settings. Existing image and video codecs, however, are designed to preserve generic visual fidelity rather than the control performance of downstream VLA policies. In this work, we introduce SPARC (SPatially Adaptive Rate Control), a learned image compression framework tailored for VLA-driven robots. Our key observation is that the importance of visual information varies substantially across both camera views and spatial regions within an image. Based on this observation, SPARC employs a lightweight temporal mask selector that adaptively allocates bitrate over latent representations according to task relevance while leveraging temporal context. We further introduce a tilted rate loss that stabilizes training by reducing the tendency of entropy-based objectives to over-suppress rare yet task-critical visual patterns. Experiments on diverse robotic benchmarks, including RoboCasa365, VLABench, and LIBERO, show that SPARC consistently achieves stronger control performance than conventional image/video codecs and recent learned compression methods under the same bitrate budget. We additionally demonstrate real-world deployment benefits in remote-control settings, where our method substantially improves the bitrate-success tradeoff.
-
-**Comment:** Matches criterion 1 for VLA-based robot manipulation: SPARC learns spatially adaptive compression for VLA-driven robots and improves control performance under fixed bitrate on RoboCasa365, VLABench, and LIBERO.
+**Comment:** Criterion 1: extends a GeneralVLA robot-planning system that maps language/RGB-D observations to 3D end-effector paths using GeoFuse-MV3D reconstruction and a governed KnowledgeBank memory module, with reported gains on GSO-30 reconstruction metrics.
 
 **Relevance:** 7
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1028-contactworld-what-matters-in-vision-tactile-world-models-for-contact-rich-manipulation"></a>
+<a id="1019-reversal-q-learning"></a>
 
-### 1028\. [ContactWorld: What Matters in Vision-Tactile World Models for Contact-Rich Manipulation](https://arxiv.org/abs/2606.13877)
-**ArXiv:** 2606.13877 [[page](https://arxiv.org/abs/2606.13877)] [[pdf](https://arxiv.org/pdf/2606.13877.pdf)]
+### 1019\. [Reversal Q-Learning](https://arxiv.org/abs/2606.17551)
+**ArXiv:** 2606.17551 [[page](https://arxiv.org/abs/2606.17551)] [[pdf](https://arxiv.org/pdf/2606.17551.pdf)]
 
-**Authors:** Zhiyuan Zhang, Pokuang Zhou, Kaidi Zhang, Adeesh Desai, Temitope Amosa, Davood Soleymanzadeh, Jiuzhou Lei, Minghui Zheng, Yu She
+**Authors:** Aditya Oberai, Seohong Park, Sergey Levine
 
-**Abstract:** Contact-rich manipulation requires world models to reason over complex contact dynamics from multimodal sensory observations. However, it remains unclear which representation properties fundamentally support stable long-horizon planning in contact-rich settings. In this paper, we present ContactWorld, a benchmark and systematic empirical study of vision-tactile world models spanning 12 contact-rich manipulation tasks, including insertion, disassembly, screwing, and exploratory interaction. Across extensive experiments, we find that representations that are both spatially structured and temporally continuous consistently achieve the strongest planning performance. In particular, point-cloud observations improve average planning success rates from 20.7% with wrist-view observations and 22.0% with front-view observations to 32.1%. We further find that the effectiveness of tactile sensing depends critically on cross-modal representation compatibility rather than modality scaling alone. Combining point-cloud observations with tactile force-field representations, which preserve richer spatial structure and interaction dynamics, further improves performance to 36.1%, yielding the strongest overall planning performance across all evaluated tasks. Moreover, tactile sensing becomes increasingly important under long-horizon planning objectives, where compounding prediction errors and contact uncertainty accumulate over time. Together, these findings highlight the importance of representation structure, multimodal compatibility, and long-horizon robustness in vision-tactile world models for contact-rich robotic manipulation.
+**Abstract:** Iterative generative modeling techniques, such as flow matching, provide powerful tools to model complex behaviors for effective offline reinforcement learning (RL). In this work, we propose a new off-policy RL algorithm that trains a flow policy based on prior data. Our idea starts from the "expanded" Markov decision process (MDP) framework, which treats individual flow refinement steps as separate actions in an MDP. To enable off-policy RL within this framework, we apply two techniques: we generate virtual on-policy trajectories (by "reversing" flows) to make this framework compatible with prior data, and we apply a bias-and-variance reduction technique to mitigate the curse of horizon in off-policy RL. We call the resulting algorithm Reversal Q-learning (RQL). RQL has several advantages over previous flow-based RL methods: it does not suffer from backpropagation through time, makes better use of the learned value function, and directly trains the full, expressive flow policy. Through our experiments on 50 challenging simulated robotic tasks, we show that RQL leads to the best average offline RL performance compared to state-of-the-art flow-based offline RL algorithms.
 
-**Comment:** Matches criterion 1: ContactWorld evaluates vision-tactile world models across 12 contact-rich manipulation tasks, finding point clouds plus tactile force-field representations improve planning success to 36.1%.
-
-**Relevance:** 7
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1029-trust-region-diffusion-policies-for-massively-parallel-on-policy-rl"></a>
-
-### 1029\. [Trust-Region Diffusion Policies for Massively Parallel On-Policy RL](https://arxiv.org/abs/2606.15260)
-**ArXiv:** 2606.15260 [[page](https://arxiv.org/abs/2606.15260)] [[pdf](https://arxiv.org/pdf/2606.15260.pdf)]
-
-**Authors:** Huy Le, Onur Celik, Denis Blessing, Tai Hoang, Claas A Voelcker, Axel Brunnbauer, Felix Richter, Michael Volpp, Gerhard Neumann
-
-**Abstract:** Reinforcement learning with massively parallel simulations has become a standard framework for developing robust, deployable policies; however, most existing approaches still rely on simple Gaussian policy parameterizations. Diffusion models provide a more expressive policy class and have shown strong performance on challenging control problems, yet most diffusion-based RL methods are designed for offline or off-policy training. In this work, we ask whether diffusion policies can be trained effectively in the massively parallel, on-policy regime. To this end, we introduce Trust-region Diffusion Policies (TruDi), which enables diffusion policies for on-policy RL with massively parallel simulations. This setting is particularly challenging because the data distribution changes quickly across updates, making stable training with complex policies difficult. TruDi addresses this by integrating a trust-region optimization rule to enforce a KL-divergence constraint over the entire diffusion trajectory. Empirically, we evaluate TruDi on a diverse set of 4 massively parallel RL benchmarks comprising a total of 73 tasks. Across these tasks, TruDi consistently outperforms or is on-par with strong baselines on standard tasks and achieves clear gains on more challenging humanoid control tasks, establishing a strong new baseline for massively parallel on-policy RL.
-
-**Comment:** Matches criterion 1 because TruDi trains diffusion policies for policy learning/control using a KL-constrained trust-region rule over the diffusion trajectory, with results on 4 massively parallel RL benchmarks totaling 73 tasks including humanoid control.
+**Comment:** Criterion 1: proposes Reversal Q-learning, an offline RL algorithm that directly trains a flow-based generative policy and reports best average performance across 50 challenging simulated robotic tasks.
 
 **Relevance:** 7
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1033-direct-safe-diffusion-based-planning-via-receding-horizon-denoising"></a>
-
-### 1033\. [DiRecT: Safe Diffusion-Based Planning via Receding-Horizon Denoising](https://arxiv.org/abs/2606.15359)
-**ArXiv:** 2606.15359 [[page](https://arxiv.org/abs/2606.15359)] [[pdf](https://arxiv.org/pdf/2606.15359.pdf)]
-
-**Authors:** Paolo Giaretta, Zeyang Li, Navid Azizan
-
-**Abstract:** Diffusion models have emerged as powerful tools for planning and control by learning multimodal distributions over actions and trajectories. Yet reliable inference-time safety enforcement remains a key barrier to their deployment in safety-critical tasks. Existing approaches typically project each denoising iterate onto the feasible set, even though constraints are defined only on the final clean trajectory. Enforcing feasibility on noisy intermediate samples can therefore overconstrain the sampling dynamics, substantially degrading sample quality. To address this limitation, we introduce DiRecT (Diffusion-based planning via Receding-horizon denoising with Terminal constraints), a training-free algorithm for constrained sampling from diffusion models via stochastic optimal control (SOC). DiRecT enforces constraints only on the final clean sample, avoiding unnecessary restrictions on the intermediate denoising dynamics. Inspired by model predictive control, we derive a principled receding-horizon surrogate for the otherwise intractable constrained SOC formulation, yielding an efficient algorithm that cleanly separates stochastic denoising from constraint satisfaction, progressively steering samples toward feasible final trajectories without distorting the learned diffusion dynamics. Furthermore, DiRecT is highly flexible: it can leverage off-the-shelf or domain-specific optimizers, incorporate priors over environment dynamics, and optimize additional soft rewards. Extensive experiments on safe planning benchmarks demonstrate that DiRecT substantially improves deployment safety and task performance over existing diffusion-based planning baselines.
-
-**Comment:** Matches criterion 1 because DiRecT uses diffusion-based planning with receding-horizon denoising and terminal safety constraints, improving deployment safety and task performance on safe planning benchmarks.
-
-**Relevance:** 6
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1035-sensitivity-shaping-for-latent-modeling"></a>
-
-### 1035\. [Sensitivity Shaping for Latent Modeling](https://arxiv.org/abs/2606.14585)
-**ArXiv:** 2606.14585 [[page](https://arxiv.org/abs/2606.14585)] [[pdf](https://arxiv.org/pdf/2606.14585.pdf)]
-
-**Authors:** Hongzhan Yu, Chenghao Li, Ruipeng Zhang, Henrik Christensen, Sicun Gao
-
-**Abstract:** Generative dynamics models enable planning in challenging robotic systems, but safe deployment requires reliably detecting policy-induced out-of-distribution (OOD) transitions. Existing methods typically treat the learned dynamics as fixed and attach post hoc support surrogates. We show that these surrogates can fail when the dynamics are locally insensitive to critical action choices: unsupported control actions may produce latent predictions that resemble demonstrated transitions, suppressing OOD signals despite large true predictive errors. To address this, we introduce support-conditioned control-sensitivity regularization, which promotes sensitive local response to control input changes in learned dynamics in high-support training regions. This preserves control-induced variation while limiting unstable extrapolation due to weak empirical support. Experiments in vision-based obstacle avoidance, manipulation, and real-robot navigation show improved OOD detection and safer closed-loop planning.
-
-**Comment:** Criterion 1: this paper improves generative dynamics/world-model planning for robots via support-conditioned control-sensitivity regularization, with experiments in vision-based obstacle avoidance, manipulation, and real-robot navigation showing better OOD detection and safer planning.
-
-**Relevance:** 6
 Back to [[topic](#topic-1)] [[top](#topics)]
 
 ---
-<a id="2002-you-dont-need-strong-assumptions-visual-representation-learning-via-temporal-differences"></a>
+<a id="2007-expanding-sphere-jepa-a-family-of-statistical-regularizers-for-the-hypersphere"></a>
 
-### 2002\. [You Don't Need Strong Assumptions: Visual Representation Learning via Temporal Differences](https://arxiv.org/abs/2606.15956)
-**ArXiv:** 2606.15956 [[page](https://arxiv.org/abs/2606.15956)] [[pdf](https://arxiv.org/pdf/2606.15956.pdf)]
+### 2007\. [Expanding SPHERE-JEPA: A Family of Statistical Regularizers for the Hypersphere](https://arxiv.org/abs/2606.17603)
+**ArXiv:** 2606.17603 [[page](https://arxiv.org/abs/2606.17603)] [[pdf](https://arxiv.org/pdf/2606.17603.pdf)]
 
-**Authors:** Ninad Daithankar, Alexi Gladstone, Yann LeCun, Heng Ji
+**Authors:** L\'eo Nicollier (CB, ATT), Enric Meinhardt-Llopis (CB), Max Dunitz (ATT), Marc Pic (ATT), Pablo Mus\'e (CB, IFUMI), Gabriele Facciolo (CB)
 
-**Abstract:** Progress in AI has largely been driven by methods that assume less. As compute and data increase, approaches with weaker inductive biases generally outperform those with stronger assumptions. This is particularly characteristic of the field of Visual Representation Learning, where approaches have gone from being dominated by Supervised Learning, to Weakly Supervised Learning, to the now widespread success of Self-Supervised Learning without human labels. Yet, even modern Self-Supervised Learning approaches still depend on strong inductive biases such as augmentations, masking, or cropping. If this trend holds, even these remaining biases should become bottlenecks at scale -- and our experiments confirm this: the optimal strength of inductive biases decreases as data grows. This motivates the search for approaches that rely on fewer assumptions. To this end, we introduce Temporal Difference in Vision (TDV), a new paradigm for self-supervised learning from video that avoids existing inductive biases, relying instead on a causal assumption that the past causes the future. TDV functions by jointly training an image encoder and a motion encoder so that the current frame's representation plus the encoded motion equals the next frame's representation. Despite not leveraging any strong inductive biases, TDV matches state-of-the-art recipes on dense spatial tasks, laying the foundation for representation learning without strong assumptions.
+**Abstract:** In Self-Supervised Learning (SSL), preventing representation collapse by explicitly enforcing a uniform distribution on the unit hypersphere has proven to be effective. However, current frameworks typically rely on sliced statistical regularizers such as SIGReg (used in LeJEPA) and SUSReg (used in SPHERE-JEPA), which approximate this continuous objective via Monte Carlo sampling along random 1D directions. This stochasticity injects projection variance into the training gradients, destabilizing optimization, and hindering convergence. In this work, we first show that analytically integrating out these random projections natively yields a deterministic Maximum Mean Discrepancy (MMD), bypassing the variance of sliced methods. Motivated by this equivalence, we formulate full-dimensional objectives for MMD, Kernel Stein Discrepancy (KSD), and Kullback-Leibler (KL) divergence directly on the sphere to enforce a uniform distribution. To prevent spatial bias, we equip these tests with rotationally invariant kernels constructed via spectral theory, systematically evaluating two canonical families: smooth exponential decay (Heat) and strict frequency cutoff (Bandlimited) filters. Empirically, removing projection-induced noise results in more stable optimization, faster convergence, and consistent improvements over stochastic sliced regularizers on ImageNet and Galaxy10. Furthermore, we reveal that the choice of the statistical test shapes the geometry of the learned latent space: MMD and KSD favor locally clustered organization suitable for object-centric domains, whereas the continuous KDE-based KL divergence promotes fine-grained instance separation, yielding the strongest results on unclustered procedural texture retrieval.
 
-**Comment:** Criterion 2: introduces Temporal Difference in Vision (TDV), a self-supervised video representation method where current-frame features plus encoded motion predict next-frame features, matching state-of-the-art recipes on dense spatial tasks.
-
-**Relevance:** 10
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2015-momentum-guided-semantic-forecasting-mofore-for-self-supervised-video-representation-learning"></a>
-
-### 2015\. [Momentum-Guided Semantic Forecasting (MoFore) for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2606.14765)
-**ArXiv:** 2606.14765 [[page](https://arxiv.org/abs/2606.14765)] [[pdf](https://arxiv.org/pdf/2606.14765.pdf)]
-
-**Authors:** Qinwu Xu
-
-**Abstract:** Self-supervised video representation learning has recently advanced through contrastive learning, masked reconstruction, and predictive representation learning. Reconstruction-based approaches such as MAE and VideoMAE learn representations by recovering masked visual content \cite{he2022mae,tong2022videomae}, while contrastive methods such as CLIP learn semantically meaningful embedding spaces through representation alignment \cite{radford2021clip}.   In this work, we introduce a Momentum-Guided Semantic Forecasting framework (MoFore) for self-supervised video representation learning. Instead of optimizing for pixel-level reconstruction or task-specific semantic alignment, the proposed method learns temporally predictive video representations by forecasting future latent embeddings from temporally distant context clips. To improve robustness across temporal scales, we further introduce randomized temporal-gap forecasting during training. The framework combines predictive latent forecasting with contrastive regularization to encourage temporal consistency while preventing representation collapse.   Experiments on the UCF101 dataset demonstrate that the proposed framework learns temporally consistent and semantically meaningful video representations without using action labels during training. Quantitative analysis shows strong temporal stability and emergent category-level structure in the learned embedding space, while qualitative retrieval experiments reveal motion-aware organization across related activities. Overall, the results suggest that long-range latent forecasting provides an effective and computationally efficient approach for self-supervised video representation learning without relying on reconstruction-based objectives.
-
-**Comment:** Matches criterion 2: MoFore proposes a self-supervised video representation method using momentum-guided latent forecasting, randomized temporal gaps, and contrastive regularization, evaluated on UCF101.
-
-**Relevance:** 8
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2016-selective-synergistic-learning-for-video-object-centric-learning"></a>
-
-### 2016\. [Selective Synergistic Learning for Video Object-Centric Learning](https://arxiv.org/abs/2606.15527)
-**ArXiv:** 2606.15527 [[page](https://arxiv.org/abs/2606.15527)] [[pdf](https://arxiv.org/pdf/2606.15527.pdf)]
-
-**Authors:** WonJun Moon, Jae-Pil Heo
-
-**Abstract:** Typical video object-centric learning (VOCL) approaches employ slot-based frameworks that rely on reconstruction-driven encoder-decoder architectures, where learning is mediated by two spatial maps: attention maps from the encoder and object maps from the decoder. As these two distinct maps exhibit different properties, a recent dense alignment strategy attempted to reconcile this discrepancy by enforcing agreement across all spatio-temporal patches via contrastive learning. However, this indiscriminate alignment inadvertently propagates the inherent weaknesses of each module, such as noisy encoder predictions and blurred decoder boundaries. Moreover, computing dense similarities across all pairs incurs a computational cost quadratic in the total number of spatio-temporal patches, severely limiting scalability. Motivated by this, we propose Selective Synergistic Learning (SSync). Instead of exhaustive patch-to-patch alignment, SSync prevents error propagation by selectively distilling only the most reliable cues: leveraging the encoder strictly for boundary refinement and the decoder for interior denoising. This is realized via a pseudo-labeling with linear complexity, eliminating the need for quadratic spatial comparisons. Also, to prevent the reinforcement of architectural biases like slot redundancy, we introduce a transitive pseudo-label merging that consolidates overlapping slots based on spatio-temporal activation consistency. Extensive studies demonstrate that SSync improves decomposition quality and serves as a versatile, plug-and-play module while also exhibiting exceptional robustness to slot configurations. Code is available at github.com/wjun0830/SSync.
-
-**Comment:** Criterion 2: proposes Selective Synergistic Learning for video object-centric SSL, using linear-complexity pseudo-labeling and transitive pseudo-label merging to improve decomposition quality.
-
-**Relevance:** 8
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2022-learning-sparse-latent-predictive-foundation-model-for-multimodal-neuroimaging"></a>
-
-### 2022\. [Learning Sparse Latent Predictive Foundation Model for Multimodal Neuroimaging](https://arxiv.org/abs/2606.14957)
-**ArXiv:** 2606.14957 [[page](https://arxiv.org/abs/2606.14957)] [[pdf](https://arxiv.org/pdf/2606.14957.pdf)]
-
-**Authors:** Haoxu Huang, Long Chen, Jingyun Chen, Jinu Hyun, James Ryan Loftus, Kara Melmed, Daniel Orringer, Jennifer Frontera, Seena Dehkharghani, Arjun Masurkar, Narges Razavian
-
-**Abstract:** Brain MRIs are routinely acquired as multiple complementary sequences with unique contrast weighting, including T1-weighed imaging (T1w) anatomic and fluid-sensitive T2-weighted (T2w) contrasts. However, methods for learning unified representations across the multitude of MRI contrast mechanisms at health-system scale are lacking. In this study, we introduce Neuro-JEPA, a sparse multimodal neuroimaging foundation model that combines a latent predictive objective with a Mixture-of-Experts architecture to encode brain MRI across core T1w, T2w, and fluid-suppressed FLAIR imaging (FLAIR). We further provide a systematic methodological study of architectural, masking, objective, and sparsity design choices beneficial for robust neuroimaging multimodal representation learning. Neuro-JEPA was pretrained on 1,551,862 scans from 428,647 studies after modality-specific preprocessing with data curation across three core structural brain MRI sequences. We evaluated the learned representations across clinical and research settings, including 25 tasks from three health systems: NYU Langone, NYU Long Island, and Massachusetts General Hospital, and 22 tasks from 12 public datasets, covering unimodal, multimodal and cross-domain evaluation configurations. Across these benchmarks, existing neuroimaging foundation models showed inconsistent gains over a simple convolutional neural network (CNN) baseline, whereas Neuro-JEPA achieved stronger and more consistent performance across all evaluated settings. These results establish a scalable methodological framework for multimodal neuroimaging representation learning and highlight the need for foundation model evaluation protocols that include simple baselines, clinically heterogeneous cohorts and controlled multimodal comparisons.
-
-**Comment:** Criterion 2: Neuro-JEPA proposes a latent predictive self-supervised representation learning framework with a Mixture-of-Experts architecture and systematically studies masking, objective, architecture, and sparsity choices over 1,551,862 multimodal MRI scans.
-
-**Relevance:** 7
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2030-eyemvp-oct-informed-fundus-representation-learning-via-paired-cfp-oct-pretraining"></a>
-
-### 2030\. [EyeMVP: OCT-Informed Fundus Representation Learning via Paired CFP--OCT Pretraining](https://arxiv.org/abs/2606.15129)
-**ArXiv:** 2606.15129 [[page](https://arxiv.org/abs/2606.15129)] [[pdf](https://arxiv.org/pdf/2606.15129.pdf)]
-
-**Authors:** Zhuo Deng, Ruiheng Zhang, Ziheng Zhang, Weihao Gao, Yitong Li, Qian Wang, Lei Shao, Jiaoyue Dong, Zhixi Zeng, Lijian Fang, Haibo Wang, Xiaobin Lin, Tao Liu, Zhicheng Du, Zhengwei Zhang, Lin Yang, Zheng Gong, Xinyu Zhao, Zhenquan Wu, Fang Li, Zhiguang Zhou, Guoming Zhang, Sun Jing, Han Lv, Wenbin We, Lan Ma
-
-**Abstract:** Color fundus photography (CFP) is the mainstay for large-scale retinal screening, yet its diagnostic capacity is constrained by the lack of depth-resolved structural information. Optical coherence tomography (OCT) provides cross-sectional retinal anatomy, but is less accessible in population-level screening. Here, we present EyeMVP, a cross-modal retinal foundation model that uses paired CFP--OCT pretraining to learn OCT-informed CFP representations. EyeMVP is pretrained on 674,893 strict same-eye same-day paired CFP--OCT image triples from 112,642 patients across eight hospitals in China. The model uses cross-modal masked reconstruction to enrich CFP representations with OCT-associated supervision, while requiring only CFP images at inference. To accommodate the non-aligned imaging geometry between en-face CFP and cross-sectional OCT, EyeMVP combines source-constrained cross-attention with CFP-derived structural masks. Across 16 downstream tasks, including classification, segmentation, few-shot adaptation, and cross-modal retrieval, EyeMVP outperforms representative retinal foundation models and shows consistent gains on tasks involving macular and optic nerve structure. For CFP-challenging macular diseases, EyeMVP achieves an AUROC of 0.948 for macular edema (vs.~0.852 for EyeCLIP) and 0.825 for myopic macular schisis. In an exploratory reader study, EyeMVP exceeds junior and intermediate ophthalmologist groups but does not reach senior ophthalmologist performance on macular edema, while showing numerically higher balanced accuracy than all reader groups on myopic macular schisis. These results suggest that pixel-level cross-modal reconstruction can enrich CFP representations with OCT-associated supervision, providing a practical route toward stronger CFP-based retinal analysis in screening settings.
-
-**Comment:** Matches criterion 2: EyeMVP proposes cross-modal masked reconstruction pretraining with source-constrained cross-attention for CFP-OCT image representation learning, improving performance across 16 downstream tasks including classification and segmentation.
-
-**Relevance:** 6
-Back to [[topic](#topic-2)] [[top](#topics)]
-
----
-<a id="3010-open-world-video-segmentation"></a>
-
-### 3010\. [Open-World Video Segmentation](https://arxiv.org/abs/2606.15632)
-**ArXiv:** 2606.15632 [[page](https://arxiv.org/abs/2606.15632)] [[pdf](https://arxiv.org/pdf/2606.15632.pdf)]
-
-**Authors:** Qing Su, Kaiyang Li, Yuan Zhuang, Fei Miao, Shihao Ji
-
-**Abstract:** While video segmentation has advanced rapidly on short clips and closed-set benchmarks, open-world video segmentation remains largely unexplored. The challenge is twofold: (1) existing methods are not designed to support object discovery and identity maintenance in long videos of dynamic ego-motion, and (2) existing evaluation protocols rely on a rigid 1:1 matching that unfairly penalizes semantically valid predictions with mismatched granularity. To address both gaps, we introduce Savvy, a practical and strong system for zero-shot open-world long-horizon video segmentation. Savvy combines hierarchical mask discovery, deferred admission, and track consolidation to support persistent object discovery, safe track promotion, and stable long-range identity maintenance. We further propose OGA, a granularity-aware evaluation suite for open-world video segmentation. Built on a Granularity-Agnostic (GA) matching protocol, OGA relaxes conventional 1:1 matching to an n:1 mapping, but still enforces temporal rigor by detecting support discontinuities through sever points and scoring each reference object through its dominant coherent fragment. This prevents fragmented or flickering support from being over-rewarded while enabling GA-adapted metrics and structural diagnostics: identity persistence (IP), and identity concentration (IC). On VIPSeg, we show that standard 1:1 evaluation substantially underestimates open-world methods, whereas GA evaluation recovers much of their suppressed performance. On the more realistic long-horizon benchmarks: ScanNet and HM3D, Savvy consistently outperforms strong baselines across both classical and proposed metrics, including STQ, VPQ$_\infty$, IP and IC. Together, these results establish a practical benchmark and a strong baseline for open-world long-horizon video segmentation.
-
-**Comment:** Criterion 3: introduces Savvy for zero-shot open-world long-horizon video segmentation with hierarchical mask discovery and evaluates on VIPSeg, ScanNet, and HM3D using the proposed OGA metrics.
+**Comment:** Criterion 2: introduces deterministic hyperspherical SSL regularizers based on full-dimensional MMD, KSD, and KL objectives, improving stability, convergence, and representation quality on ImageNet and Galaxy10.
 
 **Relevance:** 9
-Back to [[topic](#topic-3)] [[top](#topics)]
+Back to [[topic](#topic-2)] [[top](#topics)]
+
+<a id="2015-contrastive-action-image-pre-training-for-visuomotor-control"></a>
+
+### 2015\. [Contrastive Action-Image Pre-training for Visuomotor Control](https://arxiv.org/abs/2606.17256)
+**ArXiv:** 2606.17256 [[page](https://arxiv.org/abs/2606.17256)] [[pdf](https://arxiv.org/pdf/2606.17256.pdf)]
+
+**Authors:** Yuvan Sharma, Dantong Niu, Anirudh Pai, Zekai Wang, Zhuoyang Liu, Baifeng Shi, Stefano Saravalle, Boning Shao, Ruijie Zheng, Jing Wang, Konstantinos Kallidromitis, Yusuke Kato, Fabio Galasso, Yuke Zhu, Danfei Xu, Linxi "Jim" Fan, Jitendra Malik, Trevor Darrell, Roei Herzig
+
+**Abstract:** Existing vision encoders for robotics face a fundamental bottleneck: robotic datasets lack the scale necessary for large-scale pre-training. Prior work circumvents this data scarcity by turning to internet-scale image and language data or egocentric human video. While these models show promise, neither paradigm learns from paired vision and action data, which downstream visuomotor control policies require. However, robot trajectories, the most direct source of this paired signal, are not available at pre-training scale, motivating us to extract action signals from abundant human video instead. To this end, we introduce CAIP (Contrastive Action-Image Pre-training), a vision encoder that treats human hand poses from large-scale egocentric video as a proxy for end-effector actions. By extracting 3D hand keypoints, a representation that aligns naturally with downstream robot action spaces, CAIP learns a unified action-image representation through a contrastive objective. Leveraging 32,041 hours of egocentric human video and only 88 hours of robotic manipulation data, CAIP outperforms state-of-the-art vision encoders including DINOv2, SigLIP, MVP, and R3M. Evaluated on a challenging real-world dexterous manipulation setup using Dexmate Vega and Sharpa Wave hands, CAIP yields performance gains of more than 30% on tasks involving folding, pouring, and fine-grained manipulation. Our results show that our method of contrastive action-centric pre-training yields a scalable path to achieving robust visual representations better suited for physical interaction.
+
+**Comment:** Criterion 2: proposes CAIP, a contrastive action-image pretraining method using 3D hand keypoints from 32,041 hours of egocentric video, outperforming DINOv2, SigLIP, MVP, and R3M as robotics visual representations.
+
+**Relevance:** 8
+Back to [[topic](#topic-2)] [[top](#topics)]
 
 ---
-<a id="4023-from-frames-to-temporal-graphs-in-context-egocentric-action-recognition-with-vision-language-models"></a>
+<a id="4020-reasoning-text-to-video-retrieval-for-operating-room-clips-via-action-driven-digital-twins"></a>
 
-### 4023\. [From Frames to Temporal Graphs: In-Context Egocentric Action Recognition with Vision-Language Models](https://arxiv.org/abs/2606.15417)
-**ArXiv:** 2606.15417 [[page](https://arxiv.org/abs/2606.15417)] [[pdf](https://arxiv.org/pdf/2606.15417.pdf)]
+### 4020\. [Reasoning Text-to-Video Retrieval for Operating Room Clips via Action-Driven Digital Twins](https://arxiv.org/abs/2606.17298)
+**ArXiv:** 2606.17298 [[page](https://arxiv.org/abs/2606.17298)] [[pdf](https://arxiv.org/pdf/2606.17298.pdf)]
 
-**Authors:** Bessie Dominguez-Dager, Francisco Gomez-Donoso, Miguel Cazorla, Marc Pollefeys, Daniel Barath, Zuria Bauer
+**Authors:** Yiqing Shen, Hao Ding, Mathias Unberath
 
-**Abstract:** Action reasoning in egocentric video requires capturing fine-grained transitions of hand-object interactions, a task where general-purpose Vision-Language Models (VLMs) often struggle when operating directly on raw pixels. We propose to decouple visual perception from symbolic reasoning by converting videos into Temporal Action Graphs. In a multi-stage prompting pipeline, we first generate dense natural language narratives over short temporal windows as a semantic bottleneck, then formalize them into structured, open-vocabulary graph representations. On the EGTEA and Epic-Kitchens-100 datasets, the symbolic representation unlocks efficient in-context learning: few-shot graph demonstrations yield substantial accuracy gains over zero-shot frame and graph-based inference alike. Even in the zero-shot setting, graph-based reasoning remains competitive with pixel-based inference despite potential pretraining contamination favoring the latter. Across 11 open-weight VLMs from 6 model families ranging from 2B to 235B parameters, our findings indicate that current VLMs are more effective as symbolic reasoners than as direct visual observers. By projecting video into the language domain, we provide a scalable, fine-tuning-free alternative to end-to-end approaches that better leverages these models' latent reasoning strengths. The code will be made public.
+**Abstract:** Text-to-video retrieval in operating rooms (OR) is an enabling technology for OR safety, as it allows stakeholders to retrieve and inspect recordings of specific events. However, because the most safety-critical events may not follow the common structure, to unlock its full potential text-to-video retrieval must be able to handle implicit queries that require reasoning to identify the right video (e.g., the step right before clipping). However, existing methods rely on global embeddings that cannot reason over such queries. We propose OR3, a text-to-video retrieval method that converts clips into action-driven digital twins (ActDTs), grouping concurrent subject-action-object triplets under non-overlapping temporal intervals. Moreover, rather than cross-modal matching through paired encoders, OR3 performs imagination-based retrieval where an LLM generates hypothetical ActDTs from queries. This enables intra-modal matching via a single encoder trained with ActDT-tailored hard negatives. Finally, evidence-grounded refinement revises imagined ActDTs based on discrepancies with top candidates to capture procedure-specific patterns. We construct a benchmark from MM-OR with 276 implicit queries across four reasoning categories over 386 clips from robotic knee procedures. OR3 achieves 57.6 R@1 and 77.3 R@5, outperforming the strongest baseline. These results demonstrate that OR3 enables fine-grained discrimination between visually similar OR video clips through temporal action reasoning.
 
-**Comment:** Criterion 4: the paper leverages VLM-generated natural-language narratives and Temporal Action Graphs to improve temporal reasoning for egocentric video action recognition, reporting few-shot gains on EGTEA and Epic-Kitchens-100.
-
-**Relevance:** 7
-Back to [[topic](#topic-4)] [[top](#topics)]
-
-<a id="4031-decoupled-motion-representation-learning-for-moving-infrared-small-target-detection"></a>
-
-### 4031\. [Decoupled Motion Representation Learning for Moving Infrared Small Target Detection](https://arxiv.org/abs/2606.15286)
-**ArXiv:** 2606.15286 [[page](https://arxiv.org/abs/2606.15286)] [[pdf](https://arxiv.org/pdf/2606.15286.pdf)]
-
-**Authors:** Guoyi Zhang, Peiwen Wu, Han Wang, Xiangpeng Xu, Xiaohu Zhang
-
-**Abstract:** Infrared small target detection in dynamic scenes remains challenging due to the highly coupled motions among targets, imaging platforms, and dynamic backgrounds. Existing multi-frame methods usually perform implicit temporal modeling, where coherent background dynamics dominate motion correspondence learning, leading to an inherent trade-off between detection and false alarms. In this work, we observe that background motions exhibit strong global coherence, whereas small targets mainly correspond to sparse local motion anomalies. Moreover, many false-alarm responses maintain high consistency with globally coherent motion patterns, indicating that they mainly originate from coherent background dynamics rather than genuine target motions. Based on these observations, we propose a decoupled motion representation learning framework for moving infrared small target detection. Specifically, an explicit motion branch is introduced to model globally coherent motion dynamics using pretrained optical flow priors, together with a structure-preserving self-supervised adaptation strategy for infrared motion correspondence learning. Meanwhile, an implicit motion branch based on deformable feature alignment is designed to capture target-sensitive local motion anomalies under coherent motion guidance. Furthermore, a coherent-motion-guided local anomaly reasoning module is proposed to identify and suppress coherent-motion-induced false responses during localized motion modeling. Extensive experiments on two challenging infrared small target detection benchmarks demonstrate that the proposed method consistently outperforms existing state-of-the-art approaches, particularly in dynamic scenes with complex motions, while maintaining favorable inference efficiency.
-
-**Comment:** Criterion 4: it transfers pretrained optical-flow priors via a structure-preserving self-supervised adaptation branch for infrared motion correspondence, improving dense moving-small-target detection on two infrared video benchmarks.
+**Comment:** Matches criterion 4 by using language-to-video reasoning for video understanding: OR3 converts clips into temporal action-driven digital twins and achieves 57.6 R@1 / 77.3 R@5 on an implicit-query MM-OR benchmark.
 
 **Relevance:** 6
 Back to [[topic](#topic-4)] [[top](#topics)]
 
 ---
-<a id="6001-high-fidelity-4d-hand-object-capture-via-multi-view-spatiotemporal-tracking-and-physics-aware-gaussians"></a>
+<a id="5012-reage3d-re-aging-3d-faces-with-view-consistency"></a>
 
-### 6001\. [High-Fidelity 4D Hand-Object Capture via Multi-View Spatiotemporal Tracking and Physics-Aware Gaussians](https://arxiv.org/abs/2606.15908)
-**ArXiv:** 2606.15908 [[page](https://arxiv.org/abs/2606.15908)] [[pdf](https://arxiv.org/pdf/2606.15908.pdf)]
+### 5012\. [ReAge3D: Re-Aging 3D Faces with View Consistency](https://arxiv.org/abs/2606.18156)
+**ArXiv:** 2606.18156 [[page](https://arxiv.org/abs/2606.18156)] [[pdf](https://arxiv.org/pdf/2606.18156.pdf)]
 
-**Authors:** Bo Peng, Xu Chen, Yi Gu, Hidenobu Matsuki, Mingsong Dou, Jingjing Shen, Deying Kong, Juyong Zhang, Zhengyang Shen
+**Authors:** Libing Zeng, Li Ma, Mingming He, Ning Yu, Paul Debevec, Nima Khademi Kalantari
 
-**Abstract:** The growing demand for high-fidelity 4D hand-object interaction (HOI) data in embodied AI and spatial computing is currently bottlenecked by the reliance on pre-scanned object templates and physical markers. While recent methods have demonstrated promising results in reconstructing 4D hand-object interaction from videos, they are highly sensitive to initial estimates of hand and object poses. Yet, estimating these poses from images is challenging, in particular under severe occlusion which is inherent in hand-object interaction scenarios. We propose a novel system for the robust and accurate reconstruction of hands and objects from synchronized and calibrated multi-view videos without requiring any templates or markers. Our system consists of two main components with key innovations: (1) a multi-view feed-forward transformer model that aggregates cross-view geometry and temporal cues to provide a reliable, metric-consistent initialization for both poses and dense object geometry, and (2) a hand-object physics-aware Gaussian-based optimization framework to refine the initial estimates, integrating tetrahedral constraints, collision refinement, and appearance decomposition to produce physically plausible and visually accurate reconstruction. Validated on public benchmarks and an extensive internal dataset, our pipeline achieves highly robust, artifact-free reconstruction, providing an efficient foundation for automated 4D asset generation. Our project page are available at https://zyshen021.github.io/HOSTPG/.
+**Abstract:** We present a novel framework for realistic and controllable 3D face re-aging which produces highly detailed, identity-preserving results. Existing 3D editing methods, while effective for coarse semantic changes, are not well suited for re-aging, as even small inconsistencies across re-aged 2D views can lead to over-smoothing of subtle but perceptually important age-related details. To address this challenge, we first introduce a 2D diffusion-based re-aging model, DiffReaging, trained on synthetically generated image pairs. We further propose a center-out editing propagation strategy that leverages this re-aging model to reconstruct multi-view-consistent re-aged images. Specifically, starting from a re-aged frontal pivot view, we reconstruct the remaining views through warping and our proposed Masked-DiffReaging process. By injecting existing content at every step of the diffusion process, Masked-DiffReaging ensures that the reconstructed regions remain coherent with existing pixels. The resulting consistent set of re-aged views supervises the optimization of the re-aged 3D representation. Our method outperforms existing 3D editing techniques both visually and quantitatively, enabling smooth, fine-grained control over age transformations in 3D face models.
 
-**Comment:** Criterion 6: the paper proposes markerless, template-free 4D hand-object reconstruction from calibrated multi-view videos using a multi-view spatiotemporal transformer plus physics-aware Gaussian optimization with tetrahedral constraints and collision refinement, evaluated on public benchmarks.
+**Comment:** Matches criterion 5: ReAge3D uses a 2D diffusion re-aging model, DiffReaging, plus Masked-DiffReaging center-out multi-view propagation to create view-consistent re-aged 3D face representations with improved visual and quantitative results.
 
-**Relevance:** 10
-Back to [[topic](#topic-6)] [[top](#topics)]
+**Relevance:** 8
+Back to [[topic](#topic-5)] [[top](#topics)]
 
-<a id="6011-turbogs-accelerating-3d-gaussian-splatting-via-error-guided-sparse-pixel-sampling-and-optimization"></a>
+---
+<a id="6005-moonsplat-monocular-online-gaussian-splatting-with-sim3-global-optimization"></a>
 
-### 6011\. [TurboGS: Accelerating 3D Gaussian Splatting via Error-Guided Sparse Pixel Sampling and Optimization](https://arxiv.org/abs/2606.15924)
-**ArXiv:** 2606.15924 [[page](https://arxiv.org/abs/2606.15924)] [[pdf](https://arxiv.org/pdf/2606.15924.pdf)]
+### 6005\. [MoonSplat: Monocular Online Gaussian Splatting with Sim(3) Global Optimization](https://arxiv.org/abs/2606.17935)
+**ArXiv:** 2606.17935 [[page](https://arxiv.org/abs/2606.17935)] [[pdf](https://arxiv.org/pdf/2606.17935.pdf)]
 
-**Authors:** Zheng Dong, Daifei Qiu, Pinxuan Dai, Ke Xu, Jiamin Xu, Lili He, Rynson W. H. Lau, Weiwei Xu
+**Authors:** Guo Pu, Yixuan Han, Haofeng Li, Yao Zhang, Hui Zhou, Zhouhui Lian
 
-**Abstract:** Consumer-level applications require fast optimization of 3D Gaussian Splatting (3DGS) with high-fidelity novel view rendering. However, existing 3DGS acceleration approaches still incur substantial computation on redundant pixels while sacrificing fine details. In this paper, we present TurboGS, an error-guided training framework that accelerates 3DGS by concentrating optimization on perceptually informative pixels. TurboGS is built upon four core components: (1) a tile-wise sparse pixel sampling, which, driven by multi-view reconstruction errors during training, prioritizes challenging regions and skips well-reconstructed ones to avoid redundant gradient computation; (2) a tile-wise structure-aware loss with sparse Normalized Cross-Correlation, which provides sparse yet effective supervision to preserve fine details and stabilize training; (3) an error-driven Gaussian density control strategy, which dynamically allocates model capacity and removes redundant primitives; and (4) a tailored hybrid optimizer that couples Hessian-informed updates with Adam moment damping to stabilize and improve convergence under sparse supervision. Experiments on standard benchmarks demonstrate that TurboGS can deliver on par or superior rendering quality within 100 seconds on a single RTX 5090 GPU card (up to 10x training speedup over vanilla 3DGS).
+**Abstract:** Online 3D reconstruction from monocular image sequences is a challenging and ongoing research topic. 3D Gaussian Splatting (3DGS), leveraging its high-quality real-time rendering capability, empowers online 3D reconstruction to represent dense scenes with enhanced expressiveness, and thus holds great promise for a wide range of applications such as robotics and AR/VR. However, existing online 3DGS methods still suffer from some key challenges: fragile camera pose estimation due to the lack of global optimization, and low optimization efficiency in large-scale or long-sequence scenarios. To address these issues, we propose a robust and efficient online voxelized 3DGS reconstruction framework integrated with global $\text{Sim}(3)$ optimization, which enables reliable camera tracking and efficient global loop closure for both camera poses and voxelized 3DGS. To accelerate the convergence of the voxelized 3DGS, we further introduce a color residual learning strategy, which not only boosts optimization speed but also enhances rendering quality. Extensive experiments on diverse indoor and outdoor datasets demonstrate that our method achieves state-of-the-art performance in both camera pose estimation accuracy and rendering quality, while retaining real-time efficiency. Additionally, we develop and deploy a real-world UAV-based active reconstruction system grounded on our proposed method, validating its robustness and generalizability for practical online 3D reconstruction tasks. Our code and data are available at https://github.com/TrickyGo/MoonSplat.
 
-**Comment:** Criterion 6: TurboGS introduces an error-guided sparse pixel sampling and optimization framework for 3D Gaussian Splatting, reporting comparable or better rendering quality with up to 10x training speedup and completion within 100 seconds on an RTX 5090.
+**Comment:** Matches criterion 6: MoonSplat proposes an online voxelized 3D Gaussian Splatting reconstruction framework with Sim(3) global optimization for monocular sequences, improving camera pose estimation and rendering quality while maintaining real-time efficiency.
 
 **Relevance:** 9
 Back to [[topic](#topic-6)] [[top](#topics)]
 
-<a id="6024-spatialavatar-0-high-quality-4d-head-avatar-with-multi-stage-reconstruction"></a>
+<a id="6013-future-dynamic-3d-reconstruction-a-3d-world-model-with-disentangled-ego-motion"></a>
 
-### 6024\. [SpatialAvatar-0: High-Quality 4D Head Avatar with Multi-Stage Reconstruction](https://arxiv.org/abs/2606.15659)
-**ArXiv:** 2606.15659 [[page](https://arxiv.org/abs/2606.15659)] [[pdf](https://arxiv.org/pdf/2606.15659.pdf)]
+### 6013\. [Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion](https://arxiv.org/abs/2606.18250)
+**ArXiv:** 2606.18250 [[page](https://arxiv.org/abs/2606.18250)] [[pdf](https://arxiv.org/pdf/2606.18250.pdf)]
 
-**Authors:** Yiran Wang, Zeyu Zhang, Yuanming Li, Ziming Wang, Yang Zhao
+**Authors:** Nils Morbitzer, Jonathan Evers, Artem Savkin, Thomas Stauner, Nassir Navab, Federico Tombari, Stefano Gasperini
 
-**Abstract:** High-quality 4D head avatars from one or a few source portraits are central to telepresence, AR/VR, and digital-human interaction. 3D Gaussian Splatting (3DGS) has emerged as the dominant representation, with two complementary regimes (generalizable feed-forward predictors and per-subject refiners) maturing in parallel. However, existing feed-forward predictors are trained on a single dataset family with a hard-coded source count, inheriting the corresponding domain bias. Per-subject refiners require 300K--600K iterations and rely on adaptive densification that destroys upstream Gaussian layouts, preventing the two regimes from sharing a representation end-to-end. To bridge both regimes we propose SpatialAvatar-0 on a shared FLAME-mesh-bound Gaussian representation: a feed-forward generator with a parameter-free K-source mean-pool and a monocular-temporal to multi-view-spatial two-phase schedule that anchors against identity-prior collapse onto the smaller multi-view set. We further introduce a 10K-iter layout-preserving per-subject refinement loop that freezes the FLAME-binding and Gaussian count and replaces densification with a three-component anti-spike regularization. On VFHQ/HDTF cross-domain zero-shot we surpass the in-domain leader GAGAvatar by +1.5 dB PSNR despite never training on either test domain, and on the SplattingAvatar monocular benchmark we lead every reported metric, surpassing the 300K-iter GeoAvatar by +1.3 dB PSNR at up to 60x shorter per-subject schedule than common SOTA baselines. Website: https://spatialwalk.github.io/SpatialAvatar-0.
+**Abstract:** Forecasting the evolution of dynamic environments is crucial for autonomous agents. While generative world models have recently achieved high photorealism in 2D video synthesis by mixing ego-motion and environmental dynamics within the image plane, they exhibit physical inconsistencies, such as morphing or vanishing objects, especially over long time horizons. In this paper, we propose FR3D, a world model that predicts a persistent 3D latent representation for future dynamic 3D reconstruction. Unlike prior works that treat the world as a sequence of image-based features, FR3D explicitly decouples the 3D evolution of the scene from the agent's trajectory, treating the inferred ego-motion as a latent proxy for action. This disentanglement resolves the ambiguities between self-motion and world-motion, ensuring geometric consistency into the future. Furthermore, we introduce a teacher-student distillation strategy that leverages the spatial "common sense" of off-the-shelf foundation models, leading to robust zero-shot generalization. Extensive experiments demonstrate FR3D's strong performance for future dynamic 3D reconstruction from monocular observations across multiple datasets, even 2 seconds into the future. Project page: https://fr3d-wm.github.io.
 
-**Comment:** Criterion 6: advances Gaussian Splatting-based 4D head reconstruction/generation from one or few portraits via a shared FLAME-mesh-bound Gaussian representation and reports 60x shorter per-subject refinement than common SOTA baselines.
+**Comment:** Matches criterion 6: FR3D performs future dynamic 3D reconstruction from monocular observations by predicting a persistent 3D latent representation that disentangles ego-motion from scene dynamics, with strong results across multiple datasets up to 2 seconds into the future.
 
-**Relevance:** 7
+**Relevance:** 8
 Back to [[topic](#topic-6)] [[top](#topics)]
 
-<a id="6025-emozone-talker-regional-semantic-control-of-audio-driven-3dgs-talking-heads-via-facial-action-units"></a>
+<a id="6017-gase-gaussian-splatting-based-automated-system-for-reconstructing-embodied-simulation-environments"></a>
 
-### 6025\. [EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units](https://arxiv.org/abs/2606.15848)
-**ArXiv:** 2606.15848 [[page](https://arxiv.org/abs/2606.15848)] [[pdf](https://arxiv.org/pdf/2606.15848.pdf)]
+### 6017\. [GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments](https://arxiv.org/abs/2606.17520)
+**ArXiv:** 2606.17520 [[page](https://arxiv.org/abs/2606.17520)] [[pdf](https://arxiv.org/pdf/2606.17520.pdf)]
 
-**Authors:** Tingting Chen, Shaojun Wang, Huaye Zhang, Diqiong Jiang, Chenglizhao Chen
+**Authors:** Jiawei Zhang, Yiming Yan, Chao Liang, Nuo Xu, Seson Sun, Qichen Zhang, Yuhao Xu, Yantai Yang, Yingqiao Wang, Qin Jin, Zhipeng Zhang
 
-**Abstract:** 3D Gaussian Splatting (3DGS) has shown strong potential for high-fidelity talking head synthesis. However, enabling fine-grained, interpretable, and editable facial expression control remains fundamentally challenging due to intrinsic conflicts between speech-driven facial dynamics and explicit expression signals. Existing methods rely on implicit multimodal fusion, leading to spatial entanglement and temporal instability. We present EmoZone-Talker, a novel framework that reformulates audio-driven facial animation as a structured spatial-temporal coordination problem under cross-modal conflicts. Our approach introduces an explicit spatial disentanglement and temporal dynamics modeling of facial motion. Specifically, we propose Synergy Zones with Prioritized Attention Bias (SZ-PAB) to explicitly decouple modality contributions via region-wise constraints guided by anatomical priors, and a Channel-Independent Temporal AU Encoder (CIT-AE) to model temporally coherent AU dynamics. By integrating these representations into 3D Gaussian deformation, EmoZone-Talker enables precise and interpretable control over facial expressions. Extensive experiments demonstrate that our method improves expression controllability and realism, with notable gains in upper-face accuracy and temporal coherence, while preserving high rendering quality and accurate lip synchronization. Code will be publicly released to facilitate reproducibility and further research.
+**Abstract:** Training embodied agents in the real world requires skilled operators and expensive hardware. Simulation environments offer a compelling alternative by enabling large-scale, cost-effective data augmentation. Consequently, rapidly constructing high-fidelity simulation scenes with a minimal sim-to-real gap has become a critical objective in robot learning. While reconstruction-based methods provide superior visual quality, current workflows are hindered by inefficient data acquisition and subpar foreground object extraction. We thus propose GASE, a highly automated system for simulation scene construction. GASE leverages multi-view video streams from panoramic camera arrays to enable rapid environment scanning. To ensure high-quality asset generation, our pipeline introduces a camera-pose-based strategy that robustly extracts objects across frames in the 2D domain, followed by high-fidelity scene inpainting. Foreground objects and the static background are then reconstructed independently and seamlessly imported into physics simulators for policy training. Extensive experiments demonstrate that GASE outperforms existing 3D Gaussian-based methods in segmentation accuracy by over 10\% while achieving state-of-the-art inpainting quality. Furthermore, real-robot deployments across manipulation and navigation tasks maintains a performance gap of less than 10\% compared to policies trained purely on real-world data. These results confirm that GASE provides an efficient and highly effective solution for bridging the sim-to-real gap. Code will be released.
 
-**Comment:** Criterion 6: EmoZone-Talker advances 3D Gaussian Splatting-based generation/animation by using Synergy Zones with Prioritized Attention Bias and a Channel-Independent Temporal AU Encoder for controllable audio-driven 3DGS talking heads with improved temporal coherence and rendering quality.
+**Comment:** Criterion 6: presents GASE, a Gaussian Splatting-based reconstruction pipeline for embodied-simulation environments that independently reconstructs foreground objects and static backgrounds and reports over 10% segmentation accuracy gains plus under 10% sim-to-real performance gap.
 
-**Relevance:** 7
-Back to [[topic](#topic-6)] [[top](#topics)]
-
-<a id="6027-vephand-view-efficient-photometric-hand-performance-capture-at-scale"></a>
-
-### 6027\. [VEPHand: View-Efficient Photometric Hand Performance Capture at Scale](https://arxiv.org/abs/2606.15966)
-**ArXiv:** 2606.15966 [[page](https://arxiv.org/abs/2606.15966)] [[pdf](https://arxiv.org/pdf/2606.15966.pdf)]
-
-**Authors:** Zhengyang Shen, Kai-Hung Chang, Erroll Wood, Deying Kong, Bo Peng, Timo Bolkart, Jinlong Yang, Bowen Zhao, Danhang Tang, Sasa Petrovic, Emre Aksan, J\'er\'emy Riviere, Vassilis Choutas, Delio Vicini, Jay Busch, Shichen Liu, Zhe Cao, Hugh Liu, JingJing Shen, Jonathan Taylor, Mingsong Dou
-
-**Abstract:** Robust, high-fidelity 3D hand capture, while fundamental to digital human creation, remains challenging with practical multi-view systems that balance rich photometry with the geometric ambiguities of reconstruction arising from limited viewpoint density. This paper presents an end-to-end pipeline for dynamic hand performance capture and registration, specifically designed for view-efficient setups ($\sim$20 views). We address key challenges with two primary innovations. First, to overcome reconstruction difficulties like limited view overlap and background clutter, our mask-free neural method robustly extracts detailed hand geometry and appearance from unmasked images using scene parameterization and scenario-specific density regularization. Second, addressing registration challenges such as accurately capturing non-linear skin deformations and ensuring plausible results during severe self-contact, we propose a physics-inspired framework. It aligns reconstructions to a personalized hand model by optimizing intrinsic volumetric offsets within its canonical tetrahedral mesh, alongside pose parameters. This approach, supported by robust losses and optimization, captures fine surface deformations, ensures plausible results under severe articulation and self-contact, and demonstrates strong tolerance to input noise. We demonstrate the scalability and robustness of our automated pipeline on an extensive dataset of over 12,000 sequences, from which we also derive a large-scale, high-quality synthetic 2D/3D hand dataset for training downstream tasks. This showcases its effectiveness for single hands, intricate two-hand interactions, and natural hand-object manipulations. Our method achieves state-of-the-art reconstruction fidelity in view-efficient, unmasked scenarios and highly accurate registration. Our project page are available at https://zyshen021.github.io/VEPHand/.
-
-**Comment:** Criterion 6: performs view-efficient 3D reconstruction and registration from roughly 20 unmasked multi-view images using mask-free neural density regularization and tetrahedral-mesh volumetric-offset optimization, achieving state-of-the-art reconstruction fidelity over 12,000 hand sequences.
-
-**Relevance:** 7
-Back to [[topic](#topic-6)] [[top](#topics)]
-
-<a id="6032-uncertainty-quality-of-vggt-an-analysis-on-the-dtu-benchmark-dataset"></a>
-
-### 6032\. [Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset](https://arxiv.org/abs/2606.16479)
-**ArXiv:** 2606.16479 [[page](https://arxiv.org/abs/2606.16479)] [[pdf](https://arxiv.org/pdf/2606.16479.pdf)]
-
-**Authors:** Markus Hillemann, Robert Langend\"orfer, Steven Landgraf, Markus Ulrich
-
-**Abstract:** Visual Geometry Grounded Transformer (VGGT) has already attracted a great deal of attention in a short period of time, not least due to the Best Paper Award at CVPR-2025. Similar to DUSt3R and MASt3R, VGGT aims to bring about a paradigm shift by replacing established methods like bundle adjustment and feature matching with a simple, unified, feed-forward neural network that predicts camera poses, depth maps, and dense 3D structure directly from multiple images of a scene in a few seconds. A key aspect is its ability to process an arbitrary number of views consistently in a single forward pass without any post-processing or iterative optimization. For photogrammetry, this opens new possibilities for real-time, scalable, and accessible 3D reconstruction. In this context, not only high reconstruction accuracy but also high-quality uncertainty estimates are crucial, as they foster trust and enable robust quality assurance. This paper therefore investigates the quality of VGGT's uncertainty predictions. The analysis identifies an effective confidence threshold for filtering VGGT's raw output and demonstrates that enhancing uncertainty quality holds strong potential for improving the accuracy of its 3D reconstructions.
-
-**Comment:** Criterion 6: analyzes VGGT's joint camera-pose, depth, and dense-3D reconstruction uncertainty on the DTU benchmark and identifies a confidence threshold that improves 3D reconstruction accuracy.
-
-**Relevance:** 6
-Back to [[topic](#topic-6)] [[top](#topics)]
-
-<a id="6034-splatlessdf-continuous-distance-field-mapping-with-non-splatting-gaussians"></a>
-
-### 6034\. [SplatlessDF: Continuous Distance Field Mapping with Non-Splatting Gaussians](https://arxiv.org/abs/2606.13990)
-**ArXiv:** 2606.13990 [[page](https://arxiv.org/abs/2606.13990)] [[pdf](https://arxiv.org/pdf/2606.13990.pdf)]
-
-**Authors:** Monisha Mushtary Uttsha, Lan Wu, Teresa Vidal-Calleja
-
-**Abstract:** Recent Gaussian splatting (GS) methods have shown that scenes can be represented efficiently with optimisable Gaussians for high-quality reconstruction and rendering. In this paper, building on this principle, we introduce SplatlessDF, a continuous distance field (DF) mapping framework that uses anisotropic Gaussian elements from a spatial rather than photometric perspective. SplatlessDF directly parameterises the Gaussians and optimises to recover a differentiable DF, enabling distances and gradients to be queried in the spatial domain for downstream robotic tasks such as navigation. Furthermore, SplatlessDF can be coupled with 2D Gaussian splatting (2DGS), providing a unified framework based solely on Gaussian primitives that can learn continuous DF and surface models and supports photometric rendering. We consider two settings: a standalone DF-only formulation and a joint DF-rendering formulation coupled with 2DGS. Experiments show that the standalone formulation provides efficient and accurate distance and gradient queries, while the joint formulation improves rendering geometry and simultaneously models a continuous DF. These results highlight the potential of GS-style representations not only for surface modelling and rendering but also for mapping representations suited to robotic navigation.
-
-**Comment:** Matches criterion 6 by proposing SplatlessDF, a Gaussian-primitive-based continuous distance-field and surface mapping framework coupled with 2D Gaussian Splatting for joint DF modeling and photometric rendering.
-
-**Relevance:** 6
+**Relevance:** 8
 Back to [[topic](#topic-6)] [[top](#topics)]
