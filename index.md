@@ -2,13 +2,13 @@
 title: Arxiv Daily
 ---
 
-# Personalized Daily Arxiv Papers 07/09/2026
+# Personalized Daily Arxiv Papers 07/10/2026
 
 This project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)
 
 About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:
 
-<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=💝&slug=Variante&button_colour=5b1e5d&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=️&slug=Variante&button_colour=137d59&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 <a id="topics"></a>
@@ -42,29 +42,32 @@ Paper selection prompt and criteria (jump to the section by clicking the link):
 <a id="topic-1"></a>
 
 ### Topic 1
-1000\. [NativeMEM: Native Memory Compression for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2607.06678) [[more](#1000-nativemem-native-memory-compression-for-long-horizon-robotic-manipulation)]  
-**Authors:** Ziye Wang, Modi Shi, Chaojun Ni, Jiazhi Yang, Mengdi Li, Zhizhong Su, Tianwei Lin, Hongyang Li
+1000\. [APIVOT: Adaptive Planning with Interleaved Vision-Language Thoughts](https://arxiv.org/abs/2607.08024) [[more](#1000-apivot-adaptive-planning-with-interleaved-vision-language-thoughts)]  
+**Authors:** Emily Jin, Joy Hsu, Yiqing Xu, Weiyu Liu, Nick Haber, Jiajun Wu
 
-1002\. [Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2607.07608) [[more](#1002-dual-latent-memory-in-vision-language-action-models-for-robotic-manipulation)]  
-**Authors:** Hongyu Qu, Jianzhe Gao, Xiaobin Hu, Shaohuan Yang, Xinlei Yu, Rui Yan, Wenguan Wang, Xiangbo Shu, Shuicheng Yan
+1001\. [Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio](https://arxiv.org/abs/2607.08127) [[more](#1001-understanding-and-mitigating-the-video-action-generalization-gap-via-temporal-ratio)]  
+**Authors:** Utkarsh A. Mishra, Yongxin Chen, Danfei Xu, Yang Liu, Xi Chen, Jiayuan Mao
 
-1003\. [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](https://arxiv.org/abs/2607.06988) [[more](#1003-wam-ttt-steering-world-action-models-by-watching-human-play-at-test-time)]  
-**Authors:** Yusen Feng, Bingchen Han, Jiangran Lyu, Kai Liu, Yixin Zheng, Yuxuan Wan, Weiheng Liu, Sun Han, Ruiqin Li, Yulong Zhang, Fangfu Liu, Xuesong Shi, Libin Liu, Yizhou Wang, Zhizheng Zhang, He Wang
+1002\. [EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data](https://arxiv.org/abs/2607.08436) [[more](#1002-egowam-world-action-models-beyond-pixels-with-in-the-wild-egocentric-human-data)]  
+**Authors:** Baoyu Li, Xinchen Yin, Mengying Lin, Yixin Zhang, Danfei Xu
 
-1004\. [PriGo: Test-Time Primitive Guidance to Diffusion and Flow Policies for Adaptive Robotic Manipulation](https://arxiv.org/abs/2607.07076) [[more](#1004-prigo-test-time-primitive-guidance-to-diffusion-and-flow-policies-for-adaptive-robotic-manipulation)]  
-**Authors:** Zezeng Li, Enda Xiang, Thuy Tran, Di Huang, Momath Thiam, Liming Chen
+1003\. [LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action](https://arxiv.org/abs/2607.08182) [[more](#1003-leevla-seeing-what-matters-in-latent-environment-evolution-for-vision-language-action)]  
+**Authors:** Qi Lyu, Baicheng Liu, Xudong Wang, Jiahua Dong, Lianqing Liu, Zhi Han
 
-1005\. [Pelican-VLA 0.5: Attending Before Acting Benefits Generalization](https://arxiv.org/abs/2607.06655) [[more](#1005-pelican-vla-05-attending-before-acting-benefits-generalization)]  
-**Authors:** Zeyuan Ding, Wenhai Liu, Yang Xu, Jiayu Hu, Yinda Chen, Yi Zhang, Yong Dai, Jian Tang, Xiaozhu Ju
+1008\. [TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning](https://arxiv.org/abs/2607.08283) [[more](#1008-tfp-temporally-conditioned-memory-fusion-policies-for-visuomotor-learning)]  
+**Authors:** Yushen Liang, Yue Peng, Baosheng Jin, Tianluo Zhang, Xinyu Zhang, Shuyi Zhou, Zhuoran Chen, Xinqi Liu, Shenji Wan
 
-1008\. [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/abs/2607.07287) [[more](#1008-touchworld-a-predictive-and-reactive-tactile-foundation-model-for-dexterous-manipulation)]  
-**Authors:** Jianyi Zhou, Feiyang Hong, Yunhao Li, Yicheng Zhao, Yongjue Cen, Zirui Liu, Jiakang Huang, Zirui Chen, Ruiyang Zhang, Weizhuo Zhu, Xuhua Song, Shuo Yang
+1009\. [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448) [[more](#1009-harness-vla-steering-frozen-vlas-into-reliable-manipulation-primitives-via-memory-guided-agents)]  
+**Authors:** Yixian Zhang, Huanming Zhang, Feng Gao, Xiao Li, Zhihao Liu, Chunyang Zhu, Jiaxing Qiu, Yuchen Yan, Jiyuan Liu, Wenhao Tang, Zhengru Fang, Yi Nie, Changxu Wei, Yu Wang, Wenbo Ding, Chao Yu
 
-1010\. [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://arxiv.org/abs/2607.07675) [[more](#1010-scaling-mixture-of-experts-video-pretraining-for-embodied-intelligence)]  
-**Authors:** Shuailei Ma, Jiaqi Liao, Xinyang Wang, Jingjing Wang, Chaoran Feng, Zijing Hu, Chong Bao, Zichen Xi, Yuqi Gan, Weisen Wang, Yanhong Zeng, Qin Zhao, Zifan Shi, Wei Wu, Hao Ouyang, Qiuyu Wang, Shangzhan Zhang, Jiahao Shao, Yipengjing Sun, Liangxiao Hu, Lunke Pan, Nan Xue, Kecheng Zheng, Yinghao Xu, Xing Zhu, Yujun Shen, Ka Leong Cheng
+1010\. [FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation](https://arxiv.org/abs/2607.08575) [[more](#1010-fabrivla-a-lightweight-vision-language-action-model-for-precise-multi-task-manipulation)]  
+**Authors:** Shiyuan Yang, Borong Zhang, Jizheng Zhang, Zhijia Tao, Junfei Guo, Donglai Ran, Xu Bian, Qingbiao Li
 
-1013\. [GeoProp: Grounding Robot State in Vision for Generalist Manipulation](https://arxiv.org/abs/2607.07101) [[more](#1013-geoprop-grounding-robot-state-in-vision-for-generalist-manipulation)]  
-**Authors:** Guoyang Zhao, Quanhao Qian, Gongjie Zhang, Wenhao Li, Jiuniu Wang, Xiaowei Lu, Deli Zhao, Ran Xu
+1011\. [Native Video-Action Pretraining for Generalizable Robot Control](https://arxiv.org/abs/2607.08639) [[more](#1011-native-video-action-pretraining-for-generalizable-robot-control)]  
+**Authors:** Qihang Zhang, Lin Li, Luyao Zhang, Shuai Yang, Yiming Luo, Shuaiting Li, Ruilin Wang, Junke Wang, Jiahao Shao, Gangwei Xu, Jiaming Zhou, Yishu Shen, Yudong Jin, Fangyi Xu, Shuailei Ma, Jiaqi Liao, Guanxing Lu, Zifan Shi, Yongkun Wen, Yujie Zhao, Weixuan Tang, Xinyang Wang, Chaojian Li, Jiapeng Zhu, Ka Leong Cheng, Nan Xue, Xing Zhu, Yujun Shen, Yinghao Xu
+
+1015\. [Write-Protected Discrete Bottlenecks for Language-Grounded World Models: A Structural Limitation and Sufficient Fix](https://arxiv.org/abs/2607.08312) [[more](#1015-write-protected-discrete-bottlenecks-for-language-grounded-world-models-a-structural-limitation-and-sufficient-fix)]  
+**Authors:** Jiayi Fang
 
 
 Back to [[top](#topics)]
@@ -73,11 +76,8 @@ Back to [[top](#topics)]
 <a id="topic-2"></a>
 
 ### Topic 2
-2007\. [A Theory of Contrastive Learning with Natural Images](https://arxiv.org/abs/2607.07470) [[more](#2007-a-theory-of-contrastive-learning-with-natural-images)]  
-**Authors:** Antonio Torralba, Yair Weiss
-
-2011\. [Converge to Surprise: Evolutionary Self-supervised Image Clustering](https://arxiv.org/abs/2607.06887) [[more](#2011-converge-to-surprise-evolutionary-self-supervised-image-clustering)]  
-**Authors:** Canlin Zhang, Xiuwen Liu
+2016\. [ProsMAE: Multi-Source MAE Pretraining for ISUP Grade Classification](https://arxiv.org/abs/2607.08162) [[more](#2016-prosmae-multi-source-mae-pretraining-for-isup-grade-classification)]  
+**Authors:** Anna Jung, Kyeonghun Kim, Youngung Han, Eunseob Choi, Jiwon Yang, Ken Ying-Kai Liao, Hyuk-Jae Lee, Nam-Joon Kim
 
 
 Back to [[top](#topics)]
@@ -86,8 +86,6 @@ Back to [[top](#topics)]
 <a id="topic-3"></a>
 
 ### Topic 3
-3006\. [`Attention-Guided Cross-Temporal Clustering for Self-Supervised Video Object Segmentation](https://arxiv.org/abs/2607.07230) [[more](#3006-attention-guided-cross-temporal-clustering-for-self-supervised-video-object-segmentation)]  
-**Authors:** Waqas Arshid, Mohammad Awrangjeb, Alan Wee-Chung Liew, Yongsheng Gao
 
 
 Back to [[top](#topics)]
@@ -96,6 +94,8 @@ Back to [[top](#topics)]
 <a id="topic-4"></a>
 
 ### Topic 4
+4013\. [LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models](https://arxiv.org/abs/2607.08770) [[more](#4013-longe2v-long-horizon-event-based-video-reconstruction-prediction-and-frame-interpolation-with-video-diffusion-models)]  
+**Authors:** Cheng-De Fan, Chun-Wei Tuan Mu, Chen-Wei Chang, Chin-Yang Lin, Kun-Ru Wu, Yu-Chee Tseng, Yu-Lun Liu
 
 
 Back to [[top](#topics)]
@@ -104,11 +104,11 @@ Back to [[top](#topics)]
 <a id="topic-5"></a>
 
 ### Topic 5
-5009\. [EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI](https://arxiv.org/abs/2607.07459) [[more](#5009-embodiedgen-v2-an-agentic-simulation-ready-3d-world-engine-for-embodied-ai)]  
-**Authors:** Xinjie Wang, Liu Liu, Taojun Ding, Andrew Choi, Chaodong Huang, Mengao Zhao, Ziang Li, Jackson Jiang, Chunlei Yu, Shengxiang Liu, Wei Xu, Zhizhong Su
+5004\. [DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation](https://arxiv.org/abs/2607.07817) [[more](#5004-dreamcharacter-1-from-3d-generative-foundation-models-to-product-ready-character-generation)]  
+**Authors:** Weizhe Liu, Yunjie Wu, Xiangqian Shu, Guangwei Wang, Xiangyu Xu, Peng Li, Yujie Li, Hengkai Guo
 
-5015\. [EditVerse3D: High-Quality 3D Object Editing with Region-Aware Learning](https://arxiv.org/abs/2607.07187) [[more](#5015-editverse3d-high-quality-3d-object-editing-with-region-aware-learning)]  
-**Authors:** Youtan Yin, Yanning Zhou, Jiacheng Wei, Xiaofeng Yang, Jun Zhang, Jiayang Bai, Jingwen Ye, Weidong Zhang, Guosheng Lin
+5005\. [SkelGen4D: Weakly-Supervised Skeleton-Based 4D Generation for Text-Driven Mesh Animation](https://arxiv.org/abs/2607.08246) [[more](#5005-skelgen4d-weakly-supervised-skeleton-based-4d-generation-for-text-driven-mesh-animation)]  
+**Authors:** Hao Feng, Zhi Zuo, Jia-Hui Pan, Ka-Hei Hui, Zhengzhe Liu, Dian Zhang, Haoran Xie, Bin Sheng, Jingyu Hu
 
 
 Back to [[top](#topics)]
@@ -117,14 +117,17 @@ Back to [[top](#topics)]
 <a id="topic-6"></a>
 
 ### Topic 6
-6001\. [NoDrift3R: Raymap-Guided Coupling for Drift-Robust Unposed Feed-Forward 3D Reconstruction](https://arxiv.org/abs/2607.07168) [[more](#6001-nodrift3r-raymap-guided-coupling-for-drift-robust-unposed-feed-forward-3d-reconstruction)]  
-**Authors:** Xiangyu Sun, Liu Liu, Seungkwon Yang, Jingbing Han, Seungtae Nam, Zhizhong Su, Eunbyung Park
+6006\. [Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery](https://arxiv.org/abs/2607.08408) [[more](#6006-track2map-online-deformable-slam-with-motion-aware-pose-optimization-in-robotic-surgery)]  
+**Authors:** Tianyi Song, Sierra Bonilla, Xinwei Ju, Evangelos Mazomenos, Danail Stoyanov, Adam Schmidt, Omid Mohareri, Sophia Bano, Francisco Vasconcelos
 
-6012\. [RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation](https://arxiv.org/abs/2607.06699) [[more](#6012-robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation)]  
-**Authors:** Shujie Zhang, Jingkun Yi, Weipeng Zhong, Zirui Zhou, Yangkun Zhu, Hanqing Wang, Xudong Xu, Weinan Zhang, Chunhua Shen
+6007\. [Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction](https://arxiv.org/abs/2607.08769) [[more](#6007-geometry-and-gradient-based-partitioning-for-panoramic-outdoor-reconstruction)]  
+**Authors:** Weijian Chen, Weibo Yao, Yuhang Zhang, Xiaolin Tang, Guo Wang, Weijun Zhang, Xitong Gao, Yihao Chen, Hongde Qin, Lu Qi
 
-6014\. [GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM](https://arxiv.org/abs/2607.07452) [[more](#6014-geogs-slam-geometry-only-gaussian-splatting-for-dense-monocular-slam)]  
-**Authors:** Lipu Zhou, Yaoyun Kang, Junxiang Pang, Shengkai Sun, Tingting Bao, Kehan Wang
+6012\. [On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting](https://arxiv.org/abs/2607.08250) [[more](#6012-on-the-design-of-mixture-of-experts-for-dynamic-gaussian-splatting)]  
+**Authors:** In-Hwan Jin, Hyeongju Mun, Joonsoo Kim, Kugjin Yun, Kyeongbo Kong
+
+6014\. [Wat3R: Underwater 3D Geometry Learning without Annotations](https://arxiv.org/abs/2607.08772) [[more](#6014-wat3r-underwater-3d-geometry-learning-without-annotations)]  
+**Authors:** Jiangwei Ren, Xingyu Jiang, Zijie Song, Wei Xu, Hongkai Lin, Dingkang Liang, Xiang Bai
 
 
 Back to [[top](#topics)]
@@ -139,230 +142,244 @@ Back to [[top](#topics)]
 
 ---
 ## Full paper list
- <a id="1000-nativemem-native-memory-compression-for-long-horizon-robotic-manipulation"></a>
+ <a id="1000-apivot-adaptive-planning-with-interleaved-vision-language-thoughts"></a>
 
-### 1000\. [NativeMEM: Native Memory Compression for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2607.06678)
-**ArXiv:** 2607.06678 [[page](https://arxiv.org/abs/2607.06678)] [[pdf](https://arxiv.org/pdf/2607.06678.pdf)]
+### 1000\. [APIVOT: Adaptive Planning with Interleaved Vision-Language Thoughts](https://arxiv.org/abs/2607.08024)
+**ArXiv:** 2607.08024 [[page](https://arxiv.org/abs/2607.08024)] [[pdf](https://arxiv.org/pdf/2607.08024.pdf)]
 
-**Authors:** Ziye Wang, Modi Shi, Chaojun Ni, Jiazhi Yang, Mengdi Li, Zhizhong Su, Tianwei Lin, Hongyang Li
+**Authors:** Emily Jin, Joy Hsu, Yiqing Xu, Weiyu Liu, Nick Haber, Jiajun Wu
 
-**Abstract:** How can pretrained Vision-Language-Action (VLA) models retain long-horizon visual histories with high-frequency updates without sacrificing efficiency? Existing approaches rely on external memory management, which restrains either the memory horizon or the reactiveness of pretrained policies. To this end, we present NativeMEM, a VLA policy that features long-term and real-time updated memory. At its core is an efficient memory encoding scheme, Native Memory Compression, which repurposes the VLA's own vision encoder to compress each historical frame from each camera view into a single token. Appended to the input sequence, these memory tokens enable the pretrained VLA to attend over long-term history with negligible latency overhead, requiring neither an external planner nor a freshly initialized memory module. To align the memory tokens with the pretrained policy, we first develop a generic memory tokenizer under the supervision of a frozen VLA on memory-demanding data, and then unfreeze the VLA for task-specific fine-tuning. NativeMEM consistently outperforms prior methods, boosting success rates from 32.4% to 84.0% in simulation and up to 98.7% on real robots, while maintaining low inference latency and GPU memory usage. Notably, NativeMEM exhibits high data efficiency by achieving competitive results with prior arts using only 20% of the training data.
+**Abstract:** Long-horizon robot planning requires jointly reasoning over semantic task structure and geometric feasibility. To successfully execute a task, a robot must decompose goals, select task-relevant objects, and sequence actions, while ensuring that plans satisfy spatial constraints such as limited free space and object collisions. In this work, we propose APIVOT, a VLM-based planner that adaptively interleaves language and visual thoughts for long-horizon planning. APIVOT learns to leverage language for semantic reasoning, while using visual thoughts as imagined future states for internal verification of geometric feasibility. On long-horizon kitchen tasks, APIVOT outperforms general-purpose VLMs and prior planning frameworks, achieving the largest gains in spatially constrained settings. We find that APIVOT learns meaningful modality selection behavior, demonstrating that adaptive interleaving of vision-language thoughts improves both planning success and reasoning efficiency.
 
-**Comment:** Criterion 1: proposes NativeMEM, a VLA policy with Native Memory Compression for long-horizon robotic manipulation, improving success from 32.4% to 84.0% in simulation and up to 98.7% on real robots.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1002-dual-latent-memory-in-vision-language-action-models-for-robotic-manipulation"></a>
-
-### 1002\. [Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2607.07608)
-**ArXiv:** 2607.07608 [[page](https://arxiv.org/abs/2607.07608)] [[pdf](https://arxiv.org/pdf/2607.07608.pdf)]
-
-**Authors:** Hongyu Qu, Jianzhe Gao, Xiaobin Hu, Shaohuan Yang, Xinlei Yu, Rui Yan, Wenguan Wang, Xiangbo Shu, Shuicheng Yan
-
-**Abstract:** Mainstream Vision-Language-Action (VLA) models predict actions primarily from the current observation under a Markovian assumption, thus struggling with long-horizon, temporally dependent tasks. Existing memory-augmented VLAs either expand the observation window or retrieve history from the memory bank as auxiliary policy-side context. However, they leave memory outside the native latent embedding space of VLA reasoning, preventing historical experience from being fluidly interleaved with multimodal reasoning and action formation. To this end, we introduce LaMem-VLA, a latent-memory-native framework that reconstructs historical experience into latent memory tokens and directly interweaves them with VLA reasoning. At its core, LaMem-VLA introduces four coordinated components: (i) a curator that organizes historical experience into two complementary short-term and long-term memory vaults; (ii) a seeker that queries both vaults using the multimodal cognition to retrieve context-relevant evidence; (iii) a condenser that reconstructs the retrieved evidence into compact short-term and long-term latent memory tokens; and (iv) a weaver that injects these memory tokens with the current observation and instruction into one continuous embedding sequence. By representing, retrieving, and consuming historical experience entirely in the same continuous latent space, LaMem-VLA enables memory to directly participate in VLA reasoning and guide action generation under a bounded context. Extensive experiments on SimplerEnv and LIBERO demonstrate the superiority of our LaMem-VLA.
-
-**Comment:** Criterion 1: LaMem-VLA is a Vision-Language-Action framework for robotic manipulation that reconstructs short- and long-term history into latent memory tokens for action generation, with experiments on SimplerEnv and LIBERO.
+**Comment:** Matches criterion 1: APIVOT is a VLM-based long-horizon robot planner that interleaves language and visual thoughts for kitchen tasks and improves success in spatially constrained settings.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1003-wam-ttt-steering-world-action-models-by-watching-human-play-at-test-time"></a>
+<a id="1001-understanding-and-mitigating-the-video-action-generalization-gap-via-temporal-ratio"></a>
 
-### 1003\. [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](https://arxiv.org/abs/2607.06988)
-**ArXiv:** 2607.06988 [[page](https://arxiv.org/abs/2607.06988)] [[pdf](https://arxiv.org/pdf/2607.06988.pdf)]
+### 1001\. [Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio](https://arxiv.org/abs/2607.08127)
+**ArXiv:** 2607.08127 [[page](https://arxiv.org/abs/2607.08127)] [[pdf](https://arxiv.org/pdf/2607.08127.pdf)]
 
-**Authors:** Yusen Feng, Bingchen Han, Jiangran Lyu, Kai Liu, Yixin Zheng, Yuxuan Wan, Weiheng Liu, Sun Han, Ruiqin Li, Yulong Zhang, Fangfu Liu, Xuesong Shi, Libin Liu, Yizhou Wang, Zhizheng Zhang, He Wang
+**Authors:** Utkarsh A. Mishra, Yongxin Chen, Danfei Xu, Yang Liu, Xi Chen, Jiayuan Mao
 
-**Abstract:** Steering robot foundation models (RFMs) toward new task variants or user-preferred behaviors remains challenging, often requiring additional robot demonstrations, task-specific fine-tuning, or long-context conditioning. We present WAM-TTT, a test-time training framework for steering world action models from raw human videos. Rather than treating human videos as trajectories to imitate, WAM-TTT absorbs them into a lightweight adaptive memory inside a frozen WAM through self-supervised video prediction. To make this memory useful for control, we introduce a meta-training stage that aligns human demonstrations with robot behaviors using paired human-robot data and a key--value memory reconstruction objective. At test time, only unlabeled human videos are required to adapt the memory, while the pretrained WAM remains frozen. This enables efficient and reusable steering without robot actions, human-side annotations, or task-specific fine-tuning, while preserving the generalization ability of the foundation model. Extensive experiments show that WAM-TTT consistently outperforms in-context human-video conditioning baselines across diverse manipulation tasks and generalization settings.
+**Abstract:** Generative video foundation models exhibit strong compositional priors, yet world-action models (WAMs) and video-action models (VAMs) often lose these priors after finetuning on robotic action data. We refer to this discrepancy as the video-action generalization gap. In this paper, we systematically investigate this gap by evaluating a comprehensive design space of VAMs, demonstrating that standard design choices yield no emergent explanation pattern. To explain this behavior, we introduce the Temporal Ratio (TR), an attention-based measure of how strongly the action head relies on future latent rollouts relative to the anchored current frame. TR has two key properties: first, a model's structural reliance on future-predictive latents, measured via TR, acts as a predictor of its compositional generalization capacity; second, it natively fluctuates based on task phase, shifting attention to future frames during planning and reverting to the present frame for precise manipulation. Finally, based on these findings, we propose an inference-time adaptive guidance method, which exploits this intrinsic feature attention pattern to dynamically amplify compositional video conditioning signals precisely when the policy relies on future rollouts. Evaluated on the LIBERO benchmark and real-world tasks, our approach mitigates the OOD-ID compositional generalization gap. More details: https://umishra.me/temporal-ratio/
 
-**Comment:** Matches criterion 1 by steering frozen World-Action Models for robot manipulation via test-time self-supervised video prediction on raw human videos, outperforming in-context human-video conditioning baselines across diverse manipulation tasks.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1004-prigo-test-time-primitive-guidance-to-diffusion-and-flow-policies-for-adaptive-robotic-manipulation"></a>
-
-### 1004\. [PriGo: Test-Time Primitive Guidance to Diffusion and Flow Policies for Adaptive Robotic Manipulation](https://arxiv.org/abs/2607.07076)
-**ArXiv:** 2607.07076 [[page](https://arxiv.org/abs/2607.07076)] [[pdf](https://arxiv.org/pdf/2607.07076.pdf)]
-
-**Authors:** Zezeng Li, Enda Xiang, Thuy Tran, Di Huang, Momath Thiam, Liming Chen
-
-**Abstract:** Imitation learning has enabled remarkable progress in robotic manipulation, especially with diffusion and flow-based policies that generate complex visuomotor behaviors directly from demonstrations. Yet, despite their strong performance, these policies often fail to generalize across tasks and environments. A key reason is that existing policies tend to imitate superficial action correlations rather than the underlying intent. Inspired by the compositional structure of human behaviors, we propose PriGo, a primitive-guided test-time adaptive framework for robust robotic manipulation. PriGo introduces PANet, a lightweight primitive prediction module that infers primitive distributions directly from observations. We further propose a differentiable primitive guidance mechanism that refines generated actions during inference, steering trajectories toward semantically consistent behaviors. Unlike prior primitive-conditioned approaches, PriGo operates entirely at test time and can be seamlessly integrated into pretrained diffusion and flow policies without retraining. Extensive experiments on LIBERO, CALVIN, SIMPLER, and real-world robotic tasks demonstrate that PriGo consistently improves robustness, long-horizon execution, and generalization ability across both diffusion and flow-based policies.
-
-**Comment:** Criterion 1: PriGo directly improves diffusion and flow-based robotic manipulation policies via PANet primitive prediction and differentiable test-time primitive guidance, with evaluations on LIBERO, CALVIN, SIMPLER, and real-world tasks.
+**Comment:** Matches criterion 1: the paper studies video-action/world-action models for robotic action data, introduces Temporal Ratio and adaptive inference-time guidance, and evaluates compositional generalization on LIBERO and real-world manipulation tasks.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1005-pelican-vla-05-attending-before-acting-benefits-generalization"></a>
+<a id="1002-egowam-world-action-models-beyond-pixels-with-in-the-wild-egocentric-human-data"></a>
 
-### 1005\. [Pelican-VLA 0.5: Attending Before Acting Benefits Generalization](https://arxiv.org/abs/2607.06655)
-**ArXiv:** 2607.06655 [[page](https://arxiv.org/abs/2607.06655)] [[pdf](https://arxiv.org/pdf/2607.06655.pdf)]
+### 1002\. [EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data](https://arxiv.org/abs/2607.08436)
+**ArXiv:** 2607.08436 [[page](https://arxiv.org/abs/2607.08436)] [[pdf](https://arxiv.org/pdf/2607.08436.pdf)]
 
-**Authors:** Zeyuan Ding, Wenhai Liu, Yang Xu, Jiayu Hu, Yinda Chen, Yi Zhang, Yong Dai, Jian Tang, Xiaozhu Ju
+**Authors:** Baoyu Li, Xinchen Yin, Mengying Lin, Yixin Zhang, Danfei Xu
 
-**Abstract:** In this report, we present Pelican-VLA 0.5, a unified VLA model that integrates vision-language understanding, future-frame generation, and action prediction within a single architecture. Pelican-VLA 0.5 achieves attention-level generalization: without object annotations, segmentation masks, attention supervision, or task-specific fine-tuning, its action pathway already focuses on the instruction-relevant object and contact region. This behavior persists across unseen scenes and unseen robot embodiments, and is substantially stronger than in other open-source VLA baselines. We verify that this ability originates from the learnable Reasoning Slots inserted between perception and action: by routing task-relevant visual information through a compact bottleneck, the slot interface induces manipulation-centric attention during pre-training and remains effective across different policy structures, including a MoT-style architecture.
+**Abstract:** Egocentric human data offers scalable supervision for robot manipulation. However, behavior cloning entangles transferable content like objects, scenes, and task semantics, with non-transferable factors like human morphology, head motion, and behavioral style. We study whether World Action Models (WAMs) provide a better training signal by requiring policies to predict not only actions, but also how the scene evolves. The central question is what world representation best enables human-to-robot transfer. We hypothesize that an effective world target should abstract appearance, capture agent-invariant physical effects, and separate camera motion from environment change. We introduce EgoWAM, a controlled human-robot co-training framework that fixes the policy backbone, action head, and data mixture while varying only the world prediction target, comparing Pixel, DINO, and 3D motion flow. Across three real-world bimanual tasks, WAM co-training scales more effectively with in-the-wild egocentric human data than behavior cloning. Pixel-based prediction transfers weakly, while DINO and 3D flow yield substantial gains: DINO improves out-of-distribution object and scene generalization by up to 4x, and 3D flow improves in-domain performance by 20-30%. More details: https://gatech-rl2.github.io/egowam.github.io
 
-**Comment:** Criterion 1: presents Pelican-VLA 0.5, a unified VLA model integrating vision-language understanding, future-frame generation, and action prediction, with Reasoning Slots inducing instruction-relevant manipulation attention across unseen scenes and robot embodiments.
+**Comment:** Matches criterion 1: EgoWAM studies World Action Models for robot manipulation by co-training policies to predict actions and scene evolution, showing DINO targets improve OOD object/scene generalization by up to 4x on real-world bimanual tasks.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1003-leevla-seeing-what-matters-in-latent-environment-evolution-for-vision-language-action"></a>
+
+### 1003\. [LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action](https://arxiv.org/abs/2607.08182)
+**ArXiv:** 2607.08182 [[page](https://arxiv.org/abs/2607.08182)] [[pdf](https://arxiv.org/pdf/2607.08182.pdf)]
+
+**Authors:** Qi Lyu, Baicheng Liu, Xudong Wang, Jiahua Dong, Lianqing Liu, Zhi Han
+
+**Abstract:** Vision-language-action (VLA) models aim to map multimodal inputs to robot actions. However, most existing approaches struggle to cover complex dynamic scenarios due to treating all visual tokens uniformly and reasoning with human-selected factors, which lack mechanisms to emphasize task-critical evidence and ignore underlying factors. To address this issue, we propose LEEVLA, a VLA architecture for seeing what matters in Latent Environment Evolution that explicitly guides the model toward informative regions while preserving the structured evolution of latent world representations. To identify salient and instruction-relevant regions, we introduce drift-guided dynamic prioritization (DGDP), which combines dynamic position prioritization (DPP) with semantic drift guidance (SDG) to guide the VLA agent where to attend during training. On top of this, we introduce structured feature flow generation (SFFG), which models how these prioritized features should evolve in latent space via prototype-to-periphery (P2P) prediction, and a mutual-neighborhood contrastive (MC) loss to maintain topological consistency among neighborhoods. Together, DGDP and SFFG form a task-aware "where-how" training framework. Extensive experiments on VLA benchmarks show that LEEVLA consistently outperforms prior methods, confirming that explicit task-evidence guidance and structured latent reasoning are both crucial for scalable VLA. Our code is available at https://github.com/LyuQi127/LEEVLA.
+
+**Comment:** Criterion 1: introduces LEEVLA, a vision-language-action robot policy architecture with drift-guided dynamic prioritization and structured feature flow generation, reporting consistent improvements on VLA benchmarks.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1008-tfp-temporally-conditioned-memory-fusion-policies-for-visuomotor-learning"></a>
+
+### 1008\. [TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning](https://arxiv.org/abs/2607.08283)
+**ArXiv:** 2607.08283 [[page](https://arxiv.org/abs/2607.08283)] [[pdf](https://arxiv.org/pdf/2607.08283.pdf)]
+
+**Authors:** Yushen Liang, Yue Peng, Baosheng Jin, Tianluo Zhang, Xinyu Zhang, Shuyi Zhou, Zhuoran Chen, Xinqi Liu, Shenji Wan
+
+**Abstract:** Vision--Language--Action (VLA) policies such as $\pi_{0.5}$ and OpenVLA perform well on many manipulation tasks, but they are often reactive: the next action is predicted from the current observation, instruction, and proprioceptive state. This assumption breaks down in stage-dependent manipulation, where visually similar states may require different actions depending on latent task progress and previous interaction outcomes. We argue that such tasks require not only memory, but dynamics-aware belief updates: the policy should preserve task progress during stable or occluded phases and revise its belief near contact, release, or subgoal transitions. We introduce Temporally Conditioned Memory-Fusion Policies (TFP), a lightweight memory-action framework for VLA backbones. TFP maintains an episode-local task-progress belief with Liquid Time-Constant dynamics and injects the updated belief directly into the flow-matching action decoder through adaptive modulation. This lets temporally accumulated context shape the generated action chunk, rather than serving only as passive history context. With a 3.3B-parameter model, TFP improves the average success rate from \(96.9\%\) to \(98.75\%\) on LIBERO and from \(91.4\%\) to \(93.77\%\) on LIBERO-plus. On the memory-focused MIKASA ShellGameTouch diagnostic, TFP achieves success up to \(75.0\%\). Mechanistic analyses show that write-gain changes near manipulation events are about \(6\times\) larger than far non-event phases, and hidden-state interventions show that the belief causally modulates generated action chunks. These results suggest that compact, event-sensitive memory dynamics can improve VLA policies under occlusion, visual perturbation, and stage-dependent task structure.
+
+**Comment:** Matches criterion 1 by improving Vision-Language-Action manipulation policies with Temporally Conditioned Memory-Fusion Policies, reporting success gains on LIBERO from 96.9% to 98.75% and on LIBERO-plus from 91.4% to 93.77%.
 
 **Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1008-touchworld-a-predictive-and-reactive-tactile-foundation-model-for-dexterous-manipulation"></a>
+<a id="1009-harness-vla-steering-frozen-vlas-into-reliable-manipulation-primitives-via-memory-guided-agents"></a>
 
-### 1008\. [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/abs/2607.07287)
-**ArXiv:** 2607.07287 [[page](https://arxiv.org/abs/2607.07287)] [[pdf](https://arxiv.org/pdf/2607.07287.pdf)]
+### 1009\. [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448)
+**ArXiv:** 2607.08448 [[page](https://arxiv.org/abs/2607.08448)] [[pdf](https://arxiv.org/pdf/2607.08448.pdf)]
 
-**Authors:** Jianyi Zhou, Feiyang Hong, Yunhao Li, Yicheng Zhao, Yongjue Cen, Zirui Liu, Jiakang Huang, Zirui Chen, Ruiyang Zhang, Weizhuo Zhu, Xuhua Song, Shuo Yang
+**Authors:** Yixian Zhang, Huanming Zhang, Feng Gao, Xiao Li, Zhihao Liu, Chunyang Zhu, Jiaxing Qiu, Yuchen Yan, Jiyuan Liu, Wenhao Tang, Zhengru Fang, Yi Nie, Changxu Wei, Yu Wang, Wenbo Ding, Chao Yu
 
-**Abstract:** Dexterous manipulation in everyday environments requires both anticipation and reaction: a robot must predict how contact should evolve while rapidly correcting local errors caused by slip, misalignment, unstable grasping, or force mismatch. Vision and language provide semantic and geometric guidance, but they cannot reliably reveal hidden contact states such as force, slip, and contact stability. Although tactile sensing exposes these physical cues, most existing policies treat touch as a low-frequency observation stream within a monolithic action model, coupling slow task reasoning, action generation, and fast contact feedback in a single loop. We introduce TouchWorld, a predictive-and-reactive tactile foundation model for dexterous manipulation. TouchWorld uses a hierarchical policy that separates vision-language subtask planning, tactile world-model prediction, visuo-tactile goal-conditioned action generation, and high-frequency tactile residual refinement. A High-Level Planning Layer produces executable subtasks and predicts tactile subgoals; a Visuo-Tactile Goal-Conditioned Policy generates nominal action chunks; and a Tactile-Conditioned Refinement Policy performs online residual correction using recent tactile and proprioceptive feedback. By using touch as both a predictive contact reference and a fast feedback signal, TouchWorld preserves the semantic generalization of vision-language-action policies while improving local contact adaptation. Across six long-horizon and contact-rich dexterous manipulation tasks, TouchWorld achieves 65.0% success in the clean setting and 53.7% success under human perturbations, outperforming the strongest baseline by 15.7 and 18.5 percentage points, respectively.
+**Abstract:** Language-conditioned manipulation requires both precise contact-rich control and robust reasoning over language, scenes, and long horizons. End-to-end Vision-Language-Action (VLA) models provide strong local visuomotor skills, but they are trained on in-distribution task trajectories and often fail under deployment perturbations such as semantic retargeting, goal re-binding, spatial-layout shifts, and unstable local contacts. LLM coding agents provide complementary semantic and compositional reasoning, but purely analytic primitives struggle with irregular grasping, constrained placement, and articulated-object interaction. We present Harness VLA, a memory-augmented agentic framework that exposes a frozen VLA as a retryable contact-rich primitive and composes it with a small fixed library of analytic primitives for grounding, staging, transport, navigation, and release. Rather than expanding the skill library, the harness learns the operating range of these fixed primitives from task-specific execution traces, global success rules, and failure models. By lifting semantic re-grounding, non-contact execution, and VLA re-staging to the planner while reserving the frozen VLA for local contact-rich phases, Harness VLA extends pretrained VLAs beyond their original trajectory distribution without finetuning. Across perturbed tabletop, household kitchen, and clean-to-randomized bimanual manipulation, Harness VLA improves over the strongest relevant baselines by 38.6 and 25.4 percentage points on LIBERO-Pro and RoboCasa365, respectively, and reaches 58.4% on RoboTwin C2R.
 
-**Comment:** Matches criterion 1: TouchWorld uses vision-language subtask planning plus tactile world-model prediction and visuo-tactile action generation for dexterous manipulation, improving success by 15.7/18.5 percentage points over the strongest baseline across six contact-rich tasks.
+**Comment:** Matches criterion 1: Harness VLA uses a frozen Vision-Language-Action model as a contact-rich manipulation primitive inside a memory-guided planning/control loop, improving success by 38.6 points on LIBERO-Pro and 25.4 points on RoboCasa365.
 
 **Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1010-scaling-mixture-of-experts-video-pretraining-for-embodied-intelligence"></a>
+<a id="1010-fabrivla-a-lightweight-vision-language-action-model-for-precise-multi-task-manipulation"></a>
 
-### 1010\. [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://arxiv.org/abs/2607.07675)
-**ArXiv:** 2607.07675 [[page](https://arxiv.org/abs/2607.07675)] [[pdf](https://arxiv.org/pdf/2607.07675.pdf)]
+### 1010\. [FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation](https://arxiv.org/abs/2607.08575)
+**ArXiv:** 2607.08575 [[page](https://arxiv.org/abs/2607.08575)] [[pdf](https://arxiv.org/pdf/2607.08575.pdf)]
 
-**Authors:** Shuailei Ma, Jiaqi Liao, Xinyang Wang, Jingjing Wang, Chaoran Feng, Zijing Hu, Chong Bao, Zichen Xi, Yuqi Gan, Weisen Wang, Yanhong Zeng, Qin Zhao, Zifan Shi, Wei Wu, Hao Ouyang, Qiuyu Wang, Shangzhan Zhang, Jiahao Shao, Yipengjing Sun, Liangxiao Hu, Lunke Pan, Nan Xue, Kecheng Zheng, Yinghao Xu, Xing Zhu, Yujun Shen, Ka Leong Cheng
+**Authors:** Shiyuan Yang, Borong Zhang, Jizheng Zhang, Zhijia Tao, Junfei Guo, Donglai Ran, Xu Bian, Qingbiao Li
 
-**Abstract:** Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we present LingBot-Video, a DiT-based video pretraining paradigm specifically tailored for embodied intelligence. From the architecture perspective, we adopt the Mixture-of-Experts (MoE), instead of dense, framework to achieve a better trade-off between modeling capacity and inference efficiency, and manage to scale it up from scratch. From the data perspective, we construct a data profiling engine that augments standard internet videos with extensive robot-oriented footage, encompassing manipulation, navigation, and egocentric perspectives, to equip the base model with an intrinsic understanding of actions and world dynamics. From the training perspective, we develop a multi-dimensional reward system to enforce the alignment regarding physical rationality and task completion, going beyond standard criteria such as aesthetics, prompt-following, and motion consistency. Comprehensive evaluations validate its performance and efficiency as a video foundation model. We contribute LingBot-Video as the inaugural large-scale, open-source MoE video foundation model to the community, in a pioneering effort to bridge digital creativity and physical actuation.
+**Abstract:** We present FabriVLA, a lightweight Vision-Language-Action model for Precise Multi-Task Manipulation. FabriVLA combines an InternVL3.5 vision-language backbone with a flow-matching action head featuring gated self-attention across action tokens and shallow VLM layer fusion for enriched spatial context. The model is trained via single stage joint optimization from a pretrained VLM and randomly initialized action head. On the Meta-World MT50 benchmark spanning 50 diverse manipulation tasks, FabriVLA achieves a tier-average success rate of 90.0%, demonstrating that a compact VLA built on a 1B scale VLM can achieve strong performance without relying on multi billion parameter VLA backbones.
 
-**Comment:** Criterion 1: LingBot-Video is a DiT-based MoE video foundation model for embodied intelligence, trained with robot-oriented footage including manipulation and egocentric perspectives plus rewards for physical rationality and task completion.
+**Comment:** Matches criterion 1: FabriVLA is a lightweight Vision-Language-Action model for language-conditioned multi-task robotic manipulation, using an InternVL3.5 VLM backbone with a flow-matching action head and achieving 90.0% tier-average success on Meta-World MT50.
 
-**Relevance:** 8
+**Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1013-geoprop-grounding-robot-state-in-vision-for-generalist-manipulation"></a>
+<a id="1011-native-video-action-pretraining-for-generalizable-robot-control"></a>
 
-### 1013\. [GeoProp: Grounding Robot State in Vision for Generalist Manipulation](https://arxiv.org/abs/2607.07101)
-**ArXiv:** 2607.07101 [[page](https://arxiv.org/abs/2607.07101)] [[pdf](https://arxiv.org/pdf/2607.07101.pdf)]
+### 1011\. [Native Video-Action Pretraining for Generalizable Robot Control](https://arxiv.org/abs/2607.08639)
+**ArXiv:** 2607.08639 [[page](https://arxiv.org/abs/2607.08639)] [[pdf](https://arxiv.org/pdf/2607.08639.pdf)]
 
-**Authors:** Guoyang Zhao, Quanhao Qian, Gongjie Zhang, Wenhao Li, Jiuniu Wang, Xiaowei Lu, Deli Zhao, Ran Xu
+**Authors:** Qihang Zhang, Lin Li, Luyao Zhang, Shuai Yang, Yiming Luo, Shuaiting Li, Ruilin Wang, Junke Wang, Jiahao Shao, Gangwei Xu, Jiaming Zhou, Yishu Shen, Yudong Jin, Fangyi Xu, Shuailei Ma, Jiaqi Liao, Guanxing Lu, Zifan Shi, Yongkun Wen, Yujie Zhao, Weixuan Tang, Xinyang Wang, Chaojian Li, Jiapeng Zhu, Ka Leong Cheng, Nan Xue, Xing Zhu, Yujun Shen, Yinghao Xu
 
-**Abstract:** Proprioception is fundamental to robotic manipulation, yet standard fusion methods often treat it as an isolated vector lacking explicit alignment with visual tokens. Without a direct correspondence between 3D kinematics and 2D feature maps, manipulation policies struggle to ground the robot's state within the scene, frequently underperforming even vision-only baselines. To address this, we introduce GeoProp, a lightweight, plug-and-play adapter that aligns proprioception with vision through explicit geometric grounding and spatial feature sampling. GeoProp projects the robot state onto the image plane to sample localized visual features, constructing a grounded state token. It then injects state-derived spatial priors into the corresponding visual features via FiLM modulation. To capture motion intent, GeoProp further samples features at a short-horizon predicted coordinate derived from recent kinematics, providing look-ahead visual context. Across 67 tasks, GeoProp improves Diffusion Policy by 8.7% on 63 simulation tasks and pi_0 by 4.0% on the RoboTwin subset, and yields a 10.6% average gain across both policy families in the real world, while adding only 2-3% to the parameter count. These results demonstrate that GeoProp is a simple yet high-impact inductive bias for generalist embodied policies. Project page: https://alibaba-damo-academy.github.io/GeoProp/.
+**Abstract:** The advent of video-action models offers a promising path for robot control. Nevertheless, we argue that repurposing video generative models designed for digital content creation is inherently inadequate for physical environments. To bridge this gap, we present LingBot-VA 2.0, a video-action foundation model built from the ground up for embodiment. Four core design principles showcase its evolution from LingBot-VA. (1) Departing from traditional reconstruction-focused VAEs, we introduce a semantic visual-action tokenizer, which aligns visual representations with both semantics and actions, improving instruction following and action precision in subsequent policy learning. (2) Given the strictly causal nature of temporal dynamics, we adopt a causal pretraining paradigm, training from scratch to circumvent the catastrophic forgetting that frequently occurs when adapting bidirectional architectures. (3) To meet the demands of high-frequency inference, our model employs a sparse MoE backbone, expanding model capacity without compromising efficiency. (4) Real-time closed-loop control is realized through an enhanced asynchronous inference scheme, which predicts future latents in parallel with action execution while re-grounding each rollout on the latest observation via learned forward dynamics. Real-world deployment validates LingBot-VA 2.0 as a robust foundation model, as evidenced by its few-shot generalization across complex manipulation tasks.
 
-**Comment:** Criterion 1: GeoProp targets generalist robotic manipulation policies including Diffusion Policy and pi_0 by geometrically grounding proprioception in visual tokens, reporting +8.7% on 63 simulated Diffusion Policy tasks and +4.0% on RoboTwin.
+**Comment:** Matches criterion 1: LingBot-VA 2.0 is a video-action foundation model for robot control with a semantic visual-action tokenizer, causal pretraining, sparse MoE backbone, and real-time closed-loop manipulation deployment.
 
-**Relevance:** 8
+**Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
----
-<a id="2007-a-theory-of-contrastive-learning-with-natural-images"></a>
+<a id="1015-write-protected-discrete-bottlenecks-for-language-grounded-world-models-a-structural-limitation-and-sufficient-fix"></a>
 
-### 2007\. [A Theory of Contrastive Learning with Natural Images](https://arxiv.org/abs/2607.07470)
-**ArXiv:** 2607.07470 [[page](https://arxiv.org/abs/2607.07470)] [[pdf](https://arxiv.org/pdf/2607.07470.pdf)]
+### 1015\. [Write-Protected Discrete Bottlenecks for Language-Grounded World Models: A Structural Limitation and Sufficient Fix](https://arxiv.org/abs/2607.08312)
+**ArXiv:** 2607.08312 [[page](https://arxiv.org/abs/2607.08312)] [[pdf](https://arxiv.org/pdf/2607.08312.pdf)]
 
-**Authors:** Antonio Torralba, Yair Weiss
+**Authors:** Jiayi Fang
 
-**Abstract:** Why does contrastive learning with simple images and augmentations yield useful representations for downstream tasks? We address this question by analytically computing the optimal representation in terms of a contrastive loss for a range of basic augmentations and any image dataset with stationary statistics. We show that for certain augmentations the optimum can be attained by a CNN whose first layer filters are sinusoids, followed by a pointwise nonlinearity, global average pooling, and a final linear layer that performs partial whitening. We also show that the optimal weights in such CNNs for more complicated augmentations are still sinusoids. The frequencies of the sinusoids and their weights can be computed using a simple waterfilling algorithm given the dataset's expected power spectrum. Experiments with different image datasets and augmentations show that such CNNs trained with SGD empirically learn sinusoids in their first layer and to perform partial whitening
+**Abstract:** How should language interface with a world model's discrete symbol system? The dominant paradigm -- end-to-end injection of LLM/VLM features into robot world models (RT-2, Octo, PaLM-E) -- implicitly assumes that language gradients can directly shape physical symbol representations. We ask whether this assumption is safe, find that it is not, and characterize the minimal architectural constraint that prevents the failure. Any language gradient entering a Gumbel-softmax-based discrete symbol bottleneck forces a structural trade-off: the vanilla estimator collapses to 2.2/64 symbols (4/5 seeds), while five anti-collapse strategies maintain diversity but fail to learn semantic labels (all  Counter[label]], zero parameters, zero gradients) where co-occurrence counting replaces gradient-based binding; (3) handle symbol collisions via DP-Means streaming clustering for automatic sub-cluster splitting. All three layers together achieve 97.2% grounding accuracy vs. 22.2% without Layer 3. Across two experiments spanning 74 independent runs, we demonstrate zero symbol collapse in all 32 seeds, with the blackboard achieving 79-100% semantic binding across three encoder architectures (CNN, V-JEPA 300M, CLIP ViT-L), two environments, and three texture conditions. The fix trains fewer than 2M parameters and requires no LLM fine-tuning.
 
-**Comment:** Criterion 2: rigorously analyzes contrastive self-supervised learning by deriving optimal representations for natural-image augmentations and showing CNNs learn sinusoidal first-layer filters with partial whitening.
-
-**Relevance:** 9
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2011-converge-to-surprise-evolutionary-self-supervised-image-clustering"></a>
-
-### 2011\. [Converge to Surprise: Evolutionary Self-supervised Image Clustering](https://arxiv.org/abs/2607.06887)
-**ArXiv:** 2607.06887 [[page](https://arxiv.org/abs/2607.06887)] [[pdf](https://arxiv.org/pdf/2607.06887.pdf)]
-
-**Authors:** Canlin Zhang, Xiuwen Liu
-
-**Abstract:** Most self-supervised image clustering models, actually almost all deep learning approaches, are based on gradient descent: In order to calculate the loss, every optimization step requires a clearly defined target, whether a contrastive split, a masked patch or entity, an EMA-teacher output, a pseudo-label, or a differentiable information-theoretic functional. We propose a self-supervised framework that drops this requirement for image clustering. Without any prior knowledge, we have to assume that each pixel is i.i.d. according to the Principle of Maximum Entropy. Taking this as our null hypothesis H0, we define a "surprise score" that measures how unlikely the model's output representation would be under H0. Maximizing the surprise score forces the deep learning model to reject H0 - equivalently, to discover non-random feature from data. Also, here is our fundamental assumption: a surprise score cannot, in general, be reduced to a per-step loss. Hence, we propose the "converge-to-surprise" scheme to optimize our model: an evolution-strategy (ES) outer loop, which directly maximizes the surprise score without needing its gradient, paired with a periodic gradient-descent inner loop, which uses the surprising clusters already discovered by ES as surrogate targets. On standard image benchmarks, our framework achieves new state-of-the-art results in non-parametric self-supervised image clustering - the strictest deep-clustering setting, in which the number of ground-truth classes is not given to the model.
-
-**Comment:** Criterion 2: The paper proposes a new self-supervised image clustering method using a maximum-entropy null hypothesis surprise score with an evolution-strategy outer loop and reports state-of-the-art non-parametric self-supervised clustering on standard image benchmarks.
-
-**Relevance:** 8
-Back to [[topic](#topic-2)] [[top](#topics)]
-
----
-<a id="3006-attention-guided-cross-temporal-clustering-for-self-supervised-video-object-segmentation"></a>
-
-### 3006\. [`Attention-Guided Cross-Temporal Clustering for Self-Supervised Video Object Segmentation](https://arxiv.org/abs/2607.07230)
-**ArXiv:** 2607.07230 [[page](https://arxiv.org/abs/2607.07230)] [[pdf](https://arxiv.org/pdf/2607.07230.pdf)]
-
-**Authors:** Waqas Arshid, Mohammad Awrangjeb, Alan Wee-Chung Liew, Yongsheng Gao
-
-**Abstract:** Video object segmentation (VOS) is a fundamental task in video understanding, requiring accurate delineation and consistent tracking of objects across frames. While supervised methods achieve strong performance, they rely on densely annotated datasets that are costly to obtain and have limited domain coverage. Self-supervised learning offers a promising alternative by removing the need for manual labels; however, existing approaches often struggle to jointly maintain spatial accuracy and temporal coherence, particularly in unconstrained multi-object scenarios. Many rely on optical flow, synthetic motion cues, or task-specific pretraining, limiting scalability and generalisation. We propose a self-supervised framework, Cross-Temporal Consistency and Clustering, that learns mid-level, part-aware representations by combining attention-guided token selection with lightweight temporal clustering. Instead of operating at the pixel or whole-object level, the method aligns soft part assignments across time using a saliency-weighted symmetric consistency objective. The framework leverages a frozen transformer backbone with lightweight modules for adaptive token selection and multi-offset temporal alignment, enabling efficient scaling across resolutions and motion patterns.
-
-**Comment:** Criterion 3: proposes a self-supervised video object segmentation framework, Cross-Temporal Consistency and Clustering, using attention-guided token selection and saliency-weighted temporal clustering without manual labels.
-
-**Relevance:** 9
-Back to [[topic](#topic-3)] [[top](#topics)]
-
----
-<a id="5009-embodiedgen-v2-an-agentic-simulation-ready-3d-world-engine-for-embodied-ai"></a>
-
-### 5009\. [EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI](https://arxiv.org/abs/2607.07459)
-**ArXiv:** 2607.07459 [[page](https://arxiv.org/abs/2607.07459)] [[pdf](https://arxiv.org/pdf/2607.07459.pdf)]
-
-**Authors:** Xinjie Wang, Liu Liu, Taojun Ding, Andrew Choi, Chaodong Huang, Mengao Zhao, Ziang Li, Jackson Jiang, Chunlei Yu, Shengxiang Liu, Wei Xu, Zhizhong Su
-
-**Abstract:** We present EmbodiedGen V2, a generative 3D world engine for building executable sim-ready environments for embodied intelligence. Sim-ready 3D asset generation has advanced rapidly, yet assembling such assets into policy-ready task environments remains largely manual, limiting scalable closed-loop learning. EmbodiedGen V2 addresses this gap through a unified sim-ready representation that connects cross-simulator assets, interaction affordances, task-driven worlds, large-scale multi-room scenes, and stateful Vibe Coding into a generative, editable, and reusable simulation pipeline. The generated environments support manipulation, navigation, mobile manipulation, cross-simulator deployment, and embodied policy training. In evaluation, the asset pipeline achieves 96.5% human acceptance and 98.6% collision success, and 83.3% of task-driven worlds are directly usable for downstream simulation without manual modification. Online reinforcement learning with generated environments further improves simulation success from 9.7% to 79.8%, and transfers to real robots with task success increasing from 21.7% to 75.0%. These results establish EmbodiedGen V2 as scalable simulation infrastructure for training, evaluating, and deploying embodied policies.
-
-**Comment:** Matches criterion 5: EmbodiedGen V2 is a generative simulation-ready 3D world engine that creates task-driven embodied environments, with 83.3% directly usable for simulation and generated environments improving real-robot task success from 21.7% to 75.0%.
-
-**Relevance:** 9
-Back to [[topic](#topic-5)] [[top](#topics)]
-
-<a id="5015-editverse3d-high-quality-3d-object-editing-with-region-aware-learning"></a>
-
-### 5015\. [EditVerse3D: High-Quality 3D Object Editing with Region-Aware Learning](https://arxiv.org/abs/2607.07187)
-**ArXiv:** 2607.07187 [[page](https://arxiv.org/abs/2607.07187)] [[pdf](https://arxiv.org/pdf/2607.07187.pdf)]
-
-**Authors:** Youtan Yin, Yanning Zhou, Jiacheng Wei, Xiaofeng Yang, Jun Zhang, Jiayang Bai, Jingwen Ye, Weidong Zhang, Guosheng Lin
-
-**Abstract:** Local editing of 3D objects remains a long-standing challenge. When interacting with 3D content, humans naturally tend to specify a coarse region of interest for modification rather than defining precise editing boundaries. However, previous methods rely on fully edited 2D images, precise 3D masks, or redundant pipelines, which present a gap. To bridge this gap, we propose EditVerse3D, a novel 3D editing framework that enables high-quality object editing under such coarse guidance. Our approach takes as input a 3D object to be edited, a coarse 3D bounding box indicating the target region, and a reference 2D image describing the desired modification. It produces a coherent, high-fidelity edited 3D object. To facilitate this editing, we introduce a novel region-aware adaptive loss that emphasizes hard-to-learn regions and balances the objective between target and preserved areas. Complementing our loss function, we enhance model robustness and generalization through targeted data augmentations, such as training with scaled 3D masks and filtering out unrealistic editing pairs. We construct a large-scale 3D editing dataset derived from parts information. Extensive experiments demonstrate that EditVerse3D achieves superior visual quality and quantitative performance compared to existing 3D editing approaches. Please visit our project page at https://editverse3d.github.io.
-
-**Comment:** Matches criterion 5: EditVerse3D advances 3D content creation by producing high-fidelity edited 3D objects from a coarse 3D bounding box and reference 2D image using a region-aware adaptive loss and a large-scale 3D editing dataset.
+**Comment:** Matches criterion 1 by targeting language-grounded robot world models, proposing a write-protected symbol table with a Counter[label] blackboard and DP-Means collision handling that reaches 97.2% grounding accuracy across CNN, V-JEPA, and CLIP encoders.
 
 **Relevance:** 7
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+---
+<a id="2016-prosmae-multi-source-mae-pretraining-for-isup-grade-classification"></a>
+
+### 2016\. [ProsMAE: Multi-Source MAE Pretraining for ISUP Grade Classification](https://arxiv.org/abs/2607.08162)
+**ArXiv:** 2607.08162 [[page](https://arxiv.org/abs/2607.08162)] [[pdf](https://arxiv.org/pdf/2607.08162.pdf)]
+
+**Authors:** Anna Jung, Kyeonghun Kim, Youngung Han, Eunseob Choi, Jiwon Yang, Ken Ying-Kai Liao, Hyuk-Jae Lee, Nam-Joon Kim
+
+**Abstract:** Whole slide images (WSIs) provide rich diagnostic information for computational pathology, but their gigapixel scale, stain variation, scanner differences, tissue artifacts, and limited expert annotation make robust model training challenging. This paper presents a multi-source Masked Autoencoder (MAE) framework, named ProsMAE, for histopathology representation learning. Tiles from Prostate cANcer graDe Assessment (PANDA), CAncer MEtastases in LYmph nOdes challeNge 2017 (CAMELYON17), and BReAst Carcinoma Subtyping (BRACS) are used for ProsMAE pretraining to expose the encoder to diverse tissue morphology and acquisition conditions. The learned encoder is transferred for International Society of Urological Pathology (ISUP) grade classification through ProsCLS, using a frozen encoder and a linear classification head. ProsMAE achieved a higher mean validation quadratic weighted kappa (QWK) than the vanilla MAE frozen linear-probe baseline under the evaluated disjoint PANDA split. Repeated-split evaluation remains necessary to further establish robustness across split compositions.
+
+**Comment:** Criterion 2: proposes ProsMAE, a multi-source Masked Autoencoder pretrained on PANDA, CAMELYON17, and BRACS tiles for histopathology representations, improving frozen-linear-probe validation QWK over a vanilla MAE baseline.
+
+**Relevance:** 6
+Back to [[topic](#topic-2)] [[top](#topics)]
+
+---
+<a id="4013-longe2v-long-horizon-event-based-video-reconstruction-prediction-and-frame-interpolation-with-video-diffusion-models"></a>
+
+### 4013\. [LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models](https://arxiv.org/abs/2607.08770)
+**ArXiv:** 2607.08770 [[page](https://arxiv.org/abs/2607.08770)] [[pdf](https://arxiv.org/pdf/2607.08770.pdf)]
+
+**Authors:** Cheng-De Fan, Chun-Wei Tuan Mu, Chen-Wei Chang, Chin-Yang Lin, Kun-Ru Wu, Yu-Chee Tseng, Yu-Lun Liu
+
+**Abstract:** Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autoregressive Unrolling and Adaptive Context Switching to mitigate temporal drift in extremely long sequences. We also propose Reencoding Alignment with Cross Residual Correction to ensure precise bidirectional consistency during frame interpolation. Furthermore, Event Voxel Density Augmentation ensures robustness across varying sensor resolutions. Extensive experiments on real-world benchmarks demonstrate that LongE2V outperforms state-of-the-art methods across all three tasks, exhibiting exceptional temporal coherence and zero-shot generalization. Project page: https://cdfan0627.github.io/LongE2V-page/
+
+**Comment:** Matches criterion 4: LongE2V transfers pre-trained video diffusion priors to event-based video reconstruction, prediction, and frame interpolation, improving temporal coherence and zero-shot generalization on real-world benchmarks.
+
+**Relevance:** 7
+Back to [[topic](#topic-4)] [[top](#topics)]
+
+---
+<a id="5004-dreamcharacter-1-from-3d-generative-foundation-models-to-product-ready-character-generation"></a>
+
+### 5004\. [DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation](https://arxiv.org/abs/2607.07817)
+**ArXiv:** 2607.07817 [[page](https://arxiv.org/abs/2607.07817)] [[pdf](https://arxiv.org/pdf/2607.07817.pdf)]
+
+**Authors:** Weizhe Liu, Yunjie Wu, Xiangqian Shu, Guangwei Wang, Xiangyu Xu, Peng Li, Yujie Li, Hengkai Guo
+
+**Abstract:** We present DreamCharacter-1, a lightweight post-adaptation framework that calibrates pretrained 3D foundation models toward high-fidelity, production-ready 3D character generation. Building upon a 3D foundation backbone, our pipeline incorporates three task-oriented components: (1) geometry post-training, which enhances fine-grained surface details through geometric preference optimization; (2) texture post-training, which synthesizes high-resolution textures and refines the appearance of occluded regions; and (3) inference acceleration, which enables scalable deployment. Extensive quantitative and qualitative experiments demonstrate that DreamCharacter-1 produces visually compelling and structurally robust 3D character assets, consistently surpassing state-of-the-art character generation methods.
+
+**Comment:** Matches criterion 5: DreamCharacter-1 adapts pretrained 3D foundation models with geometry post-training, texture post-training, and inference acceleration to produce higher-fidelity 3D character assets than prior character generation methods.
+
+**Relevance:** 9
+Back to [[topic](#topic-5)] [[top](#topics)]
+
+<a id="5005-skelgen4d-weakly-supervised-skeleton-based-4d-generation-for-text-driven-mesh-animation"></a>
+
+### 5005\. [SkelGen4D: Weakly-Supervised Skeleton-Based 4D Generation for Text-Driven Mesh Animation](https://arxiv.org/abs/2607.08246)
+**ArXiv:** 2607.08246 [[page](https://arxiv.org/abs/2607.08246)] [[pdf](https://arxiv.org/pdf/2607.08246.pdf)]
+
+**Authors:** Hao Feng, Zhi Zuo, Jia-Hui Pan, Ka-Hei Hui, Zhengzhe Liu, Dian Zhang, Haoran Xie, Bin Sheng, Jingyu Hu
+
+**Abstract:** We study 4D generation to synthesize temporally coherent sequences of 3D geometry for animation and content creation. In contrast to existing SDS-based optimization methods and video-driven animation approaches, we adopt a skeleton-driven animation framework aligned with standard industrial pipelines, which enables explicit control and editing. To this end, we propose SkelGen4D, a weakly supervised feed-forward framework for text-driven mesh animation that generates explicit skeleton motions without requiring per-frame skeleton annotations. SkelGen4D first recovers temporally consistent pseudo-skeletons from animated meshes via differentiable fitting, and then generates text-conditioned skeleton motion sequences in a feed-forward manner, further refined with Motion-GRPO to ensure temporally coherent, physically plausible, and articulated animation. We evaluate our method on two large-scale benchmarks, Truebones Zoo and Diffusion4D. Our results show that our weakly supervised skeleton modeling matches or surpasses fully supervised baselines while scaling to diverse object categories for high-quality text-driven mesh animation. Further, our method supports flexible motion editing and is aligned with standard animation production pipelines.
+
+**Comment:** Criterion 5: SkelGen4D is a text-driven 4D mesh-generation method using weakly supervised feed-forward skeleton motion generation, evaluated on Truebones Zoo and Diffusion4D with results matching or surpassing fully supervised baselines.
+
+**Relevance:** 9
 Back to [[topic](#topic-5)] [[top](#topics)]
 
 ---
-<a id="6001-nodrift3r-raymap-guided-coupling-for-drift-robust-unposed-feed-forward-3d-reconstruction"></a>
+<a id="6006-track2map-online-deformable-slam-with-motion-aware-pose-optimization-in-robotic-surgery"></a>
 
-### 6001\. [NoDrift3R: Raymap-Guided Coupling for Drift-Robust Unposed Feed-Forward 3D Reconstruction](https://arxiv.org/abs/2607.07168)
-**ArXiv:** 2607.07168 [[page](https://arxiv.org/abs/2607.07168)] [[pdf](https://arxiv.org/pdf/2607.07168.pdf)]
+### 6006\. [Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery](https://arxiv.org/abs/2607.08408)
+**ArXiv:** 2607.08408 [[page](https://arxiv.org/abs/2607.08408)] [[pdf](https://arxiv.org/pdf/2607.08408.pdf)]
 
-**Authors:** Xiangyu Sun, Liu Liu, Seungkwon Yang, Jingbing Han, Seungtae Nam, Zhizhong Su, Eunbyung Park
+**Authors:** Tianyi Song, Sierra Bonilla, Xinwei Ju, Evangelos Mazomenos, Danail Stoyanov, Adam Schmidt, Omid Mohareri, Sophia Bano, Francisco Vasconcelos
 
-**Abstract:** Pose-Free Feed-forward 3D Gaussian Splatting (3DGS) has recently emerged as a powerful paradigm for fast scene reconstruction. However, its performance degrades significantly in long image sequences due to cumulative camera pose estimation drift, which propagates errors into geometric modeling and severely limits rendering fidelity. In this work, we revisit the long-sequence bottleneck and identify pose drift as the primary factor restricting reconstruction quality. Furthermore, while SfM-based pseudo ground-truth poses introduce sensor noise, purely rendering-based supervision often leads to optimization instability and local minima due to the entangled optimization of geometry and pose. To address the challenges, we propose a synergistic pose-free framework that explicitly couples geometry and appearance via a Raymap-Guided Coupling Module (RGC). Concretely, we anchor Gaussian centers to raymap-induced geometry and jointly optimize RGB reconstruction, raymap consistency, and camera regularization under a unified objective, yielding a bidirectional feedback loop: stronger geometry improves rendering, and appearance supervision in turn refines geometry and pose. To further stabilize learning across wide temporal ranges, we introduce a Dual-Frequency Viewpoint Scheduling strategy that combines easy-to-hard interval expansion with replay of short-interval pairs. Extensive experiments across in-domain and cross-domain datasets show consistent gains in both rendering and pose estimation, with notably improved robustness on long sequences. Ablation studies validate our central insight: explicitly designed geometry-appearance synergy is the key to scalable and drift-robust pose-free feed-forward 3D reconstruction.
+**Abstract:** Gaussian splatting is the current state-of-the-art for dense, deformable 3D anatomy reconstruction in robot-assisted minimally invasive surgery (RAMIS); however, most pipelines are offline and depend on accurate camera trajectory priors (often from robotic kinematics), limiting applicability when priors are missing or noisy. To address these limitations, we propose Track2Map, an online 3D Gaussian Splatting pipeline that jointly optimizes camera trajectory and 3D deformable scene representation directly from surgical video. Track2Map is therefore capable of robust 3D reconstructions when camera trajectory priors are either absent or noisy, and due to its online nature it effectively works as a Simultaneous Localisation and Mapping (SLAM) method. To stabilize optimization in the presence of tissue motion and ambiguous visual cues, we introduce a track-anchored deformation initialization using dense 2D point tracks. Track statistics are further utilized to disentangle camera motion from scene deformation by detecting static camera periods and reducing drift during incremental mapping. Experiments on StereoMIS show improved reconstruction quality and camera trajectory against competing SLAM methods, as well as compared to non-SLAM methods that utilize camera trajectory priors. The code is available at https://track2map.github.io/.
 
-**Comment:** Matches criterion 6: NoDrift3R targets pose-free feed-forward 3D Gaussian Splatting reconstruction and jointly improves geometry, rendering, and camera pose estimation via a Raymap-Guided Coupling Module and Dual-Frequency Viewpoint Scheduling.
+**Comment:** Criterion 6: Track2Map is an online deformable Gaussian Splatting SLAM method that jointly optimizes camera trajectory and 3D scene reconstruction from surgical video, improving results on StereoMIS when pose priors are absent or noisy.
 
-**Relevance:** 10
+**Relevance:** 9
 Back to [[topic](#topic-6)] [[top](#topics)]
 
-<a id="6012-robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation"></a>
+<a id="6007-geometry-and-gradient-based-partitioning-for-panoramic-outdoor-reconstruction"></a>
 
-### 6012\. [RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation](https://arxiv.org/abs/2607.06699)
-**ArXiv:** 2607.06699 [[page](https://arxiv.org/abs/2607.06699)] [[pdf](https://arxiv.org/pdf/2607.06699.pdf)]
+### 6007\. [Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction](https://arxiv.org/abs/2607.08769)
+**ArXiv:** 2607.08769 [[page](https://arxiv.org/abs/2607.08769)] [[pdf](https://arxiv.org/pdf/2607.08769.pdf)]
 
-**Authors:** Shujie Zhang, Jingkun Yi, Weipeng Zhong, Zirui Zhou, Yangkun Zhu, Hanqing Wang, Xudong Xu, Weinan Zhang, Chunhua Shen
+**Authors:** Weijian Chen, Weibo Yao, Yuhang Zhang, Xiaolin Tang, Guo Wang, Weijun Zhang, Xitong Gao, Yihao Chen, Hongde Qin, Lu Qi
 
-**Abstract:** Recovering real-world scenes as interactive simulation environments can enable generalizable robot learning and reproducible policy evaluation. However, constructing scenes that are both physically stable and visually faithful remains slow and expensive. In this work, we present RoboSnap, a real-to-sim framework that turns a single RGB image into a simulation-ready scene. The key idea is a layered design that separates the physics-critical interaction area from the surrounding visual context: collision-aware foreground assets are refined for stable robot interaction, while a 3D Gaussian splatting visual layer preserves faithful background appearance under novel views. Experiments on DROID scenes and real-robot tasks show that RoboSnap achieves reliable trajectory replay in the recovered scenes, supports task-specific synthetic data generation for policy training, and yields meaningful sim-real correlation for policy evaluation. To further support real-to-sim research, we introduce DROID-Sim, a real-to-sim companion dataset constructed from 564 real-world scenes in DROID. Extensive experiments suggest that the value of real-to-sim methods lies not only in high-fidelity visual reconstruction, but in turning real environments into reusable infrastructure for robot learning and evaluation.
+**Abstract:** Scaling 3D Gaussian Splatting (3DGS) to large outdoor scenes is costly in both data acquisition and computation. Adopting panoramic images with equirectangular projection (ERP) can reduce capture effort via their full $360^{\circ}$ field of view, yet the resulting omnipresent visibility invalidates existing partitioning strategies that rely on local camera frustums, causing block-wise optimization to degenerate into global training. Thus, we propose PanoLOG, a two-stage coarse-to-fine framework equipped with a Geometry and Gradient-based Partitioning Strategy tailored for large-scale panoramic 3DGS reconstruction. In the global coarse stage, PanoLOG leverages sky-sphere modeling and panoramic monocular depth supervision for reliable geometry, while in the refinement stage, G$^2$PS builds adaptive bounding volumes via parallax-driven uncertainty and assigns cameras via gradient-based importance scoring. Furthermore, we construct Pano360, the first benchmark on large-scale panoramic dataset for outdoor scene reconstruction. Extensive experiments demonstrate that G$^2$PS achieves state-of-the-art rendering quality while maintaining scalable, block-parallel training. Our models, training code, and dataset are publicly available.
 
-**Comment:** Matches criterion 6 by using a 3D Gaussian splatting visual layer and collision-aware foreground assets to reconstruct single-RGB DROID scenes into simulation-ready environments for robot learning and evaluation.
+**Comment:** Matches criterion 6: PanoLOG advances large-scale panoramic 3D Gaussian Splatting reconstruction with a Geometry and Gradient-based Partitioning Strategy and reports state-of-the-art rendering quality on the new Pano360 benchmark.
 
-**Relevance:** 8
+**Relevance:** 9
 Back to [[topic](#topic-6)] [[top](#topics)]
 
-<a id="6014-geogs-slam-geometry-only-gaussian-splatting-for-dense-monocular-slam"></a>
+<a id="6012-on-the-design-of-mixture-of-experts-for-dynamic-gaussian-splatting"></a>
 
-### 6014\. [GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM](https://arxiv.org/abs/2607.07452)
-**ArXiv:** 2607.07452 [[page](https://arxiv.org/abs/2607.07452)] [[pdf](https://arxiv.org/pdf/2607.07452.pdf)]
+### 6012\. [On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting](https://arxiv.org/abs/2607.08250)
+**ArXiv:** 2607.08250 [[page](https://arxiv.org/abs/2607.08250)] [[pdf](https://arxiv.org/pdf/2607.08250.pdf)]
 
-**Authors:** Lipu Zhou, Yaoyun Kang, Junxiang Pang, Shengkai Sun, Tingting Bao, Kehan Wang
+**Authors:** In-Hwan Jin, Hyeongju Mun, Joonsoo Kim, Kugjin Yun, Kyeongbo Kong
 
-**Abstract:** Dense visual SLAM is a fundamental problem in robotics. Recent advances in 3DGS have demonstrated its potential for dense SLAM. Existing 3DGS frameworks focus on both appearance and geometry modeling. However, scene geometry is typically more critical for SLAM than novel view synthesis because downstream robotic tasks, such as navigation and obstacle avoidance, rely primarily on accurate spatial geometry rather than photorealistic rendering. This observation raises a natural question: Is it feasible for 3DGS to perform 3D reconstruction without scene appearance modeling? Motivated by this, we propose Geometry-only Gaussian Splatting (GeoGS), which directly reconstructs scene geometry, and further present GeoGS-SLAM, a dense visual SLAM system built upon this representation. Specifically, GeoGS retains only spatial parameters to reduce the number of per-primitive parameters by over 80%. In contrast to existing 3DGS methods, GeoGS focuses solely on geometric reconstruction, which significantly reduces the number of Gaussian primitives, accelerates geometric convergence, and enhances robustness to illumination variations. In addition, we present an effective training framework that optimizes the Gaussian primitives via single-view and multi-view geometric and photometric supervision, and speeds up geometry convergence with a local-plane driven initialization that better aligns primitives with local structures. Furthermore, we introduce a map update strategy for loop closure that globally transforms the Gaussian map to align it with the corrected pose estimates, thereby preventing map tearing caused by inconsistent per-viewpoint pose corrections in existing methods. Extensive experiments on synthetic and real-world benchmarks demonstrate that our method outperforms SOTA methods in terms of online mapping efficiency and geometric reconstruction quality.
+**Abstract:** Dynamic scene reconstruction remains challenging due to the heterogeneous and spatially varying nature of real-world motion. Although recent 3D Gaussian Splatting methods have introduced diverse deformation formulations for dynamic novel view synthesis, each method typically relies on a single deformation model within its representation, which limits robustness across diverse dynamic scenarios. In this work, we study a fundamental problem-multi-deformation modeling for dynamic 3D Gaussian representations-under two distinct integration constraints that differ in when and how multiple deformation experts interact during training. From a Mixture-of-Experts (MoE) perspective, we view multi-deformation modeling as the problem of combining multiple specialized deformation models within a unified 3D representation. We first introduce Mixture of Deformation Experts (MoDE), which integrates multiple deformation experts directly into the deformable Gaussian Splatting pipeline through joint optimization. In MoDE, experts operate on a shared canonical Gaussian representation, enabling multi-deformation modeling without introducing additional training stages or modifying the original optimization schedule. In contrast, we further present Mixture of Experts for Dynamic Gaussian Splatting (MoE-GS) under a different integration constraint, where deformation experts are optimized independently and combined through a separate routing stage. As a result, expert interaction occurs over non-canonical Gaussian representations after individual optimization. Together, these two approaches provide alternative strategies for multi-deformation modeling, clarifying how integration constraints shape the design and behavior of deformation experts in dynamic 3D Gaussian representations. Our code is available at: https://github.com/cvsp-lab/MoE-GS-studio.
 
-**Comment:** Matches criterion 6: GeoGS-SLAM introduces geometry-only Gaussian Splatting for dense monocular SLAM, reducing per-primitive parameters by over 80% while improving online mapping efficiency and geometric reconstruction quality.
+**Comment:** Criterion 6: the paper proposes MoDE and MoE-GS, mixture-of-experts deformation formulations for dynamic 3D Gaussian Splatting aimed at improving dynamic scene reconstruction and novel view synthesis.
 
-**Relevance:** 8
+**Relevance:** 7
+Back to [[topic](#topic-6)] [[top](#topics)]
+
+<a id="6014-wat3r-underwater-3d-geometry-learning-without-annotations"></a>
+
+### 6014\. [Wat3R: Underwater 3D Geometry Learning without Annotations](https://arxiv.org/abs/2607.08772)
+**ArXiv:** 2607.08772 [[page](https://arxiv.org/abs/2607.08772)] [[pdf](https://arxiv.org/pdf/2607.08772.pdf)]
+
+**Authors:** Jiangwei Ren, Xingyu Jiang, Zijie Song, Wei Xu, Hongkai Lin, Dingkang Liang, Xiang Bai
+
+**Abstract:** Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose Wat3R, a cross-domain semi-supervised learning framework designed to adapt feed-forward 3D reconstruction models from air to underwater scenes. Uniquely, our method eliminates the need for any annotated underwater data following a teacher-student architecture, that learns robust geometry representations merely on abundant unlabeled real underwater video footage. We also design a cross-view consistency loss that leverages geometric cues from other views to compensate for the information degradation in the current view caused by water attenuation and scattering. Furthermore, considering the lack of comprehensive evaluation benchmarks, we construct Water3D, a diverse dataset covering various water bodies and underwater scenarios, designed for geometric task evaluation. Experimental results demonstrate that Wat3R outperforms current state-of-the-art methods in underwater multi-view depth estimation and point cloud reconstruction. The dataset and code are available at https://github.com/LSXI7/Wat3R .
+
+**Comment:** Matches criterion 6: Wat3R proposes a teacher-student cross-domain semi-supervised framework with a cross-view consistency loss for underwater multi-view depth estimation and point cloud reconstruction, outperforming prior methods on the new Water3D benchmark.
+
+**Relevance:** 7
 Back to [[topic](#topic-6)] [[top](#topics)]
