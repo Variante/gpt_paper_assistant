@@ -2,13 +2,13 @@
 title: Arxiv Daily
 ---
 
-# Personalized Daily Arxiv Papers 08/29/2026
+# Personalized Daily Arxiv Papers 08/31/2026
 
 This project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)
 
 About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:
 
-<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=💗&slug=Variante&button_colour=23903d&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=💗&slug=Variante&button_colour=282095&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 <a id="topics"></a>
@@ -42,8 +42,23 @@ Paper selection prompt and criteria (jump to the section by clicking the link):
 <a id="topic-1"></a>
 
 ### Topic 1
-1010\. [Surgical Video Generation From Diffusion to World Models: A Survey](https://arxiv.org/abs/2608.26214) [[more](#1010-surgical-video-generation-from-diffusion-to-world-models-a-survey)]  
-**Authors:** Fuxiang Huang, Chenxu Zhang, Liang Han, Lei Zhang
+1000\. [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550) [[more](#1000-beyond-data-scaling-representation-centric-continued-pre-training-for-vision-language-action-models)]  
+**Authors:** Senqiao Yang, Chengyao Wang, Yuxin Chen, Zixuan Wang, Longxiang Tang, Haokun Gui, Jinhui Ye, Changsheng Lu, Xiaoyang Wu, Mingkang Zhu, Pengguang Chen, Shu Liu, Zhuotao Tian, Hengshuang Zhao, Bei Yu, Jiaya Jia
+
+1001\. [PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2608.27609) [[more](#1001-phr-vla-planning-horizon-reasoning-for-vision-language-action-models)]  
+**Authors:** Davood Soleymanzadeh, Kaidi Zhang, Zhiyuan Zhang, Bihao Zhang, Xiao Liang, Yu She, Minghui Zheng
+
+1002\. [DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA](https://arxiv.org/abs/2608.28108) [[more](#1002-deicticvla-unifying-instruction-modes-based-on-language-and-deictic-gestures-in-a-single-vla)]  
+**Authors:** Kango Yanagida, Tatsuya Aoki, Yuichiro Yoshikawa, Takato Horii
+
+1004\. [Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation](https://arxiv.org/abs/2608.28075) [[more](#1004-plan-along-the-way-event-triggered-foundation-model-planning-for-tamp-execution-in-partially-observable-manipulation)]  
+**Authors:** Puru Ojha, Narendhiran Vijayakumar, Nav Singhal, Girish Varma, Antony Thomas
+
+1010\. [Training-free Suction Grasp Detection for Deformed Aseptic Cartons Using Vision-Language Models and Geometric Surface Scoring](https://arxiv.org/abs/2608.28246) [[more](#1010-training-free-suction-grasp-detection-for-deformed-aseptic-cartons-using-vision-language-models-and-geometric-surface-scoring)]  
+**Authors:** Marin Maletic, Goran Vasiljevic
+
+1017\. [CoCoBench: A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Planning](https://arxiv.org/abs/2608.28266) [[more](#1017-cocobench-a-cooperative-coordination-benchmark-for-embodied-multi-agent-task-planning)]  
+**Authors:** Yang Chen, Ye-Xin Xie, Lirong Che, Danyang Peng, Yuzhe Yang, Peiwen Lin, Xu Cao, Chuang Wang, Lei Yuan, Jian Su, Lan-Zhe Guo
 
 
 Back to [[top](#topics)]
@@ -52,17 +67,11 @@ Back to [[top](#topics)]
 <a id="topic-2"></a>
 
 ### Topic 2
-2000\. [LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics](https://arxiv.org/abs/2608.27395) [[more](#2000-levjepa-efficient-scalable-video-pretraining-without-the-heuristics)]  
-**Authors:** Lukas Kuhn, Lucas Maes, Giuseppe Serra, Quentin Le Lidec, Yann LeCun, Randall Balestriero, Florian Buettner
+2014\. [GAAT: Geometry-Aware Alignment Transformer for Multimodal UAV Perception](https://arxiv.org/abs/2608.27971) [[more](#2014-gaat-geometry-aware-alignment-transformer-for-multimodal-uav-perception)]  
+**Authors:** Jingpu Yang, Debin Tang, Yilin Sun, Fengxian Ji, Jiahua Zhu, Wenrui Ding, Yufeng Wang
 
-2004\. [DINOcular: Self-Supervised Visuospatial Representations](https://arxiv.org/abs/2608.27226) [[more](#2004-dinocular-self-supervised-visuospatial-representations)]  
-**Authors:** Farkhat Almukhamedov, Sami Azirar, Hermann Blum
-
-2007\. [SSMB: Self-Supervised Local Feature Detection under Motion Blur](https://arxiv.org/abs/2608.27181) [[more](#2007-ssmb-self-supervised-local-feature-detection-under-motion-blur)]  
-**Authors:** Zhenjun Zhao, Fabio Bellavia, Wenting Wang, Fan Zhu, Jiajun Wu, Suryansh Kumar, Mingqiang Wei, Haoang Li, Javier Civera
-
-2011\. [Domain-Specific Self-Supervised Representation Learning for Retinal Fundus Classification](https://arxiv.org/abs/2608.26686) [[more](#2011-domain-specific-self-supervised-representation-learning-for-retinal-fundus-classification)]  
-**Authors:** Bekzat Nurlanbekova, Fung Fung Ting
+2015\. [ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT](https://arxiv.org/abs/2608.28455) [[more](#2015-arc-ct-anatomy-routed-contrastive-vision-language-learning-for-3d-chest-ct)]  
+**Authors:** Huseyin Umut Isik, Mehmet Alp Ozaydin, Sila Kurugol, \c{S}eyda Ertekin
 
 
 Back to [[top](#topics)]
@@ -79,6 +88,14 @@ Back to [[top](#topics)]
 <a id="topic-4"></a>
 
 ### Topic 4
+4008\. [Training-Free Temporal Abstraction for General Video Understanding](https://arxiv.org/abs/2608.27929) [[more](#4008-training-free-temporal-abstraction-for-general-video-understanding)]  
+**Authors:** Etienne Casanova, Sevan Brodjian, Pietro Perona
+
+4012\. [Post-Training VLMs for Video Mistake Detection](https://arxiv.org/abs/2608.28406) [[more](#4012-post-training-vlms-for-video-mistake-detection)]  
+**Authors:** Federico Spurio, Olga Zatsarynna, Lars Doorenbos, Emad Bahrami, Gianpiero Francesca, Juergen Gall
+
+4013\. [Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding](https://arxiv.org/abs/2608.28192) [[more](#4013-locate-anything-in-videos-rethinking-efficient-generative-spatio-temporal-video-grounding)]  
+**Authors:** Hanoona Rasheed, Haania Siddiqui, Ming-Hsuan Yang, Fahad Shahbaz Khan, Salman Khan
 
 
 Back to [[top](#topics)]
@@ -87,14 +104,8 @@ Back to [[top](#topics)]
 <a id="topic-5"></a>
 
 ### Topic 5
-5001\. [Procedura: Agentic 3D Modeling with Procedural Control](https://arxiv.org/abs/2608.26238) [[more](#5001-procedura-agentic-3d-modeling-with-procedural-control)]  
-**Authors:** Youtian Lin, Yikang Yang, Zhanpeng Hu, Mengqi Zhou, Feihu Zhang, Xun Cao, Jiaheng Liu, Yao Yao
-
-5002\. [SpatialCrafter: Single Image World Modeling with Generative 3D Proxies](https://arxiv.org/abs/2608.27073) [[more](#5002-spatialcrafter-single-image-world-modeling-with-generative-3d-proxies)]  
-**Authors:** Chuan Fang, Lingteng Qiu, Yixun Liang, Rui Chen, Kunming Luo, Zhaohua Zheng, Tongyuan Bai, Feipeng Tian, Zilong Dong, Zihan Zhou, Ping Tan
-
-5009\. [Generative Semantic Scene Completion](https://arxiv.org/abs/2608.26737) [[more](#5009-generative-semantic-scene-completion)]  
-**Authors:** Shi Chen, Weifeng Ge
+5003\. [Cyc3D: Evaluating Cyclic Structural Stability and Asset Usability in Image-to-3D Generation](https://arxiv.org/abs/2608.28080) [[more](#5003-cyc3d-evaluating-cyclic-structural-stability-and-asset-usability-in-image-to-3d-generation)]  
+**Authors:** Liwen Zhang
 
 
 Back to [[top](#topics)]
@@ -103,17 +114,23 @@ Back to [[top](#topics)]
 <a id="topic-6"></a>
 
 ### Topic 6
-6003\. [CGS-SLAM: Collaborative Gaussian Splatting based SLAM for Multi-Agent Reconstruction](https://arxiv.org/abs/2608.26868) [[more](#6003-cgs-slam-collaborative-gaussian-splatting-based-slam-for-multi-agent-reconstruction)]  
-**Authors:** Jean-Daniel de Ambrogi, Aladine Chetouani, Vincent Nguyen, Aur\'elien Chateigner
+6005\. [ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos](https://arxiv.org/abs/2608.28570) [[more](#6005-chainsplat-a-physics-inspired-screw-theoretic-model-for-learning-deformable-linear-object-dynamics-from-multi-view-rgb-videos)]  
+**Authors:** Seungyeon Kim, No\'emie Jaquier
 
-6005\. [Per-View Gaussian Predictions Enable Training-Free Distractor Filtering in Feed-Forward 3DGS](https://arxiv.org/abs/2608.26951) [[more](#6005-per-view-gaussian-predictions-enable-training-free-distractor-filtering-in-feed-forward-3dgs)]  
-**Authors:** Kangmin Seo, Jae-Pil Heo
+6006\. [Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction](https://arxiv.org/abs/2608.27529) [[more](#6006-revisiting-local-context-for-long-horizon-streaming-3d-reconstruction)]  
+**Authors:** Jiarong Han, Jincheng Xiong, Yuzhou Liu, Linzhe Shi, Changjie Wu, Ning Guo, Mu Xu, Hang Zhang, Ming Qian
 
-6006\. [NeuDonatello: Uncertainty-Aware Framework for Accurate Neural SDF Learning](https://arxiv.org/abs/2608.26504) [[more](#6006-neudonatello-uncertainty-aware-framework-for-accurate-neural-sdf-learning)]  
-**Authors:** Alvin Jinsung Choi, Wanhee Kim, Taeyun Kim, Dasol Hong, Wooju Lee, Hyun Myung
+6007\. [VersaGauss: A Versatile Framework for Generating Multiphase Dynamics with 3D Gaussians](https://arxiv.org/abs/2608.28069) [[more](#6007-versagauss-a-versatile-framework-for-generating-multiphase-dynamics-with-3d-gaussians)]  
+**Authors:** Ruijie Su, Lingxiao Yang, Xiaohua Xie, Jianhuang Lai
 
-6008\. [CoGeo-GS: Concept-Driven and Geometry-Aware Multi-Object Removal in 3D Scenes](https://arxiv.org/abs/2608.26656) [[more](#6008-cogeo-gs-concept-driven-and-geometry-aware-multi-object-removal-in-3d-scenes)]  
-**Authors:** Yuanxiang Ni, Xianliang Huang, Chenhang Ma, Chen Xiao, Yuewen Ma, Ruxin Wang, Hao Zhang
+6009\. [WilLaGS: Latent-Conditional 3D Appearance Fields for Robust Gaussian Splatting In-the-Wild](https://arxiv.org/abs/2608.28240) [[more](#6009-willags-latent-conditional-3d-appearance-fields-for-robust-gaussian-splatting-in-the-wild)]  
+**Authors:** Yuhao Bai, Qianqiu Tan, Lilong Chen, Huanhuan Lv, Lijun Chen
+
+6011\. [ABCD: Alpha-Composited Block Coordinate Descent: Constant-VRAM Training for Large Radiance Fields](https://arxiv.org/abs/2608.27735) [[more](#6011-abcd-alpha-composited-block-coordinate-descent-constant-vram-training-for-large-radiance-fields)]  
+**Authors:** Ka Heng Shiu, Kartic Subr
+
+6016\. [GeoFF3D: Coordinate-Anchored Feed-Forward Reconstruction for Large-Scale UAV Mapping](https://arxiv.org/abs/2608.28288) [[more](#6016-geoff3d-coordinate-anchored-feed-forward-reconstruction-for-large-scale-uav-mapping)]  
+**Authors:** Xiang Yang, Yongli Wang, Yunsheng Zhang
 
 
 Back to [[top](#topics)]
@@ -128,173 +145,258 @@ Back to [[top](#topics)]
 
 ---
 ## Full paper list
- <a id="1010-surgical-video-generation-from-diffusion-to-world-models-a-survey"></a>
+ <a id="1000-beyond-data-scaling-representation-centric-continued-pre-training-for-vision-language-action-models"></a>
 
-### 1010\. [Surgical Video Generation From Diffusion to World Models: A Survey](https://arxiv.org/abs/2608.26214)
-**ArXiv:** 2608.26214 [[page](https://arxiv.org/abs/2608.26214)] [[pdf](https://arxiv.org/pdf/2608.26214.pdf)]
+### 1000\. [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550)
+**ArXiv:** 2608.27550 [[page](https://arxiv.org/abs/2608.27550)] [[pdf](https://arxiv.org/pdf/2608.27550.pdf)]
 
-**Authors:** Fuxiang Huang, Chenxu Zhang, Liang Han, Lei Zhang
+**Authors:** Senqiao Yang, Chengyao Wang, Yuxin Chen, Zixuan Wang, Longxiang Tang, Haokun Gui, Jinhui Ye, Changsheng Lu, Xiaoyang Wu, Mingkang Zhu, Pengguang Chen, Shu Liu, Zhuotao Tian, Hengshuang Zhao, Bei Yu, Jiaya Jia
 
-**Abstract:** Surgical video data provides the primary training resource for models of intraoperative perception, surgical workflow understanding, and robotic decision-making. However, clinical data acquisition remains constrained by privacy, cost, and class imbalance. Surgical video generation has emerged as a transformative approach to addressing data scarcity and as a foundation for surgical simulation, training, and robotic policy learning. The field has developed rapidly without a clear conceptual framework. This survey organizes the 2024-2026 literature into three categories: unconditional generation, conditional generation, and world modeling generation, revealing a fundamental shift in how the task is defined from synthesizing visually plausible frames to modeling the causal dynamics of surgical scenes. We examine the persistent gap between pixel-level fidelity and clinical plausibility, and identify generalization, physical realism, controllability, and interpretability as bottlenecks. We further summarize experimental results of representative methods on public datasets to provide a quantitative reference for the field. This survey provides a structured overview of the current state and open challenges, offering a reference for researchers working at the intersection of intelligent perception, multi-modal fusion, generative AI, and surgical data science.
+**Abstract:** Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training must turn limited trajectories into transferable visual-action knowledge rather than merely fit actions. We propose VLAct, a VLA-oriented VLM backbone trained on broad, heterogeneous, multi-embodiment robot data before task-specific fine-tuning. VLAct preserves the broad VLM prior and encourages shared action semantics across embodiments through VLM-prior preservation, multi-head continuous action co-supervision, and a partially unified cross-embodiment action layout, while allowing task-specific action heads during fine-tuning. Across simulation, real-world, and unseen-embodiment transfer, VLAct consistently improves downstream performance under fixed fine-tuning protocols. On LIBERO-Plus and RoboTwin 2.0, VLAct surpasses industrial VLA systems including ABot-M0 and LingBot-VLA, achieving success rates of 82.6% and 92.5%. On RoboDojo, VLAct ranks sixth among all policies by success rate and outperforms all explicitly designated world-action model (WAM) entries on both metrics. Most notably, on RoboCasa-GR1, an unseen humanoid embodiment, VLAct using only 20% of downstream trajectories outperforms the full-data GR00T-N1.6 baseline. These results are obtained using fully open-source data and only a 16-GPU training setup, showing that representation-centric continued pre-training can deliver highly competitive performance under a modest compute budget and is an important independent axis of VLA progress beyond data scaling.
 
-**Comment:** Criterion 1: this survey directly covers diffusion/world-model surgical video generation for robotic policy learning, organizing 2024–2026 work into unconditional, conditional, and world-modeling generation and summarizing results on public datasets.
+**Comment:** Criterion 1: VLAct is a VLA/VLM backbone for robotic policy learning using VLM-prior preservation, multi-head continuous action co-supervision, and a cross-embodiment action layout, achieving 82.6% on LIBERO-Plus and 92.5% on RoboTwin 2.0.
 
-**Relevance:** 5
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1001-phr-vla-planning-horizon-reasoning-for-vision-language-action-models"></a>
+
+### 1001\. [PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2608.27609)
+**ArXiv:** 2608.27609 [[page](https://arxiv.org/abs/2608.27609)] [[pdf](https://arxiv.org/pdf/2608.27609.pdf)]
+
+**Authors:** Davood Soleymanzadeh, Kaidi Zhang, Zhiyuan Zhang, Bihao Zhang, Xiao Liang, Yu She, Minghui Zheng
+
+**Abstract:** Vision-language-action models (VLAs) have shown strong promise for general-purpose robotic manipulation by mapping language instructions and vision observations directly to actions. However, most VLAs primarily condition action prediction on current observations and lack an explicit mechanism for reasoning over future task dynamics, which is particularly important for fine-grained, contact-rich manipulation. We present PHR-VLA, a framework that enables planning-horizon reasoning in VLAs through privileged latent representations of future dynamics. PHR-VLA introduces a lightweight auxiliary future head that, during training, aligns the VLA's internal representations with latent dynamics extracted from future observations. Evaluation results demonstrate that local, contact-centric, patch-level latent dynamics supervision from the wrist camera improves success rate on LIBERO from 84.1% to 88.4% and on real-world disassembly tasks from 63.3% to 82.5%. Patch-level supervision from a third-person camera also improves performance on Meta-World from 56.70% to 57.8%. These results demonstrate that privileged latent dynamics alignment provides an effective training signal for improving anticipatory reasoning in VLA policies. Project website: \href{https://davoodsz.github.io/PHR-VLA.github.io/}{https://davoodsz.github.io/PHR-VLA.github.io/}
+
+**Comment:** Matches criterion 1: PHR-VLA improves robotic manipulation VLAs via an auxiliary future head aligning internal representations with future-observation latent dynamics, raising LIBERO success from 84.1% to 88.4% and real-world disassembly from 63.3% to 82.5%.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1002-deicticvla-unifying-instruction-modes-based-on-language-and-deictic-gestures-in-a-single-vla"></a>
+
+### 1002\. [DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA](https://arxiv.org/abs/2608.28108)
+**ArXiv:** 2608.28108 [[page](https://arxiv.org/abs/2608.28108)] [[pdf](https://arxiv.org/pdf/2608.28108.pdf)]
+
+**Authors:** Kango Yanagida, Tatsuya Aoki, Yuichiro Yoshikawa, Takato Horii
+
+**Abstract:** Vision-Language-Action models (VLAs) allow users to specify manipulation tasks in natural language, but distinguishing a target or placement goal among objects of the same category or similar appearance requires detailed expressions that VLAs may not use reliably. We propose DeicticVLA, which canonicalizes Language Instruction (LI), Vision-Language Instruction (VLI), and Visual Instruction (VI) into a text prompt and deictic masks through text-prompt completion and deictic gesture grounding, enabling a single pretrained VLA to handle all three instruction modes. With a shared backbone, demonstrations, and matched training steps, we compare two RGB visual prompting methods, two separate-channel mask prompting methods, and three training strategies in simulation. Under two-stage training, the four prompting methods achieve high in-distribution success but differ in their ability to use deictic masks in unseen layouts. Across methods, training-strategy ablations show that two-stage training improves such use, while retaining second-stage LI data mitigates forgetting without reducing VLI and VI performance. In three real-world tasks, one policy supports all modes. VLI and VI outperform LI under unseen expressions, appearance changes, and novel objects. For unseen categories, both achieve 100% success, compared with 16.7% for jointly trained LI. These results demonstrate the unified three-mode interface and guide DeicticVLA design.
+
+**Comment:** Matches criterion 1: DeicticVLA trains a single vision-language-action manipulation policy to handle language, vision-language, and visual/deictic gesture instructions, achieving 100% success for unseen categories in real-world tasks versus 16.7% for language-only instruction.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1004-plan-along-the-way-event-triggered-foundation-model-planning-for-tamp-execution-in-partially-observable-manipulation"></a>
+
+### 1004\. [Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation](https://arxiv.org/abs/2608.28075)
+**ArXiv:** 2608.28075 [[page](https://arxiv.org/abs/2608.28075)] [[pdf](https://arxiv.org/pdf/2608.28075.pdf)]
+
+**Authors:** Puru Ojha, Narendhiran Vijayakumar, Nav Singhal, Girish Varma, Antony Thomas
+
+**Abstract:** Manipulation in partially observable environments requires planning under incomplete scene information. In such settings, an initially valid plan may execute successfully yet remain insufficient for task completion. Existing foundation-model-guided task and motion planning (TAMP) systems can generate useful long-horizon task decompositions, subgoals, or constraints, but they often assume having access to a fully specified scene state or invoke model-level replanning after a subgoal, refinement, or execution attempt fails. We present ROBUST TAMP, a modular LLM/VLM-guided planning framework for reactive TAMP where unseen task-relevant and non-target objects may become visible during execution. The framework restricts the foundation-model planner to the currently visible relational scene state, validates generated task-level actions against a strict executable interface, and routes the accepted actions to scene-specific execution adapters. Object discovery is treated as a distinct replanning event and, after a stable execution horizon, the system reconstructs the visible scene state and replans using completed-action history and structured replanning event context. Evaluations are performed on six RLBench/CoppeliaSim kitchen and grill variants involving hidden objects, non-target object discovery, articulated-container interaction, and temporal manipulation procedures. We compare text-only LLM and VLM planners of different sizes under the same validation, execution, monitoring, and replanning pipeline, reporting task success, partial goal completion, discovery- and failure-triggered replanning behavior, implicit non-target-object handling, and planner inference cost.
+
+**Comment:** Matches criterion 1: ROBUST TAMP uses LLM/VLM-guided reactive task-and-motion planning for partially observable manipulation, evaluated on RLBench/CoppeliaSim kitchen and grill tasks with discovery- and failure-triggered replanning.
+
+**Relevance:** 9
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1010-training-free-suction-grasp-detection-for-deformed-aseptic-cartons-using-vision-language-models-and-geometric-surface-scoring"></a>
+
+### 1010\. [Training-free Suction Grasp Detection for Deformed Aseptic Cartons Using Vision-Language Models and Geometric Surface Scoring](https://arxiv.org/abs/2608.28246)
+**ArXiv:** 2608.28246 [[page](https://arxiv.org/abs/2608.28246)] [[pdf](https://arxiv.org/pdf/2608.28246.pdf)]
+
+**Authors:** Marin Maletic, Goran Vasiljevic
+
+**Abstract:** Robotic sorting of recyclable waste is challenging due to the deformable and geometrically inconsistent nature of target objects. We present a training-free suction grasping system for sorting deformed aseptic beverage cartons, decoupling target identification from grasp-point selection. An open-vocabulary vision-language model detects cartons from a text prompt, SAM2 refines each detection into an instance mask, and a geometric scoring method selects the suction point by combining surface flatness with normal alignment. Three geometric methods are compared: k-nearest-neighbour PCA, Sobel cross-product, and RANSAC plane fitting. Evaluated on a real robot across three deformation levels and 35 cluttered scenes, single-object grasp success reaches 88.2% and end-to-end retrieval in clutter is 72.6%.
+
+**Comment:** Criterion 1: the paper uses an open-vocabulary vision-language model from a text prompt, SAM2 instance masks, and geometric surface scoring to select suction grasp points on a real robot, reporting 88.2% single-object grasp success and 72.6% end-to-end clutter retrieval.
+
+**Relevance:** 8
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1017-cocobench-a-cooperative-coordination-benchmark-for-embodied-multi-agent-task-planning"></a>
+
+### 1017\. [CoCoBench: A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Planning](https://arxiv.org/abs/2608.28266)
+**ArXiv:** 2608.28266 [[page](https://arxiv.org/abs/2608.28266)] [[pdf](https://arxiv.org/pdf/2608.28266.pdf)]
+
+**Authors:** Yang Chen, Ye-Xin Xie, Lirong Che, Danyang Peng, Yuzhe Yang, Peiwen Lin, Xu Cao, Chuang Wang, Lei Yuan, Jian Su, Lan-Zhe Guo
+
+**Abstract:** Agent systems powered by multimodal large language models (MLLMs) have advanced rapidly in recent years, yet existing embodied-agent benchmarks still lack fine-grained diagnostics for multi-agent coordination. Most benchmarks either focus on single-agent task completion or summarize multi-agent behavior with overall task success rates, which can obscure coordination failures such as duplicated work, violations of ordering constraints, resource contention, and desynchronized handoffs. In this paper, we introduce CoCoBench, a construct-level benchmark for evaluating multi-agent embodied coordination in executable household tasks. CoCoBench contains 897 oracle-validated instances organized around four recurring coordination constructs: task allocation, sequential ordering, mutual exclusion, and handoff coordination. In addition to task success rate, CoCoBench provides construct-level scores that measure whether agents coordinate effectively. We evaluate 11 leading MLLMs across different coordination modes, observation inputs, and numbers of agents. The results show that coordination ability is highly construct-specific: strong overall performance does not imply balanced competence across different coordination types. These findings point to new directions for designing targeted model architectures and improving multi-agent coordination ability.
+
+**Comment:** Criterion 1: CoCoBench directly benchmarks MLLM-based embodied task planning with 897 oracle-validated executable household task instances and construct-level scores for task allocation, sequential ordering, mutual exclusion, and handoff coordination.
+
+**Relevance:** 6
 Back to [[topic](#topic-1)] [[top](#topics)]
 
 ---
-<a id="2000-levjepa-efficient-scalable-video-pretraining-without-the-heuristics"></a>
+<a id="2014-gaat-geometry-aware-alignment-transformer-for-multimodal-uav-perception"></a>
 
-### 2000\. [LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics](https://arxiv.org/abs/2608.27395)
-**ArXiv:** 2608.27395 [[page](https://arxiv.org/abs/2608.27395)] [[pdf](https://arxiv.org/pdf/2608.27395.pdf)]
+### 2014\. [GAAT: Geometry-Aware Alignment Transformer for Multimodal UAV Perception](https://arxiv.org/abs/2608.27971)
+**ArXiv:** 2608.27971 [[page](https://arxiv.org/abs/2608.27971)] [[pdf](https://arxiv.org/pdf/2608.27971.pdf)]
 
-**Authors:** Lukas Kuhn, Lucas Maes, Giuseppe Serra, Quentin Le Lidec, Yann LeCun, Randall Balestriero, Florian Buettner
+**Authors:** Jingpu Yang, Debin Tang, Yilin Sun, Fengxian Ji, Jiahua Zhu, Wenrui Ding, Yufeng Wang
 
-**Abstract:** Video carries the temporal structure of the physical world, yet learning representations from it has remained computationally expensive: prevailing self-supervised methods either prevent representation collapse through architectural asymmetries, coupling an exponential-moving-average target encoder, a stop-gradient, and a capacity-limited predictor, or circumvent it by reconstructing masked content in pixel space. We introduce LeVJEPA, the first video encoder trained under LeJEPA's collapse-free objective, which dispenses with both. A single encoder is trained with an invariance loss over global and local views of a clip, regularized by SIGReg, which excludes collapse with a provable guarantee. The architecture reduces to an encoder and a projector, and the objective to a single hyperparameter. This formulation admits two properties. First, the cost of pretraining is governed by the number of tokens the encoder observes; uniform random token dropping renders this number small while simultaneously improving downstream accuracy. At matched epochs on identical data, LeVJEPA matches or surpasses V-JEPA 2 across ViT-S/B/L at 5.6 to 20.8x less pretraining compute, and at matched total FLOPs it exceeds the strongest video baseline by 7.6 points on ImageNet-1K while remaining competitive on motion-centric benchmarks. Second, since no asymmetry between branches is required, the encoder can be trained with block-causal attention at no measurable accuracy cost: temporal ordering becomes a property of the encoder itself. Against a compute-matched DINOv2 trained on frames of the same videos, LeVJEPA approaches the image-pretrained encoder on appearance-centric evaluation while nearly doubling its motion-centric accuracy. These results indicate that, once its computational overhead is removed, video becomes a viable and in several respects preferable substrate for general-purpose visual pretraining.
+**Abstract:** Unmanned aerial vehicle (UAV) multimodal perception integrates visible (RGB), infrared (IR), synthetic aperture radar (SAR), and depth sensors for scene understanding under diverse conditions. However, differences in optics, resolution, and mounting often limit practical systems to global or image-center alignment. After tokenization, parallax, platform motion, and lens distortion can shift corresponding patch centers across modalities, weakening the spatial correspondence assumed by dense contrastive learning and cross-modal fusion. We propose GAAT (Geometry-Aware Alignment Transformer), an alignment-first pretrained model that estimates local correspondence reliability before cross-modal interaction. GAAT introduces syncPATC, which learns patch-center consistency under synchronized view transformations without correspondence annotations. It emits geometric priors, including token and query confidence, query centers, and sub-token offsets, that identify reliable local anchors across residual misalignment. Guided by these priors, MG-Sparse-MMA performs query-mediated sparse fusion over top-K_s reliable regions, replacing dense all-patch interaction with geometry-calibrated local updates. RA-QCGCL aligns pretraining supervision with this sparse query bottleneck through reliable patch-to-patch, patch-to-query, and query-to-query contrastive branches. We introduce UAVMeta and StateBench, which provide four acquisition-state scores derived from platform telemetry and image statistics: camera reliability, observation scale, viewpoint stability, and flight maneuver complexity. Extensive experiments across six downstream tasks demonstrate consistently superior transfer performance, establishing GAAT as a state-of-the-art multimodal foundation model for UAV perception. StateBench further enables a systematic diagnosis of real-world acquisition conditions.
 
-**Comment:** Criterion 2: proposes LeVJEPA, a collapse-free self-supervised video pretraining method using LeJEPA + SIGReg and random token dropping, matching or surpassing V-JEPA 2 with 5.6–20.8x less pretraining compute.
-
-**Relevance:** 10
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2004-dinocular-self-supervised-visuospatial-representations"></a>
-
-### 2004\. [DINOcular: Self-Supervised Visuospatial Representations](https://arxiv.org/abs/2608.27226)
-**ArXiv:** 2608.27226 [[page](https://arxiv.org/abs/2608.27226)] [[pdf](https://arxiv.org/pdf/2608.27226.pdf)]
-
-**Authors:** Farkhat Almukhamedov, Sami Azirar, Hermann Blum
-
-**Abstract:** We introduce a self-supervised framework for learning joint visuospatial representations from RGB-D observations. While modern vision foundation models are trained almost exclusively on RGB images, many embodied systems have access to explicit depth sensing, which provides geometric information that monocular inputs cannot recover. Our method integrates depth-derived geometric priors with a visual backbone through inter-patch and intra-patch fusion, enabling the model to encode both appearance and spatial structure efficiently. The resulting representation shows promising improvements on 3D awareness while preserving semantic transfer: it outperforms prior methods of comparable scale on multiple 3D geometry benchmarks, and remains competitive when probed for standard RGB-D semantic segmentation tasks.
-
-**Comment:** Matches criterion 2 by proposing a self-supervised RGB-D representation method, DINOcular, using inter-patch and intra-patch fusion of depth-derived geometric priors and reporting gains on multiple 3D geometry benchmarks while preserving RGB-D semantic segmentation transfer.
-
-**Relevance:** 8
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2007-ssmb-self-supervised-local-feature-detection-under-motion-blur"></a>
-
-### 2007\. [SSMB: Self-Supervised Local Feature Detection under Motion Blur](https://arxiv.org/abs/2608.27181)
-**ArXiv:** 2608.27181 [[page](https://arxiv.org/abs/2608.27181)] [[pdf](https://arxiv.org/pdf/2608.27181.pdf)]
-
-**Authors:** Zhenjun Zhao, Fabio Bellavia, Wenting Wang, Fan Zhu, Jiajun Wu, Suryansh Kumar, Mingqiang Wei, Haoang Li, Javier Civera
-
-**Abstract:** Keypoint detection under motion blur remains a significant challenge, as blur distorts local image structure and degrades the repeatability of feature localization. Existing approaches either rely on computationally expensive deblur-then-detect pipelines that may introduce restoration artifacts, or learn to regress the image positions of handcrafted keypoints extracted on sharp images, which reflects the assumptions of the handcrafted detector rather than what is truly repeatable under blur. We present SSMB, a deblur-free, self-supervised keypoint detector for motion-blurred images that requires neither handcrafted detectors nor external pseudo-labels. SSMB introduces the Local Discriminability Enhancement (LDE) module, which restores fine-grained local discriminability after global feature mixing. Training is performed in two stages. First, geometric pretraining on synthetic shapes bootstraps spatially discriminative keypoint detection without any external detector, just from the rendered geometry. Second, blur-aware training on real sharp-blur image pairs learns blur-invariant detection through a multi-component self-supervised objective that enforces cross-domain consistency, geometric alignment, and spatial coverage. Extensive evaluations on keypoint detection, image matching, relative pose estimation, and visual localization under motion blur demonstrate that SSMB establishes a new state-of-the-art among sparse keypoint detectors, consistently outperforming both supervised and self-supervised baselines across all tasks. Code, models, and datasets will be publicly available upon paper acceptance.
-
-**Comment:** Criterion 2: SSMB proposes a self-supervised local image feature method for motion blur with a Local Discriminability Enhancement module and blur-aware training, outperforming supervised and self-supervised baselines on keypoint detection, image matching, relative pose estimation, and visual localization.
-
-**Relevance:** 7
-Back to [[topic](#topic-2)] [[top](#topics)]
-
-<a id="2011-domain-specific-self-supervised-representation-learning-for-retinal-fundus-classification"></a>
-
-### 2011\. [Domain-Specific Self-Supervised Representation Learning for Retinal Fundus Classification](https://arxiv.org/abs/2608.26686)
-**ArXiv:** 2608.26686 [[page](https://arxiv.org/abs/2608.26686)] [[pdf](https://arxiv.org/pdf/2608.26686.pdf)]
-
-**Authors:** Bekzat Nurlanbekova, Fung Fung Ting
-
-**Abstract:** Despite the growing number of public datasets, annotated medical images remain scarce. Supervised learning methods achieve strong performance on many benchmarks, however require large amounts of labeled data, which are costly and time-consuming to obtain in the medical domain. To address this limitation, contrastive self-supervised learning (SSL) has emerged as a promising alternative for learning useful representations from unlabeled data. In this work, we investigate two SSL frameworks, SimSiam and SimCLR, for retinal disease classification from fundus images. We focus on understanding how augmentation strategies and training parameters influence representation learning under resource-constrained settings. Given limited data and computational capacity, we explore the feasibility of training SSL models with small batch sizes incorporated with retinal-specific augmentation techniques. Through a series of experiments, we assess the quality of learned representations via linear evaluation and fine-tuning across downstream tasks, including multi-disease classification and diabetic retinopathy grading. Our results show that tailoring augmentation strategies to the characteristics of retinal images plays a critical role in improving performance. Even under constrained settings, lightweight SSL frameworks can learn transferable representations that reduce dependence on large annotated datasets and achieve competitive results.
-
-**Comment:** Criterion 2: the paper analyzes SSL representation learning with SimCLR and SimSiam, studying retinal-specific augmentations and evaluating representation quality via linear evaluation and fine-tuning on disease classification tasks.
-
-**Relevance:** 5
-Back to [[topic](#topic-2)] [[top](#topics)]
-
----
-<a id="5001-procedura-agentic-3d-modeling-with-procedural-control"></a>
-
-### 5001\. [Procedura: Agentic 3D Modeling with Procedural Control](https://arxiv.org/abs/2608.26238)
-**ArXiv:** 2608.26238 [[page](https://arxiv.org/abs/2608.26238)] [[pdf](https://arxiv.org/pdf/2608.26238.pdf)]
-
-**Authors:** Youtian Lin, Yikang Yang, Zhanpeng Hu, Mengqi Zhou, Feihu Zhang, Xun Cao, Jiaheng Liu, Yao Yao
-
-**Abstract:** Native 3D generators now recover impressive mesh geometry from a single image. However, a dense mesh stays soft where a machined object should be sharp, it carries no part decomposition, and it exposes no parameter a user could edit. To address this, we explore the paradigm of 3D shape as code, leveraging and scaling the coding ability of an LLM for 3D modeling. We introduce Procedura, a novel 3D modeling agent framework that writes an object as a procedural assembly, a parametric program whose named parts are joined by typed, machine-checkable mates. From a text prompt, the agent plans the object as an assembly graph and writes the program part by part, solving each placement from the mated frames rather than guessing it, and admitting a part only once compile, mate, and connectivity checks pass. A decoupled vision critic then refines the assembly one diagnosed fix at a time. Moreover, the same graph carries per-part materials and a simulator-validated articulation. We evaluate on P3D-Bench under its assembly judge, and with the same judge on MechBench-36, our hard-surface benchmark. On both, Procedura outperforms state-of-the-art native 3D generators and every prior 3D-code agent on judged quality, produces the sharpest edges of any method we evaluate, and is the only one whose output is an editable, part-structured program.
-
-**Comment:** Criterion 5: Procedura is a text-to-3D generation agent that writes editable procedural assemblies from prompts and outperforms native 3D generators and prior 3D-code agents on P3D-Bench and MechBench-36.
-
-**Relevance:** 9
-Back to [[topic](#topic-5)] [[top](#topics)]
-
-<a id="5002-spatialcrafter-single-image-world-modeling-with-generative-3d-proxies"></a>
-
-### 5002\. [SpatialCrafter: Single Image World Modeling with Generative 3D Proxies](https://arxiv.org/abs/2608.27073)
-**ArXiv:** 2608.27073 [[page](https://arxiv.org/abs/2608.27073)] [[pdf](https://arxiv.org/pdf/2608.27073.pdf)]
-
-**Authors:** Chuan Fang, Lingteng Qiu, Yixun Liang, Rui Chen, Kunming Luo, Zhaohua Zheng, Tongyuan Bai, Feipeng Tian, Zilong Dong, Zihan Zhou, Ping Tan
-
-**Abstract:** Explorable image-to-scene generation is essential for applications in gaming, robotics, and virtual reality. Existing methods based on video diffusion model (VDM) commonly rely on incomplete conditioning signals such as sparse point clouds or 2D panoramas, leading to stochastic hallucinations, long-term drifts and suboptimal 3D consistency. We present SpatialCrafter, a novel two-stage framework that addresses these issues by introducing a global 3D proxy for high-fidelity image-to-scene generation. Specifically, we decompose the generation process into global proxy generation and appearance refinement. For proxy generation, we propose a Point-anchored Sparse Structure~(PaSS) Flow module that predicts a spatially aligned and geometrically consistent 3D proxy. For appearance refinement, we re-frame the VDM as a Generative Deferred Refiner which synthesizes high-frequency photorealistic details upon proxy-defined scene geometry. To better integrate the proxy with the pre-trained VDM, we introduce Parallel Geometry Injection and Proxy-Aware Corruption training strategies, which improve robustness to proxy artifacts without disrupting the pretrained generative manifold. Furthermore, as no suitable dataset exists for this explorable scene generation task, we construct a new large-scale dataset of 115K scenes. To the best of our knowledge, it is the first hybrid dataset for image-to-scene generation. Extensive experiments on both synthetic and real-world datasets show that SpatialCrafter outperforms state-of-the-art methods, mitigates long-term drift, and remains robust and consistent under rapid camera motion and extreme viewpoint changes. Code, models, and the newly constructed dataset will be publicly released. See more at https://fangchuan.github.io/SpatialCrafter/.
-
-**Comment:** Criterion 5: SpatialCrafter is a single-image-to-scene generative method using a Point-anchored Sparse Structure Flow 3D proxy and a Generative Deferred Refiner, evaluated on synthetic and real-world datasets with a new 115K-scene dataset.
-
-**Relevance:** 9
-Back to [[topic](#topic-5)] [[top](#topics)]
-
-<a id="5009-generative-semantic-scene-completion"></a>
-
-### 5009\. [Generative Semantic Scene Completion](https://arxiv.org/abs/2608.26737)
-**ArXiv:** 2608.26737 [[page](https://arxiv.org/abs/2608.26737)] [[pdf](https://arxiv.org/pdf/2608.26737.pdf)]
-
-**Authors:** Shi Chen, Weifeng Ge
-
-**Abstract:** Outdoor LiDAR semantic scene completion (SSC) recovers a dense semantic voxel grid from a scan observing 1% of the target volume, under class imbalance beyond 7,000x. We recast SSC as generative semantic scene completion (GSSC): a single discrete-diffusion formulation in three roles. First, paired sparse-dense scene synthesis (PS$^3$) generates matched sparse LiDAR observations with their dense semantic completions, addressing the long tail at its source and yielding the PS$^3$-SemanticKITTI corpus we train on alongside SemanticKITTI. Second, semantic-guided generative scene completion (SGSC) generates the scene from noise with multinomial discrete diffusion, conditioned on the sparse scan through a bird's-eye-view semantic map and a sparse 3D feature stream. Third, the same framework instead refines an existing completion in one flow-matching step: structured source discrete diffusion (S$^2$D$^2$). S$^2$D$^2$ improves the mIoU of SGSC's own output and every external SSC base tested, without base retraining or test-time adaptation. On the strongest base, one step without test-time augmentation reaches 38.8% mIoU on the SemanticKITTI hidden test. To our knowledge that is the best causal, single-sweep, single-sample result on that leaderboard, +2.1 pp over the previous best published score under the same restriction. Four correction steps with eight-view test-time augmentation reach 39.2%, outside that restriction.
-
-**Comment:** Criterion 5: it formulates 3D LiDAR semantic scene completion as a multinomial discrete-diffusion generative model with PS^3 synthesis and S^2D^2 refinement, reaching 38.8% mIoU on the SemanticKITTI hidden test.
+**Comment:** Criterion 2: GAAT proposes self-supervised/contrastive multimodal representation learning via syncPATC and RA-QCGCL, reporting superior transfer across six downstream UAV perception tasks.
 
 **Relevance:** 6
+Back to [[topic](#topic-2)] [[top](#topics)]
+
+<a id="2015-arc-ct-anatomy-routed-contrastive-vision-language-learning-for-3d-chest-ct"></a>
+
+### 2015\. [ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT](https://arxiv.org/abs/2608.28455)
+**ArXiv:** 2608.28455 [[page](https://arxiv.org/abs/2608.28455)] [[pdf](https://arxiv.org/pdf/2608.28455.pdf)]
+
+**Authors:** Huseyin Umut Isik, Mehmet Alp Ozaydin, Sila Kurugol, \c{S}eyda Ertekin
+
+**Abstract:** Contrastive vision-language learning uses paired chest CT volumes and radiology reports to learn abnormality classifiers without manually annotated labels. However, two characteristics of chest CT challenge conventional global contrastive learning. First, many critical abnormalities are small or anatomically localized, and pooling an en- tire volume into a single embedding may dilute their visual evidence. Second, the standard contrastive objective treats every other scan in a batch as a negative. Because many chest CTs share abnormalities, this objective incorrectly pushes co-positive pairs apart. We propose Anatomy-Routed Contrastive Learning for 3D Chest CT (ARC-CT), a region-aware framework that addresses these limitations using only la- bels extracted from reports by an LLM, with no manual annotations or bounding boxes. ARC-CT combines three components: (1) an Anato- myQFormer localizing evidence via queries constrained by automatically generated organ masks; (2) a label-Jaccard soft InfoNCE objective in- tegrating the standard one-hot target with the label-set overlap of each pair, which reduces false-negative penalties between studies that share clinical findings; and (3) an organ-level alignment loss connecting mask- pooled visual features to organ-specific report text extracted offline with a large language model. ARC-CT achieves a 0.86 mask-free macro AUC across 18 abnormalities using a compact 3D ResNet-18 backbone. Over- all, ARC-CT outperforms both comparable efficient baselines and sev- eral larger transformer models. Our code and weights are available at https://github.com/arc-ct/arc-ct.
+
+**Comment:** Matches criterion 2 by proposing ARC-CT, a contrastive vision-language representation method with label-Jaccard soft InfoNCE and organ-level alignment, achieving 0.86 mask-free macro AUC across 18 CT abnormalities.
+
+**Relevance:** 6
+Back to [[topic](#topic-2)] [[top](#topics)]
+
+---
+<a id="4008-training-free-temporal-abstraction-for-general-video-understanding"></a>
+
+### 4008\. [Training-Free Temporal Abstraction for General Video Understanding](https://arxiv.org/abs/2608.27929)
+**ArXiv:** 2608.27929 [[page](https://arxiv.org/abs/2608.27929)] [[pdf](https://arxiv.org/pdf/2608.27929.pdf)]
+
+**Authors:** Etienne Casanova, Sevan Brodjian, Pietro Perona
+
+**Abstract:** Videos are expensive to analyze frame by frame, yet many video understanding tasks depend on knowing where relevant moments occur. A system may need to find when an action changes, locate the segment described by a sentence, or choose a few frames for a vision-language model. Existing methods often solve these problems separately, using task-specific training data or specialized architectures. We study whether a pretrained video-text model can provide enough temporal structure to support several of these tasks at once. We present STITCH, a training-free method that divides a video into semantically meaningful temporal chunks. STITCH embeds short video windows with a frozen video-text backbone and detects changes in the resulting embedding sequence. These chunks are computed once per video and reused across tasks. We evaluate STITCH on generic event boundary detection, language-based moment retrieval, and frame selection for long-video VLM reasoning. Across all three settings, STITCH remains competitive with more specialized methods while requiring no task-specific training, with especially clear gains when only a small number of frames or tokens can be processed. These results suggest that reusable temporal abstraction is a promising direction for general video understanding, allowing dense video streams to be converted once into semantic units that can be localized, retrieved, sampled, or reasoned over by downstream systems.
+
+**Comment:** Criterion 4: STITCH leverages a frozen pretrained video-text backbone to build reusable semantic temporal chunks, with evaluations on event boundary detection, language-based moment retrieval, and long-video VLM frame selection.
+
+**Relevance:** 8
+Back to [[topic](#topic-4)] [[top](#topics)]
+
+<a id="4012-post-training-vlms-for-video-mistake-detection"></a>
+
+### 4012\. [Post-Training VLMs for Video Mistake Detection](https://arxiv.org/abs/2608.28406)
+**ArXiv:** 2608.28406 [[page](https://arxiv.org/abs/2608.28406)] [[pdf](https://arxiv.org/pdf/2608.28406.pdf)]
+
+**Authors:** Federico Spurio, Olga Zatsarynna, Lars Doorenbos, Emad Bahrami, Gianpiero Francesca, Juergen Gall
+
+**Abstract:** Human mistakes are inevitable when following instructions, yet they can lead to severe consequences. As such, there has been an increased interest in developing methods for detecting mistakes in videos, with current methods mostly focusing on closed-set protocols. While successful in controlled settings, the closed-set assumption limits their wider applicability, as any changes to the task require collecting new data and re-training models. Instead, we argue that mistake detection methods should learn the general concept of a mistake, rather than overfitting to step-specific details. To reflect this, we introduce the Mistake Detection Video Question Answering (MD-VQA) protocol and accompanying benchmark. MD-VQA tests whether methods can discern if a step was executed correctly with respect to its description, for both seen and unseen actions. To address this important challenge, we propose the first video-language-model post-training technique for mistake detection. Our method uses a tailored reward function to encourage the model to identify discrepancies between an instruction and the corresponding video. Extensive evaluations demonstrate that this approach outperforms zero-shot, supervised fine-tuning, and post-training baselines. Notably, our method generalizes especially well to unseen procedures, for instance, with an improvement of up to 11.6% over the best-performing baseline on EP-VQA, paving the way toward general mistake detection. We release our code and benchmark at https://github.com/FedeSpu/mstk.
+
+**Comment:** Matches criterion 4 by post-training a video-language model for instruction-conditioned video mistake detection, with MD-VQA and up to 11.6% improvement on unseen procedures in EP-VQA.
+
+**Relevance:** 7
+Back to [[topic](#topic-4)] [[top](#topics)]
+
+<a id="4013-locate-anything-in-videos-rethinking-efficient-generative-spatio-temporal-video-grounding"></a>
+
+### 4013\. [Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding](https://arxiv.org/abs/2608.28192)
+**ArXiv:** 2608.28192 [[page](https://arxiv.org/abs/2608.28192)] [[pdf](https://arxiv.org/pdf/2608.28192.pdf)]
+
+**Authors:** Hanoona Rasheed, Haania Siddiqui, Ming-Hsuan Yang, Fahad Shahbaz Khan, Salman Khan
+
+**Abstract:** Spatio-temporal video grounding (STVG) requires models to identify when a referred event occurs and localize the target entity throughout that interval. Existing multimodal large language models typically serialize dense localization trajectories autoregressively, causing decoding latency to grow with tube length and allowing localization errors to propagate across time. We introduce Parallel Tube Decoding (PTD), a generative formulation that decomposes grounding into a temporal block followed by time-conditioned spatial blocks decoded simultaneously. This removes both token-level and trajectory-level dependencies, reducing the sequential decoding depth to a fixed $1 + 1$ rounds, independent of tube length. To enable parallel spatial generation, we introduce Decoupled Block Attention, which preserves access to shared video-query context while eliminating cross-box dependencies, together with localization-aware policy optimization for temporal boundaries and spatial geometry. On VidSTG, PTD reduces Tube Completion Latency by 79x and increases spatial decoding throughput by 92x over standard autoregressive decoding, while also improving grounding accuracy. With a compact 4B backbone, our model performs favorably well on VidSTG and HC-STVG, and generalizes zero-shot to temporal grounding, grounded VideoQA, and referring video object tracking. Our results show parallel tube generation is an efficient and effective alternative to autoregressive localization in videos.
+
+**Comment:** Criterion 4: this is a language-video dense grounding method, with Parallel Tube Decoding for spatio-temporal tubes achieving 79x lower Tube Completion Latency on VidSTG and generalizing to grounded VideoQA and referring video object tracking.
+
+**Relevance:** 7
+Back to [[topic](#topic-4)] [[top](#topics)]
+
+---
+<a id="5003-cyc3d-evaluating-cyclic-structural-stability-and-asset-usability-in-image-to-3d-generation"></a>
+
+### 5003\. [Cyc3D: Evaluating Cyclic Structural Stability and Asset Usability in Image-to-3D Generation](https://arxiv.org/abs/2608.28080)
+**ArXiv:** 2608.28080 [[page](https://arxiv.org/abs/2608.28080)] [[pdf](https://arxiv.org/pdf/2608.28080.pdf)]
+
+**Authors:** Liwen Zhang
+
+**Abstract:** Image-conditioned 3D generation has advanced rapidly, yet existing evaluation protocols largely judge rendered-view plausibility and semantic alignment, overlooking whether a generator forms a stable 3D interpretation and produces assets usable in graphics pipelines. We introduce Cyc3D, a multidimensional benchmark that evaluates image-to-3D generation along two complementary axes: Cross-View Object Consistency and Representation Quality. At the asset level, Cyc3D measures whether object identity remains semantically coherent across rendered viewpoints. At the model level, we propose View-Cycle Structural Consistency, a closed-loop render-regenerate-align protocol that repeatedly re-observes a generated asset from novel views and quantifies geometric, perceptual, and semantic drift across generations. To assess native asset usability beyond rendered appearance, Cyc3D further evaluates geometric structure, reference-image fidelity, mesh discretization and efficiency, and UV parameterization quality. Together, these diagnostics expose failures obscured by a single perceptual score and provide interpretable evidence of both model instability and representation defects. Experiments on five representative image-to-3D systems show that closed-source feed-forward models consistently outperform open-source optimization-based baselines in geometric fidelity, mesh quality, and cycle stability. Nevertheless, even the strongest methods achieve cycle-stability scores below 48, revealing a persistent gap between visually plausible generation and robust 3D object understanding.
+
+**Comment:** Matches criterion 5 by proposing Cyc3D, a benchmark for analyzing image-to-3D generation fidelity via View-Cycle Structural Consistency, mesh quality, UV parameterization, and asset usability across five image-to-3D systems.
+
+**Relevance:** 9
 Back to [[topic](#topic-5)] [[top](#topics)]
 
 ---
-<a id="6003-cgs-slam-collaborative-gaussian-splatting-based-slam-for-multi-agent-reconstruction"></a>
+<a id="6005-chainsplat-a-physics-inspired-screw-theoretic-model-for-learning-deformable-linear-object-dynamics-from-multi-view-rgb-videos"></a>
 
-### 6003\. [CGS-SLAM: Collaborative Gaussian Splatting based SLAM for Multi-Agent Reconstruction](https://arxiv.org/abs/2608.26868)
-**ArXiv:** 2608.26868 [[page](https://arxiv.org/abs/2608.26868)] [[pdf](https://arxiv.org/pdf/2608.26868.pdf)]
+### 6005\. [ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos](https://arxiv.org/abs/2608.28570)
+**ArXiv:** 2608.28570 [[page](https://arxiv.org/abs/2608.28570)] [[pdf](https://arxiv.org/pdf/2608.28570.pdf)]
 
-**Authors:** Jean-Daniel de Ambrogi, Aladine Chetouani, Vincent Nguyen, Aur\'elien Chateigner
+**Authors:** Seungyeon Kim, No\'emie Jaquier
 
-**Abstract:** Recent advances in SLAM have leveraged 3DGS for photorealistic reconstruction and novel view synthesis. However, most methods rely on RGB-D input, which is unavailable on consumer-grade smartphones, and few integrate 3DGS within a collaborative framework. Therefore, we present CGS-SLAM, a hybrid decentralized/centralized system enabling multi-agent 3DGS SLAM using only RGB and inertial data. Each agent performs local tracking with inertial data as a motion prior and reconstructs a scaled map using a metric monocular depth estimator (Depth Pro). Keyframe encodings are shared among agents, enabling dynamic keyframing in regions of spatial overlaps with other agents, enhancing submap alignment. Afterwards, a central server aligns submaps using VGGT as a view alignment model. This bidirectional communication keeps communication cost low during mapping and global reconstruction in difficult GNSS-denied environments. Experiments on multiple datasets demonstrate competitive tracking performance, improved rendering quality over state-of-the-art methods, and accurate submap alignment.
+**Abstract:** Identifying the underlying dynamics and 3D geometry of deformable linear objects (DLOs), such as cables, ropes, and hoses, is essential for accurate robotic manipulation, but remains challenging due to their high-dimensional configuration spaces and diverse behaviors arising from varying material properties. Existing methods often rely on multi-stage pipelines and auxiliary depth inputs, which are prone to errors under dynamic interactions, while their high-dimensional state representations make model-based control computationally expensive. In this paper, we introduce ChainSplat, a physics-inspired framework that jointly learns the 3D geometry, appearance, kinematics, and dynamics of DLOs solely from multi-view RGB videos. ChainSplat represents a DLO as an open-chain structure of rigid links connected by revolute joints, yielding an analytic, screw-theoretic model with a compact state representation parameterized by joint configurations. By integrating this formulation with Gaussian splatting, ChainSplat jointly recovers DLO dynamics, kinematics-aware 3D geometry, and appearance, while enabling high-fidelity RGB rendering from arbitrary states. Through real-world experiments, we demonstrate that ChainSplat achieves state-of-the-art performance in dynamics predictions, 3D geometry reconstruction, and RGB rendering across dynamic interactions. ChainSplat further enables real-time state and force estimation, as well as accurate model-based trajectory optimization, highlighting its practical utility for real-world robotic manipulation of DLOs. Accompanying source code and video are available at: https://chainsplat.github.io.
 
-**Comment:** Matches criterion 6: CGS-SLAM uses 3D Gaussian Splatting for collaborative multi-agent RGB-inertial SLAM, with Depth Pro-based local reconstruction and VGGT-based submap alignment improving rendering quality and tracking across multiple datasets.
+**Comment:** Criterion 6: ChainSplat integrates screw-theoretic deformable-object dynamics with Gaussian splatting to reconstruct DLO 3D geometry and appearance from multi-view RGB videos, reporting state-of-the-art dynamics prediction, 3D reconstruction, and RGB rendering.
+
+**Relevance:** 9
+Back to [[topic](#topic-6)] [[top](#topics)]
+
+<a id="6006-revisiting-local-context-for-long-horizon-streaming-3d-reconstruction"></a>
+
+### 6006\. [Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction](https://arxiv.org/abs/2608.27529)
+**ArXiv:** 2608.27529 [[page](https://arxiv.org/abs/2608.27529)] [[pdf](https://arxiv.org/pdf/2608.27529.pdf)]
+
+**Authors:** Jiarong Han, Jincheng Xiong, Yuzhou Liu, Linzhe Shi, Changjie Wu, Ning Guo, Mu Xu, Hang Zhang, Ming Qian
+
+**Abstract:** Streaming 3D reconstruction from extremely long videos requires estimating camera motion and scene geometry online under bounded memory and computation. Early streaming models achieve causal, bounded-cost inference using finite context buffers or compact recurrent states, yet their estimates often deteriorate as sequences grow. Recent methods improve long-horizon stability by coupling short-range context with persistent or multi-level long-range memory. We pursue a different route: we keep the learned temporal state strictly local and formulate predictions whose targets remain independent of sequence length. We present ABot-Recon, a simple streaming model that caches KV features from only the preceding 11 frames. It predicts a point map in the current camera coordinate system together with an adjacent-frame relative pose. These predictions remain equivariant under changes of reference frame, and global poses and geometry are recovered through sequential composition. To reduce accumulated drift, a lightweight temporal refiner improves relative rotations using recent visual and motion context, while a composition-aware pose loss supervises multi-step pose composition. Extensive evaluations on challenging long-sequence benchmarks demonstrate the superior long-horizon performance of our local-context approach. On Oxford Spires, ABot-Recon achieves an ATE of 4.35 m and an RPE-R of $0.12^\circ$, reducing both errors by approximately 40\% relative to the best prior results.
+
+**Comment:** Criterion 6: ABot-Recon jointly estimates camera motion and scene geometry for long-horizon streaming 3D reconstruction by predicting current-camera point maps and adjacent-frame relative poses, achieving 4.35 m ATE and 0.12° RPE-R on Oxford Spires.
 
 **Relevance:** 8
 Back to [[topic](#topic-6)] [[top](#topics)]
 
-<a id="6005-per-view-gaussian-predictions-enable-training-free-distractor-filtering-in-feed-forward-3dgs"></a>
+<a id="6007-versagauss-a-versatile-framework-for-generating-multiphase-dynamics-with-3d-gaussians"></a>
 
-### 6005\. [Per-View Gaussian Predictions Enable Training-Free Distractor Filtering in Feed-Forward 3DGS](https://arxiv.org/abs/2608.26951)
-**ArXiv:** 2608.26951 [[page](https://arxiv.org/abs/2608.26951)] [[pdf](https://arxiv.org/pdf/2608.26951.pdf)]
+### 6007\. [VersaGauss: A Versatile Framework for Generating Multiphase Dynamics with 3D Gaussians](https://arxiv.org/abs/2608.28069)
+**ArXiv:** 2608.28069 [[page](https://arxiv.org/abs/2608.28069)] [[pdf](https://arxiv.org/pdf/2608.28069.pdf)]
 
-**Authors:** Kangmin Seo, Jae-Pil Heo
+**Authors:** Ruijie Su, Lingxiao Yang, Xiaohua Xie, Jianhuang Lai
 
-**Abstract:** Feed-forward 3D Gaussian Splatting reconstructs an explicit Gaussian representation from multiple input images in one network execution, making 3D reconstruction increasingly accessible for casual captures. However, such captures frequently contain transient objects that appear in only a subset of the views. Such content can be encoded into the per-view Gaussians associated with the inputs that observe it and remain in the combined representation despite being observed by no other input. As a result, it may produce blurred, duplicated, or floating artifacts in novel views. We introduce a training-free filtering procedure that exploits this per-view prediction structure. For each input, we exclude its associated Gaussians and render the same camera using the remaining representation, revealing content that is inconsistent with the other inputs. Feature similarity forms candidate regions, and rendering-based verification retains only candidates whose removal reduces reconstruction error in the other input views. The procedure operates on a single frozen prediction without retraining or scene-specific optimization. Across three reconstruction models and two distractor benchmarks, it consistently improves novel-view quality with varying numbers of input views. On clean scenes, evaluations across four models show that the original reconstructions are largely preserved.
+**Abstract:** Recent progress has been made in 3D Gaussian representation for reconstruction, generation, and physical simulation. However, current approaches mainly concentrate on physics-based dynamic generation of solid objects and only handle single-phase collision interactions. We introduce VersaGauss, a unified framework for generation, simulation, and rendering that supports versatile physics-based dynamic generation, particularly for multiphase interactions. Our system takes a few images as input and produces a realistic, physics-driven 3D dynamic scene with multiple objects. To optimize the Gaussian kernel distribution, we develop a particle pruning algorithm. We also propose the Coupled Multiphase Point Method (CMPM) to effectively model and generate multiphase interactions. Additionally, harmonic interpolation within CMPM and a Gaussian evolution strategy are introduced to achieve realistic fluid rendering. Extensive experiments demonstrate that our framework can simulate interactions among various materials such as fluid, rubber, sand, snow, and others. Code is available at https://github.com/Elowen-surj/VersaGauss.
 
-**Comment:** Matches criterion 6: it improves feed-forward 3D Gaussian Splatting reconstruction from multiple input images via a training-free per-view Gaussian filtering procedure, evaluated across three reconstruction models and two distractor benchmarks.
+**Comment:** Matches criterion 6 by introducing VersaGauss, a 3D Gaussian framework that takes a few images and generates physics-driven dynamic 3D scenes using CMPM for multiphase interactions among fluid, rubber, sand, snow, and other materials.
+
+**Relevance:** 8
+Back to [[topic](#topic-6)] [[top](#topics)]
+
+<a id="6009-willags-latent-conditional-3d-appearance-fields-for-robust-gaussian-splatting-in-the-wild"></a>
+
+### 6009\. [WilLaGS: Latent-Conditional 3D Appearance Fields for Robust Gaussian Splatting In-the-Wild](https://arxiv.org/abs/2608.28240)
+**ArXiv:** 2608.28240 [[page](https://arxiv.org/abs/2608.28240)] [[pdf](https://arxiv.org/pdf/2608.28240.pdf)]
+
+**Authors:** Yuhao Bai, Qianqiu Tan, Lilong Chen, Huanhuan Lv, Lijun Chen
+
+**Abstract:** 3D Gaussian Splatting (3DGS) delivers real-time and high-fidelity rendering but remains challenged by unconstrained in-the-wild scenes, where drastic appearance variations and transient objects violate multi-view consistency. Existing methods are fundamentally limited by independent and discrete embeddings that struggle to capture continuous environmental changes or model spatially-varying local illumination. To address these limitations, we propose \textbf{WilLaGS}, a unified framework for robust 3D scene reconstruction and generative appearance synthesis under unconstrained settings. Specifically, we introduce a generative appearance model where a $\beta$-VAE learns a structured and continuous manifold of global appearance. Conditioned on the latent code, we construct a 3D neural appearance field that generates dynamic Tri-Plane features to encode spatially-varying local illumination effects. Furthermore, to suppress transient artifacts, we present a self-supervised perceptual masking mechanism that leverages a Teacher-Student (EMA) architecture to derive a stable scene consensus, robustly identifying inconsistent regions via perceptual discrepancies. Extensive experiments on multiple datasets demonstrate that \textbf{WilLaGS} achieves state-of-the-art performance in reconstruction quality and novel view appearance synthesis, while maintaining real-time rendering efficiency.
+
+**Comment:** Criterion 6: this advances in-the-wild 3D Gaussian Splatting reconstruction via a beta-VAE latent appearance model, dynamic Tri-Plane appearance fields, and self-supervised perceptual masking for transient artifacts.
+
+**Relevance:** 8
+Back to [[topic](#topic-6)] [[top](#topics)]
+
+<a id="6011-abcd-alpha-composited-block-coordinate-descent-constant-vram-training-for-large-radiance-fields"></a>
+
+### 6011\. [ABCD: Alpha-Composited Block Coordinate Descent: Constant-VRAM Training for Large Radiance Fields](https://arxiv.org/abs/2608.27735)
+**ArXiv:** 2608.27735 [[page](https://arxiv.org/abs/2608.27735)] [[pdf](https://arxiv.org/pdf/2608.27735.pdf)]
+
+**Authors:** Ka Heng Shiu, Kartic Subr
+
+**Abstract:** We present ABCD (Alpha-Composited Block Coordinate Descent), an out-of-core training framework for alpha-composited radiance fields, instantiated here for 3D Gaussian Splatting. Our method reformulates training as block coordinate descent over spatial partitions: only one block of parameters is active at a time, while all others are frozen. By exploiting the associativity of alpha blending, these inactive regions can be pre-rendered and collapsed into foreground and background RGBA images.   As a result, for fixed partition size and image resolution, peak VRAM becomes O(1) with respect to total scene extent, rather than growing with full scene size. This enables GPUs with limited memory to train scenes that would otherwise not fit in core. In experiments, our method closely preserves the reconstruction quality of 3DGS, with less than 5% PSNR degradation, while ABCD with compositing ablated suffers roughly 40% degradation.   Our code can be found at https://github.com/shiukaheng/abcd
+
+**Comment:** Criterion 6: proposes Alpha-Composited Block Coordinate Descent for 3D Gaussian Splatting radiance-field reconstruction, achieving O(1) peak VRAM with respect to scene extent while keeping PSNR degradation under 5%.
 
 **Relevance:** 7
 Back to [[topic](#topic-6)] [[top](#topics)]
 
-<a id="6006-neudonatello-uncertainty-aware-framework-for-accurate-neural-sdf-learning"></a>
+<a id="6016-geoff3d-coordinate-anchored-feed-forward-reconstruction-for-large-scale-uav-mapping"></a>
 
-### 6006\. [NeuDonatello: Uncertainty-Aware Framework for Accurate Neural SDF Learning](https://arxiv.org/abs/2608.26504)
-**ArXiv:** 2608.26504 [[page](https://arxiv.org/abs/2608.26504)] [[pdf](https://arxiv.org/pdf/2608.26504.pdf)]
+### 6016\. [GeoFF3D: Coordinate-Anchored Feed-Forward Reconstruction for Large-Scale UAV Mapping](https://arxiv.org/abs/2608.28288)
+**ArXiv:** 2608.28288 [[page](https://arxiv.org/abs/2608.28288)] [[pdf](https://arxiv.org/pdf/2608.28288.pdf)]
 
-**Authors:** Alvin Jinsung Choi, Wanhee Kim, Taeyun Kim, Dasol Hong, Wooju Lee, Hyun Myung
+**Authors:** Xiang Yang, Yongli Wang, Yunsheng Zhang
 
-**Abstract:** Neural surface reconstruction has emerged as a powerful paradigm for recovering high-quality 3D surfaces from multi-view images. However, recovering accurate geometry solely from RGB images remains challenging due to uncertainties arising from textureless regions, occlusions, and inherent scene ambiguities. Existing methods often overlook such uncertainties, leading to inaccurate estimates of the signed distance function (SDF). We introduce NeuDonatello, a novel framework that models and leverages SDF uncertainty to improve surface reconstruction. Central to our approach is to model spatially varying uncertainty using a Monte Carlo sampling strategy. Using this uncertainty, we develop an adaptive regularization that selectively strengthens geometric constraints where RGB supervision is unreliable, avoiding incorrect surface reconstruction. We further introduce an uncertainty-aware scale parameter for the SDF-to-density conversion. Conditioned on uncertainty, this design enables more accurate modeling of spatially varying densities. Extensive experiments demonstrate that NeuDonatello achieves state-of-the-art reconstruction accuracy, with robust performance across diverse scenes using only posed RGB images.
+**Abstract:** Existing feed-forward 3D reconstruction methods typically process a bounded number of images and recover cameras and geometry in local or internally normalized frames. Extending them to large-scale UAV mapping requires scalable multi-chunk processing and reliable aggregation, while full Sim(3) alignment can become unstable for near collinear trajectories. We present GeoFF3D, which combines a coordinate-anchored model with a spatial large-scale reconstruction framework (SLRF). The model uses georeferenced camera translations and optional geometric priors to predict camera poses and dense point maps directly in a gravity-aligned Z-up metric frame. SLRF partitions images into spatially overlapping chunks, propagates shared-view priors, and aggregates local reconstructions hierarchically, while remaining applicable to different bounded-view models. Across nine aerial mapping blocks, GeoFF3D achieves the best average reconstruction quality, improving F@5 from 0.829 for Pi3X + SLRF to 0.877. On long UAVScenes sequences, it reaches 0.848, compared with 0.687 for Pi3X + SLRF and 0.451 for the strongest evaluated SLAM/streaming baseline. GeoFF3D reconstructs 2,000 images in approximately five minutes, demonstrating scalable and robust large-scale UAV reconstruction.The code is available at https://github.com/yanxian-ll/GeoFF3D.
 
-**Comment:** Matches criterion 6: NeuDonatello proposes uncertainty-aware neural SDF surface reconstruction from posed RGB multi-view images, using Monte Carlo uncertainty, adaptive regularization, and an uncertainty-conditioned SDF-to-density scale to report state-of-the-art reconstruction accuracy.
+**Comment:** Criterion 6: this is a feed-forward multi-view 3D reconstruction method that jointly predicts camera poses and dense point maps in a metric frame, reconstructing 2,000 UAV images in about five minutes with improved F@5 scores.
 
-**Relevance:** 7
-Back to [[topic](#topic-6)] [[top](#topics)]
-
-<a id="6008-cogeo-gs-concept-driven-and-geometry-aware-multi-object-removal-in-3d-scenes"></a>
-
-### 6008\. [CoGeo-GS: Concept-Driven and Geometry-Aware Multi-Object Removal in 3D Scenes](https://arxiv.org/abs/2608.26656)
-**ArXiv:** 2608.26656 [[page](https://arxiv.org/abs/2608.26656)] [[pdf](https://arxiv.org/pdf/2608.26656.pdf)]
-
-**Authors:** Yuanxiang Ni, Xianliang Huang, Chenhang Ma, Chen Xiao, Yuewen Ma, Ruxin Wang, Hao Zhang
-
-**Abstract:** Multi-object removal in 3D scenes is challenging due to severe occlusions, semantic entanglement, and the difficulty of maintaining geometric and multi-view consistency. Existing 3D Gaussian Splatting (3DGS) methods perform well for single-object editing but scale poorly to multi-object scenarios, often requiring repetitive optimization and yielding unstable geometry in removed regions. We propose CoGeo-GS, a concept-driven framework for controllable multi-object removal in 3D scenes. CoGeo-GS assigns concept-aware semantic tags to Gaussians, enabling flexible object selection and reducing interference between foreground objects and background structures within a single optimization stage. To recover plausible geometry, we introduce a geometry-aware completion pipeline that combines monocular depth priors with diffusion-based refinement and boundary-aligned blending. A geometry-regularized refinement strategy further stabilizes reconstruction and preserves multi-view consistency. Experiments demonstrate that CoGeo-GS outperforms existing methods in visual quality and reconstruction fidelity.
-
-**Comment:** Criterion 6: CoGeo-GS is a 3D Gaussian Splatting scene-editing/generation method using concept-aware Gaussian tags plus monocular-depth and diffusion-based geometry completion, with reported gains in visual quality and reconstruction fidelity for multi-object removal.
-
-**Relevance:** 7
+**Relevance:** 6
 Back to [[topic](#topic-6)] [[top](#topics)]
