@@ -2,15 +2,15 @@
 title: Arxiv Daily
 ---
 
-# Personalized Daily Arxiv Papers 10/26/2026
+# Personalized Daily Arxiv Papers 10/27/2026
 
-<time id="gptpa-last-update" datetime="2026-10-26T14:00:03.785078+00:00">Last update: 2026-10-26T14:00:03.785078+00:00</time>
+<time id="gptpa-last-update" datetime="2026-10-27T14:00:02.918749+00:00">Last update: 2026-10-27T14:00:02.918749+00:00</time>
 
 This project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)
 
 About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:
 
-<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=💓&slug=Variante&button_colour=60904a&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=🎀&slug=Variante&button_colour=1b1053&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 <a id="topics"></a>
@@ -47,17 +47,20 @@ Paper selection prompt and criteria (jump to the section by clicking the link):
 <a id="topic-1"></a>
 
 ### Topic 1
-1000\. [If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs](https://arxiv.org/abs/2610.32941) [[more](#1000-if-at-first-you-dont-succeed-backtrack-lightweight-recovery-for-frozen-vlas)]  
-**Authors:** Thomas Landeg, Thierry Tambe
+1002\. [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626) [[more](#1002-robot-aligned-3d-gaussian-splatting-for-precise-reaching-with-wrist-camera-vla-policies)]  
+**Authors:** Zuoxu Wang, Xiao Liang
 
-1002\. [Robotic Optical Coherence Tomography-Guided Geometric Modeling of Soft Tissue: 3D Representations for Data-Driven Closed-Loop Shape Control](https://arxiv.org/abs/2610.32961) [[more](#1002-robotic-optical-coherence-tomography-guided-geometric-modeling-of-soft-tissue-3d-representations-for-data-driven-closed-loop-shape-control)]  
-**Authors:** Chaoyu Zhang, Guangshen Ma, Mark Draelos
+1003\. [Learning Force-Reactive Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.35862) [[more](#1003-learning-force-reactive-humanoid-loco-manipulation)]  
+**Authors:** Sihang Li, Xiaofeng Guo, Jinkun Cao, ..., Guanya Shi, Haozhi Qi
 
-1003\. [RynnUnify: Towards Unified Embodied Brain](https://arxiv.org/abs/2610.32965) [[more](#1003-rynnunify-towards-unified-embodied-brain)]  
-**Authors:** Minghao Zhu, Bohan Hou, Kun Xiang, ..., Jianfei Yang, Xin Li
+1004\. [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](https://arxiv.org/abs/2610.35817) [[more](#1004-pretraining-knows-what-simulation-teaches-how-compositional-generalization-in-a-sim-trained-robot-agent)]  
+**Authors:** Benjamin Pikus, Daniel Saunders, Mircea Mironenco, ..., Dejia Xu, Shyamal Buch
 
-1005\. [UniAction: Unified Action Conditioning for World Models](https://arxiv.org/abs/2610.32977) [[more](#1005-uniaction-unified-action-conditioning-for-world-models)]  
-**Authors:** Bowen Xue, Zizhang Li, Hong-Xing Yu, Jiajun Wu
+1005\. [TrySee: Modular Perception-Enhanced VLM Grounding for Closed-Loop Robot Task Planning in Specialized Domains](https://arxiv.org/abs/2610.35687) [[more](#1005-trysee-modular-perception-enhanced-vlm-grounding-for-closed-loop-robot-task-planning-in-specialized-domains)]  
+**Authors:** Elias Hofele, Thomas Trapp, David Timmermann, ..., Georg Heppner, Arne Roennau
+
+1006\. [Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy](https://arxiv.org/abs/2610.35832) [[more](#1006-profiling-a-frontier-agent-with-ebench-from-direct-control-to-harness-with-policy)]  
+**Authors:** Yifei Yao, Yude Zou, Guanbo Jiao, ..., Weinan Zhang, Chunhua Shen
 
 
 Back to [[top](#topics)]
@@ -66,8 +69,8 @@ Back to [[top](#topics)]
 <a id="topic-2"></a>
 
 ### Topic 2
-2004\. [Internal Discrepancy for Contrastive Learning: Generalization Bounds and Downstream Behaviors](https://arxiv.org/abs/2610.32729) [[more](#2004-internal-discrepancy-for-contrastive-learning-generalization-bounds-and-downstream-behaviors)]  
-**Authors:** Jialiang Wang, Qing Ma, Xiong Zhou, ..., Haoliang Li, Xianming Liu
+2009\. [Improving Signals, Declining Encoder: A Known-Answer Test of Label-Free Monitoring in Self-Supervised Learning](https://arxiv.org/abs/2610.35766) [[more](#2009-improving-signals-declining-encoder-a-known-answer-test-of-label-free-monitoring-in-self-supervised-learning)]  
+**Authors:** Nilotpal Kakati
 
 
 Back to [[top](#topics)]
@@ -92,11 +95,11 @@ Back to [[top](#topics)]
 <a id="topic-5"></a>
 
 ### Topic 5
-5001\. [CityLift: Compositional 3D Urban Generation from a Single Image](https://arxiv.org/abs/2610.32728) [[more](#5001-citylift-compositional-3d-urban-generation-from-a-single-image)]  
-**Authors:** Haoran Gong, Jie Feng, Chenxu Wang
+5000\. [Generative Structure from Motion with Native 3D Diffusion](https://arxiv.org/abs/2610.35522) [[more](#5000-generative-structure-from-motion-with-native-3d-diffusion)]  
+**Authors:** Haobin Duan, Binbin Huang, Mochu Xiang, ..., Yi Ma, Shenghua Gao
 
-5006\. [SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning](https://arxiv.org/abs/2610.32978) [[more](#5006-scenebloom-agentic-indoor-environment-generation-with-realistic-and-diverse-layouts-for-embodied-learning)]  
-**Authors:** Yuhan Liu, Lianhui Qin, Shenji Wan
+5008\. [VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion](https://arxiv.org/abs/2610.35756) [[more](#5008-videdit3d-flexible-3d-gaussian-editing-with-video-diffusion)]  
+**Authors:** Yanming Yang, Chenxi Song, Tong Zhao, ..., Yiwei Wang, Chi Zhang
 
 
 Back to [[top](#topics)]
@@ -105,6 +108,8 @@ Back to [[top](#topics)]
 <a id="topic-6"></a>
 
 ### Topic 6
+6010\. [Learning Scene Coordinate Reconstruction from Unposed Images via Pose Graph Optimization](https://arxiv.org/abs/2610.35501) [[more](#6010-learning-scene-coordinate-reconstruction-from-unposed-images-via-pose-graph-optimization)]  
+**Authors:** Tze Ho Elden Tse, Jizong Peng, Angela Yao
 
 
 Back to [[top](#topics)]
@@ -113,8 +118,17 @@ Back to [[top](#topics)]
 <a id="topic-7"></a>
 
 ### Topic 7
-7007\. [RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms](https://arxiv.org/abs/2610.32971) [[more](#7007-robustrllib-a-unified-library-and-benchmark-for-robust-reinforcement-learning-algorithms)]  
-**Authors:** Xi Chen, Fengqi Hu, Zeyu Shen, ..., Anqi Liu, Laixi Shi
+7001\. [FISRF: Flexible Instructional Scaffolding Reflection Framework for Robotics Task Planning with Large Language Model](https://arxiv.org/abs/2610.35686) [[more](#7001-fisrf-flexible-instructional-scaffolding-reflection-framework-for-robotics-task-planning-with-large-language-model)]  
+**Authors:** Qingmiao Liang, Jiatao Zhang, Runxin Zou, ..., Wei Song, Yuhua Zheng
+
+7007\. [RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies](https://arxiv.org/abs/2610.35604) [[more](#7007-robodoctor-training-free-recursive-self-improvement-for-robot-policies)]  
+**Authors:** Heyang Yu, Haomin Li, Sihang Li, ..., Xiaoyu Tian, Yiming Li
+
+7011\. [From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes](https://arxiv.org/abs/2610.35629) [[more](#7011-from-language-to-drives-a-multimodal-framework-for-aligning-autonomous-robots-with-human-purposes)]  
+**Authors:** Diana Cerdas-Vargas, Alejandro Romero, Richard J. Duro
+
+7012\. [SPECOLA: A Tool for Specification Driven Robot Evaluation](https://arxiv.org/abs/2610.35730) [[more](#7012-specola-a-tool-for-specification-driven-robot-evaluation)]  
+**Authors:** Immanuel Ampomah Mensah, Hadas Kress-Gazit
 
 
 Back to [[top](#topics)]
@@ -129,117 +143,188 @@ Back to [[top](#topics)]
 
 ---
 ## Full paper list
- <a id="1000-if-at-first-you-dont-succeed-backtrack-lightweight-recovery-for-frozen-vlas"></a>
+ <a id="1002-robot-aligned-3d-gaussian-splatting-for-precise-reaching-with-wrist-camera-vla-policies"></a>
 
-### 1000\. [If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs](https://arxiv.org/abs/2610.32941)
-**ArXiv:** 2610.32941 [[page](https://arxiv.org/abs/2610.32941)] [[pdf](https://arxiv.org/pdf/2610.32941.pdf)]
+### 1002\. [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626)
+**ArXiv:** 2610.35626 [[page](https://arxiv.org/abs/2610.35626)] [[pdf](https://arxiv.org/pdf/2610.35626.pdf)]
 
-**Authors:** Thomas Landeg, Thierry Tambe
+**Authors:** Zuoxu Wang, Xiao Liang
 
-**Abstract:** Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate model at inference time. We introduce Backtrack, a lightweight failure detection and recovery mechanism for frozen VLAs that needs none of these. A small failure prediction head, trained only on outcome-labeled rollouts of the frozen policy, reads the VLA's existing internal representations to estimate whether the current episode will fail. When the predicted failure probability exceeds a threshold, a controller pauses the policy, retraces the arm's recently achieved motion, and hands control back to the unchanged policy so it can retry from an earlier configuration. The head adds only 0.48-0.88% to the policy's parameter count. We evaluate Backtrack on LIBERO with three VLAs spanning two action-generation families: SmolVLA and $π$0.5, which use flow-matching action experts, and the autoregressive $π$0-FAST. On LIBERO-Long, the suite of long-horizon multi-step tasks and the one on which all three policies fail most often, Backtrack reduces each policy's failure rate by 19-48%, raising success by up to 7.4 percentage points; on the three shorter suites, where control success is already 85-99%, its effect is smaller. On MetaWorld, all twelve controller configurations tested with SmolVLA improve on the unassisted policy.
+**Abstract:** Efficient robotic data collection remains a major bottleneck for vision-language-action (VLA) policy learning, especially for tasks requiring accurate end-effector positioning and camera-action alignment. This challenge is particularly severe in electronic-waste disassembly, where robots operate in cluttered assemblies of densely packed, visually similar components. Full digital-twin simulation is difficult because many parts are thin, reflective, or mechanically complex, making accurate object-level meshes and contact models difficult to obtain. In this work, we focus on pre-contact reaching and propose a 3D Gaussian Splatting (3DGS)-based data generation pipeline for wrist-camera VLA adaptation. Our method reconstructs the real workspace with 3DGS and renders diverse wrist-camera observations from robot-aligned poses. These observations are paired with smooth, structured reaching trajectories to provide robot-aligned visual-action supervision for VLA fine-tuning. We further augment the VLA policy with an instruction-conditioned reach verifier that estimates target proximity and provides reliable termination before physical interaction. Experiments in motherboard disassembly demonstrate precise VLA-based reaching using wrist-camera observations alone, without an external side-view camera. With $π$0.5, 1,500 generated trajectories achieve 80.0\% precise-reaching success across three targets, compared with 58.7\% using 150 teleoperated demonstrations, while requiring less than 10 minutes of active human capture. Project website: https://001-wang.github.io/PrecisionReach-GS/
 
-**Comment:** Criterion 1: Backtrack augments frozen robotic manipulation VLAs with a lightweight failure-prediction head and arm-motion retracing controller, reducing failure rates by 19–48% on LIBERO-Long without policy retraining.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1002-robotic-optical-coherence-tomography-guided-geometric-modeling-of-soft-tissue-3d-representations-for-data-driven-closed-loop-shape-control"></a>
-
-### 1002\. [Robotic Optical Coherence Tomography-Guided Geometric Modeling of Soft Tissue: 3D Representations for Data-Driven Closed-Loop Shape Control](https://arxiv.org/abs/2610.32961)
-**ArXiv:** 2610.32961 [[page](https://arxiv.org/abs/2610.32961)] [[pdf](https://arxiv.org/pdf/2610.32961.pdf)]
-
-**Authors:** Chaoyu Zhang, Guangshen Ma, Mark Draelos
-
-**Abstract:** In medical robotics, data-driven soft-tissue shape control requires deforming tissue toward desired morphologies through sequential physical interactions. This challenge is particularly important in microscale manipulation, where localized deformation is difficult to observe, represent, and control, while physics-based models can be computationally expensive and difficult to adapt to realistic environments. Optical coherence tomography (OCT) provides high-resolution volumetric perception of tissue deformation, but target-conditioned control requires effective representations of both observed and desired tissue states. In this work, we introduce an OCT-guided data-driven framework for tissue shape control, learned from user-guided demonstrations and executed with closed-loop OCT feedback. We study full-volume, tissue-masked sparse-volume, and voxelized point-cloud representations, with or without residual conditioning, using deterministic (Explicit) and generative diffusion (Diffusion) policies. Across 12 configurations and 576 phantom rollouts on 3-DoF depth and 6-DoF directional tasks, OCT-derived 3D representations support both Explicit and Diffusion policies, with performance depending on representation and residual conditioning. Residual conditioning reduces directional Shape RMSE from 0.748 to 0.555 mm for full-volume Diffusion, while voxelized point-cloud Explicit with residuals achieves 0.534 mm for depth and 0.443 mm for directional control, with comparable accuracy at intermediate unseen targets and consistent performance across deployments. We further evaluate the framework in 60 ex vivo porcine rollouts, extending to biological tissue with final geometric errors comparable to human demonstrations. These results establish volumetric OCT as current and goal representations for learned closed-loop tissue shape control across deterministic and generative action models.
-
-**Comment:** Matches criterion 1 by applying generative diffusion policies to OCT-guided, closed-loop robotic soft-tissue manipulation, evaluated in 576 phantom rollouts and 60 ex vivo porcine rollouts.
+**Comment:** Criterion 1: Uses robot-aligned 3D Gaussian Splatting renderings and structured reaching trajectories to fine-tune a wrist-camera VLA policy, achieving 80.0% precise-reaching success with 1,500 generated trajectories versus 58.7% with 150 teleoperated demonstrations.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1003-rynnunify-towards-unified-embodied-brain"></a>
+<a id="1003-learning-force-reactive-humanoid-loco-manipulation"></a>
 
-### 1003\. [RynnUnify: Towards Unified Embodied Brain](https://arxiv.org/abs/2610.32965)
-**ArXiv:** 2610.32965 [[page](https://arxiv.org/abs/2610.32965)] [[pdf](https://arxiv.org/pdf/2610.32965.pdf)]
+### 1003\. [Learning Force-Reactive Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.35862)
+**ArXiv:** 2610.35862 [[page](https://arxiv.org/abs/2610.35862)] [[pdf](https://arxiv.org/pdf/2610.35862.pdf)]
 
-**Authors:** Minghao Zhu, Bohan Hou, Kun Xiang, ..., Jianfei Yang, Xin Li
+**Authors:** Sihang Li, Xiaofeng Guo, Jinkun Cao, ..., Guanya Shi, Haozhi Qi
 
-**Abstract:** We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes. We also develop a world-action extension of the full RynnUnify model, translating its understanding and prediction capabilities into robot control. To evaluate these capabilities, we introduce Rynn-VP and Rynn-GEU for long-horizon visual planning and anticipatory reasoning. Experiments show that RynnUnify achieves the highest average embodied understanding score among the evaluated unified multimodal models and improves the Rynn-VP overall score by 9.75 points over Cosmos 3 Nano. Its agentic extension improves the Rynn-GEU average by 6.0 points over direct reasoning, while the world-action extension achieves 51.5\% success on 20 selected composite RoboCasa365 tasks and 46.7\% average success across three real-robot tasks. Together, these results establish RynnUnify as a shared foundation for embodied understanding, visual planning, and robot control, taking a step toward a unified embodied brain.
+**Abstract:** Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld grippers for hand motion and contact wrenches, and wearable trackers for body motion. A force-reactive diffusion policy takes vision, proprioception, and measured wrenches as input, then predicts actions and per-hand force commands. A hybrid compliance whole-body controller with force tracking executes these commands while maintaining balance: an integral of the force error measured by real force/torque (F/T) sensors lets each hand track force accurately along the commanded direction and remain compliant along the others. In simulation, the controller tracks per-hand force commands of varied magnitude and direction, with little loss in whole-body motion accuracy. Across three contact-rich tasks on the robot, the force-reactive policy succeeds in 80% of rollouts, compared with 26.7% for a position-only policy trained on the same demonstrations and executed by the same controller. For more details, please visit our website: https://louis-leee.github.io/FLoRe/.
 
-**Comment:** Matches criteria 1 and 7 by combining interleaved video–language planning, RL-based use of video predictions, and a world-action robot-control extension, achieving 51.5% success on 20 composite RoboCasa365 tasks and 46.7% average success across three real-robot tasks.
+**Comment:** Criterion 1: FLORE uses a force-reactive diffusion policy conditioned on vision, proprioception, and measured wrenches for humanoid loco-manipulation, achieving 80% success across three contact-rich robot tasks versus 26.7% for a position-only policy.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1005-uniaction-unified-action-conditioning-for-world-models"></a>
+<a id="1004-pretraining-knows-what-simulation-teaches-how-compositional-generalization-in-a-sim-trained-robot-agent"></a>
 
-### 1005\. [UniAction: Unified Action Conditioning for World Models](https://arxiv.org/abs/2610.32977)
-**ArXiv:** 2610.32977 [[page](https://arxiv.org/abs/2610.32977)] [[pdf](https://arxiv.org/pdf/2610.32977.pdf)]
+### 1004\. [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](https://arxiv.org/abs/2610.35817)
+**ArXiv:** 2610.35817 [[page](https://arxiv.org/abs/2610.35817)] [[pdf](https://arxiv.org/pdf/2610.35817.pdf)]
 
-**Authors:** Bowen Xue, Zizhang Li, Hong-Xing Yu, Jiajun Wu
+**Authors:** Benjamin Pikus, Daniel Saunders, Mircea Mironenco, ..., Dejia Xu, Shyamal Buch
 
-**Abstract:** Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework that represents any action as a sparse set of action elements, each with a discrete semantic identity and a continuous spatiotemporal grounding coordinate. By mapping these coordinates directly into the pretrained video model's native positional space, UniAction allows heterogeneous actions to condition a shared world model within the same spatiotemporal structure. We further introduce cardinality-calibrated attention to address the bias from differing action representation granularities. We evaluate UniAction on four representative action forms: force, camera control, hand pose, and robot pose. UniAction outperforms conditioning alternatives in action following, and a single jointly trained model surpasses the action-specific experts, showing that heterogeneous action data benefit from unified model and joint training.
+**Abstract:** A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool harness. We use a pretrained 27B parameter model to bootstrap world understanding and reasoning, followed by supervised fine-tuning and GRPO on simple simulated tasks to teach it how to move the robot. Without any real-world robot data during training, ZAP reaches 96.7% success on real-world tasks, matching GPT-6 Astra in our harness and outperforming the MolmoAct2 VLA (33.3%), while running 3x faster and 17x cheaper than GPT-6 Astra. We demonstrate that ZAP also generalizes to completely new objects, goals, strategies, and language by seating a test tube in a rack (and choosing a different hole in the rack when prompted), handing a test tube between arms mid-air, drawing an X on a tic-tac-toe board, and playing chess. These goals and types of manipulation don't appear in our training data. Furthermore, ZAP also transfers to an unseen embodiment. On a single-arm Franka, ZAP reaches 55.9% on RoboLab-120, 4.9 percentage points ahead of the leading VLA/WAM baseline.
 
-**Comment:** Criterion 1: UniAction unifies action-conditioned world modeling across inputs including robot poses through sparse semantic–spatiotemporal action elements and cardinality-calibrated attention, with joint training outperforming action-specific experts.
+**Comment:** Criteria 1 and 7: ZAP trains a pretrained VLM through supervised fine-tuning and GRPO in simulation to perform manipulation through a tool harness, achieving 96.7% real-world task success without real-world robot training data.
 
-**Relevance:** 9
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1005-trysee-modular-perception-enhanced-vlm-grounding-for-closed-loop-robot-task-planning-in-specialized-domains"></a>
+
+### 1005\. [TrySee: Modular Perception-Enhanced VLM Grounding for Closed-Loop Robot Task Planning in Specialized Domains](https://arxiv.org/abs/2610.35687)
+**ArXiv:** 2610.35687 [[page](https://arxiv.org/abs/2610.35687)] [[pdf](https://arxiv.org/pdf/2610.35687.pdf)]
+
+**Authors:** Elias Hofele, Thomas Trapp, David Timmermann, ..., Georg Heppner, Arne Roennau
+
+**Abstract:** Vision Language Models (VLMs) have shown impressive capabilities in high-level reasoning and task planning for robots. However, specialized domains remain a challenge for VLMs' image interpretation and grounding abilities. We introduce TrySee, a modular closed-loop robot task planning pipeline integrating general-purpose VLM reasoning with domain-specific perception and established robotics components. The system consists of an inherently reactive cyclic planning pipeline, augmented with domain-specific modular vision preprocessing, to provide online grounding. Finally, a dynamic preprocessing selection mechanism contributes to the scalability of the pipeline. The system requires neither VLM fine-tuning nor end-to-end demonstrations and adapts through replaceable perception modules and motion planning. The approach is evaluated on planning tasks across 5 widely different domains, including a real-world robot disassembly task. The field tests in a brownfield environment demonstrate the approach's practicality in integrating VLM planning into specialized robotic systems with limited domain-specific training data.
+
+**Comment:** Criterion 1: TrySee combines VLM reasoning with modular domain-specific perception for closed-loop robot task planning and online grounding, evaluated across five domains including real-world robot disassembly.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1006-profiling-a-frontier-agent-with-ebench-from-direct-control-to-harness-with-policy"></a>
+
+### 1006\. [Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy](https://arxiv.org/abs/2610.35832)
+**ArXiv:** 2610.35832 [[page](https://arxiv.org/abs/2610.35832)] [[pdf](https://arxiv.org/pdf/2610.35832.pdf)]
+
+**Authors:** Yifei Yao, Yude Zou, Guanbo Jiao, ..., Weinan Zhang, Chunhua Shen
+
+**Abstract:** Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained policies. We study two agent configurations: direct control, in which the agent generates waypoint commands directly, and harness with policy, in which it can also invoke a post-trained VLA or WAM policy for action execution. Under direct control, the agent achieves competitive overall performance relative to post-trained policies. It leads on short-horizon tasks and exhibits the least performance variation across generalization dimensions, whereas it underperforms post-trained policies on long-horizon tasks, tabletop manipulation, and high-precision contact-rich tasks. In the harness with policy, invoking a post-trained VLA or WAM combines the complementary strengths of both components, raising overall task success to the level of the strongest compared post-trained policies while substantially reducing token cost. However, performance remains below the per-task upper bound of the standalone components due to suboptimal policy invocation, fixed-instruction execution without subgoals, and grasp disruption when the agent resumes control. Overall, our study characterizes the capability boundary of a frontier MLLM agent and suggests directions for improving future agent harness design. Project page: https://internrobotics.github.io/EBench-Astra-Tech-Report/
+
+**Comment:** Criteria 1 and 7: On EBench robot-manipulation tasks, a multimodal agent combines direct waypoint control with a harness that invokes VLA or WAM policies, reaching the strongest compared post-trained policies’ overall success level while substantially reducing token cost.
+
+**Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
 ---
-<a id="2004-internal-discrepancy-for-contrastive-learning-generalization-bounds-and-downstream-behaviors"></a>
+<a id="2009-improving-signals-declining-encoder-a-known-answer-test-of-label-free-monitoring-in-self-supervised-learning"></a>
 
-### 2004\. [Internal Discrepancy for Contrastive Learning: Generalization Bounds and Downstream Behaviors](https://arxiv.org/abs/2610.32729)
-**ArXiv:** 2610.32729 [[page](https://arxiv.org/abs/2610.32729)] [[pdf](https://arxiv.org/pdf/2610.32729.pdf)]
+### 2009\. [Improving Signals, Declining Encoder: A Known-Answer Test of Label-Free Monitoring in Self-Supervised Learning](https://arxiv.org/abs/2610.35766)
+**ArXiv:** 2610.35766 [[page](https://arxiv.org/abs/2610.35766)] [[pdf](https://arxiv.org/pdf/2610.35766.pdf)]
 
-**Authors:** Jialiang Wang, Qing Ma, Xiong Zhou, ..., Haoliang Li, Xianming Liu
+**Authors:** Nilotpal Kakati
 
-**Abstract:** Contrastive learning has emerged as a popular paradigm for training representation models. While prior studies pursue more practical and less restrictive assumptions to enhance theoretical understanding of contrastive learning, they essentially describe the interconnections among representations within the data or induced by the function class. To encapsulate these assumptions, we propose the measure of internal discrepancy that quantifies the difference between the mean representation of positive samples and latent cluster centers. We then prove an internal discrepancy-aware generalization bound for downstream supervised tasks following contrastive learning, without requiring additional assumptions. This generalization bound not only serves as a unifying framework connecting various assumptions but also motivates us to further reduce the internal discrepancy, thereby introducing the relaxed k-means loss as an approximation. Moreover, we investigate the downstream behaviors of contrastive learning from the perspective of contrastive learning-incurred supervised losses. In the presence of class imbalance, we shed light on why contrastive learning can facilitate imbalanced learning. Finally, we investigate the optimality of these incurred supervised losses, proving several intriguing properties.
+**Abstract:** Self-supervised training is monitored without labels, through the loss and statistics of the learned features. We report a case where we know the encoders lost part of what they had learned, so we can check whether these signals noticed. We trained LeJEPA encoders on synthetic images with known generating factors. In nine of ten seeds, the readability of those factors fell abruptly and stayed down, nearly always along the same direction in factor space. Meanwhile the loss kept falling, and most of the eleven label-free signals we tracked kept improving and rated the declining runs better than runs that did not decline. Standard change-point detection rarely flagged the decline near its onset, and selecting checkpoints by these signals mostly chose ones after it.
 
-**Comment:** Criterion 2: Rigorously analyzes contrastive representation learning through an internal-discrepancy-aware downstream generalization bound and introduces a relaxed k-means loss to reduce that discrepancy.
+**Comment:** Criterion 2: A controlled analysis of LeJEPA finds declining readability of known generating factors in nine of ten seeds despite improving label-free monitoring signals, directly examining SSL representation quality and checkpoint selection.
 
 **Relevance:** 9
 Back to [[topic](#topic-2)] [[top](#topics)]
 
 ---
-<a id="5001-citylift-compositional-3d-urban-generation-from-a-single-image"></a>
+<a id="5000-generative-structure-from-motion-with-native-3d-diffusion"></a>
 
-### 5001\. [CityLift: Compositional 3D Urban Generation from a Single Image](https://arxiv.org/abs/2610.32728)
-**ArXiv:** 2610.32728 [[page](https://arxiv.org/abs/2610.32728)] [[pdf](https://arxiv.org/pdf/2610.32728.pdf)]
+### 5000\. [Generative Structure from Motion with Native 3D Diffusion](https://arxiv.org/abs/2610.35522)
+**ArXiv:** 2610.35522 [[page](https://arxiv.org/abs/2610.35522)] [[pdf](https://arxiv.org/pdf/2610.35522.pdf)]
 
-**Authors:** Haoran Gong, Jie Feng, Chenxu Wang
+**Authors:** Haobin Duan, Binbin Huang, Mochu Xiang, ..., Yi Ma, Shenghua Gao
 
-**Abstract:** Generating editable 3D urban scenes from a single image requires detailed building assets with a coherent spatial arrangement. Occlusion and perspective ambiguity make it difficult to infer complete building geometry together with consistent relative scales and positions. We present CityLift, a framework that generates individual textured building meshes from an urban image by coupling scene-level spatial modeling with building-level synthesis. CityLift first learns building shape and placement jointly through coupled scene and instance streams, producing coarse sparse structures in a common coordinate system. We then introduce generative spatial inheritance, which maps each building's coarse occupancy and scene-conditioned 3D feature field into a local volume to guide a flow model that generates finer structure. The same coordinate mapping places the generated meshes back into the scene, preserving their spatial relationship to the scaffold. To address the scarcity of urban data pairing scene images with individual 3D buildings, we construct CityLift-5K, comprising 4,997 synthetic scenes with instance masks, building meshes, and placement annotations. Experiments on CityLift-5K and scene blocks from UrbanScene3D and InstanceBuilding demonstrate improved building geometry and scene composition. The project page is available at https://ranhaogong.github.io/CityLift/.
+**Abstract:** Recovering an object's 3D structure and camera motion from a few uncalibrated views is a fundamental problem in computer vision. Classical structure from motion methods recover 3D geometry consistent with the input images but cannot recover unseen regions; native generation methods produce plausible 3D objects which are related but not necessarily faithful to the input images. Methods simply concatenating reconstruction and generation allow error to cascade across the two stages, instead of producing a 3D object consistent with both the distribution and the input. We propose GenSfM, which integrates image-based 3D reconstruction with a native 3D diffusion model. In particular, we use a multi-modal diffusion transformer to jointly denoise the shape latent and per-view pose latents under shared self-attention, grounding generated geometry in the observed views while using object-level priors to infer unobserved regions. A compact 3D-native UV-volume tokenization keeps the joint sequence small as views are added, and a pose-aware stage refines geometry and texture by sampling per-voxel image features at the recovered camera poses. On Toys4k and GSO, for $4$ uncalibrated views, GenSfM improves novel-view PSNR by $3.2$-$4.5$ dB and reduces median Chamfer distance by $2.8$-$3.8\times$ over a strong native-3D generation baseline, while recovering input-view poses over $96\%$ Acc@$5^\circ$ without any external pose-estimation backbone, post-hoc optimization, or known intrinsics. Project page: https://dotb1ue.github.io/GenSfm/.
 
-**Comment:** Criterion 5: CityLift uses generative spatial inheritance to guide a flow model for single-image textured building-mesh generation, demonstrating improved geometry and scene composition on CityLift-5K, UrbanScene3D, and InstanceBuilding.
+**Comment:** Criteria 5 and 6: GenSfM jointly denoises native 3D shape and camera-pose latents from four uncalibrated views, improving novel-view PSNR by 3.2–4.5 dB and reducing median Chamfer distance by 2.8–3.8× on Toys4k and GSO.
 
 **Relevance:** 10
 Back to [[topic](#topic-5)] [[top](#topics)]
 
-<a id="5006-scenebloom-agentic-indoor-environment-generation-with-realistic-and-diverse-layouts-for-embodied-learning"></a>
+<a id="5008-videdit3d-flexible-3d-gaussian-editing-with-video-diffusion"></a>
 
-### 5006\. [SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning](https://arxiv.org/abs/2610.32978)
-**ArXiv:** 2610.32978 [[page](https://arxiv.org/abs/2610.32978)] [[pdf](https://arxiv.org/pdf/2610.32978.pdf)]
+### 5008\. [VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion](https://arxiv.org/abs/2610.35756)
+**ArXiv:** 2610.35756 [[page](https://arxiv.org/abs/2610.35756)] [[pdf](https://arxiv.org/pdf/2610.35756.pdf)]
 
-**Authors:** Yuhan Liu, Lianhui Qin, Shenji Wan
+**Authors:** Yanming Yang, Chenxi Song, Tong Zhao, ..., Yiwei Wang, Chi Zhang
 
-**Abstract:** Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones. A compiler then uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types, SceneBloom attains the highest visual quality and physical stability among the compared methods and is the only method with no detected mesh collisions and out-of-bounds objects. Its layouts are also closer to the distribution of real rooms than those of all compared baselines. Object navigation policies trained in these realistic scenes achieve a higher success rate in held-out real scans than those trained on an equal number of real training scans. Code is available at https://github.com/Tinaliu0123/scenebloom.
+**Abstract:** Recent advancements in text-guided 3D editing, particularly with 3D Gaussian Splatting (3DGS), have shown promise but still lag behind the flexibility of 2D editing tools. Existing methods face a critical trade-off between preserving multi-view consistency and allowing structural modifications. Image-based editors can also struggle to apply the intended edit to objects viewed from unusual angles. To address these limitations, we introduce VidEdit3D, a framework that reformulates 3D scene editing as a trajectory-based video editing task. By drawing a parallel between camera movement in static 3D scenes and temporal dynamics in video, we leverage the robust spatiotemporal priors of pre-trained Video Diffusion Models (VDMs) to encourage semantic and structural coherence across views. Specifically, we propose Trajectory-Guided Rendering (TGR) to select informative keyframes and construct smooth video clips aligned with VDM input requirements. To propagate edits from an anchor view to these clips, we develop Flow-Aligned Video Editing (FAVE), a training-free framework incorporating an Editing Consistency Guidance (ECG) mechanism. ECG contrasts source and edited image conditions at a shared latent state, using scheduled source-image amplification to strengthen adherence to the edited reference while maintaining original scene context. Finally, we introduce Region-Selective 3DGS Refinement (RS-GS) to strictly confine geometric and appearance updates to target primitives, reducing background attribute leakage. Experiments demonstrate stronger instruction alignment and better multi-view consistency than the baselines.
 
-**Comment:** Criterion 5: SceneBloom combines diffusion-based layout sampling with contract-guided 3D compilation to generate indoor scenes, achieving the highest reported visual quality and physical stability among compared methods with no detected collisions or out-of-bounds objects.
+**Comment:** Criterion 5: VidEdit3D combines pretrained video diffusion, Flow-Aligned Video Editing, and region-selective 3DGS refinement for text-guided 3D editing, reporting stronger instruction alignment and multi-view consistency than baselines.
 
-**Relevance:** 8
+**Relevance:** 9
 Back to [[topic](#topic-5)] [[top](#topics)]
 
 ---
-<a id="7007-robustrllib-a-unified-library-and-benchmark-for-robust-reinforcement-learning-algorithms"></a>
+<a id="6010-learning-scene-coordinate-reconstruction-from-unposed-images-via-pose-graph-optimization"></a>
 
-### 7007\. [RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms](https://arxiv.org/abs/2610.32971)
-**ArXiv:** 2610.32971 [[page](https://arxiv.org/abs/2610.32971)] [[pdf](https://arxiv.org/pdf/2610.32971.pdf)]
+### 6010\. [Learning Scene Coordinate Reconstruction from Unposed Images via Pose Graph Optimization](https://arxiv.org/abs/2610.35501)
+**ArXiv:** 2610.35501 [[page](https://arxiv.org/abs/2610.35501)] [[pdf](https://arxiv.org/pdf/2610.35501.pdf)]
 
-**Authors:** Xi Chen, Fengqi Hu, Zeyu Shen, ..., Anqi Liu, Laixi Shi
+**Authors:** Tze Ho Elden Tse, Jizong Peng, Angela Yao
 
-**Abstract:** Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, offline, and safe RL algorithms under a unified interface for substantially improved reusability, together with an enhanced evaluation platform spanning diverse real-world shifts and advanced humanoid and vision-language-action tasks. Systematic evaluation over 273 perturbation configurations provides an up-to-date capability map of current robust RL algorithms, revealing where they remain effective and where substantial robustness gaps persist. As an open-source, user-friendly platform, RobustRLlib offers a reproducible and extensible codebase for applying existing methods to new problems and developing new robust RL algorithms.
+**Abstract:** Learning-based structure-from-motion methods such as ACE-Zero have demonstrated strong performance in estimating cameraposes and scene coordinates from unordered image collections without requiring ground truth supervision. However, the lack of global and multi-view consistency constraints in ACE-Zero can lead to pose drift and misalignment, particularly in complex or ambiguous scenes. In this work, we propose a hybrid framework that integrates pose graph optimization (PGO) into ACE-Zero to refine camera poses and suppress incorrect refinements. We construct pose graphs directly from ACE-Zero outputs by extracting relative pose constraints from predicted scene coordinates. Furthermore, we introduce an uncertainty-aware optimization strategy by estimating confidence scores using geometric priors, including epipolar and optical flow consistencies across views. Our approach improves the robustness and accuracy of pose estimation, demonstrating that global geometric reasoning can effectively complement learning-based inference in structure-from-motion.
 
-**Comment:** Criterion 7: RobustRLlib provides a unified learning and evaluation platform with humanoid and vision-language-action tasks, benchmarking 17 robust RL algorithms across 273 perturbation configurations.
+**Comment:** Criterion 6: improves scene-coordinate reconstruction and camera-pose estimation from unposed images by integrating ACE-Zero with pose graph optimization and uncertainty weighting based on epipolar and optical-flow consistency.
+
+**Relevance:** 8
+Back to [[topic](#topic-6)] [[top](#topics)]
+
+---
+<a id="7001-fisrf-flexible-instructional-scaffolding-reflection-framework-for-robotics-task-planning-with-large-language-model"></a>
+
+### 7001\. [FISRF: Flexible Instructional Scaffolding Reflection Framework for Robotics Task Planning with Large Language Model](https://arxiv.org/abs/2610.35686)
+**ArXiv:** 2610.35686 [[page](https://arxiv.org/abs/2610.35686)] [[pdf](https://arxiv.org/pdf/2610.35686.pdf)]
+
+**Authors:** Qingmiao Liang, Jiatao Zhang, Runxin Zou, ..., Wei Song, Yuhua Zheng
+
+**Abstract:** Large Language Models (LLMs) are widely adopted for reflective error correction in task planning; however, existing approaches primarily rely on autonomous exploration, rendering them prone to accumulating erroneous experiences during early interactions with new environments. To address this limitation, we propose the Flexible Instructional Scaffolding Reflection Framework (FISRF), an agent--mentor architecture that estimates the robot's Zone of Proximal Development (ZPD) in task planning and adaptively selects reflection strategies and mentor guidance, thereby facilitating the accumulation of effective error-correction experience. Experiments in ALFWorld and on real-world robotic platforms demonstrate that FISRF reduces the average number of error-correction rounds by 37% and redundant reasoning by 25.1%, while improving the overall task success rate by 8%. Project webpage : https://fisrfplanning.github.io/
+
+**Comment:** Criterion 7: FISRF introduces an agent–mentor framework with adaptive reflection and mentor guidance for robotic task planning, reporting an 8% improvement in task success and 37% fewer error-correction rounds in experiments on ALFWorld and real-world robotic platforms.
+
+**Relevance:** 10
+Back to [[topic](#topic-7)] [[top](#topics)]
+
+<a id="7007-robodoctor-training-free-recursive-self-improvement-for-robot-policies"></a>
+
+### 7007\. [RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies](https://arxiv.org/abs/2610.35604)
+**ArXiv:** 2610.35604 [[page](https://arxiv.org/abs/2610.35604)] [[pdf](https://arxiv.org/pdf/2610.35604.pdf)]
+
+**Authors:** Heyang Yu, Haomin Li, Sihang Li, ..., Xiaoyu Tian, Yiming Li
+
+**Abstract:** Generalist robot policies and language-model agents provide complementary capabilities, but completing a task also requires adapting their use to the consequences of physical interaction. We study execution as a locus of adaptation: feedback guides the current action and supplies evidence for revising subsequent decisions under fixed model weights. We introduce RoboDoctor, a training-free framework that connects diagnosis, grounded action, and persistent experience across three revision targets. The harness allocates control between policy and agent; intervention determines when to assist while preserving useful policy behavior; and operation refines physical methods through observed effects. Linked experience records retain the reason for a decision, the attempted method, its outcome, and conditions for reuse. On a curated archive of 54 RoboDojo-Sim task entries, RoboDoctor achieves a five-dimension mean score of 57.10, with a native success rate of 49.44%. Recorded interactions illustrate strategy changes, selective correction, and grasp revision. These findings characterize execution-time adaptation in the evaluated system; controlled trials remain necessary to isolate the contribution of cross-episode experience.
+
+**Comment:** Criterion 7: RoboDoctor combines robot policies and language-model agents with execution-time diagnosis, selective intervention, and persistent experience records, reporting 49.44% native success on a curated archive of 54 RoboDojo-Sim task entries.
+
+**Relevance:** 9
+Back to [[topic](#topic-7)] [[top](#topics)]
+
+<a id="7011-from-language-to-drives-a-multimodal-framework-for-aligning-autonomous-robots-with-human-purposes"></a>
+
+### 7011\. [From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes](https://arxiv.org/abs/2610.35629)
+**ArXiv:** 2610.35629 [[page](https://arxiv.org/abs/2610.35629)] [[pdf](https://arxiv.org/pdf/2610.35629.pdf)]
+
+**Authors:** Diana Cerdas-Vargas, Alejandro Romero, Richard J. Duro
+
+**Abstract:** This work explores a multimodal approach to the alignment of the behavior of open-ended learning autonomous robots with human purposes through the use of large language models as cultural enablers. While autonomous robots can generate their own skills and goals through interaction with the environment, they often lack mechanisms to ensure that these remain relevant and aligned to those of human users. The proposed approach makes use of the general and cultural knowledge contained in LLMs and VLMs to establish a multimodal interactive alignment process in which human purposes, expressed in natural language, are transformed into motivational components of a robot architecture in the form of robot missions and drives that guide the behavior of the robot. The system is structured into three layers for semantic alignment, mission generation, and drive modeling. This design enables a bidirectional interaction loop: human inputs define high-level purposes, robots expand them into executable missions making use of multimodal information relayed by LLMs and VLMs, and feedback maintains alignment with human intent. Experiments in simulation and with a physical robot demonstrate that the process produces valid missions and behaviors, supporting effective human-agent alignment in interactive scenarios with autonomous robots.
+
+**Comment:** Criterion 7: Introduces a three-layer robotic framework combining LLM/VLM-based semantic alignment, mission generation, and drive modeling with human feedback, validated through mission execution and robot behaviors in simulation and on a physical robot.
+
+**Relevance:** 8
+Back to [[topic](#topic-7)] [[top](#topics)]
+
+<a id="7012-specola-a-tool-for-specification-driven-robot-evaluation"></a>
+
+### 7012\. [SPECOLA: A Tool for Specification Driven Robot Evaluation](https://arxiv.org/abs/2610.35730)
+**ArXiv:** 2610.35730 [[page](https://arxiv.org/abs/2610.35730)] [[pdf](https://arxiv.org/pdf/2610.35730.pdf)]
+
+**Authors:** Immanuel Ampomah Mensah, Hadas Kress-Gazit
+
+**Abstract:** Simulation benchmarks are a useful way to measure progress in robotics; typically they provide success rate as the dominant measure of performance. However, success rate reports only whether a rollout completed the task, hiding by what margin it succeeded, how sensitive the success is to goal parameter changes, requirements it may have violated, and whether success persisted. Signal Temporal Logic (STL) provides a formal language for capturing specifications; it can be used to define requirements, and measure how close a robot behavior is to satisfying or violating them. Using STL monitors in a simulator, however, requires exposing simulator state and mapping it to specification-relevant signals. We present Specola, a tool for evaluating robot behaviors in simulation with respect to STL specifications. Specola provides an interface for writing specifications over simulator signals, and creates and manages the relevant monitors while a policy executes. We provide a Python API and command-line interface for integrating monitoring into existing policy execution loops. We provide an adapter interface for connecting new simulators, and provide adapters for nine simulation environments and benchmarks, including LIBERO, RoboCasa, Isaac Lab, and RoboDojo. We provide case studies that illustrate the nuanced evaluation that Specola enables. Code and adapters are available at https://github.com/specola-eval/specola.
+
+**Comment:** Criterion 7: SPECOLA supports robotic-agent evaluation through Signal Temporal Logic monitors integrated into policy execution loops, with adapters for nine simulation environments and benchmarks including LIBERO and RoboCasa and case studies demonstrating evaluation beyond success rate.
 
 **Relevance:** 7
 Back to [[topic](#topic-7)] [[top](#topics)]
