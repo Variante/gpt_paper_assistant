@@ -2,15 +2,15 @@
 title: Arxiv Daily
 ---
 
-# Personalized Daily Arxiv Papers 11/02/2026
+# Personalized Daily Arxiv Papers 11/03/2026
 
-<time id="gptpa-last-update" datetime="2026-11-02T15:00:03.465055+00:00">Last update: 2026-11-02T15:00:03.465055+00:00</time>
+<time id="gptpa-last-update" datetime="2026-11-03T15:00:03.279712+00:00">Last update: 2026-11-03T15:00:03.279712+00:00</time>
 
 This project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)
 
 About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:
 
-<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=💗&slug=Variante&button_colour=7f1f16&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=🎈&slug=Variante&button_colour=7a4460&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 <a id="topics"></a>
@@ -47,14 +47,17 @@ Paper selection prompt and criteria (jump to the section by clicking the link):
 <a id="topic-1"></a>
 
 ### Topic 1
-1000\. [SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion](https://arxiv.org/abs/2610.41844) [[more](#1000-sketchmate-agentic-geometric-reasoning-for-zero-shot-precision-insertion)]  
-**Authors:** Jiaming Wang
+1000\. [VerifLM: Physically Verified Image-Edit-Guided Goal Pose Generation for Robotic Manipulation](https://arxiv.org/abs/2611.03268) [[more](#1000-veriflm-physically-verified-image-edit-guided-goal-pose-generation-for-robotic-manipulation)]  
+**Authors:** Xuanyou Chen, Jinyu Chen, Glen Chou
 
-1001\. [Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space](https://arxiv.org/abs/2610.42021) [[more](#1001-nexus-vla-bridging-human-and-robot-experiences-via-a-shared-hierarchical-semantic-latent-space)]  
-**Authors:** Biaoliang Guan, Tingyu Yuan, Wen Ye, ..., Jihua Zhu, Chaoyang Zhao
+1001\. [TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation](https://arxiv.org/abs/2611.03584) [[more](#1001-tampagent-agentic-belief-space-planning-for-mobile-manipulation)]  
+**Authors:** Utkarsh A. Mishra, Alperen Degirmenci, Yongxin Chen, ..., Tucker Hermans, Caelan Garrett
 
-1006\. [Hierarchical World Models with Implicit Dynamics](https://arxiv.org/abs/2610.42146) [[more](#1006-hierarchical-world-models-with-implicit-dynamics)]  
-**Authors:** Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui, ..., Lerrel Pinto, Yann LeCun
+1002\. [Seeing Through the Illusion: Test-Time Scaling for World Action Models](https://arxiv.org/abs/2611.03585) [[more](#1002-seeing-through-the-illusion-test-time-scaling-for-world-action-models)]  
+**Authors:** Cheikh Ahmed, Mahdi Mostajabdaveh, Milad Yazdani, Zirui Zhou
+
+1003\. [D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models](https://arxiv.org/abs/2611.03622) [[more](#1003-da-decoupling-description-and-assessment-enables-vlms-as-zero-shot-robotic-reward-models)]  
+**Authors:** Marius Memmel, Shawn Yin, Urvi Rutia, ..., Anqi Li, Abhishek Gupta
 
 
 Back to [[top](#topics)]
@@ -63,8 +66,6 @@ Back to [[top](#topics)]
 <a id="topic-2"></a>
 
 ### Topic 2
-2005\. [Rethinking Asymmetry in Self-Supervised 3D Geometry Learning](https://arxiv.org/abs/2610.42092) [[more](#2005-rethinking-asymmetry-in-self-supervised-3d-geometry-learning)]  
-**Authors:** Gyeongjin Kang, Freeman Cheng, Botao Ye, ..., Ming-Hsuan Yang, Eunbyung Park
 
 
 Back to [[top](#topics)]
@@ -89,6 +90,11 @@ Back to [[top](#topics)]
 <a id="topic-5"></a>
 
 ### Topic 5
+5004\. [Intent2CAD: How Semantic-Parametric Supervision Shapes Text-to-CAD Generation](https://arxiv.org/abs/2611.03449) [[more](#5004-intent2cad-how-semantic-parametric-supervision-shapes-text-to-cad-generation)]  
+**Authors:** Jinbo Yang, Mingyue Yuan, Shikai Jing
+
+5005\. [CoLa3D: Composable Latent 3D Decomposition](https://arxiv.org/abs/2611.03533) [[more](#5005-cola3d-composable-latent-3d-decomposition)]  
+**Authors:** Xudong Cai, Yongcai Wang, Deying Li, Chuanxia Zheng
 
 
 Back to [[top](#topics)]
@@ -105,17 +111,8 @@ Back to [[top](#topics)]
 <a id="topic-7"></a>
 
 ### Topic 7
-7002\. [META-Robot: Self-Cognition and Capability Scaling in Agentic Robots](https://arxiv.org/abs/2610.41868) [[more](#7002-meta-robot-self-cognition-and-capability-scaling-in-agentic-robots)]  
-**Authors:** Xuanzhi Feng, Zeyu Liu, Weiheng Gao, ..., Jie Zhang, Song Guo
-
-7003\. [REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control](https://arxiv.org/abs/2610.42053) [[more](#7003-rea-a-routed-embodied-agent-runtime-for-asynchronous-brain-cerebellum-control)]  
-**Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, ..., Wangbo Zhao, Yang You
-
-7004\. [RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory](https://arxiv.org/abs/2610.42141) [[more](#7004-roboarchitect-automating-the-design-of-robotic-agents-with-persistent-memory)]  
-**Authors:** Shengguang Wu, Suning Huang, Cherie Ho, ..., Hao Zhu, Serena Yeung-Levy
-
-7007\. [When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks](https://arxiv.org/abs/2610.41857) [[more](#7007-when-the-simulator-fails-not-the-policy-auditing-contact-artifacts-in-simulated-robot-benchmarks)]  
-**Authors:** Alex Zhou, Junhao Wu, Xueyang Zhou, ..., Zhenghao Zhang, Yongchao Chen
+7006\. [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648) [[more](#7006-pixel-a-co-designed-full-stack-robot-system-for-learning-general-purpose-mobile-manipulation)]  
+**Authors:** Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov, Deepak Pathak
 
 
 Back to [[top](#topics)]
@@ -130,116 +127,102 @@ Back to [[top](#topics)]
 
 ---
 ## Full paper list
- <a id="1000-sketchmate-agentic-geometric-reasoning-for-zero-shot-precision-insertion"></a>
+ <a id="1000-veriflm-physically-verified-image-edit-guided-goal-pose-generation-for-robotic-manipulation"></a>
 
-### 1000\. [SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion](https://arxiv.org/abs/2610.41844)
-**ArXiv:** 2610.41844 [[page](https://arxiv.org/abs/2610.41844)] [[pdf](https://arxiv.org/pdf/2610.41844.pdf)]
+### 1000\. [VerifLM: Physically Verified Image-Edit-Guided Goal Pose Generation for Robotic Manipulation](https://arxiv.org/abs/2611.03268)
+**ArXiv:** 2611.03268 [[page](https://arxiv.org/abs/2611.03268)] [[pdf](https://arxiv.org/pdf/2611.03268.pdf)]
 
-**Authors:** Jiaming Wang
+**Authors:** Xuanyou Chen, Jinyu Chen, Glen Chou
 
-**Abstract:** Inserting an unseen part requires sub-millimetre precision and the correct orientation of keyed features. Current zero-shot agentic manipulation methods built on vision-language models (VLMs) produce spatial outputs that are far too coarse for this. We propose to let a VLM build a sketch model of the task, i.e., a few geometric primitives and two mate frames, which a VLM agent measures with geometric tools in multi-view depth and which a standard planner and compliant controller execute. Because a sketch describes the parts independently of their placement, the robot needs to build it only once per task. A sketch memory stores each agent run and transfers the stored sketch to later placements by point-cloud registration, so that the VLM is called only for unfamiliar parts. After grasping the part, the robot inspects both mating faces at close range and corrects the sketch by shape matching. On 69 simulated insertion episodes, our method inserts 88% of the parts at the assembled pose in a strict kinematic test, while ReKep and MOKA with the same VLM insert none. On new placements of eight tasks, reusing one stored run inserts as many parts as calling the agent in each episode, and it produces the sketch in 3.4 s instead of about 90 s.
+**Abstract:** Many manipulation goals are easier to visualize than to specify numerically through explicit geometric constraints. We present VerifLM, a framework that converts image-edited goal configurations into physically verified 6-DoF object poses for planning. Using an edited image, VerifLM recovers an initial relative pose between an active object and a passive object, then prompts a vision-language model to generate axis-wise sampling constraints and a task-specific validation program. Candidate poses are evaluated in a physics simulator, and the VLM selects the most task-consistent retained candidate. To operate without predefined object meshes or physical parameters, VerifLM reconstructs metric object geometry from RGB-D observations and constructs multiple hypothetical simulations with varying physics and geometry. Parallel-world validation evaluates candidates across geometry--physics variations and ranks them by the number of worlds in which they satisfy the validation program. We evaluate VerifLM on nine manipulation tasks. VerifLM achieves the highest task success on eight of nine tasks, with the largest performance gain on goals requiring precise orientation and contact relationships.
 
-**Comment:** Matches criteria 1 and 7 through a VLM agent that combines geometric tools, reusable sketch memory, and robotic control for zero-shot precision insertion, achieving 88% success across 69 simulated episodes versus 0% for ReKep and MOKA.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1001-nexus-vla-bridging-human-and-robot-experiences-via-a-shared-hierarchical-semantic-latent-space"></a>
-
-### 1001\. [Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space](https://arxiv.org/abs/2610.42021)
-**ArXiv:** 2610.42021 [[page](https://arxiv.org/abs/2610.42021)] [[pdf](https://arxiv.org/pdf/2610.42021.pdf)]
-
-**Authors:** Biaoliang Guan, Tingyu Yuan, Wen Ye, ..., Jihua Zhu, Chaoyang Zhao
-
-**Abstract:** Large-scale egocentric human videos provide rich and scalable manipulation experience for robot policy learning, yet substantial embodiment gaps in visual appearance, kinematic structure, and action spaces hinder effective knowledge transfer. Existing methods often decouple cross-embodiment knowledge alignment from robot policy learning, making it difficult for human manipulation knowledge to directly and fully contribute to robot action learning. To address this issue, we propose Nexus-VLA, a hybrid policy learning framework that enables cross-embodiment knowledge transfer through end-to-end human-robot joint training, allowing human manipulation experience to directly contribute to robot policy learning. We first introduce a hierarchical cross-embodiment semantic alignment paradigm that progressively establishes shared manipulation semantics from task intent to fine-grained interactions, enabling more complete use of the manipulation knowledge contained in human videos. Building on this hierarchy, we design a shared manipulation latent representation that jointly encodes multi-level shared knowledge into an internal representation directly used for continuous action generation, improving policy learning efficiency while effectively leveraging human knowledge. Across RoboCasa-GR1, OOD settings, and real-world robot experiments, Nexus-VLA achieves an 80.5% task success rate on RoboCasa-GR1 and demonstrates strong advantages in human-data utilization, learning efficiency, and cross-scenario generalization.
-
-**Comment:** Matches criterion 1: Nexus-VLA uses end-to-end human–robot joint training and a shared hierarchical semantic latent representation for continuous robot action generation, achieving 80.5% task success on RoboCasa-GR1.
+**Comment:** Matches criterion 1 by using a VLM to generate pose-sampling constraints and physics-validation programs for robotic manipulation planning, achieving the highest task success on eight of nine tasks.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1006-hierarchical-world-models-with-implicit-dynamics"></a>
+<a id="1001-tampagent-agentic-belief-space-planning-for-mobile-manipulation"></a>
 
-### 1006\. [Hierarchical World Models with Implicit Dynamics](https://arxiv.org/abs/2610.42146)
-**ArXiv:** 2610.42146 [[page](https://arxiv.org/abs/2610.42146)] [[pdf](https://arxiv.org/pdf/2610.42146.pdf)]
+### 1001\. [TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation](https://arxiv.org/abs/2611.03584)
+**ArXiv:** 2611.03584 [[page](https://arxiv.org/abs/2611.03584)] [[pdf](https://arxiv.org/pdf/2611.03584.pdf)]
 
-**Authors:** Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui, ..., Lerrel Pinto, Yann LeCun
+**Authors:** Utkarsh A. Mishra, Alperen Degirmenci, Yongxin Chen, ..., Tucker Hermans, Caelan Garrett
 
-**Abstract:** Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level model to sample feasible transitions across the state manifold and a low-level world model as an inverse dynamics solver to ground these transitions into precise actions. This allows the planner to identify reachable subgoals without being constrained by low-level execution details. By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training. We demonstrate its effectiveness across three navigation and manipulation suites, achieving a 38.5% improvement over state-of-the-art policy and diffusion-based planners. Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 135% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks. Videos can be viewed at https://id-wm.github.io
+**Abstract:** Open-world robotic mobile manipulation requires acting in physical environments with only partial information. While recent Large Vision-Language Model (LVLM) agents show strong open-world reasoning capabilities, existing architectures that rely on direct tool calling struggle with geometric uncertainty and thus are limited to fully-observable tabletop environments. In contrast, Task and Motion Planning (TAMP) systems can solve long-horizon tasks under partial observability but incur high computational costs and require closed worlds. We propose \textbf{TAMPAgent}, an agentic planning framework that unifies the reasoning of LVLMs with the structured constraint satisfaction of TAMP systems. We endow an LVLM agent with a belief-space planning model operating over an extensible API of perception, planning, and control tools. The agent formulates a partial task plan composed of parameterized observation and execution actions, which is subsequently completed using classical search algorithms. After extracting the plan's geometric constraints, the agent leverages its tool API to bind valid parameter values, satisfying feasibility requirements and producing an executable motion plan. Upon execution, the agent continuously updates its belief history and repeats this closed-loop process by interleaving observation and manipulation actions. Evaluated across complex household mobile manipulation tasks on Rainbow Y1 and Unitree G1 platforms, TAMPAgent significantly outperforms direct tool-calling agentic baselines, demonstrating that integrating TAMP constraint satisfaction into agentic planning loops is essential for unstructured, partially observable environments.
 
-**Comment:** Criterion 1: ID-WM uses a hierarchical world model to sample feasible transitions and ground them into actions through inverse dynamics for navigation and manipulation, reporting a 135% performance gain over single-level world-model MPC.
+**Comment:** Criteria 1 and 7: TAMPAgent integrates LVLM reasoning with belief-space task-and-motion planning and perception, planning, and control tools in a closed manipulation loop, outperforming direct tool-calling agents on household tasks using Rainbow Y1 and Unitree G1 platforms.
 
-**Relevance:** 9
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1002-seeing-through-the-illusion-test-time-scaling-for-world-action-models"></a>
+
+### 1002\. [Seeing Through the Illusion: Test-Time Scaling for World Action Models](https://arxiv.org/abs/2611.03585)
+**ArXiv:** 2611.03585 [[page](https://arxiv.org/abs/2611.03585)] [[pdf](https://arxiv.org/pdf/2611.03585.pdf)]
+
+**Authors:** Cheikh Ahmed, Mahdi Mostajabdaveh, Milad Yazdani, Zirui Zhou
+
+**Abstract:** World action models (WAMs) jointly generate actions and imagined futures, but a plausible prediction need not be realized by its co-generated action. We introduce WISE (\emph{World Action Inference Scaling through Evaluation}), a pre-execution selector that scores each sampled rollout on action validity and temporal regularity, inverse-dynamics consistency between the proposed action and the imagined motion, and instruction-conditioned task progress, and executes the highest-scoring candidate while keeping the WAM frozen. With four candidates per decision, WISE raises closed-loop success from 6.0\% to 24.0\% on RoboLab with Cosmos~3 Edge and from 75.1\% to 78.3\% mean success on LIBERO with DreamZero, and exceeds the best existing selector in aggregate by 4.0 and 0.9 points. Component ablations and agreement analyses show that the three scores rank candidates differently and that task progress carries the largest weight in the fused decision.
+
+**Comment:** Criterion 1: WISE improves frozen world action models for robotic control by ranking sampled action–future rollouts using action validity, inverse-dynamics consistency, and task progress, increasing RoboLab closed-loop success from 6.0% to 24.0% and LIBERO mean success from 75.1% to 78.3%.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1003-da-decoupling-description-and-assessment-enables-vlms-as-zero-shot-robotic-reward-models"></a>
+
+### 1003\. [D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models](https://arxiv.org/abs/2611.03622)
+**ArXiv:** 2611.03622 [[page](https://arxiv.org/abs/2611.03622)] [[pdf](https://arxiv.org/pdf/2611.03622.pdf)]
+
+**Authors:** Marius Memmel, Shawn Yin, Urvi Rutia, ..., Anqi Li, Abhishek Gupta
+
+**Abstract:** Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptions or relative temporal ranking designs. Naive prompting of frontier models collapses into a binary success detector that fails to capture nuanced, non-linear progress and failures. While post-training approaches can mitigate this through explicit training, they demand expensive real-world robotics data and require computationally intensive post-training for every individual base model. To resolve these limitations, we introduce D&A (Describe & Assess): our approach decouples progress estimation into an objective, task-grounded textual description of scene dynamics followed by an assessment phase using explicit rubrics. By compelling the VLM to synthesize an explicit, text-based definition of absolute success before scoring, the framework anchors evaluations to an external, global criterion rather than the video's internal timeline. Empirical results demonstrate that our method calibrates zero-shot estimates and mitigates confirmation bias, providing fine-grained, partial progress metrics that accurately penalize failed executions while correctly interpolating successful runs. Being purely prompt-based, D&A generalizes across tasks, embodiments, and benchmarks---matching or surpassing post-trained reward models---and its reward estimates enable efficient downstream reinforcement learning.
+
+**Comment:** Criterion 1: D&A decouples task-grounded scene description from rubric-based assessment to produce zero-shot VLM reward estimates that mitigate confirmation bias, match or surpass post-trained reward models, and enable downstream robotic reinforcement learning.
+
+**Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
 ---
-<a id="2005-rethinking-asymmetry-in-self-supervised-3d-geometry-learning"></a>
+<a id="5004-intent2cad-how-semantic-parametric-supervision-shapes-text-to-cad-generation"></a>
 
-### 2005\. [Rethinking Asymmetry in Self-Supervised 3D Geometry Learning](https://arxiv.org/abs/2610.42092)
-**ArXiv:** 2610.42092 [[page](https://arxiv.org/abs/2610.42092)] [[pdf](https://arxiv.org/pdf/2610.42092.pdf)]
+### 5004\. [Intent2CAD: How Semantic-Parametric Supervision Shapes Text-to-CAD Generation](https://arxiv.org/abs/2611.03449)
+**ArXiv:** 2611.03449 [[page](https://arxiv.org/abs/2611.03449)] [[pdf](https://arxiv.org/pdf/2611.03449.pdf)]
 
-**Authors:** Gyeongjin Kang, Freeman Cheng, Botao Ye, ..., Ming-Hsuan Yang, Eunbyung Park
+**Authors:** Jinbo Yang, Mingyue Yuan, Shikai Jing
 
-**Abstract:** Self-supervised learning relies on asymmetry between what a model observes and what it must explain. Recent methods learn 3D geometry from unposed images by predicting cameras and scene structure, then rendering held-out views. To avoid trivial solutions, they impose this asymmetry in the input space, restricting how views interact through separate branches or masked attention. We revisit this design with geometric accuracy, rather than rendering quality, as the main objective. When a held-out view lies between context views, the context already constrains the geometry it observes. We therefore impose the asymmetry in the 3D representation space, excluding held-out views only from the reconstructed scene while a shared backbone uses all views for correspondence. This improves depth and pose estimation over input-space designs. We further exploit view density: sparse and dense observations depict the same scene but provide different amounts of correspondence. Aligning sparse-context features with dense-context features supplies a geometric training signal alongside rendering, without a pretrained geometric teacher. We additionally align features with a frozen vision foundation model, which brings further gains. None of these signals requires geometric annotation, and the resulting model improves geometry estimation over prior self-supervised methods. Controlled experiments isolate the contribution of each component, and self-supervised pretraining also improves subsequent supervised training.
+**Abstract:** Text-to-CAD generation aims to make CAD modeling more accessible by generating executable CAD programs from natural-language descriptions. However, practical CAD workflows require more than executable geometry: generated programs should also expose reusable structure that supports later modification. We introduce intent-oriented text-to-CAD generation, where design intent is expressed as recoverable code-level signals: semantic features, reusable parameters, and lightweight parametric relations. Rather than changing the model architecture or decoding procedure, we investigate how supervision representation granularity affects both CAD generation and zero-shot intent-preserving editing. To enable this study, we construct IntentCAD-100K, a 100K paired text--code dataset built by converting low-level CAD construction traces into executable CadQuery programs. We further construct IntentCAD-Edit-1K to evaluate zero-shot intent-preserving editing from the same representation perspective. Intent2CAD uses a two-stage conservative lifting pipeline: semantic lifting rewrites reliable primitive groups into feature-level operations, while parametric lifting exposes lightweight parametric relations. Under controlled fine-tuning, semantic lifting mainly improves generation reliability and feature recovery, reducing IR from 2.39% to 0.22% and achieving 99.96% API Recovery, while parametric lifting makes reusable relation structure explicit and further improves relation-aware zero-shot editing. Datasets and code are available at https://github.com/JinboYang94/Intent2CAD.
 
-**Comment:** Criteria 2 and 6: The method introduces 3D-representation-space asymmetry and sparse-to-dense feature alignment for self-supervised geometry learning from unposed images, improving depth and camera-pose estimation without geometric annotations.
+**Comment:** Criterion 5: Intent2CAD improves text-to-3D CAD program generation through semantic and parametric supervision, with semantic lifting reducing the reported IR from 2.39% to 0.22% and achieving 99.96% API Recovery.
 
 **Relevance:** 9
-Back to [[topic](#topic-2)] [[top](#topics)]
+Back to [[topic](#topic-5)] [[top](#topics)]
+
+<a id="5005-cola3d-composable-latent-3d-decomposition"></a>
+
+### 5005\. [CoLa3D: Composable Latent 3D Decomposition](https://arxiv.org/abs/2611.03533)
+**ArXiv:** 2611.03533 [[page](https://arxiv.org/abs/2611.03533)] [[pdf](https://arxiv.org/pdf/2611.03533.pdf)]
+
+**Authors:** Xudong Cai, Yongcai Wang, Deying Li, Chuanxia Zheng
+
+**Abstract:** We introduce CoLa3D, a simple and effective model for composable 3D scene decomposition that, given a single whole-scene latent from either a single image or an existing scene mesh as input, directly outputs a set of object meshes with consistent spatial layout that can be assembled back into a coherent scene. CoLa3D introduces a novel paradigm for 3D scene decomposition within a shared whole-scene latent, unlike alternatives that perform per-object generation in canonical spaces and then glue the objects back together with fragile pose and scale estimation. The network is a lightweight, flexible, and scalable query-based transformer that accepts various types of queries, including 2D masks, 3D points, and learnable queries, and learns to decompose the scene into objects in a compact latent space. On both synthetic and real-world datasets, CoLa3D achieves state-of-the-art performance on composable 3D scene decomposition, substantially improving global scene-level consistency and object-level quality while running 2 times faster and using less than 1% of SAM 3D's training data. Visible depth on par with MoGe2 further confirms that latent decomposition preserves accurate visible scene geometry while producing physically complete, decomposable object meshes.
+
+**Comment:** Criterion 5: CoLa3D uses a query-based transformer to generate spatially consistent, physically complete object meshes from a shared single-image scene latent, achieving state-of-the-art scene decomposition while running twice as fast and using less than 1% of SAM 3D's training data.
+
+**Relevance:** 9
+Back to [[topic](#topic-5)] [[top](#topics)]
 
 ---
-<a id="7002-meta-robot-self-cognition-and-capability-scaling-in-agentic-robots"></a>
+<a id="7006-pixel-a-co-designed-full-stack-robot-system-for-learning-general-purpose-mobile-manipulation"></a>
 
-### 7002\. [META-Robot: Self-Cognition and Capability Scaling in Agentic Robots](https://arxiv.org/abs/2610.41868)
-**ArXiv:** 2610.41868 [[page](https://arxiv.org/abs/2610.41868)] [[pdf](https://arxiv.org/pdf/2610.41868.pdf)]
+### 7006\. [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648)
+**ArXiv:** 2611.03648 [[page](https://arxiv.org/abs/2611.03648)] [[pdf](https://arxiv.org/pdf/2611.03648.pdf)]
 
-**Authors:** Xuanzhi Feng, Zeyu Liu, Weiheng Gao, ..., Jie Zhang, Song Guo
+**Authors:** Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov, Deepak Pathak
 
-**Abstract:** LLM-based robotic agent systems can generate programs for robot control, yet their generalization to new tasks often depends on elaborate scaffolding. Expanding their skill repertoires alone offers limited guidance on how to assess new capabilities or identify what remains beyond their reach. We introduce META-Robot, a framework that couples self cognition with capability scaling by expanding the criteria through which an agent evaluates and develops its skills. At its core, action-level predicates make execution outcomes explicit and available for LLM reasoning. The agent uses these assessments to identify its own limitations, extend relevant evaluation criteria, and guide the structured expansion of its skills. Proprioceptive feedback further grounds this process in the robot's physical state, enriching the evidence available for self-cognition. Experiments in simulation and on real robots demonstrate stronger overall task performance, generalization to new tasks, continued expansion of skills and evaluation criteria, and effective use of non-visual proprioceptive signals.
+**Abstract:** General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the complete system. We present Pixel, a co-designed full-stack system for learning general-purpose mobile manipulation. Pixel combines a low-cost wheeled humanoid with human-aligned kinematics and compliant grippers, multiple teleoperation and robot-free human data-collection interfaces, a unified whole-body controller, and a common policy learning pipeline across human and robot demonstrations. A hierarchical learning stack further enables language-conditioned visuomotor control and long-horizon task execution. We evaluate the system across hardware, data collection, and policy learning, and demonstrate mobile-manipulation behaviors requiring dexterity, active perception, navigation, and whole-body coordination. We hope that Pixel provides an integrated and extensible foundation for studying how robot hardware, data, control, and learning can be designed together for robot learning. More results at https://pixel-robot.com/pixel
 
-**Comment:** Criterion 7: META-Robot introduces an agentic framework that uses action-level predicates and proprioceptive feedback to assess execution, identify capability limitations, and expand skills, demonstrating improved task performance and generalization in simulation and on real robots.
-
-**Relevance:** 10
-Back to [[topic](#topic-7)] [[top](#topics)]
-
-<a id="7003-rea-a-routed-embodied-agent-runtime-for-asynchronous-brain-cerebellum-control"></a>
-
-### 7003\. [REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control](https://arxiv.org/abs/2610.42053)
-**ArXiv:** 2610.42053 [[page](https://arxiv.org/abs/2610.42053)] [[pdf](https://arxiv.org/pdf/2610.42053.pdf)]
-
-**Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, ..., Wangbo Zhao, Yang You
-
-**Abstract:** Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. For example, an agent that calls the VLA in the agentic loop can stall the fast execution, while a VLA that calls the agent on errors tends to re-trigger fallbacks repeatedly or completely miss silent failures. To address this, we propose REA (Routed Embodied Agent), a unified runtime where a deliberative System 2, an embodied router System 1 and reactive System 0 policies cooperate under a single golden rule - no running policy waits on the brain. Instead of querying the brain at each failure, REA employs a route memory that stores each policy's measured success ahead of time, a boundary-triggered judge gate that consults the brain on policy execution, and a shared-budget escalation ladder for bounded recovery. Evaluated on 3,000 test episodes across 60 LIBERO-Pro tasks, REA reaches 95.9% success and beats the best single-agent baseline in its own policy pool (94.7%) while reducing control steps by 25% and control time by 17%. In a separate 100-episode RoboTwin 2.0 study, REA achieves 84% success with VLA policies and 86% with VLA+code, compared with 80% for the strongest single VLA baseline MEDex. These results demonstrate learned and programmatic policies operating within the same runtime. REA also transfers to BEHAVIOR-1K and a real Unitree G1 humanoid, achieving the highest observed success among the compared methods.
-
-**Comment:** Criterion 7: REA coordinates foundation-model reasoning and reactive VLA policies through route memory, asynchronous execution, and bounded recovery, achieving 95.9% success across 60 LIBERO-Pro robotic manipulation tasks.
-
-**Relevance:** 10
-Back to [[topic](#topic-7)] [[top](#topics)]
-
-<a id="7004-roboarchitect-automating-the-design-of-robotic-agents-with-persistent-memory"></a>
-
-### 7004\. [RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory](https://arxiv.org/abs/2610.42141)
-**ArXiv:** 2610.42141 [[page](https://arxiv.org/abs/2610.42141)] [[pdf](https://arxiv.org/pdf/2610.42141.pdf)]
-
-**Authors:** Shengguang Wu, Suning Huang, Cherie Ho, ..., Hao Zhu, Serena Yeung-Levy
-
-**Abstract:** Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises the harness around the frozen policy. The harness evolves on a set of episodes for its optimization and is evaluated on held-out scenes and tasks. Without updating any model weights, RoboArchitect raises average success from 9.7% to 43.3% on unseen scenes (4.5x) and from 12.7% to 40.2% on unseen tasks (3.2x), across multiple benchmarks and policies. The gains are largest where the benchmark is far from the policy's training data: wrapping a general-purpose policy, the evolved harness yields a specialist that often outperforms even the finetuned version. Intuitive control strategies are automatically designed, such as lifting a jammed arm clear or reaching in horizontally when an obstacle blocks the way from above. The harness also evolves its own persistent memory, carrying learned experience, such as effective grasp depths, into later decisions. These results suggest that substantial headroom in robotic manipulation lies in the agent harness, and its design can be effectively automated and optimized without weight updates.
-
-**Comment:** Criterion 7: RoboArchitect automatically improves robotic manipulation agent harnesses through rollout-based failure diagnosis, iterative code revision, and persistent memory, raising success on unseen scenes from 9.7% to 43.3% without updating model weights.
-
-**Relevance:** 10
-Back to [[topic](#topic-7)] [[top](#topics)]
-
-<a id="7007-when-the-simulator-fails-not-the-policy-auditing-contact-artifacts-in-simulated-robot-benchmarks"></a>
-
-### 7007\. [When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks](https://arxiv.org/abs/2610.41857)
-**ArXiv:** 2610.41857 [[page](https://arxiv.org/abs/2610.41857)] [[pdf](https://arxiv.org/pdf/2610.41857.pdf)]
-
-**Authors:** Alex Zhou, Junhao Wu, Xueyang Zhou, ..., Zhenghao Zhang, Yongchao Chen
-
-**Abstract:** Simulation benchmarks score robot policies by success rate, and every failed episode counts against the policy. Many of these failures are the simulator's fault, not the policy's; we find the cause and fix it. Testing a vision language action model and a world action model in simulation, we find that the policy often places the object and the simulator then ejects it, and that the benchmark's own scripted demonstrations fail the same way. We present SimuGuard, an auditing plugin for LIBERO, RoboTwin, RoboCasa and RoboDojo. It leaves the evaluation unchanged. At every physics step, it records the state and flags an object that starts moving at a contact faster than the robot's contact or gravity account for. It replays a recorded episode bit for bit, and it reruns the episode with one simulation parameter changed. With it we trace these episodes on RoboTwin to the collision detection of the physics engine: for geometry one to two centimeters apart, the engine reports a penetration of about two centimeters, and the solver throws the object out at several meters per second. The cause is one constant: the distance algorithm discards triangles below a fixed area threshold, which valid triangles fall below at the centimeter scale. With that constant changed and nothing else, episodes with an artifact fall from 12 in 100 to none, and the success rate on five container tasks rises from 89% to 98%. Success rates in simulation thus count failures that the simulator causes. Benchmarks on PhysX 5.3.1 or earlier should rerun in a repaired engine. Where the engine cannot change, they should report the success rate together with the range it spans when every flagged episode fails or passes: 75.8% to 98.5% around a reported 83.1% for LingBot-VA.
-
-**Comment:** Criterion 7: SimuGuard supports reliable robotic-agent evaluation by auditing contact artifacts in manipulation benchmarks, with a simulator fix raising success on five RoboTwin container tasks from 89% to 98%.
+**Comment:** Criterion 7: Pixel introduces an integrated robot-learning platform combining teleoperation and robot-free demonstration collection, a shared human/robot policy-learning pipeline, and hierarchical language-conditioned control, evaluated on dexterous mobile manipulation and whole-body coordination.
 
 **Relevance:** 8
 Back to [[topic](#topic-7)] [[top](#topics)]
