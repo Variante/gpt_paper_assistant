@@ -2,15 +2,15 @@
 title: Arxiv Daily
 ---
 
-# Personalized Daily Arxiv Papers 11/10/2026
+# Personalized Daily Arxiv Papers 11/11/2026
 
-<time id="gptpa-last-update" datetime="2026-11-10T15:00:03.557601+00:00">Last update: 2026-11-10T15:00:03.557601+00:00</time>
+<time id="gptpa-last-update" datetime="2026-11-11T15:00:01.911487+00:00">Last update: 2026-11-11T15:00:01.911487+00:00</time>
 
 This project is adapted from [tatsu-lab/gpt_paper_assistant](https://github.com/tatsu-lab/gpt_paper_assistant). The source code of this project is at [Variante/gpt_paper_assistant](https://github.com/Variante/gpt_paper_assistant)
 
 About me on [Bilibili](https://space.bilibili.com/823532). Help keep the website running:
 
-<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=🍗&slug=Variante&button_colour=5a4f69&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/Variante"><img src="https://img.buymeacoffee.com/button-api/?text=Help cover GPT cost&emoji=🐱&slug=Variante&button_colour=28513e&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 <a id="topics"></a>
@@ -47,14 +47,17 @@ Paper selection prompt and criteria (jump to the section by clicking the link):
 <a id="topic-1"></a>
 
 ### Topic 1
-1001\. [VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess](https://arxiv.org/abs/2611.12676) [[more](#1001-vla-adaptation-with-real-and-simulated-data-a-case-study-on-robotic-chess)]  
-**Authors:** Matěj Kripner, Milan Straka
+1000\. [Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control](https://arxiv.org/abs/2611.14257) [[more](#1000-elastic-wam-adaptive-spatiotemporal-imagination-for-efficient-robot-control)]  
+**Authors:** Haitian Li, Tianfu Li, Xuxi Zhao, ..., Haonan Chen, Lin Shao
 
-1003\. [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870) [[more](#1003-swam-scaling-world-action-models-with-cross-modal-alignment)]  
-**Authors:** Yu Zhou, Xinyuan Xia, Xuankun Yang, ..., Cewu Lu, Yanwei Li
+1001\. [From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models](https://arxiv.org/abs/2611.14365) [[more](#1001-from-video-frames-to-robot-meta-frames-a-unified-latent-interface-for-world-action-models)]  
+**Authors:** Guoqiang Liang, Yiqi Lin, Yanzhe Chen, Kevin Yuchen Ma, Mike Zheng Shou
 
-1005\. [Learning Heterogeneous Tactile Representation for General Dexterous Manipulation](https://arxiv.org/abs/2611.12806) [[more](#1005-learning-heterogeneous-tactile-representation-for-general-dexterous-manipulation)]  
-**Authors:** Bing Han, Yichuan Peng, Haoyu Dong, ..., Nan Xue, Wei Ning
+1003\. [One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge](https://arxiv.org/abs/2611.14432) [[more](#1003-one-policy-for-100-household-tasks-our-solution-for-the-2026-behavior-challenge)]  
+**Authors:** Ilia Larchenko, Gleb Zarin, Atindra Nair, ..., Mirko Kiefer, Anjana Yodaiken
+
+1004\. [Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies](https://arxiv.org/abs/2611.14488) [[more](#1004-is-your-robots-memory-just-a-clock-temporal-shortcuts-in-memory-augmented-vla-policies)]  
+**Authors:** Chubin Zhang, Bo An
 
 
 Back to [[top](#topics)]
@@ -63,8 +66,11 @@ Back to [[top](#topics)]
 <a id="topic-2"></a>
 
 ### Topic 2
-2007\. [$Σ$-LeWM: Learning World Models via S-Information for Robot Control](https://arxiv.org/abs/2611.12732) [[more](#2007-lewm-learning-world-models-via-s-information-for-robot-control)]  
-**Authors:** Xinrui Zu, Michael Przystupa, Zhao Yang, Shujian Yu, Kevin Sebastian Luck
+2002\. [OnlyAct: Extracting Action Representations from Foundation Models for World Models](https://arxiv.org/abs/2611.14420) [[more](#2002-onlyact-extracting-action-representations-from-foundation-models-for-world-models)]  
+**Authors:** Runjia Li, Minghao Chen, Junyu Xie, ..., Andrea Vedaldi, Tomas Jakab
+
+2005\. [RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval](https://arxiv.org/abs/2611.14496) [[more](#2005-rs-jepa-remote-sensing-joint-embedding-predictive-architecture-with-scan-path-views-for-cross-sensor-image-retrieval)]  
+**Authors:** Tanishq Rachamalla, Srishti Kaushik, Muhammad Attique Khan, Gustau Camps-Valls, Swalpa Kumar Roy
 
 
 Back to [[top](#topics)]
@@ -89,8 +95,6 @@ Back to [[top](#topics)]
 <a id="topic-5"></a>
 
 ### Topic 5
-5002\. [Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting](https://arxiv.org/abs/2611.12739) [[more](#5002-plant-orbiter-3d-plant-reconstruction-and-generation-with-video-diffusion-orbit-cameras-and-3d-gaussian-splatting)]  
-**Authors:** Zane K. J. Hartley, Yong En Kok, Lewis A. G. Stuart, Andrew P. French, Michael P. Pound
 
 
 Back to [[top](#topics)]
@@ -99,11 +103,6 @@ Back to [[top](#topics)]
 <a id="topic-6"></a>
 
 ### Topic 6
-6000\. [Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution](https://arxiv.org/abs/2611.12716) [[more](#6000-spaghetti-splatting-differentiating-curvilinear-dirac-masses-via-convolution)]  
-**Authors:** George Shramko, Shrisudhan Govindarajan, Rudy Lam, ..., David B. Lindell, Andrea Tagliasacchi
-
-6006\. [Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks](https://arxiv.org/abs/2611.12875) [[more](#6006-click3r-interactive-stereo-3d-reconstruction-with-sparse-correspondence-clicks)]  
-**Authors:** Hao Gu, Jin Yao, Zezhou Cheng
 
 
 Back to [[top](#topics)]
@@ -112,11 +111,6 @@ Back to [[top](#topics)]
 <a id="topic-7"></a>
 
 ### Topic 7
-7004\. [World In-Context Learning for Agentic Robot Manipulation](https://arxiv.org/abs/2611.12885) [[more](#7004-world-in-context-learning-for-agentic-robot-manipulation)]  
-**Authors:** Heng Fang, Zehui Guo, Yuehan Zhang, ..., Dingkang Liang, Xiang Bai
-
-7008\. [Library of Hands: Fix the Hands, Not the World Model](https://arxiv.org/abs/2611.12678) [[more](#7008-library-of-hands-fix-the-hands-not-the-world-model)]  
-**Authors:** Hasaan Ahmad, Qizhen Ying, Yuxuan Sun, Tianjin Huang, Guangming Wang
 
 
 Back to [[top](#topics)]
@@ -131,132 +125,87 @@ Back to [[top](#topics)]
 
 ---
 ## Full paper list
- <a id="1001-vla-adaptation-with-real-and-simulated-data-a-case-study-on-robotic-chess"></a>
+ <a id="1000-elastic-wam-adaptive-spatiotemporal-imagination-for-efficient-robot-control"></a>
 
-### 1001\. [VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess](https://arxiv.org/abs/2611.12676)
-**ArXiv:** 2611.12676 [[page](https://arxiv.org/abs/2611.12676)] [[pdf](https://arxiv.org/pdf/2611.12676.pdf)]
+### 1000\. [Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control](https://arxiv.org/abs/2611.14257)
+**ArXiv:** 2611.14257 [[page](https://arxiv.org/abs/2611.14257)] [[pdf](https://arxiv.org/pdf/2611.14257.pdf)]
 
-**Authors:** Matěj Kripner, Milan Straka
+**Authors:** Haitian Li, Tianfu Li, Xuxi Zhao, ..., Haonan Chen, Lin Shao
 
-**Abstract:** Vision-language-action (VLA) models are trained as general-purpose foundation models for robot learning, and require fine-tuning for each downstream task and robot. This raises practical questions such as how much data and training updates are needed, how checkpoints should be selected, and whether simulation can be leveraged to alleviate the cost of real data collection. We study these questions on a task that requires both precise manipulation and spatial understanding of the scene. In this task, an SO-101 arm moves a chess king between two squares that are given only by their names, such as e4 and a5. We fine-tune $π_{0.5}$ with various dataset sizes and update budgets, using teleoperated demonstrations as well as simulated demonstrations from a randomized scripted expert that imitates the variability of human demonstrations. In simulation, the success rate scales with both data and updates. Importantly, we find that a short learning-rate cool-down adds up to 31 points and is necessary for comparing checkpoints, and that validation loss and action error are unreliable for model selection. On the real arm, we fine-tune on up to 256 teleoperated demonstrations and evaluate ten policies in 25 trials each. Partial results indicate that pretraining on the simulated demonstrations helps substantially, most clearly when real data is scarce. We also present a negative result, in which training on the policy's own rollouts with filtered behavior cloning, RECAP-style advantage conditioning, corrections from an automatic coach, or residual reinforcement learning did not yield a measurable improvement over plain behavior cloning in our setting. We release the simulator, the expert and the real demonstrations.
+**Abstract:** World-Action Models improve robot control by predicting future visual dynamics, but iterative video denoising incurs substantial inference overhead. Recent approaches reduce this cost through partial future denoising, yet typically rely on fixed refinement budgets. Our empirical observations reveal that preferred refinement depths vary across tasks and states, while different future regions exhibit varying relevance to action generation. Motivated by these findings, we propose Elastic-WAM, which adaptively allocates world refinement computation across temporal denoising time and spatial future space. A unified spatiotemporal refinement demand field governs when to stop world refinement, how far to advance each denoising step, and which regions to refresh. We parameterize this field with a shared temporal basis and spatial amplitudes, and learn it through a three-stage action-grounded supervised procedure. At inference, the learned field guides recurrent sparse world refinement to improve task success while reducing inference overhead. Evaluations across diverse simulation benchmarks and real-world long-horizon manipulation demonstrate state-of-the-art control performance with reduced inference latency.
 
-**Comment:** Criterion 1: Fine-tunes the π0.5 vision-language-action model for language-specified chess-piece manipulation on an SO-101 arm, finding that simulated-demonstration pretraining helps substantially when real demonstrations are scarce.
-
-**Relevance:** 10
-Back to [[topic](#topic-1)] [[top](#topics)]
-
-<a id="1003-swam-scaling-world-action-models-with-cross-modal-alignment"></a>
-
-### 1003\. [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870)
-**ArXiv:** 2611.12870 [[page](https://arxiv.org/abs/2611.12870)] [[pdf](https://arxiv.org/pdf/2611.12870.pdf)]
-
-**Authors:** Yu Zhou, Xinyuan Xia, Xuankun Yang, ..., Cewu Lu, Yanwei Li
-
-**Abstract:** World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alignment. Principled guidance on data and supervision design for maintaining language-video alignment during action learning remains limited. To investigate this, we curate a pool of approximately 47,000 hours of general videos, egocentric videos, UMI demonstrations, and robot demonstrations. Building on this, we systematically study how language-video supervision, language-video-action supervision, and the joint use of these two forms affect WAM performance. In particular, we examine how language annotation quality affects pretrained language-video capabilities, and how action supervision from UMI and robot demonstrations extends these capabilities to language-video-action modeling. To better scale the model, we further conduct detailed studies on joint training recipe and model architecture. Under a fixed training budget, mixing egocentric videos and UMI demonstrations improves control generalization. Model architecture affects how effectively these experiences are used, while scaling pretraining under the selected configuration brings further gains. The resulting recipe, post-trained on RoboTwin Clean demonstrations only, achieves success rates of 88.10% and 61.56% under Easy (Clean-to-Clean) and Hard (Clean-to-Random) conditions, respectively. Our model achieves 40.00% SR across three real-world tasks, compared with 23.33% for the strongest baseline, indicating better generalization under unseen conditions. We release the curated data, training code, and model weights.
-
-**Comment:** Criterion 1: SWAM jointly predicts language-conditioned video and robot actions, with its cross-modal training recipe achieving 61.56% success on RoboTwin Hard and 40.00% across three real-world tasks.
+**Comment:** Matches criterion 1: Elastic-WAM adaptively allocates spatiotemporal denoising computation in a World-Action Model, achieving state-of-the-art robot control with reduced inference latency across simulation benchmarks and real-world long-horizon manipulation.
 
 **Relevance:** 10
 Back to [[topic](#topic-1)] [[top](#topics)]
 
-<a id="1005-learning-heterogeneous-tactile-representation-for-general-dexterous-manipulation"></a>
+<a id="1001-from-video-frames-to-robot-meta-frames-a-unified-latent-interface-for-world-action-models"></a>
 
-### 1005\. [Learning Heterogeneous Tactile Representation for General Dexterous Manipulation](https://arxiv.org/abs/2611.12806)
-**ArXiv:** 2611.12806 [[page](https://arxiv.org/abs/2611.12806)] [[pdf](https://arxiv.org/pdf/2611.12806.pdf)]
+### 1001\. [From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models](https://arxiv.org/abs/2611.14365)
+**ArXiv:** 2611.14365 [[page](https://arxiv.org/abs/2611.14365)] [[pdf](https://arxiv.org/pdf/2611.14365.pdf)]
 
-**Authors:** Bing Han, Yichuan Peng, Haoyu Dong, ..., Nan Xue, Wei Ning
+**Authors:** Guoqiang Liang, Yiqi Lin, Yanzhe Chen, Kevin Yuchen Ma, Mike Zheng Shou
 
-**Abstract:** Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as $π_{0.5}$ and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.
+**Abstract:** Pretrained video diffusion models (VDMs) offer a powerful foundation for World Action Models (WAMs), which jointly predict robot actions and future observations. Building such models requires injecting low-dimensional robot signals (e.g. proprioception, actions, and values) into a latent space shaped by natural videos, and a key design choice is the interface through which these signals enter: existing schemes treat it as a formatting detail, spending a separate latent frame on each signal or bolting on dedicated encoders and decoders. We argue that signal injection is instead a distribution-alignment problem: how well a representation matches the prior of the pretrained VDMs during denoising. Using the relative reconstruction error of a frozen VDM denoiser as a probe, we find that conventional spatial encodings sit far off this prior, whereas frequency-domain packing yields latents that the denoiser corrects far less. Motivated by this diagnostic result, we propose MetaWAM, which folds all robot signals into a single unified meta-frame: each signal is assigned to a disjoint frequency-domain channel band and lifted to the spatial latent by an inverse DCT, yielding a decodable interface aligned with the pretrained VDM prior without any added module or architectural change. A fixed band layout together with slot-aware routing lets the same meta-frame support policy, world-model, and value prediction over a shared set of robot variables. On RoboCasa, MetaWAM reaches 68.9% success while collapsing the per-signal frames into one and cutting inference latency by 39%, and attains 85.0% success on three real-world Franka tasks. Code and models are available at https://github.com/showlab/MetaWAM
 
-**Comment:** Criterion 1: LingBot-Touch integrates unified tactile representations into diffusion policies and vision-language-action models such as LingBot-VLA, improving dexterous manipulation across simulation and real-robot deployments.
+**Comment:** Criterion 1: MetaWAM adapts pretrained video diffusion models for robot policy, world-model, and value prediction using a unified frequency-packed meta-frame, achieving 68.9% success on RoboCasa while reducing inference latency by 39%.
+
+**Relevance:** 10
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1003-one-policy-for-100-household-tasks-our-solution-for-the-2026-behavior-challenge"></a>
+
+### 1003\. [One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge](https://arxiv.org/abs/2611.14432)
+**ArXiv:** 2611.14432 [[page](https://arxiv.org/abs/2611.14432)] [[pdf](https://arxiv.org/pdf/2611.14432.pdf)]
+
+**Authors:** Ilia Larchenko, Gleb Zarin, Atindra Nair, ..., Mirko Kiefer, Anjana Yodaiken
+
+**Abstract:** We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our 1st-place 2025 solution, which is based on $π_{0.5}$. On the 50 tasks shared with 2025, its Q rises from 0.260 to 0.371; across all 100 tasks it scores 0.392. Our main conclusion from 2025 was that the model was undertrained, so most of the 2026 work went into training the model for longer, optimizing some training parameters, making each training step slightly faster and reducing the gradient noise: a migration from 50 to 100 tasks (semantic stages built from the demonstrations' skill annotations, task and stage embeddings of new tasks warm-started from similar old ones, and a 21-dimensional action space matching the teleoperation controls); variance-reduced multi-sample flow matching with a simple noise-vs-compute model that picks the number of action-expert samples per observation without ablations; and a 200k-step training run, about one pass over the 211M frames of the demonstrations. A cloud evaluation infrastructure keeps a shared record with provenance, episode diagnostics and restorable simulator states, and runs six simulators on one GPU together faster than real time. On top of the learned policy, 14 tasks are routed to a GPT-6 Astra coding agent that controls the robot through observation and motion tools, starting every episode from a frozen copy of its own practice session on training instances. Across these 14 tasks, Astra's mean Q is 0.639, against 0.108 for the learned policy. The public submission included only part of the Astra results and scored 0.446 Q with 27.3% full-task success.
+
+**Comment:** Criteria 1 and 7: This BEHAVIOR Challenge solution combines a single VLA policy for 100 household tasks with a coding agent using observation tools, motion tools, and saved practice sessions, with the agent achieving mean Q of 0.639 versus the learned policy's 0.108 across 14 tasks.
+
+**Relevance:** 9
+Back to [[topic](#topic-1)] [[top](#topics)]
+
+<a id="1004-is-your-robots-memory-just-a-clock-temporal-shortcuts-in-memory-augmented-vla-policies"></a>
+
+### 1004\. [Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies](https://arxiv.org/abs/2611.14488)
+**ArXiv:** 2611.14488 [[page](https://arxiv.org/abs/2611.14488)] [[pdf](https://arxiv.org/pdf/2611.14488.pdf)]
+
+**Authors:** Chubin Zhang, Bo An
+
+**Abstract:** Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a released memory VLA counts the interval as work done and stops early. We call this failure phantom progress. It cuts success from 47 to 16 of 50 on one task and from 44 to 10 on the other. When the same frames are withheld from memory, success returns, so the cause lies in memory rather than in the interruption itself. We trace the failure to a temporal shortcut: because demonstrations proceed at a steady pace, elapsed time predicts progress. Indeed, rescaling the time stamps alone makes the policy stop early when the clock runs fast and repeat when it runs slow. Surprisingly, removing the time encoding does not cure the failure, because the frames of a null event still occupy slots of the time-sampled memory. Across RoboMME's released designs, vulnerability follows how memory is indexed. Of the fixes the diagnosis suggests, training with injected pauses does not remove the failure and impairs counting, whereas indexing memory by events recovers half or more of the loss without retraining. A memory meant to remember what happened should count events rather than clock ticks.
+
+**Comment:** Criterion 1: Analyzes memory-augmented VLA robotic control policies on RoboMME counting tasks and shows that event-indexed memory recovers at least half of the performance lost to interruption-induced temporal shortcuts without retraining.
 
 **Relevance:** 9
 Back to [[topic](#topic-1)] [[top](#topics)]
 
 ---
-<a id="2007-lewm-learning-world-models-via-s-information-for-robot-control"></a>
+<a id="2002-onlyact-extracting-action-representations-from-foundation-models-for-world-models"></a>
 
-### 2007\. [$Σ$-LeWM: Learning World Models via S-Information for Robot Control](https://arxiv.org/abs/2611.12732)
-**ArXiv:** 2611.12732 [[page](https://arxiv.org/abs/2611.12732)] [[pdf](https://arxiv.org/pdf/2611.12732.pdf)]
+### 2002\. [OnlyAct: Extracting Action Representations from Foundation Models for World Models](https://arxiv.org/abs/2611.14420)
+**ArXiv:** 2611.14420 [[page](https://arxiv.org/abs/2611.14420)] [[pdf](https://arxiv.org/pdf/2611.14420.pdf)]
 
-**Authors:** Xinrui Zu, Michael Przystupa, Zhao Yang, Shujian Yu, Kevin Sebastian Luck
+**Authors:** Runjia Li, Minghao Chen, Junyu Xie, ..., Andrea Vedaldi, Tomas Jakab
 
-**Abstract:** World models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel, increasingly aim to learn embeddings without a grounding decoder, utilising only a latent forward dynamics predictor and a stabilising entropy term. In this paper, we set out to demonstrate that the further introduction of two additional latent losses to LeWorldModel, a backward dynamics predictor and an inverse dynamics action predictor, enforces further structure on the latent embedding, leading to further gains in both performance and planning efficiency. These are critical properties for improving the applicability of such methods to real-time model-based control of real-world robots. We demonstrate these gains on standard world model benchmarks and two simulated robot manipulation tasks.
+**Abstract:** Video world models promise general-purpose interactive simulators, but their training is limited by action supervision: action labels are scarce, fragmented across incompatible specifications, and do not scale with the unlabeled video pretraining corpus. A common workaround jointly trains an action encoder to compress consecutive frames into a latent action and a decoder to reconstruct the next frame from the previous frame and that latent, forcing the latent to capture only new information. This has two limitations: learning the action space from scratch can limit generalization to unseen domains, and the bottleneck trades expressiveness for separation, with tighter settings losing nuance and looser ones risking scene leakage under domain shifts. We argue for a different starting point: rather than learning actions from scratch, we start from a pretrained foundation model (V-JEPA 2), whose embeddings of a frame pair already carry substantial action information after large-scale, diverse video pretraining. The remaining challenge is to extract the action while discarding the scene. We propose a label-free contrastive adaptation framework that pulls together frame pairs sharing the same motion under a different scene and pushes apart pairs from the same scene with different motion, reshaping the geometry of the pretrained space without imposing a reconstruction bottleneck. We introduce a unified evaluation protocol along three axes (action expressiveness, scene invariance, and action-conditioned video generation quality) across robot manipulation, camera navigation, game, and driving benchmarks, most of which are unseen during adaptation. Compared with annotation-free latent-action methods, our representations are substantially more expressive while matching their scene invariance, and they yield world models that transfer demonstrated actions to new scenes more faithfully.
 
-**Comment:** Criterion 2: Adds backward-dynamics and inverse-action prediction losses to decoder-free LeWorldModel representation learning, improving performance and planning efficiency on standard world-model benchmarks and two simulated robot-manipulation tasks.
+**Comment:** Criterion 2: OnlyAct introduces label-free contrastive adaptation of V-JEPA 2 that aligns frame pairs sharing motion across different scenes while separating different motions within the same scene, improving action expressiveness and scene invariance for transferable video world models.
 
-**Relevance:** 8
+**Relevance:** 9
 Back to [[topic](#topic-2)] [[top](#topics)]
 
----
-<a id="5002-plant-orbiter-3d-plant-reconstruction-and-generation-with-video-diffusion-orbit-cameras-and-3d-gaussian-splatting"></a>
+<a id="2005-rs-jepa-remote-sensing-joint-embedding-predictive-architecture-with-scan-path-views-for-cross-sensor-image-retrieval"></a>
 
-### 5002\. [Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting](https://arxiv.org/abs/2611.12739)
-**ArXiv:** 2611.12739 [[page](https://arxiv.org/abs/2611.12739)] [[pdf](https://arxiv.org/pdf/2611.12739.pdf)]
+### 2005\. [RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval](https://arxiv.org/abs/2611.14496)
+**ArXiv:** 2611.14496 [[page](https://arxiv.org/abs/2611.14496)] [[pdf](https://arxiv.org/pdf/2611.14496.pdf)]
 
-**Authors:** Zane K. J. Hartley, Yong En Kok, Lewis A. G. Stuart, Andrew P. French, Michael P. Pound
+**Authors:** Tanishq Rachamalla, Srishti Kaushik, Muhammad Attique Khan, Gustau Camps-Valls, Swalpa Kumar Roy
 
-**Abstract:** Modern digital phenotyping pipelines require the precise measurement of a range of 3D morphological plant traits. The accurate, high throughput acquisition of these traits helps breeders and researchers accelerate the development of new varieties, techniques and products. Recent advances in 3D technologies have enabled a rapid transition from 2D to 3D pipelines, but high throughput acquisition of digital 3D twins of plants remains a significant challenge due to complex morphology, thin structures and occlusions. In this paper we present Plant Orbiter, a new approach to generating 3D plants that leverages recent advances in video diffusion to produce high quality 3D Gaussian Splats of plants from a single image. We show that our method more accurately recreates plant morphology than other state-of-the-art methods, achieving the highest 3D F-score against all baselines, while being more practical for high throughput pipelines due to easier alignment and reduced cost of camera placement. Combined with a 2D diffusion model, we show that our method also achieves state-of-the-art results in the generation of 3D plant models from a text prompt.
+**Abstract:** Cross-sensor remote sensing image retrieval aims to find scenes with the same content across heterogeneous sensors, such as SAR and optical or panchromatic (PAN) and multispectral (MS) imagery, without manual labels. Existing self-supervised methods either reconstruct sensor-specific pixel detail, align each image only with its co-registered twin, or rely on large transformers with 118-173M parameters (and up to 398M). We introduce RS-JEPA, a compact joint-embedding predictive framework built on a Vision Mamba encoder shared by both sensors. Since a state-space encoder reads an image as an ordered sequence of patches, we propose scan-path views, which treat two reading orders of the same image as two views with identical pixels and predict the hidden patches in one order from the visible patches in the other.To keep this prediction challenging, we propose Adversarial View Coupling (AVC), which learns the hardest split of the visible patches, and a neighbourhood consensus loss that aligns the scene similarities of both sensors. Extensive experiments on SAR-optical (BEN-14K, CBRSIR-VS) and PAN-MS (DSRSID) benchmarks demonstrate that RS-JEPA achieves the highest F1@5 among twelve re-implemented methods (72.92, 80.35 and 94.43) with a retrieval network of only 3.88M parameters (14.57M in training, 8-16times fewer than prior JEPA retrievers). Like prior methods, RS-JEPA trains on co-registered pairs. Our results highlight reading order as a source of self-supervised views. code: https://github.com/Tanishq251/RSJEPA.
 
-**Comment:** Criterion 5: Plant Orbiter uses video diffusion to generate 3D Gaussian splats from a single image, achieves the highest 3D F-score against its baselines, and supports text-to-3D plant generation.
-
-**Relevance:** 10
-Back to [[topic](#topic-5)] [[top](#topics)]
-
----
-<a id="6000-spaghetti-splatting-differentiating-curvilinear-dirac-masses-via-convolution"></a>
-
-### 6000\. [Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution](https://arxiv.org/abs/2611.12716)
-**ArXiv:** 2611.12716 [[page](https://arxiv.org/abs/2611.12716)] [[pdf](https://arxiv.org/pdf/2611.12716.pdf)]
-
-**Authors:** George Shramko, Shrisudhan Govindarajan, Rudy Lam, ..., David B. Lindell, Andrea Tagliasacchi
-
-**Abstract:** In production systems, 3D geometry is represented by primitives such as points, lines, and triangles, as rendering hardware is optimized to generate images from them very efficiently. Learning such primitives from images by volume rendering is challenging, as they are Dirac masses defined at infinitesimal locations in space. EWA splatting, Poisson reconstruction, and 3D Gaussian Splatting overcome this by convolving Dirac masses with a low-frequency kernel, a recipe that generalizes along two axes: the kernel and the primitive. As points and triangles have already received significant attention, we investigate this recipe for curvilinear primitives, and introduce Spaghetti Splatting. We approximate curves by polylines whose convolution converges to that of the continuous curve, and volume render each segment so that connected segments composite without overcounting at their joints. For fast training and inference, we linearize the camera projection per segment, which also accommodates kernels beyond Gaussians, such as Beta kernels. As a point is a curve of zero length, our representation is a strict superset of 3D Gaussian Splatting. It remains competitive with the state-of-the-art on general scenes, outperforms methods specialized to line-like geometry, natively supports anti-aliasing, and produces long connected strands that are directly amenable to physics simulation.
-
-**Comment:** Criterion 6: Introduces differentiable curvilinear primitives that strictly generalize 3D Gaussian Splatting, remaining competitive on general scenes while outperforming methods specialized to line-like geometry.
-
-**Relevance:** 10
-Back to [[topic](#topic-6)] [[top](#topics)]
-
-<a id="6006-click3r-interactive-stereo-3d-reconstruction-with-sparse-correspondence-clicks"></a>
-
-### 6006\. [Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks](https://arxiv.org/abs/2611.12875)
-**ArXiv:** 2611.12875 [[page](https://arxiv.org/abs/2611.12875)] [[pdf](https://arxiv.org/pdf/2611.12875.pdf)]
-
-**Authors:** Hao Gu, Jin Yao, Zezhou Cheng
-
-**Abstract:** Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable prediction. When these models fail, there is no mechanism to correct their mistakes. To address this limitation, we introduce Click3R, a framework for interactive geometric correction of feed-forward models using sparse human correspondence clicks. Given an image pair and a small set of cross-view point correspondences provided by a user, Click3R injects geometric constraints into the 3D reconstruction networks through a lightweight point correspondence adapter, enabling the model to resolve ambiguities in challenging scenarios such as repetitive textures, symmetric structures, large viewpoint changes, or textureless regions. To evaluate interactive reconstruction, we curate a challenging benchmark specifically designed to expose failure modes of existing feed-forward 3D reconstruction methods. Experiments show that Click3R reduces reconstruction error with as few as a single correspondence click, improving performance on both standard and our curated benchmarks. Our results highlight that sparse human interaction provides an effective and practical mechanism for correcting geometric reconstruction errors.
-
-**Comment:** Criterion 6: Click3R advances sparse-view 3D reconstruction by injecting user-provided cross-view correspondences through a lightweight adapter, reducing stereo reconstruction error with as little as one correspondence click.
+**Comment:** Criterion 2: Introduces self-supervised joint-embedding prediction with scan-path views and Adversarial View Coupling, achieving the highest F1@5 among twelve methods on three cross-sensor image retrieval benchmarks.
 
 **Relevance:** 9
-Back to [[topic](#topic-6)] [[top](#topics)]
-
----
-<a id="7004-world-in-context-learning-for-agentic-robot-manipulation"></a>
-
-### 7004\. [World In-Context Learning for Agentic Robot Manipulation](https://arxiv.org/abs/2611.12885)
-**ArXiv:** 2611.12885 [[page](https://arxiv.org/abs/2611.12885)] [[pdf](https://arxiv.org/pdf/2611.12885.pdf)]
-
-**Authors:** Heng Fang, Zehui Guo, Yuehan Zhang, ..., Dingkang Liang, Xiang Bai
-
-**Abstract:** Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights. We build RoboScript, a modular infrastructure that implements WICL for agentic manipulation. From a single demonstration, RoboScript learns each task through rehearsal in simulation, freezes the learned knowledge as a Task Memory, and deploys the frozen memory on new scenes with data isolation that ensures every deployment input is available on a real robot. On all 50 tasks of RoboTwin 2.0, RoboScript reaches 83.4% mean success across clean and randomized settings with one demonstration per task and no gradient updates, exceeding the strongest trained action policy by over 20 points. The method generalizes across visual distributions, improves through reflection, scales with the foundation model, and transfers to a physical dual-arm robot through cross-embodiment memory adaptation. With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights. All code is available at https://github.com/ArcheOne-AI/RoboScript
-
-**Comment:** Criterion 7: RoboScript implements World In-Context Learning through simulation rehearsal, feedback, and reusable Task Memory, achieving 83.4% mean success across all 50 RoboTwin 2.0 tasks with one demonstration per task and no gradient updates, while also transferring to a physical dual-arm robot.
-
-**Relevance:** 10
-Back to [[topic](#topic-7)] [[top](#topics)]
-
-<a id="7008-library-of-hands-fix-the-hands-not-the-world-model"></a>
-
-### 7008\. [Library of Hands: Fix the Hands, Not the World Model](https://arxiv.org/abs/2611.12678)
-**ArXiv:** 2611.12678 [[page](https://arxiv.org/abs/2611.12678)] [[pdf](https://arxiv.org/pdf/2611.12678.pdf)]
-
-**Authors:** Hasaan Ahmad, Qizhen Ying, Yuxuan Sun, Tianjin Huang, Guangming Wang
-
-**Abstract:** A world model predicts how a scene changes after an action, and a planner uses it to search for actions that reach a goal. If the camera moves or the controller changes, the same command moves the robot differently: when its commands are turned by 90 degrees, a frozen planner with the LeWM world model that succeeds in 77.5% of episodes succeeds in only 7.8%. Current fixes retrain the model, need training data, or forget a set-up when it returns. We propose Library of Hands (LoH), a training-free method that keeps the world model frozen and corrects only the map from commands to applied actions, which we call the hand. LoH reads the hand through the frozen model, with no extra sensor: it finds the action that best explains the change between two camera images (a reading). It stores every hand it identifies, so a returning set-up is recognised rather than re-learnt. In closed-loop tests, LoH more than doubles success on three simulated tasks, from 28.6% to 62.3%, and loses only 0.6 percentage points when nothing changes. It also works, unchanged, with two other world models and on two of three models pretrained on real robot data, and its gain grows with the quality of its readings.
-
-**Comment:** Criterion 7: Library of Hands combines frozen world-model planning with feedback-based action-map identification and persistent memory of controller configurations, increasing closed-loop success across three simulated robot tasks from 28.6% to 62.3%.
-
-**Relevance:** 8
-Back to [[topic](#topic-7)] [[top](#topics)]
+Back to [[topic](#topic-2)] [[top](#topics)]
